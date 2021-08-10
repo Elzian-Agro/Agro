@@ -117,8 +117,8 @@ b.light-color{ color: #444; }
 
 .main-area .desc{ margin: 20px auto; max-width: 500px; }
 	
-.main-area .notify-btn{ padding: 13px 35px; border-radius: 50px; border: 2px solid #F84982;
-	color: #fff; background: #F84982; }
+.main-area .notify-btn{ padding: 13px 35px; border-radius: 50px; border: 2px solid darkgreen;
+	color: #fff; background: darkgreen; }
 
 .main-area .notify-btn:hover{ background: none; }
 
