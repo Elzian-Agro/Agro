@@ -50,7 +50,7 @@ a, button{ display: inline-block; text-decoration: none; color: inherit; transit
 
 a:focus, a:active, a:hover,
 button:focus, button:active, button:hover,
-a b.light-color:hover{ text-decoration: none; color: #E45F74; }
+a b.light-color:hover{ text-decoration: none; color: darkgreen; }
 
 b{ font-weight: 500; }
 
@@ -127,7 +127,7 @@ b.light-color{ color: #444; }
 .main-area .social-btn > li > a{ margin: 0 10px; padding-bottom: 7px; position: relative; overflow: hidden; }
 
 .main-area .social-btn > li > a:after{ content:''; position: absolute; bottom: 0; left: 0; right: 0; 
-	transition: all .2s; height: 2px; background: #F84982; }
+	transition: all .2s; height: 2px; background: darkgreen; }
 
 	
 .main-area .social-btn > li > a:hover:after{ transform: translateX(100%); }
