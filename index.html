@@ -168,19 +168,33 @@ http://www.templatemo.com/tm-490-comila
 					<p class="wow fadeInUp" data-wow-delay="0.6s">Elzian Agro is always here to help with your queries and solve your problems.<br>Contact us via this short form and we'll respond to you by email within 5 working days.</p>
 				</div>
 				<div class="contact-form wow fadeInUp" data-wow-delay="1.0s">
-					<form id="contact-form" method="post" action="#">
+					<form id="contact-form"  class="contact-form" method="post" action="#">
                         <div class="col-md-6 col-sm-6">
-                          	<input name="name" type="text" class="form-control" placeholder="Your Name" required>
+                            <label for="name">Name</label>
+                          	<input name="name" id="name"  type="text" class="form-control" placeholder="Your Name" required/>
                         </div>
                         <div class="col-md-6 col-sm-6">
-                          	<input name="email" type="email" class="form-control" placeholder="Your Email" required>
+                            <label for="email">Email</label>
+                          	<input name="email" id="email" type="email" class="form-control" placeholder="Your Email" required/>
+                        </div>
+
+                        <div class="col-md-12 col-sm-12">
+                            <label for="subject">Subject</label>
+                            <input name="subject" id="subject" type="text" class="form-control" placeholder="Your Subject" required/>
                         </div>
            			  	<div class="col-md-12 col-sm-12">
-				   			<textarea name="message" class="form-control" placeholder="Message" rows="6" required></textarea>
+                            <label for="message">Message</label>
+				   			<textarea name="message" id="message" class="form-control" placeholder="Message" rows="6" required></textarea>
            			  	</div>
+                        <div class="col-md-12">
+                            <div class="loading">Message is Sending........</div>
+                            <div class="error-message">Message is not sent. please check your connection.</div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                        </div>
 						<div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
 							<input name="submit" type="submit" class="form-control submit" id="submit" value="SEND MESSAGE">
 						</div>
+
 					</form>
 				</div>
 			</div>
@@ -206,7 +220,7 @@ http://www.templatemo.com/tm-490-comila
           </div>
       </div>
 
-      <div class="col-md-1 col-sm-1"></div>
+<!--      <div class="col-md-1 col-sm-1"></div>-->
 
       <div class="col-md-4 col-sm-5">
         <h2>Contact Us</h2>
@@ -216,34 +230,38 @@ http://www.templatemo.com/tm-490-comila
             Kurunegala, Sri Lanka.
         </p>
         <ul class="social-icon">
-          <li><a href="#" class="fa fa-linkedin wow bounceIn" data-wow-delay="0.9s"></a></li>
-          <li><a href="#" class="fa fa-facebook wow bounceIn" data-wow-delay="1.2s"></a></li>
-          <li><a href="#" class="fa fa-instagram wow bounceIn" data-wow-delay="1.4s"></a></li>
-          <li><a href="#" class="fa fa-mail-reply wow bounceIn" data-wow-delay="1.6s"></a></li>
+          <li><a href="https://lk.linkedin.com/company/elzian" class="fa fa-linkedin wow bounceIn" data-wow-delay="0.9s"></a></li>
+          <li><a href="https://www.facebook.com/ELZIANN" class="fa fa-facebook wow bounceIn" data-wow-delay="1.2s"></a></li>
+          <li><a href="https://www.instagram.com/elzian.corp/" class="fa fa-instagram wow bounceIn" data-wow-delay="1.4s"></a></li>
+          <li><a href="https://elzian.com/" class="fa fa-mail-reply wow bounceIn" data-wow-delay="1.6s"></a></li>
         </ul>
       </div>
+
+            <div class="col-md-3 col-sm-12">
+                <img src="images/full_logo1.png" class="img-responsive wow fadeInUp" alt="About">
+            </div>
 
 		</div>
 	</div>
 </footer>
 
 <!-- modal -->
-<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-      <div class="modal-content modal-popup">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h2 class="modal-title">Our Newsletter</h2>
-        </div>
-        <form action="#" method="post">
-          <input name="fullname" type="text" class="form-control" id="fullname" placeholder="Full Name">
-          <input name="email" type="text" class="form-control" id="email" placeholder="Email Address">
-          <input name="submit" type="submit" class="form-control" id="submit" value="Subscribe Now">
-        </form>
-        <p>Thank you for your visiting!</p>
-      </div>
-  </div>
-</div>
+<!--<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">-->
+<!--  <div class="modal-dialog">-->
+<!--      <div class="modal-content modal-popup">-->
+<!--        <div class="modal-header">-->
+<!--          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->
+<!--          <h2 class="modal-title">Our Newsletter</h2>-->
+<!--        </div>-->
+<!--        <form action="#" method="post">-->
+<!--          <input name="fullname" type="text" class="form-control" id="fullname" placeholder="Full Name">-->
+<!--          <input name="email" type="text" class="form-control" id="email" placeholder="Email Address">-->
+<!--          <input name="submit" type="submit" class="form-control" id="submit" value="Subscribe Now">-->
+<!--        </form>-->
+<!--        <p>Thank you for your visiting!</p>-->
+<!--      </div>-->
+<!--  </div>-->
+<!--</div>-->
 
 
 <!-- Back top -->
@@ -258,6 +276,7 @@ http://www.templatemo.com/tm-490-comila
 <script src="js/wow.min.js"></script>
 <script src="js/smoothscroll.js"></script>
 <script src="js/custom.js"></script>
+<script src="js/contact.js"></script>
 
 </body>
 </html>
