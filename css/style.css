@@ -616,3 +616,11 @@ footer a:hover {
 .d-block{
     display: block !important;
 }
+
+
+#myVideo {
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
