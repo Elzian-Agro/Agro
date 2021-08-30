@@ -232,6 +232,7 @@ footer {
       -ms-flex-align: center;
         align-items: center;
   text-align: center;
+    padding-top:10vh;
   height: 100vh;
   color: #ffffff;
 }
@@ -614,4 +615,12 @@ footer a:hover {
 
 .d-block{
     display: block !important;
+}
+
+
+#myVideo {
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
