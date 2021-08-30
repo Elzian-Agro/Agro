@@ -232,6 +232,7 @@ footer {
       -ms-flex-align: center;
         align-items: center;
   text-align: center;
+    padding-top:10vh;
   height: 100vh;
   color: #ffffff;
 }
