@@ -812,3 +812,50 @@ footer a:hover {
     border-radius: 100%;
 }
 
+.address{
+    background: white;
+    padding-top: 50px;
+}
+
+.address .block .address-block {
+    text-align: center;
+}
+
+.address .block .address-block .icon {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.address .block .address-block .icon i {
+    display: block;
+    height: 100px;
+    width: 100px;
+    background: #fafafa;
+    border-radius: 100%;
+    font-size: 45px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.google-map {
+    position: relative;
+}
+
+.google-map #map_canvas {
+    height: 400px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .google-map #map_canvas {
+        height: 350px;
+    }
+}
+.page-title {
+    text-align: center;
+    background: white;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
