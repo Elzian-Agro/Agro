@@ -766,3 +766,49 @@ footer a:hover {
     min-width: 100%;
     min-height: 100%;
 }
+
+
+
+
+.feature{
+    background: white;
+    padding-top: 50px;
+}
+
+
+.feature .feature-content h2,
+.feature .feature-content p {
+    margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+    .feature .feature-content h2,
+    .feature .feature-content p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .feature .testimonial {
+        text-align: center;
+    }
+}
+
+.feature .testimonial p {
+    font-family: "Lora", serif;
+    margin-bottom: 10px;
+    font-style: italic;
+    color: #242424;
+}
+
+.feature .testimonial ul.meta li {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.feature .testimonial ul.meta li img {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
