@@ -859,3 +859,36 @@ footer a:hover {
     padding-right: 20%;
 }
 
+.feature1{
+    background: white;
+}
+.feature1 .feature-item .icon {
+    margin-bottom: 25px;
+}
+
+.feature1 .feature-item .icon i {
+    font-size: 48px;
+    color: #7d71d3;
+}
+
+.feature1 .feature-item .content h5 {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.feature1 .feature-item:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+@media (max-width: 768px) {
+    .feature1 .feature-item {
+        margin-bottom: 80px;
+    }
+}
+
+.feature1 .app-screen {
+    margin: 40px 0;
+}
+
+
