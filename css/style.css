@@ -6,6 +6,10 @@ http://www.templatemo.com/tm-490-comila
 
 */
 
+.wow1{
+    text-shadow: 2px 2px 2px black;
+}
+
 body
 	{
 		background: #ffffff;
@@ -39,7 +43,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 2rem;
 }
 
@@ -766,3 +770,131 @@ footer a:hover {
     min-width: 100%;
     min-height: 100%;
 }
+
+
+
+
+.feature{
+    background: white;
+    padding-top: 50px;
+}
+
+
+.feature .feature-content h2,
+.feature .feature-content p {
+    margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+    .feature .feature-content h2,
+    .feature .feature-content p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .feature .testimonial {
+        text-align: center;
+    }
+}
+
+.feature .testimonial p {
+    font-family: "Lora", serif;
+    margin-bottom: 10px;
+    font-style: italic;
+    color: #242424;
+}
+
+.feature .testimonial ul.meta li {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.feature .testimonial ul.meta li img {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+.address{
+    background: white;
+    padding-top: 50px;
+}
+
+.address .block .address-block {
+    text-align: center;
+}
+
+.address .block .address-block .icon {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.address .block .address-block .icon i {
+    display: block;
+    height: 100px;
+    width: 100px;
+    background: #fafafa;
+    border-radius: 100%;
+    font-size: 45px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.google-map {
+    position: relative;
+}
+
+.google-map #map_canvas {
+    height: 400px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .google-map #map_canvas {
+        height: 350px;
+    }
+}
+.page-title {
+    text-align: center;
+    background: white;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.feature1{
+    background: white;
+}
+.feature1 .feature-item .icon {
+    margin-bottom: 25px;
+}
+
+.feature1 .feature-item .icon i {
+    font-size: 48px;
+    color: #7d71d3;
+}
+
+.feature1 .feature-item .content h5 {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.feature1 .feature-item:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+@media (max-width: 768px) {
+    .feature1 .feature-item {
+        margin-bottom: 80px;
+    }
+}
+
+.feature1 .app-screen {
+    margin: 40px 0;
+}
+
+
+
+
