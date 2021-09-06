@@ -429,3 +429,42 @@
 
 }
 
+/*wave*/
+.wave {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.wave::before, .wave::after {
+    content: "";
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    bottom: 0;
+    left: 50%;
+    background-color: rgba(255, 255, 255, .4);
+    border-radius: 45%;
+    transform: translateX(-50%) rotate(0);
+    animation: rotate 6s linear infinite;
+    z-index: 10;
+}
+.wave::after {
+    border-radius: 47%;
+    background-color: rgba(255, 255, 255, .9);
+    transform: translateX(-50%) rotate(0);
+    animation: rotate 10s linear -5s infinite;
+    z-index: 20;
+}
+@keyframes rotate {
+    50% {
+        transform: translateX(-50%) rotate(180deg);
+    }
+    100% {
+        transform: translateX(-50%) rotate(360deg);
+    }
+}
+
+.progress-wrapper {
+    height: 130px;
+    overflow: hidden;
+}
