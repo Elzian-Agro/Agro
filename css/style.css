@@ -88,7 +88,14 @@ strong {
 
 
 
+.section {
+    padding-top: 40px;
+}
 
+.mc-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
 #video-container  {
     position: relative;
     width: 100%;
