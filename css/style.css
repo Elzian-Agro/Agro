@@ -114,6 +114,10 @@ strong {
     min-height: 100%;
 }
 
+#ytplayer {
+    height: 300px;
+}
+
 #video-container .video-overlay {
     z-index: 9999;
     background: rgba(0,0,0,0.5);

@@ -2172,7 +2172,9 @@ a:hover, a:focus {
 .ftco-navbar-light .navbar-brand span {
   display: block;
   font-size: 12px;
-  font-weight: 500; }
+  font-weight: 500;
+  color: green;
+}
 .ftco-navbar-light .navbar-brand:hover, .ftco-navbar-light .navbar-brand:focus {
   color: #000; }
 @media (max-width: 767.98px) {
@@ -2190,7 +2192,8 @@ a:hover, a:focus {
   text-transform: uppercase;
   letter-spacing: 2px;
   position: relative;
-  opacity: 1 !important; }
+  opacity: 1 !important;
+}
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:before {
   content: "";
   position: absolute;
