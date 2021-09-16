@@ -145,19 +145,19 @@ strong {
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 2px;
-    font-weight: 500;
+    font-weight: 800;
     text-align: center;
 }
 
 #video-container .video-content .inner em {
     font-style: normal;
-    font-weight: 200;
+    font-weight: 1000;
 }
 
 
 #video-container .video-content .inner p {
     color: #fff;
-    font-size: 12px;
+    font-size: 22px;
     font-weight: 200;
     letter-spacing: 1.5px;
     text-align: center;
@@ -167,13 +167,18 @@ strong {
 #video-container .video-content .inner a {
     color: #fff;
     text-decoration: underline;
+    background: none !important;
+    font-size: xx-large;
 }
 
 #video-container .video-content .inner .scroll-icon {
     margin-top: 45px;
 }
 
-
+.eye{
+    font-size: 90px;
+    color: white;
+}
 
 .section-title {
     margin-bottom: 40px;
