@@ -221,7 +221,18 @@ strong {
     margin-bottom: 0;
 }
 
+.pt-5 {
+    padding-top:5%;
+    padding-left: 5%;
+}
 
+#about2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: white;
+}
 #about,
 #feature,
 #contact,
