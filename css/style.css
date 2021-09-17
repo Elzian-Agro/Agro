@@ -184,6 +184,17 @@ strong {
     margin-bottom: 40px;
     text-align: center;
 }
+.section-title1{
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.section-title1 h2 {
+    font-weight: 700;
+    color: #323232;
+    line-height: 46px;
+    margin-bottom: 10px;
+}
 
 .section-title h2 {
     font-weight: 700;
@@ -228,7 +239,7 @@ strong {
 
 #about2 {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
     padding-left: 5%;
     padding-right: 5%;
     background: white;
