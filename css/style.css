@@ -934,5 +934,43 @@ footer a:hover {
 }
 
 
+.services {
+    padding-bottom: 30px;
+    background-color: white;
+    padding-top: 100px;
+}
+.services .icon-box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    border-radius: 6px;
+    background: #fff;
+}
+.services .icon-box i {
+    float: left;
+    color: #4eb478;
+    font-size: 40px;
+    line-height: 0;
+}
+.services .icon-box h4 {
+    margin-left: 70px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.services .icon-box h4 a {
+    color: #444444;
+    transition: 0.3s;
+}
+.services .icon-box .icon-box:hover h4 a {
+    color: #4eb478;
+}
+.services .icon-box p {
+    margin-left: 70px;
+    line-height: 24px;
+    font-size: 14px;
+}
+s
+
+
 
 
