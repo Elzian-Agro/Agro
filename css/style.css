@@ -184,6 +184,17 @@ strong {
     margin-bottom: 40px;
     text-align: center;
 }
+.section-title1{
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.section-title1 h2 {
+    font-weight: 700;
+    color: #323232;
+    line-height: 46px;
+    margin-bottom: 10px;
+}
 
 .section-title h2 {
     font-weight: 700;
@@ -221,7 +232,18 @@ strong {
     margin-bottom: 0;
 }
 
+.pt-5 {
+    padding-top:5%;
+    padding-left: 5%;
+}
 
+#about2 {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: white;
+}
 #about,
 #feature,
 #contact,
@@ -910,6 +932,44 @@ footer a:hover {
 .feature1 .app-screen {
     margin: 40px 0;
 }
+
+
+.services {
+    padding-bottom: 30px;
+    background-color: white;
+    padding-top: 100px;
+}
+.services .icon-box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    border-radius: 6px;
+    background: #fff;
+}
+.services .icon-box i {
+    float: left;
+    color: #4eb478;
+    font-size: 40px;
+    line-height: 0;
+}
+.services .icon-box h4 {
+    margin-left: 70px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.services .icon-box h4 a {
+    color: #444444;
+    transition: 0.3s;
+}
+.services .icon-box .icon-box:hover h4 a {
+    color: #4eb478;
+}
+.services .icon-box p {
+    margin-left: 70px;
+    line-height: 24px;
+    font-size: 14px;
+}
+s
 
 
 
