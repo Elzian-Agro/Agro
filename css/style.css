@@ -407,7 +407,9 @@ footer {
 .pb-5{
     padding-bottom: 5%;
 }
-
+b{
+    color: white;
+}
 
 /* home section */
 #home {
