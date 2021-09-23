@@ -404,6 +404,10 @@ footer {
   backface-visibility: hidden;
 }
 
+.pb-5{
+    padding-bottom: 5%;
+}
+
 
 /* home section */
 #home {
@@ -419,6 +423,7 @@ footer {
     padding-top:10vh;
   height: 100vh;
   color: #ffffff;
+    background: #194c23;
 }
 
 #home .home-thumb {
@@ -933,6 +938,10 @@ footer a:hover {
     margin: 40px 0;
 }
 
+.hex, .about_section {
+    background: white;
+    padding-top: 100px;
+}
 
 .services {
     padding-bottom: 30px;
@@ -969,7 +978,113 @@ footer a:hover {
     line-height: 24px;
     font-size: 14px;
 }
-s
+
+/*wave*/
+.wave {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.wave::before, .wave::after {
+    content: "";
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    bottom: 0;
+    left: 50%;
+    background-color: rgba(255, 255, 255, .4);
+    border-radius: 45%;
+    transform: translateX(-50%) rotate(0);
+    animation: rotate 6s linear infinite;
+    z-index: 10;
+}
+.wave::after {
+    border-radius: 47%;
+    background-color: rgba(255, 255, 255, .9);
+    transform: translateX(-50%) rotate(0);
+    animation: rotate 10s linear -5s infinite;
+    z-index: 20;
+}
+@keyframes rotate {
+    50% {
+        transform: translateX(-50%) rotate(180deg);
+    }
+    100% {
+        transform: translateX(-50%) rotate(360deg);
+    }
+}
+
+.progress-wrapper {
+    height: 130px;
+    overflow: hidden;
+}
+
+
+
+
+
+/*roation*/
+.about_section{
+    background: white;
+}
+
+.about_section .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_section .box img {
+    width: 100%;
+}
+
+.about_section .box .img-box {
+    position: relative;
+    width: 250px;
+    margin: 50px 0;
+}
+
+.about_section .box .img-box .about_img-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200%;
+    transform: translate(-50%, -50%) rotate(0deg) scale(1);
+    animation: rotateAnimation 3s infinite;
+}
+
+@keyframes rotateAnimation {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg) scale(1);
+    }
+
+    49% {
+        transform: translate(-50%, -50%) rotate(180deg) scale(1.1);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg) scale(1);
+    }
+}
+
+.about_section .box .detail-box {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.about_section .box .detail-box a {
+    display: inline-block;
+    padding: 12px 60px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 40px;
+    text-transform: uppercase;
+    margin-top: 35px;
+}
+
+.about_section .box .detail-box a:hover {
+    background-color: #333333;
+}
 
 
 
