@@ -96,6 +96,12 @@ strong {
     margin-left: auto;
     margin-right: auto;
 }
+
+.mt-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
 #video-container  {
     position: relative;
     width: 100%;
@@ -505,7 +511,11 @@ b{
   border-color: transparent;
 }
 
-
+#history{
+    background: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
 /* contact section  */
 #contact .form-control {
@@ -942,7 +952,6 @@ footer a:hover {
 
 .hex, .about_section {
     background: white;
-    padding-top: 100px;
 }
 
 .services {
