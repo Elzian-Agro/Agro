@@ -434,6 +434,23 @@ b{
   color: #ffffff;
 }
 
+#particles-js{
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    background-color: #194c23;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+}
+
 .aboutus{
     background: #194c23;
 }
@@ -722,6 +739,10 @@ footer a:hover {
 
   #home {
     height: 65vh;
+  }
+
+  #particles-js {
+      height: 65vh;
   }
 
   #about .section-title {
