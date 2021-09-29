@@ -141,7 +141,7 @@ strong {
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     flex-flow: column wrap;
 }
@@ -193,6 +193,7 @@ strong {
 .section-title1{
     margin-bottom: 0px;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .section-title1 h2 {
@@ -431,6 +432,9 @@ b{
     padding-top:10vh;
   height: 100vh;
   color: #ffffff;
+}
+
+.aboutus{
     background: #194c23;
 }
 
@@ -1040,7 +1044,6 @@ footer a:hover {
 }
 
 .about_section .box {
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -1104,6 +1107,10 @@ footer a:hover {
 
     padding: 30px 10px;
     border-radius: 20px;
+}
+
+.padding{
+    padding-top: 100px;
 }
 
 
