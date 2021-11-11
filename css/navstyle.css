@@ -2194,6 +2194,13 @@ a:hover, a:focus {
   position: relative;
   opacity: 1 !important;
 }
+
+.ftco-navbar-light .navbar-nav > .nav-item > .bg-black {
+  color: white !important;
+  background: black !important;
+  text-transform: uppercase;
+
+}
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:before {
   content: "";
   position: absolute;
