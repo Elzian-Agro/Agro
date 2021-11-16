@@ -538,6 +538,8 @@ canvas {
     padding-bottom: 100px;
 }
 
+
+
 /* contact section  */
 #contact .form-control {
   background: transparent;
@@ -730,6 +732,7 @@ footer a:hover {
   color: #111112;
 }
 
+
 /* Mobile Responsive */
 @media (max-width: 980px) {
 
@@ -747,6 +750,10 @@ footer a:hover {
 
   #about .section-title {
     padding-bottom: 12px;
+  }
+
+  #about .text-justify {
+    padding: 30px;
   }
 
   #feature .col-md-4 {
@@ -850,8 +857,6 @@ footer a:hover {
     min-width: 100%;
     min-height: 100%;
 }
-
-
 
 
 .feature{
@@ -1015,6 +1020,7 @@ footer a:hover {
     font-size: 14px;
 }
 
+
 /*wave*/
 .wave {
     position: absolute;
@@ -1058,8 +1064,7 @@ footer a:hover {
 
 
 
-
-/*roation*/
+/*rotation*/
 .about_section{
     background: white;
 }
@@ -1115,6 +1120,7 @@ footer a:hover {
     border-radius: 40px;
     text-transform: uppercase;
     margin-top: 35px;
+    margin-bottom: 10px;
 }
 
 .about_section .box .detail-box a:hover {
