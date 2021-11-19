@@ -147,46 +147,11 @@ strong {
   font-weight: 700;
 }
 
-
 .home .content p{
   font-size: 1.2rem;
   color:#fff;
   padding:1.8rem .5rem;
 }
-
-
-.home-btn{
-  padding:.3rem 1rem;
-  border-radius: 5rem;
-  background: #fff; 
-  font-size: 1.4rem;
-  color: #194c23;
-  /* color: #07C88E; */
-  cursor: pointer;
-  box-shadow: 0 1rem 1.2rem rgba(0,0,0,.1);
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  font-weight: 600;
-  position: relative;
-}
-
-.home-btn:hover {
-  background: #333;
-  color: #fff;
-}
-
-
-.home-wave {
-  background: url(../images/wave.svg);
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background-repeat: no-repeat;
-  bottom: 0;
-  background-position: bottom;
-  z-index: -1;
-}
-
 
 .home .scroll-icon {
   position: absolute;
@@ -218,10 +183,6 @@ strong {
     50%{
         transform: translateY(-2.5rem);
     }
-  }
-
-  .home-btn {
-    font-size: 1.2rem;
   }
 
   .home .scrollTo {
@@ -257,10 +218,6 @@ strong {
       padding-right: 2rem;
   }
 
-  .home-btn{
-    font-size: 1.2rem; 
-  }
-
 }
 
 
@@ -278,10 +235,6 @@ strong {
       width:60%;
       margin-top: 3rem;
       margin-bottom: 2rem;
-  }
-
-  .home-btn{
-    font-size: 1rem; 
   }
 
 }
@@ -651,6 +604,7 @@ canvas {
     border: 3px solid #ffffff;
     border-radius: 0px;
     color: #ffffff;
+    font-size: 18px;
     font-weight: 700;
     letter-spacing: 1px;
     padding: 14px 36px;
@@ -662,8 +616,8 @@ canvas {
 }
 
 #home .btn:hover {
-  background: #194c23;
-  color: #ffffff;
+  background: #fff;
+  color: #333;
   border-color: transparent;
 }
 
@@ -993,7 +947,147 @@ footer a:hover {
 
 
 
- .error-message {
+/* My Agro-guard benefits section starts */
+.benefits {
+  background: #fff;
+  color: var(--color-primary);
+  margin-top: 100px;
+}
+
+.benefits-heading {
+  text-shadow: 0px 5px 3px var(--color-accent);
+  text-align: center;
+  font-weight: bold;
+}
+
+.card--heading {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+.block {
+  padding: 5% 16% 2% 16%;
+}
+
+.grid {
+  grid-gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.agro-image {
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: linear-gradient(180deg, rgba(9,172,79,0.9332107843137255) 0%, rgba(2,83,32,0.9332107843137255) 98%);
+  transition: transform .4s ease-in-out;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card--header, .card--heading {
+  text-align: center;
+  color: #333;
+  font-weight: bolder;
+}
+
+.card--body {
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 500;
+  padding-right: 0.8rem;
+}
+
+
+@media screen and (max-width: 700px) {
+  .benefits-heading {
+      font-size: 1.8rem;
+  }
+
+  .agro-image {
+      height: 40vw;
+  }
+
+  .card--heading {
+      margin-top: 0;
+  }
+
+  .block {
+    padding: 5% 2% 2% 2%;
+  }
+
+}
+
+@media screen and (min-width: 1000px) {
+  .block {
+      padding: 3% 14% 2% 14%;
+  }
+
+  .benefits-heading {
+    font-size: 2.5rem;
+  }
+}
+
+
+
+@media screen and (min-width: 1200px) {
+  .block {
+      padding: 3% 12% 2% 12%;
+  }
+
+  .grid--cols-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+  }
+
+  .agro-image {
+    height: 15vw;
+}
+
+  .grid {
+    grid-gap: 2rem;
+  }
+}
+
+
+@media screen and (min-width: 1600px) {
+  .block {
+      padding: 2% 0% 0% 0%;
+  }
+
+  .grid {
+      grid-gap: 0rem;
+  }
+
+  .grid--cols-4 {
+      grid-template-columns: repeat(4, 1fr);
+  }
+
+  .agro-image {
+      height: 12vw;
+  }
+
+  .card--heading {
+    font-size: 1.6rem;
+}
+}
+
+/* My Agro-guard benefits section ends */
+
+
+
+
+
+.error-message {
     display: none;
     color: #fff;
     background: #ed3c0d;
