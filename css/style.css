@@ -102,6 +102,155 @@ strong {
     margin-top: auto;
 }
 
+
+
+
+
+/* Home section */
+
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:url(../images/home-bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  padding:0 9%;
+  padding-top: 7rem; 
+  z-index: 110;
+  position: relative; 
+}
+
+
+.home .image img{
+  width: 35vw;
+  animation: float 5s linear infinite;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+@keyframes float{
+  0%, 100%{
+      transform: translateY(0rem);
+  }
+  50%{
+      transform: translateY(-3rem);
+  }
+}
+
+.home .content h3{
+  font-size: 3.5rem;
+  color:#fff;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px #000;
+  font-weight: 700;
+}
+
+.home .content p{
+  font-size: 1.2rem;
+  color:#fff;
+  padding:1.8rem .5rem;
+}
+
+.home .scroll-icon {
+  position: absolute;
+  bottom: 15px;
+}
+
+.home .scrollTo {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+
+/* media queries  */
+
+@media (max-width:991px){
+  
+  .home{
+      padding:0 1%;
+      padding-top: 7.5rem;
+      padding-bottom: 2rem;
+      min-height: 100vh;
+  }
+
+  .home .image img{
+    width: 100%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  @keyframes float{
+    0%, 100%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(-2.5rem);
+    }
+  }
+
+  .home .scrollTo {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 1.6rem;
+  }
+
+}
+
+
+@media (max-width:768px){
+
+  .home{
+      flex-flow: column-reverse;
+  }
+
+  .home .image img{
+      width: 50%;
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+  }
+
+  .home .content h3{
+      font-size: 3rem;
+  }
+
+  .home .content p{
+      padding-left: 2rem;
+      padding-right: 2rem;
+  }
+
+}
+
+
+@media (max-width:450px){
+  
+  .home .content h3{
+      font-size: 2.4rem;
+  }
+
+  .home .content p {
+    font-size: 1rem;
+  }
+
+  .home .image img{
+      width:60%;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+  }
+
+}
+
+
+
+
 #video-container  {
     position: relative;
     width: 100%;
@@ -464,18 +613,20 @@ canvas {
     border: 3px solid #ffffff;
     border-radius: 0px;
     color: #ffffff;
+    font-size: 18px;
     font-weight: 700;
     letter-spacing: 1px;
     padding: 14px 36px;
     margin-top: 42px;
     margin-right: 16px;
+    cursor: pointer;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
 }
 
 #home .btn:hover {
-  background: #194c23;
-  color: #ffffff;
+  background: #fff;
+  color: #333;
   border-color: transparent;
 }
 
@@ -805,7 +956,148 @@ footer a:hover {
 
 
 
- .error-message {
+/* My Agro-guard benefits section starts */
+.benefits {
+  background: #fff;
+  margin-top: 120px;
+}
+
+.benefits-heading {
+  text-shadow: 0px 5px 3px var(--color-accent);
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.card--heading {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+.block {
+  padding: 5% 16% 2% 16%;
+}
+
+.grid {
+  grid-gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.agro-image {
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: linear-gradient(180deg, rgba(9,172,79,0.9332107843137255) 0%, rgba(2,83,32,0.9332107843137255) 120%);
+  transition: transform .4s ease-in-out;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card--header, .card--heading {
+  text-align: center;
+  color: #fff;
+  font-weight: bolder;
+  text-shadow: 1px 2px 2px #000;
+}
+
+.card--body {
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 500;
+  padding-right: 0.8rem;
+}
+
+
+@media screen and (max-width: 700px) {
+  .benefits-heading {
+      font-size: 1.8rem;
+  }
+
+  .agro-image {
+      height: 40vw;
+  }
+
+  .card--heading {
+      margin-top: 0;
+  }
+
+  .block {
+    padding: 5% 2% 2% 2%;
+  }
+
+}
+
+@media screen and (min-width: 800px) {
+  .block {
+      padding: 3% 18% 2% 18%;
+  }
+
+  .benefits-heading {
+    font-size: 2.5rem;
+  }
+}
+
+
+
+@media screen and (min-width: 1000px) {
+  .block {
+      padding: 3% 4% 2% 4%;
+  }
+
+  .grid--cols-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+  }
+
+  .agro-image {
+    height: 15vw;
+}
+
+  .grid {
+    grid-gap: 2rem;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .block {
+      padding: 2% 0% 0% 0%;
+  }
+
+  .grid {
+      grid-gap: 3rem 0rem;
+  }
+
+  .grid--cols-3 {
+      grid-template-columns: repeat(3, 1fr);
+  }
+
+  .agro-image {
+      height: 12vw;
+  }
+
+  .card--heading {
+    font-size: 1.6rem;
+}
+}
+
+/* My Agro-guard benefits section ends */
+
+
+
+
+
+.error-message {
     display: none;
     color: #fff;
     background: #ed3c0d;
@@ -1131,8 +1423,6 @@ footer a:hover {
 .card {
     border: darkslategray 1px solid;
     margin: 10px 30px;
-
-    padding: 30px 10px;
     border-radius: 20px;
 }
 
