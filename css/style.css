@@ -1037,7 +1037,7 @@ footer a:hover {
 
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 800px) {
   .block {
       padding: 3% 18% 2% 18%;
   }
@@ -1049,7 +1049,7 @@ footer a:hover {
 
 
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
   .block {
       padding: 3% 4% 2% 4%;
   }
