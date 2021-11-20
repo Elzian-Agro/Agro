@@ -124,7 +124,7 @@ strong {
 
 
 .home .image img{
-  width: 30vw;
+  width: 35vw;
   animation: float 5s linear infinite;
   margin-left: 2rem;
   margin-bottom: 2rem;
@@ -174,6 +174,15 @@ strong {
       padding-top: 7.5rem;
       padding-bottom: 2rem;
       min-height: 100vh;
+  }
+
+  .home .image img{
+    width: 100%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
   }
 
   @keyframes float{
@@ -950,14 +959,14 @@ footer a:hover {
 /* My Agro-guard benefits section starts */
 .benefits {
   background: #fff;
-  color: var(--color-primary);
-  margin-top: 100px;
+  margin-top: 120px;
 }
 
 .benefits-heading {
   text-shadow: 0px 5px 3px var(--color-accent);
   text-align: center;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .card--heading {
@@ -984,20 +993,21 @@ footer a:hover {
 }
 
 .card {
-  background: linear-gradient(180deg, rgba(9,172,79,0.9332107843137255) 0%, rgba(2,83,32,0.9332107843137255) 98%);
+  background: linear-gradient(180deg, rgba(9,172,79,0.9332107843137255) 0%, rgba(2,83,32,0.9332107843137255) 120%);
   transition: transform .4s ease-in-out;
   border-radius: 10px;
   overflow: hidden;
 }
 
 .card:hover {
-  transform: scale(1.02);
+  transform: scale(1.03);
 }
 
 .card--header, .card--heading {
   text-align: center;
-  color: #333;
+  color: #fff;
   font-weight: bolder;
+  text-shadow: 1px 2px 2px #000;
 }
 
 .card--body {
@@ -1029,7 +1039,7 @@ footer a:hover {
 
 @media screen and (min-width: 1000px) {
   .block {
-      padding: 3% 14% 2% 14%;
+      padding: 3% 18% 2% 18%;
   }
 
   .benefits-heading {
@@ -1041,7 +1051,7 @@ footer a:hover {
 
 @media screen and (min-width: 1200px) {
   .block {
-      padding: 3% 12% 2% 12%;
+      padding: 3% 4% 2% 4%;
   }
 
   .grid--cols-2 {
@@ -1065,11 +1075,11 @@ footer a:hover {
   }
 
   .grid {
-      grid-gap: 0rem;
+      grid-gap: 3rem 0rem;
   }
 
-  .grid--cols-4 {
-      grid-template-columns: repeat(4, 1fr);
+  .grid--cols-3 {
+      grid-template-columns: repeat(3, 1fr);
   }
 
   .agro-image {
@@ -1413,8 +1423,6 @@ footer a:hover {
 .card {
     border: darkslategray 1px solid;
     margin: 10px 30px;
-
-    padding: 30px 10px;
     border-radius: 20px;
 }
 
