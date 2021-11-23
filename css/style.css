@@ -689,6 +689,75 @@ canvas {
     padding-bottom: 100px;
 }
 
+.unsdg {
+  padding: 40px 70px 100px 70px;
+}
+
+.unsdg-section-title {
+  text-align: center;
+}
+
+.unsdg-sub-heading {
+  color: #18d26e;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.unsdg-image {
+  width: 180px;
+}
+
+.unsdg-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  grid-gap: 2.5rem;
+  margin-top: 50px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .unsdg-grid-cols-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    padding: 0 7% 0 7%;
+  }
+
+  .unsdg-sub-heading {
+    font-size: 1.2rem;
+  }
+  
+}
+
+
+@media screen and (min-width: 992px) {
+  .unsdg-grid-cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0;
+    padding: 0;
+  }
+
+  .unsdg-image {
+    width: 180px;
+  }
+
+  .unsdg-sub-heading {
+    font-size: 1.8rem;
+  }
+}
+
+
+@media screen and (min-width: 1400px) {
+  .unsdg-grid-cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0;
+    padding: 0 12% 0 12%;
+  }
+}
+
 
 
 /* contact section  */
@@ -992,14 +1061,14 @@ footer a:hover {
   margin-bottom: 2rem;
 }
 
-.card {
+.benefits .card {
   background: linear-gradient(180deg, rgba(9,172,79,0.9332107843137255) 0%, rgba(2,83,32,0.9332107843137255) 120%);
   transition: transform .4s ease-in-out;
   border-radius: 10px;
   overflow: hidden;
 }
 
-.card:hover {
+.benefits .card:hover {
   transform: scale(1.03);
 }
 
