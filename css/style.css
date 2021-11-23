@@ -778,9 +778,9 @@ canvas {
 #contact input {height: 55px;}
 
 #contact input[type='submit'] {
-  background: #242424;
+  background: #242424 !important;
   border: none;
-  color: #ffffff;
+  color: #ffffff !important;
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 2px;
@@ -789,7 +789,7 @@ canvas {
 }
 
 #contact input[type='submit']:hover {
-  background: #194c23;
+  background: #194c23 !important;
 }
 
 
