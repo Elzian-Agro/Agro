@@ -646,6 +646,10 @@ canvas {
   padding-top: 10px;
 }
 
+.about_section .about-card-heading {
+  padding-top: 20px;
+}
+
 
 /* feature section */
 #feature {
@@ -689,10 +693,52 @@ canvas {
     padding-bottom: 100px;
 }
 
+
+/* Our Values Section Starts */
+
+#values {
+  margin-bottom: 50px;
+}
+
+#values .values-mainheading {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#values .values-para {
+  padding-top: 25px;
+  font-weight: 700;
+}
+
+
+@media(max-width: 767px) {
+  #values .col {
+    flex-basis: auto;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    padding-bottom: 80px;
+  }
+}
+
+@media(min-width: 768px) and  (max-width: 992px){
+  #values .col {
+    flex-basis: auto;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-width: 50%;
+    padding-bottom: 80px;
+  }
+}
+
+/* Our Values Section Starts */
+
+
+
 /* Sustainable Development Goals Section Starts */ 
 #development-goals {
   padding-top: 80px;
-  margin-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 #development-goals .section-title {
