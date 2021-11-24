@@ -646,6 +646,10 @@ canvas {
   padding-top: 10px;
 }
 
+.about_section .about-card-heading {
+  padding-top: 20px;
+}
+
 
 /* feature section */
 #feature {
@@ -689,75 +693,81 @@ canvas {
     padding-bottom: 100px;
 }
 
-.unsdg {
-  padding: 40px 70px 100px 70px;
+
+/* Our Values Section Starts */
+
+#values {
+  margin-bottom: 50px;
 }
 
-.unsdg-section-title {
-  text-align: center;
+#values .values-mainheading {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
-.unsdg-sub-heading {
-  color: #18d26e;
-  font-size: 1.2rem;
-  margin-top: 2rem;
-}
-
-.unsdg-image {
-  width: 180px;
-}
-
-.unsdg-grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  grid-gap: 2.5rem;
-  margin-top: 50px;
+#values .values-para {
+  padding-top: 25px;
+  font-weight: 700;
 }
 
 
-@media screen and (min-width: 768px) {
-  .unsdg-grid-cols-2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    justify-items: center;
-    padding: 0 7% 0 7%;
+@media(max-width: 767px) {
+  #values .col {
+    flex-basis: auto;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    padding-bottom: 80px;
   }
+}
 
-  .unsdg-sub-heading {
+@media(min-width: 768px) and  (max-width: 992px){
+  #values .col {
+    flex-basis: auto;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-width: 50%;
+    padding-bottom: 80px;
+  }
+}
+
+/* Our Values Section Starts */
+
+
+
+/* Sustainable Development Goals Section Starts */ 
+#development-goals {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+#development-goals .section-title {
+  margin-bottom: 0;
+}
+
+.sdg-image {
+  padding: 0 20px 20px 15px;
+}
+
+#development-goals .section-title .sdg-mainheading {
+  margin-bottom: 40px;
+}
+
+
+#development-goals .section-title .sdg-subheading {
+  color: #66A82B;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 1.6rem;
+}
+
+
+@media screen and (max-width: 768px) {
+  #development-goals .section-title .sdg-subheading {
     font-size: 1.2rem;
   }
-  
 }
-
-
-@media screen and (min-width: 992px) {
-  .unsdg-grid-cols-4 {
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0;
-    padding: 0;
-  }
-
-  .unsdg-image {
-    width: 180px;
-  }
-
-  .unsdg-sub-heading {
-    font-size: 1.8rem;
-  }
-}
-
-
-@media screen and (min-width: 1400px) {
-  .unsdg-grid-cols-4 {
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0;
-    padding: 0 12% 0 12%;
-  }
-}
-
+/* Sustainable Development Goals Section Ends */ 
 
 
 /* contact section  */
@@ -781,6 +791,9 @@ canvas {
   background: #242424 !important;
   border: none;
   color: #ffffff !important;
+  background: #242424;
+  border: 1.5px solid #999;
+  color: #ffffff;
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 2px;
