@@ -770,6 +770,20 @@ canvas {
 /* Sustainable Development Goals Section Ends */ 
 
 
+
+
+/* Blog section starts */
+
+#blog {
+  padding-bottom: 80px;
+  padding-top: 130px;
+}
+
+/* Blog section Ends */
+
+
+
+
 /* contact section  */
 #contact .form-control {
   background: transparent;
