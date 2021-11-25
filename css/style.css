@@ -779,6 +779,80 @@ canvas {
   padding-top: 150px;
 }
 
+#blog .share {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#blog .social i {
+  margin-right: 10px;
+}
+
+#blog .share i {
+  color: #333;
+}
+
+
+#blog .card {
+  width: 200px;
+  border: none;
+  border-radius: 14px !important;
+  margin: 0;
+}
+
+#blog .area1 {
+  background-color: #b5b2f1;
+  border-top-left-radius: 14px !important;
+  border-top-right-radius: 14px !important;
+  padding-top: 83px !important
+}
+
+#blog .image {
+  top: -62px;
+  position: relative
+}
+
+#blog .image img {
+  box-shadow: 5px 6px 6px 2px #e9ecef
+}
+
+#blog .area2 {
+  background-color: #fff;
+  border-bottom-left-radius: 14px !important;
+  border-bottom-right-radius: 14px !important
+}
+
+#blog .name {
+  font-size: 25px;
+  font-weight: 650
+}
+
+#blog .information {
+  color: #9FA8DA;
+  font-weight: 500;
+  font-size: 16px
+}
+
+
+@media screen and (max-width: 400px) {
+  #blog .post-by {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #blog .card {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  #blog .sub-heading {
+    font-size: 1.1rem;
+  }
+}
+
 /* Blog section Ends */
 
 
