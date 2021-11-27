@@ -792,6 +792,19 @@ canvas {
   color: #333;
 }
 
+#blog .twitter-btn:hover {
+  color: #1DA1F2;
+}
+
+#blog .linkedin-btn:hover {
+  color: #0e76a8;
+}
+
+
+#blog .whatsapp-btn:hover {
+  color: #4FCE5D;
+}
+
 
 #blog .card {
   width: 400px;
@@ -833,6 +846,67 @@ canvas {
   font-size: 16px
 }
 
+.social-section {
+  padding-bottom: 20px;
+}
+
+.author-image{
+  margin-right:100px;
+ 
+}
+
+
+
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 18px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.whatsapp {
+  background: #4FCE5D;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+@media screen and (max-width: 1250px) {
+   .icon-bar {
+     display: none;
+   }
+}
+
+
 
 @media screen and (max-width: 400px) {
   #blog .post-by {
@@ -840,9 +914,15 @@ canvas {
   }
 }
 
+@media screen and (max-width: 516px) {
+  .social-section {
+    padding-bottom: 60px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   #blog .card {
-    display: none;
+    width: 280px;
   }
 }
 
