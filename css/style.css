@@ -1033,7 +1033,7 @@ canvas {
 .career-job-listings .job-heading {
   padding-top: 20px;
   padding-bottom: 10px;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 2px 2px black;
 }
 
 .job-listing-button {
@@ -1109,7 +1109,7 @@ canvas {
   }
 
   .job-content {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
   }
 }
 
@@ -1134,6 +1134,11 @@ canvas {
 
   .career-end-note h3 {
     font-size: 16px;
+  }
+
+  .job-content {
+    margin-right: 30px;
+    margin-left: 30px;
   }
 }
 
@@ -1169,6 +1174,11 @@ canvas {
 
   #career .career-banner-heading span{
     font-size: 22px;
+  }
+
+  .job-content {
+    margin-right: 0;
+    margin-left: 0;
   }
 }
 
