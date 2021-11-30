@@ -1078,6 +1078,7 @@ canvas {
   color: #fff;
   padding-top: 15px;
   padding-bottom: 15px;
+  text-shadow: 2px 3px 2px black;
 }
 
 .career-end-note h3 {
