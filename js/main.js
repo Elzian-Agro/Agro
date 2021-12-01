@@ -3,6 +3,10 @@ const facebookBtn = document.querySelector(".facebook-btn");
 const twitterBtn = document.querySelector(".twitter-btn");
 const linkedinBtn = document.querySelector(".linkedin-btn");
 const whatsappBtn = document.querySelector(".whatsapp-btn");
+const facSideBtn = document.querySelector(".facebook-side-btn");
+const twiSideBtn = document.querySelector(".twitter-side-btn");
+const whaSideBtn = document.querySelector(".whatsapp-side-btn");
+const linSideBtn = document.querySelector(".linkedin-side-btn");
 
 function init() {
   
@@ -15,17 +19,40 @@ function init() {
     `https://www.facebook.com/sharer.php?u=${postUrl}`
   );
 
+  facSideBtn.setAttribute(
+    "href",
+    `https://www.facebook.com/sharer.php?u=${postUrl}`
+  );
+
+
   twitterBtn.setAttribute(
     "href",
     `https://twitter.com/share?url=${postUrl}&text=${postTitle}`
   );
+
+  twiSideBtn.setAttribute(
+    "href",
+    `https://twitter.com/share?url=${postUrl}&text=${postTitle}`
+  );
+
 
   linkedinBtn.setAttribute(
     "href",
     `https://www.linkedin.com/shareArticle?url=${postUrl}&title=${postTitle}`
   );
 
+  linSideBtn.setAttribute(
+    "href",
+    `https://www.linkedin.com/shareArticle?url=${postUrl}&title=${postTitle}`
+  );
+
+
   whatsappBtn.setAttribute(
+    "href",
+    `https://wa.me/?text=${postTitle} ${postUrl}`
+  );
+
+  whaSideBtn.setAttribute(
     "href",
     `https://wa.me/?text=${postTitle} ${postUrl}`
   );
