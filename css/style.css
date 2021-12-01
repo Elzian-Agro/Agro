@@ -336,7 +336,6 @@ strong {
 }
 
 .section-title {
-    margin-bottom: 40px;
     text-align: center;
 }
 .section-title1{
@@ -979,6 +978,10 @@ canvas {
   padding-bottom: 50px;
 }
 
+.careertit .section-title {
+    padding-bottom: 0px !important;
+}
+
 .career-cards .section-title {
   margin-bottom: 0;
 }
@@ -1010,14 +1013,18 @@ canvas {
   text-align: center;
 }
 
-.career-job-listings .section-title {
-  padding-bottom: 10px;
-}
+
 
 .career-job-listings .job-description {
   text-align: justify;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.col-md-4.col-sm-6.col-xs-12.job-lising-card {
+    padding-top: 70px;
 }
 
 .career-job-listings .job-content {
@@ -1071,8 +1078,7 @@ canvas {
 }
 
 .career-end-note {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
 }
 
 .career-end-note h1 {
