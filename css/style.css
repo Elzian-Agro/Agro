@@ -58,6 +58,27 @@ strong {
   font-weight: 700;
 }
 
+
+#about .section-title1 h2{
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width: 991px) {
+  #about .section-title1 h2{
+    font-weight: bold;
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #about .section-title1 h2{
+    font-weight: bold;
+    font-size: 1.7rem;
+  }
+}
+
+
 #about,
 #feature,
 #choosespad,
@@ -121,7 +142,6 @@ strong {
   z-index: 110;
   position: relative; 
 }
-
 
 .home .image img{
   width: 35vw;
@@ -390,6 +410,7 @@ strong {
 .pt-5 {
     padding-top:5%;
     padding-left: 5%;
+    padding-right: 5%;
 }
 
 #about2 {
@@ -661,6 +682,11 @@ canvas {
   padding-right: 14px;
 }
 
+#feature .talk-btn-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #feature p {
   color: white;
 }
@@ -675,7 +701,6 @@ canvas {
     letter-spacing: 1px;
     padding: 14px 36px;
     margin-top: 62px;
-    margin-right: 16px;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
 }
@@ -793,15 +818,23 @@ canvas {
 
 #blog .twitter-btn:hover {
   color: #1DA1F2;
+  cursor: pointer;
 }
 
 #blog .linkedin-btn:hover {
   color: #0e76a8;
+  cursor: pointer;
 }
 
 
 #blog .whatsapp-btn:hover {
   color: #4FCE5D;
+  cursor: pointer;
+}
+
+#blog .facebook-btn:hover {
+  color: #3b5998;
+  cursor: pointer;
 }
 
 
@@ -843,6 +876,10 @@ canvas {
   color: #9FA8DA;
   font-weight: 500;
   font-size: 16px
+}
+
+#blog .blog-contents {
+  text-align: justify;
 }
 
 .social-section {
@@ -921,6 +958,11 @@ canvas {
   #blog .card {
     width: 280px;
   }
+
+  #blog .sub-heading {
+    text-align: center;
+  }
+
 }
 
 
@@ -929,8 +971,153 @@ canvas {
     font-size: 1.1rem;
   }
 }
-
 /* Blog section Ends */
+
+
+
+/* Blog Main Card Post Section Starts */
+
+.blog-card-post {
+  position: relative;
+  text-align: center;
+}
+
+.blog-card-post .banner img{
+  width: 100%;
+  height: 55vh;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6;
+}
+
+.blog-card-post .banner-heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  color: #000000;
+  margin-top: 50px;
+}
+
+.blog-card-post .banner-heading h3{
+  font-weight: 900;
+}
+
+#blog-main-card-post {
+  padding-top: 130px;
+  padding-bottom: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.blog-card-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+
+/* #blog-main-card-post .twitter-btn:hover {
+  color: #1DA1F2;
+  cursor: pointer;
+}
+
+#blog-main-card-post .linkedin-btn:hover {
+  color: #0e76a8;
+  cursor: pointer;
+}
+
+
+#blog-main-card-post .whatsapp-btn:hover {
+  color: #4FCE5D;
+  cursor: pointer;
+}
+
+#blog-main-card-post .facebook-btn:hover {
+  color: #3b5998;
+  cursor: pointer;
+} */
+
+.blog-card-main {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, .05);
+  border: 0.5px solid #E6E6E6;
+  border-radius: 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+
+.blog-card-image {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.blog-post-social-btn {
+  margin-top: 30px;
+}
+
+.bloggy-author {
+  margin-bottom: 0;
+}
+
+.blog-post-description {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.blog-post-read-button {
+  background: #194c23;
+  width: 150px;
+  margin: auto;
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.blog-post-read-button a {
+    color: #fff;
+}
+
+
+.blog-post-read-button:after {
+  content: "\2794";
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  transition: all .4s;
+}
+
+.blog-post-read-button:hover:after {
+  right: 5px;
+  transition: all .4s;
+}
+
+.blog-card-post-content {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+@media screen and (max-width: 991px) {
+  .blog-card-info {
+    display: block;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blog-post-title h3{
+    font-size: 18px;
+  }
+}
+
+/* Blog Main Card Post Section Starts */
 
 
 
@@ -956,6 +1143,7 @@ canvas {
 
 #career .career-banner-heading span{
   color:#fff;
+  font-size: 22px;
 }
 
 #career {
@@ -999,13 +1187,13 @@ canvas {
 }
 
 .career-info {
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 80px;
 }
 
 
 .career-job-listings {
-  padding-top: 80px;
+  padding-top: 40px;
   padding-bottom: 80px;
 }
 
@@ -1078,7 +1266,8 @@ canvas {
 }
 
 .career-end-note {
-  padding-top: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .career-end-note h1 {
@@ -1091,6 +1280,9 @@ canvas {
 
 .career-end-note h3 {
   padding-top: 20px;
+  color: #194c23;
+  font-weight: 900;
+  font-size: 26px;
 }
 
 @media screen and (max-width: 991px) {
@@ -1664,6 +1856,8 @@ footer a:hover {
 }
 
 
+
+
 .feature .feature-content h2,
 .feature .feature-content p {
     margin-bottom: 25px;
@@ -1674,6 +1868,13 @@ footer a:hover {
     .feature .feature-content p {
         text-align: center;
     }
+}
+
+@media (max-width: 991px) {
+  .feature .text-success {
+    margin-top: 30px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {

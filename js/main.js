@@ -8,6 +8,7 @@ const twiSideBtn = document.querySelector(".twitter-side-btn");
 const whaSideBtn = document.querySelector(".whatsapp-side-btn");
 const linSideBtn = document.querySelector(".linkedin-side-btn");
 
+
 function init() {
   
 
@@ -19,38 +20,42 @@ function init() {
     `https://www.facebook.com/sharer.php?u=${postUrl}`
   );
 
-  facSideBtn.setAttribute(
-    "href",
-    `https://www.facebook.com/sharer.php?u=${postUrl}`
-  );
-
-
   twitterBtn.setAttribute(
     "href",
     `https://twitter.com/share?url=${postUrl}&text=${postTitle}`
   );
-
-  twiSideBtn.setAttribute(
-    "href",
-    `https://twitter.com/share?url=${postUrl}&text=${postTitle}`
-  );
-
 
   linkedinBtn.setAttribute(
     "href",
     `https://www.linkedin.com/shareArticle?url=${postUrl}&title=${postTitle}`
   );
 
+  whatsappBtn.setAttribute(
+    "href",
+    `https://wa.me/?text=${postTitle} ${postUrl}`
+  );
+
+
+
+
+
+  facSideBtn.setAttribute(
+    "href",
+    `https://www.facebook.com/sharer.php?u=${postUrl}`
+  );
+
+
+  twiSideBtn.setAttribute(
+    "href",
+    `https://twitter.com/share?url=${postUrl}&text=${postTitle}`
+  );
+  
+
   linSideBtn.setAttribute(
     "href",
     `https://www.linkedin.com/shareArticle?url=${postUrl}&title=${postTitle}`
   );
 
-
-  whatsappBtn.setAttribute(
-    "href",
-    `https://wa.me/?text=${postTitle} ${postUrl}`
-  );
 
   whaSideBtn.setAttribute(
     "href",
@@ -60,6 +65,38 @@ function init() {
 }
 
 init();
+
+
+
+
+window.addEventListener('load', () => {
+  let portfolioContainer = select('.portfolio-container');
+  if (portfolioContainer) {
+    let portfolioIsotope = new Isotope(portfolioContainer, {
+      itemSelector: '.portfolio-item'
+    });
+
+    let portfolioFilters = select('#portfolio-flters li', true);
+
+    on('click', '#portfolio-flters li', function(e) {
+      e.preventDefault();
+      portfolioFilters.forEach(function(el) {
+        el.classList.remove('filter-active');
+      });
+      this.classList.add('filter-active');
+
+      portfolioIsotope.arrange({
+        filter: this.getAttribute('data-filter')
+      });
+      portfolioIsotope.on('arrangeComplete', function() {
+        AOS.refresh()
+      });
+    }, true);
+  }
+
+});
+
+
 
 
 
