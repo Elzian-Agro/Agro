@@ -116,10 +116,15 @@
 </section>
 
 
-<section id="blog-main-card-post">
+<section id="blog-main-card-post" class="blog-tag-identify">
     <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-sm-6 col-lg-12">
+        <ul id="blog-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">App</li>
+            <li data-filter=".filter-web">Web</li>
+          </ul>
+        <div class="row blog-container">
+            <div class="col-md-6 col-sm-6 col-lg-12 blog-item filter-app">
                 <div class="blog-card-main">
                     <div class="row bloggy">
                         <div class="col-lg-4 col-md-12 col-sm-12">
@@ -155,7 +160,7 @@
             </div>
 
 
-            <div class="col-md-6 col-sm-6 col-lg-12">
+            <div class="col-md-6 col-sm-6 col-lg-12 blog-item filter-web">
                 <div class="blog-card-main">
                     <div class="row bloggy">
                         <div class="col-lg-4 col-md-12 col-sm-12">
@@ -257,6 +262,13 @@
 <script src="../js/smoothscroll.js"></script>
 <script src="../js/custom.js"></script>
 <script src="../js/contact.js"></script>
+<script src="../js/blog-tag.js"></script>
+<script src="../vendor/aos/aos.js"></script>
+<script src="../vendor/bootstrap/js/"></script>
+<script src="../vendor/glightbox/js/"></script>
+<script src="../vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="../vendor/swiper/swiper-bundle.min.js"></script>
+<script src="../vendor/waypoints/noframework.waypoints.js"></script>
 
 </body>
 </html>

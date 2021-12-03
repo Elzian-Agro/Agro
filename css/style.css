@@ -987,6 +987,53 @@ canvas {
 
 
 
+
+
+
+
+
+
+
+
+
+.blog-tag-identify #blog-flters {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.blog-tag-identify #blog-flters li {
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px 5px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  color: #444444;
+  transition: all 0.3s;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+}
+.blog-tag-identify #blog-flters li:hover, .blog-tag-identify #blog-flters li.filter-active {
+  background: #47b2e4;
+  color: #fff;
+}
+.blog-tag-identify .blog-item {
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Blog Main Card Post Section Starts */
 
 .blog-card-post {
@@ -1158,7 +1205,7 @@ canvas {
   }
 }
 
-/* Blog Main Card Post Section Starts */
+/* Blog Main Card Post Section Ends */
 
 
 
