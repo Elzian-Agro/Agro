@@ -428,6 +428,18 @@ footer {
   padding-bottom: 100px;
 }
 
+footer .footer-logo {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 767px) {
+  footer img {
+    max-height: 70%;
+  }
+  
+}
+
 .section-title {
   padding-bottom: 62px;
 }
