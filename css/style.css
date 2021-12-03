@@ -64,6 +64,123 @@ strong {
   font-size: 2.5rem;
 }
 
+@media screen and (max-height: 450px) {
+  #video-container .video-content .inner {
+    margin-top: 80px;
+  }
+
+  .home .image img {
+    visibility: hidden;
+}
+
+.home .content p {
+  margin-bottom: 140px;
+}
+
+  .home .scroll-icon {
+    display: none;
+  }
+}
+
+
+@media screen and (max-height: 420px) {
+  #video-container .video-content .inner {
+    margin-top: 110px;
+  }
+
+  .home .content p {
+    margin-bottom: 0px;
+  }
+
+  .home .image {
+    display: none;
+}
+
+  .home .content {
+    margin-top: 100px;
+  }
+
+  #home .clearfix .btn {
+    display: none;
+  }
+}
+
+
+@media screen and (max-height: 380px) {
+  #video-container .video-content .inner {
+    margin-top: 110px;
+  }
+
+  .home .content p {
+    margin-bottom: 0px;
+  }
+
+  .home .image {
+    display: none;
+}
+
+  .home .content {
+    margin-top: 100px;
+  }
+
+  #home .clearfix .btn {
+    display: none;
+  }
+}
+
+
+
+@media screen and (max-height: 320px) {
+  #video-container .video-content .inner {
+    margin-top: 10px;
+  }
+
+  #video-container .video-content .inner h1 {
+    font-size: 55px;
+  }
+
+  .home .content {
+    margin-top: 150px;
+  }
+}
+
+
+@media screen and (max-height: 280px) {
+  .home .content p {
+    margin-bottom: 0px;
+  }
+
+  .home .content {
+    margin-top: 170px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 580px) {
+  #video-container .video-content .inner {
+    margin-top: 20px;
+  }
+
+  .home .scroll-icon {
+    display: none;
+  }
+
+  
+
+  @keyframes float{
+    0%, 100%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(-1rem);
+    }
+  }
+
+
+}
+
 @media screen and (max-width: 991px) {
   #about .section-title1 h2{
     font-weight: bold;
@@ -75,6 +192,10 @@ strong {
   #about .section-title1 h2{
     font-weight: bold;
     font-size: 1.7rem;
+  }
+
+  #home .clearfix .btn {
+    display: none;
   }
 }
 
@@ -210,7 +331,7 @@ strong {
         transform: translateY(0rem);
     }
     50%{
-        transform: translateY(-2.5rem);
+        transform: translateY(-2.2rem);
     }
   }
 
@@ -262,7 +383,7 @@ strong {
 
   .home .image img{
       width:60%;
-      margin-top: 3rem;
+      margin-top: 9rem;
       margin-bottom: 2rem;
   }
 
