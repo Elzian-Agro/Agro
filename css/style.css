@@ -432,6 +432,64 @@ strong {
 
 #ytplayer {
     height: 300px;
+    width: 450px;
+}
+
+
+@media screen and (max-width: 991px) {
+
+  #about .row .youtube-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  #about .about-thumb {
+    text-align: justify;
+    margin-top: 30px;
+  }
+}
+
+
+@media screen and (max-width: 575px) {
+
+  #about .about-thumb p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #ytplayer {
+    height: 250px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+
+  #about .about-thumb p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #ytplayer {
+    height: 250px;
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+
+  #about .about-thumb p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #ytplayer {
+    height: 150px;
+    width: 270px;
+  }
 }
 
 #video-container .video-overlay {
@@ -808,6 +866,29 @@ canvas {
     color: #242424;
     border-color: transparent;
 }
+
+@media screen and (max-height: 500px) {
+  #home .btn-success {
+    display: none;
+  }
+
+  #home .begin-btn {
+    display: none;
+  }
+
+  #home {
+    height: 100vh !important;
+  }
+
+  #home .home-thumb img {
+    height: 100px;
+  }
+
+  #home .home-thumb {
+    margin-top: 70px;
+  }
+}
+
 
 
 /* about section */
