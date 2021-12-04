@@ -80,6 +80,10 @@ strong {
   .home .scroll-icon {
     display: none;
   }
+
+  .blog-card-post .banner img {
+    height: 100vh !important;
+  }
 }
 
 
@@ -153,8 +157,11 @@ strong {
   .home .content {
     margin-top: 170px;
   }
-}
 
+  .banner-heading h1 {
+    margin-top: 30px;
+  }
+}
 
 
 
@@ -167,7 +174,9 @@ strong {
     display: none;
   }
 
-  
+  .banner-heading h1 {
+    margin-top: 15px;
+  }
 
   @keyframes float{
     0%, 100%{
@@ -177,9 +186,20 @@ strong {
         transform: translateY(-1rem);
     }
   }
-
-
 }
+
+
+@media screen and (max-width: 680px) {
+  .banner-heading h3 {
+    display: none;
+  }
+
+  .banner-heading h1 {
+    margin-top: 50px;
+  }
+}
+
+
 
 @media screen and (max-width: 991px) {
   #about .section-title1 h2{
