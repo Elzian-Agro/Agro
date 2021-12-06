@@ -1230,7 +1230,7 @@ canvas {
   font-family: "Poppins", sans-serif;
 }
 .blog-tag-identify #blog-flters li:hover, .blog-tag-identify #blog-flters li.filter-active {
-  background: #47b2e4;
+  background: #194c23;
   color: #fff;
 }
 .blog-tag-identify .blog-item {
@@ -2271,6 +2271,12 @@ footer a:hover {
 
 .hex, .about_section {
     background: white;
+}
+
+@media screen and (max-width: 991px) {
+  #hex .row {
+    width: 120%;
+  }
 }
 
 .services {
