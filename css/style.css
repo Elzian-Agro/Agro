@@ -26,6 +26,11 @@ html {
   font-size: 100%;
 }
 
+.preloader-image {
+  height: 20px;
+  padding-top: 5px;
+}
+
 h1,h2,h3 {
   font-weight: 500;
   letter-spacing: 0.3rem;
@@ -1008,6 +1013,8 @@ canvas {
 
 .sdg-image {
   padding: 0 20px 20px 15px;
+  height: 210px;
+  width: 220px;
 }
 
 #development-goals .section-title .sdg-mainheading {
@@ -2437,8 +2444,18 @@ footer a:hover {
     max-width: 69% !important;
     margin-left:15%;
     margin-right:15%;
+    position: absolute;
 }
 
+.elzian-large-logo {
+  height: 200px;
+}
 
+.home-page-animation {
+  height: 400px;
+}
 
+.our-awards {
+  height: 300px;
+}
 
