@@ -1015,6 +1015,7 @@ canvas {
   padding: 0 20px 20px 15px;
   height: 210px;
   width: 220px;
+  margin-top: 50px;
 }
 
 #development-goals .section-title .sdg-mainheading {
@@ -1566,7 +1567,7 @@ canvas {
   padding-bottom: 60px;
 }
 
-.career-end-note h1 {
+.career-end-note h2 {
   background: #194c23;
   color: #fff;
   padding-top: 15px;
