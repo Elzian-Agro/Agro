@@ -435,6 +435,10 @@ strong {
     min-height: 100%;
 }
 
+#about .about-thumb p {
+  margin-left: 50px;
+}
+
 #ytplayer {
     height: 300px;
     width: 450px;
@@ -454,6 +458,10 @@ strong {
   #about .about-thumb {
     text-align: justify;
     margin-top: 30px;
+  }
+
+  #about .about-thumb p {
+    margin-left: 0px;
   }
 }
 
@@ -956,6 +964,11 @@ canvas {
     padding-bottom: 100px;
 }
 
+#history p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 /* End of feature section */
 
 
@@ -1038,6 +1051,13 @@ canvas {
 }
 /* Sustainable Development Goals Section Ends */ 
 
+
+/* Sustainable Development Goals Video Starts*/
+#about-sdg-video {
+  padding-bottom: 100px;
+}
+
+/* Sustainable Development Goals Video Ends*/
 
 
 /* Blog section starts */
