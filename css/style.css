@@ -1479,6 +1479,13 @@ canvas {
   margin-bottom: 50px;
 }
 
+.career-mission {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  margin-right: 15px;
+  margin-left: 15px; 
+}
+
 .career-cards {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -1628,6 +1635,14 @@ canvas {
   .job-content {
     margin-bottom: 60px;
   }
+
+  .career-mission p{
+    text-align: justify;
+  }
+
+  .career-mission h2{
+    text-align: justify;
+  }
 }
 
 
@@ -1699,12 +1714,10 @@ canvas {
   }
 }
 
-
-
 /* Career section ends */
 
 
-/* contact section  */
+/* contact section starts*/
 #contact .form-control {
   background: transparent;
   border: 1px solid #f0f0f0;
@@ -1738,6 +1751,7 @@ canvas {
 #contact input[type='submit']:hover {
   background: #194c23 !important;
 }
+/* contact section ends*/
 
 
 /* footer section  */
