@@ -1057,6 +1057,60 @@ canvas {
   padding-bottom: 100px;
 }
 
+#about-sdg-video #ytplayer {
+  width: 800px;
+  height: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    #about-sdg-video .row .youtube-image{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+    }
+
+    #about-sdg-video #ytplayer {
+      width: 650px;
+      height: auto;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+  #about-sdg-video #ytplayer {
+    width: 500px;
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  #about-sdg-video #ytplayer {
+    width: 400px;
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  #about-sdg-video #ytplayer {
+    width: 300px;
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  #about-sdg-video #ytplayer {
+    width: 250px;
+    height: auto;
+  }
+}
+
+
 /* Sustainable Development Goals Video Ends*/
 
 
