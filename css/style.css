@@ -44,7 +44,6 @@ h1 {
 
 h2 {
   color: #ffffff;
-  padding-bottom: 10px;
 }
 
 h3 {
@@ -587,7 +586,6 @@ strong {
     font-weight: 700;
     color: #323232;
     line-height: 46px;
-    margin-bottom: 10px;
 }
 
 .section-title P {
@@ -637,7 +635,7 @@ strong {
 #contact,
 footer {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 
 footer .footer-logo {
@@ -655,12 +653,20 @@ footer .footer-logo {
 .section-title {
   padding-bottom: 62px;
 }
+
 .section-title h1 {
   padding-bottom: 10px;
 }
+
+#about {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
 #about .section-title {
   padding-bottom: 22px;
 }
+
 #contact .section-title {
   text-align: center;
 }
@@ -917,6 +923,9 @@ canvas {
   padding-top: 20px;
 }
 
+.about_section h2 {
+  color: #000;
+}
 
 /* feature section starts*/
 #feature {
@@ -964,6 +973,10 @@ canvas {
     padding-bottom: 100px;
 }
 
+#history .section-title{
+  padding-bottom: 10px;
+}
+
 #history p {
   margin-left: 20px;
   margin-right: 20px;
@@ -980,8 +993,7 @@ canvas {
 }
 
 #values .values-mainheading {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 30px;
 }
 
 #values .values-para {
@@ -1016,7 +1028,6 @@ canvas {
 
 /* Sustainable Development Goals Section Starts */ 
 #development-goals {
-  padding-top: 80px;
   padding-bottom: 100px;
 }
 
@@ -1029,10 +1040,6 @@ canvas {
   height: 210px;
   width: 220px;
   margin-top: 50px;
-}
-
-#development-goals .section-title .sdg-mainheading {
-  margin-bottom: 40px;
 }
 
 
@@ -1052,9 +1059,23 @@ canvas {
 /* Sustainable Development Goals Section Ends */ 
 
 
+/* Our Partners section starts */ 
+#our-partners {
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+#our-partners .partner {
+  width: 200px;
+  margin-top: 50px;
+}
+
+/* Our Partners section ends */ 
+
+
 /* Sustainable Development Goals Video Starts*/
 #about-sdg-video {
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
 
 #about-sdg-video #ytplayer {
@@ -1373,8 +1394,8 @@ canvas {
 }
 
 #blog-main-card-post {
-  padding-top: 130px;
-  padding-bottom: 50px;
+  padding-top: 60px;
+  padding-bottom: 20px;
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -1392,7 +1413,7 @@ canvas {
   border-radius: 8px;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .blog-card-image {
@@ -1520,7 +1541,7 @@ canvas {
 
 #career {
   margin-top: 150px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 #career .career-card-section {
@@ -1534,15 +1555,22 @@ canvas {
 }
 
 .career-mission {
-  padding-top: 20px;
   padding-bottom: 0;
   margin-right: 15px;
   margin-left: 15px; 
 }
 
+.career-mission .section-title {
+  text-align: justify;
+}
+
 .career-cards {
-  padding-top: 50px;
+  padding-top: 40px;
   padding-bottom: 50px;
+}
+
+.career-cards .section-title {
+  padding-bottom: 40px;
 }
 
 .careertit .section-title {
@@ -1660,8 +1688,8 @@ canvas {
 }
 
 .career-end-note {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 .career-end-note h2 {
