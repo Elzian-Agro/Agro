@@ -2615,31 +2615,31 @@ footer a:hover {
 
 
 
+#traceability-desc {
+  padding-top: 80px;
+}
 
-
+.traceablity-banner .banner img{
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+}
 
 #traceability-desc p {
   text-align: justify;
 }
 
-
 .page-section {
-  padding: 6rem 0;
-}
-.page-section h2.section-heading, .page-section .section-heading.h2 {
-  font-size: 2.5rem;
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-.page-section h3.section-subheading, .page-section .section-subheading.h3 {
-  font-size: 1rem;
-  font-weight: 400;
-  font-style: italic;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  margin-bottom: 4rem;
+  padding: 4rem 0;
 }
 
 
+.page-section h3 {
+  padding-bottom: 30px;
+  
+}
 
 .rounded-circle {
   border-radius: 50% !important;
@@ -2649,7 +2649,6 @@ footer a:hover {
   max-width: 100%;
   height: auto;
 }
-
 
 
 .timeline {
@@ -2746,6 +2745,7 @@ footer a:hover {
 .timeline .timeline-body > ul,
 .timeline .timeline-body > p {
   margin-bottom: 0;
+  text-align: justify;
 }
 
 @media (min-width: 768px) {
