@@ -2853,3 +2853,8 @@ footer a:hover {
     padding: 0 100px 20px 20px;
   }
 }
+
+.vimi
+{
+    max-width: 50% !important;
+}
