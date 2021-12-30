@@ -2616,15 +2616,47 @@ footer a:hover {
 
 
 #traceability-desc {
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 .traceablity-banner .banner img{
+  margin-top: 80px;
   width: 100%;
-  height: 50vh;
+  height: 55vh;
   background-size: cover;
   background-position: center;
   opacity: 0.9;
+}
+
+.traceability-icon {
+  padding-top: 30px;
+}
+
+
+.traceability-cards .section-title {
+  padding-bottom: 20px;
+}
+
+
+.traceability-cards {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.traceability-end-note p{
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.traceability-end-note{
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 450px) {
+  .traceablity-banner .banner img {
+    margin-top: 120px;
+    height: 30vh !important;
+  }
 }
 
 #traceability-desc p {
@@ -2632,13 +2664,16 @@ footer a:hover {
 }
 
 .page-section {
-  padding: 4rem 0;
+  padding: 5rem 0;
 }
 
 
 .page-section h3 {
-  padding-bottom: 30px;
-  
+  padding-bottom: 30px; 
+}
+
+.page-section .subheading {
+  text-align: center;
 }
 
 .rounded-circle {
