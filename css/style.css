@@ -905,6 +905,8 @@ canvas {
   #home .home-thumb {
     margin-top: 70px;
   }
+
+ 
 }
 
 /* home section  ends */
@@ -971,7 +973,64 @@ canvas {
 
 /* End of feature section */
 
+/* Changed CSS*/
 
+.address-container{
+  display: flex;
+
+}
+
+.address-div{
+  flex: 0.3;
+   border: 2px solid rgb(238, 237, 237);
+    box-shadow: 4px 4px 2px rgb(238, 237, 237);
+     margin-left: 30px;
+      display: flex;
+       flex-direction: column;
+        align-items: center;
+         justify-content: center;
+         padding: 30px 10px;
+}
+
+.div-span{
+  padding-top: 30px;
+   color: black ;
+   font-weight: 500; 
+   font-size: 20px;
+}
+.div-line{
+  background-color: rgb(233, 231, 231);
+   height: 2px;
+    width:47px;
+}
+.last-span{
+  padding-top: 20px;
+}
+.email-span{
+  color: rgb(0,128,0)
+}
+.img-icon{
+  height: 50px;
+  width: 50px;
+  
+}
+.addrss{
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+  .address-container{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  .address-div{
+    margin-top: 20px;
+  }
+ 
+  
+}
 /* history section starts*/
 
 #history{
