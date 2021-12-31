@@ -972,6 +972,8 @@ canvas {
 /* End of feature section */
 
 
+
+
 /* history section starts*/
 
 #history{
@@ -2382,6 +2384,7 @@ footer a:hover {
     background: white;
     padding-left: 20%;
     padding-right: 20%;
+    padding-top: 80px;
 }
 
 .feature1{
@@ -2873,7 +2876,3 @@ footer a:hover {
   padding-bottom: 0;
 }
 
-
-@media screen and (max-height: 991px) {
-  
-}
