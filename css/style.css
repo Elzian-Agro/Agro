@@ -1015,7 +1015,7 @@ canvas {
   
 }
 .addrss{
-  padding-bottom: 50px;
+  padding-bottom: 60px;
   padding-top: 50px;
 }
 
@@ -2436,11 +2436,23 @@ footer a:hover {
         height: 350px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
 .page-title {
     text-align: center;
     background: white;
     padding-left: 20%;
     padding-right: 20%;
+    padding-top: 80px;
 }
 
 .feature1{
