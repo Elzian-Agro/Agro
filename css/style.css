@@ -1050,6 +1050,7 @@ canvas {
   color: rgb(0,128,0)
 }
 
+
 .img-icon{
   height: 50px;
   width: 50px;
@@ -2388,7 +2389,7 @@ footer a:hover {
 
 .feature{
     background: white;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 
@@ -2541,7 +2542,7 @@ footer a:hover {
 .services {
     padding-bottom: 30px;
     background-color: white;
-    padding-top: 100px;
+    padding-top: 60px;
 }
 .services .icon-box {
     margin-bottom: 20px;
@@ -2970,3 +2971,18 @@ footer a:hover {
 {
     max-width: 50% !important;
 }
+
+
+.agro-eye {
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.agro-eye .agro-eye-image {
+  padding-top: 40px;
+}
+
+.agro-eye .section-title {
+  padding-bottom: 0;
+}
+
