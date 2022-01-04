@@ -905,6 +905,8 @@ canvas {
   #home .home-thumb {
     margin-top: 70px;
   }
+
+ 
 }
 
 /* home section  ends */
@@ -971,7 +973,105 @@ canvas {
 
 /* End of feature section */
 
+/* Changed CSS*/
 
+.address-container{
+  display: flex;
+  justify-content: center;
+}
+
+.address-div{
+  flex: 0.3;
+  border: 2px solid rgb(238, 237, 237);
+  box-shadow: 4px 4px 2px rgb(238, 237, 237);
+    margin-left: 30px;
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+        justify-content: center;
+        padding: 30px 10px;
+}
+
+.div-span{
+  padding-top: 30px;
+   color: black ;
+   font-weight: 500; 
+   font-size: 20px;
+}
+.div-line{
+  background-color: rgb(233, 231, 231);
+  height: 3px;
+  width:50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.last-span{
+  padding-top: 20px;
+}
+
+.contact-cards {
+  padding-top: 80px;
+}
+
+.contact-cards .con-card {
+  padding: 40px;
+}
+
+.contact-cards .con-card h3{
+  margin-top: 40px;
+
+}
+
+.contact-cards .div-line {
+  margin-bottom: 20px;
+}
+
+.contact-cards .section-title {
+  padding-bottom: 20px;
+}
+
+.contact-cards .section-title h1{
+  padding-bottom: 0;
+}
+
+.contact-cards .contact-us-desc {
+  margin-top: 25px;
+}
+
+.line {
+  background-color: green;
+  height: 4px; 
+  width: 80px; 
+  margin: auto;
+}
+
+.email-span{
+  color: rgb(0,128,0)
+}
+
+.img-icon{
+  height: 50px;
+  width: 50px;
+  
+}
+.addrss{
+  padding-bottom: 80px;
+  padding-top: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+  .address-container{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  .address-div{
+    margin-top: 20px;
+  }
+ 
+  
+}
 /* history section starts*/
 
 #history{
@@ -2377,11 +2477,23 @@ footer a:hover {
         height: 350px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
 .page-title {
     text-align: center;
     background: white;
     padding-left: 20%;
     padding-right: 20%;
+    padding-top: 80px;
 }
 
 .feature1{
