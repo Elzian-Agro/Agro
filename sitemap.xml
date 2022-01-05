@@ -4,25 +4,34 @@
   <loc>http://agro.elzian.com/index.html</loc>
 </url>
 <url>
-  <loc>http://agro.elzian.com/catalog.html</loc>
+  <loc>https://agro.elzian.com/index.html</loc>
 </url>
 <url>
-  <loc>http://agro.elzian.com/AgroMate.html</loc>
+  <loc>https://agro.elzian.com/catalog.html</loc>
 </url>
 <url>
-  <loc>http://agro.elzian.com/AgroEagel.html</loc>
+  <loc>https://agro.elzian.com/AgroMate.html</loc>
 </url>
 <url>
-  <loc>http://agro.elzian.com/AgroGuard.html</loc>
+  <loc>https://agro.elzian.com/AgroEagel.html</loc>
 </url>
 <url>
-  <loc>http://agro.elzian.com/./blog/blog-main.html</loc>
+  <loc>https://agro.elzian.com/AgroGuard.html</loc>
 </url>
 <url>
-  <loc>http://agro.elzian.com/about.html</loc>
+  <loc>https://agro.elzian.com/traceability.html</loc>
 </url>
 <url>
-  <loc>http://agro.elzian.com/career.html</loc>
+  <loc>https://agro.elzian.com/blog/blog-main.html</loc>
+</url>
+<url>
+  <loc>https://agro.elzian.com/about.html</loc>
+</url>
+<url>
+  <loc>https://agro.elzian.com/career.html</loc>
+</url>
+<url>
+  <loc>https://agro.elzian.com/contact.html</loc>
 </url>
 <url>
   <loc>http://agro.elzian.com/contact.html</loc>
@@ -34,33 +43,18 @@
   <loc>http://agro.elzian.com/../index.html</loc>
 </url>
 <url>
-  <loc>http://agro.elzian.com/../catalog.html</loc>
+  <loc>https://agro.elzian.com/../index.html</loc>
 </url>
 <url>
-  <loc>http://agro.elzian.com/../AgroMate.html</loc>
-</url>
-<url>
-  <loc>http://agro.elzian.com/../AgroEagel.html</loc>
-</url>
-<url>
-  <loc>http://agro.elzian.com/../AgroGuard.html</loc>
-</url>
-<url>
-  <loc>http://agro.elzian.com/./blog-main.html</loc>
-</url>
-<url>
-  <loc>http://agro.elzian.com/../about.html</loc>
-</url>
-<url>
-  <loc>http://agro.elzian.com/../career.html</loc>
-</url>
-<url>
-  <loc>http://agro.elzian.com/../contact.html</loc>
+  <loc>http://agro.elzian.com/blog-page-3.html</loc>
 </url>
 <url>
   <loc>http://agro.elzian.com/blog-page.html</loc>
 </url>
 <url>
   <loc>http://agro.elzian.com/blog-page-2.html</loc>
+</url>
+<url>
+  <loc>http://agro.elzian.com/career.html</loc>
 </url>
 </urlset>
