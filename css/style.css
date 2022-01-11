@@ -2876,3 +2876,25 @@ footer a:hover {
   padding-bottom: 0;
 }
 
+
+/* Related Blog Article Section Starts */
+
+#related-blogs {
+  padding-bottom: 80px;
+}
+
+#related-blogs .blog-cards {
+  overflow: hidden;
+  border: 0.5px solid black;
+}
+
+#related-blogs .card-body {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#related-blogs .section-heading {
+  padding-bottom: 20px;
+}
+
+/* Related Blog Article Section Ends */
