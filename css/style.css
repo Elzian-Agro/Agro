@@ -2885,7 +2885,8 @@ footer a:hover {
 
 #related-blogs .blog-cards {
   overflow: hidden;
-  border: 0.5px solid black;
+  border: 0.2px solid #E3E3E3;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.19);
 }
 
 #related-blogs .card-body {
@@ -2894,7 +2895,36 @@ footer a:hover {
 }
 
 #related-blogs .section-heading {
-  padding-bottom: 20px;
+  padding-bottom: 25px;
+}
+
+#related-blogs .card-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+#related-blogs .related-blog-date {
+  margin-bottom: 5px;
+  color: #000;
+}
+
+#related-blogs .card-text {
+  margin-bottom: 5px;
+}
+
+#related-blogs .read-more-link a{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 991px) {
+  #related-blogs .blog-cards {
+    margin-bottom: 50px;
+  }
+
+  #related-blogs {
+    padding-bottom: 40px;
+  }
 }
 
 /* Related Blog Article Section Ends */
