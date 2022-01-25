@@ -63,6 +63,10 @@ strong {
   color: lawngreen;
   font-weight: 700;
 }
+.strong2 {
+  color: #828282;
+  font-weight: 700;
+}
 
 #about .section-title1 h2 {
   font-weight: bold;
