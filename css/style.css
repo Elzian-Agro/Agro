@@ -1633,7 +1633,7 @@ canvas {
 }
 
 .career-cards {
-  padding-top: 40px;
+  padding-top: 25px;
   padding-bottom: 50px;
 }
 
@@ -1646,7 +1646,12 @@ canvas {
 }
 
 .career-cards .section-title h2 {
+  margin-bottom: 10px;
+  color: #194c23;
+}
+.career-cards .section-title p {
   margin-bottom: 0;
+  font-size: 20px;
 }
 
 .career-cards .section-title {
@@ -1797,14 +1802,15 @@ canvas {
   .job-content {
     margin-bottom: 60px;
   }
-
-  .career-mission p {
-    text-align: justify;
-  }
-
-  .career-mission h2 {
-    text-align: justify;
-  }
+}
+.career-mission h2 {
+  padding-top: 15px;
+  text-align: center;
+  color: #194c23;
+}
+.career-mission p {
+  text-align: justify;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 767px) {
