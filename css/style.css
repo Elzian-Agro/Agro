@@ -925,6 +925,10 @@ canvas {
   color: #000;
 }
 
+.logo {
+  height: 40px;
+}
+
 /* about section ends */
 
 /* feature section starts*/
