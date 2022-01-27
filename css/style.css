@@ -928,6 +928,7 @@ canvas {
 
 .logo {
   height: 40px;
+  padding-right: 8px;
 }
 
 /* about section ends */
