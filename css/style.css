@@ -973,6 +973,19 @@ canvas {
   border-color: transparent;
 }
 
+#feature #unclickable {
+  background: transparent;
+  border: 3px solid #ffffff;
+  border-radius: 0px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 14px 36px;
+  margin-top: 30px;
+  cursor: default;
+}
+
 /* End of feature section */
 
 /* Changed CSS*/
