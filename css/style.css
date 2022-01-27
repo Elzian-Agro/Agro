@@ -60,7 +60,7 @@ p {
 }
 
 strong {
-  color: lawngreen;
+  color: aqua;
   font-weight: 700;
 }
 
@@ -872,6 +872,7 @@ canvas {
   cursor: pointer;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+  text-shadow: none;
 }
 
 #home .btn:hover {
@@ -1646,7 +1647,12 @@ canvas {
 }
 
 .career-cards .section-title h2 {
+  margin-bottom: 10px;
+  color: #194c23;
+}
+.career-cards .section-title p {
   margin-bottom: 0;
+  font-size: 20px;
 }
 
 .career-cards .section-title {
@@ -1797,14 +1803,15 @@ canvas {
   .job-content {
     margin-bottom: 60px;
   }
+}
+.career-mission p {
+  text-align: justify;
+  font-size: 20px;
+}
 
-  .career-mission p {
-    text-align: justify;
-  }
-
-  .career-mission h2 {
-    text-align: justify;
-  }
+.career-mission h2 {
+  text-align: center;
+  color: #194c23;
 }
 
 @media screen and (max-width: 767px) {
