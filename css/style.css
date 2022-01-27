@@ -60,7 +60,7 @@ p {
 }
 
 strong {
-  color: aqua;
+  color: lawngreen;
   font-weight: 700;
 }
 
@@ -872,7 +872,6 @@ canvas {
   cursor: pointer;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  text-shadow: none;
 }
 
 #home .btn:hover {
