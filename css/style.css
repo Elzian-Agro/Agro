@@ -60,7 +60,7 @@ p {
 }
 
 strong {
-  color: lawngreen;
+  color: aqua;
   font-weight: 700;
 }
 
@@ -872,6 +872,7 @@ canvas {
   cursor: pointer;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+  text-shadow: none;
 }
 
 #home .btn:hover {
@@ -906,8 +907,6 @@ canvas {
   #home .home-thumb {
     margin-top: 70px;
   }
-
- 
 }
 
 /* home section  ends */
@@ -925,6 +924,11 @@ canvas {
 .about_section .about-card-heading {
   padding-top: 20px;
   color: #000;
+}
+
+.logo {
+  height: 35px;
+  padding-right: 8px;
 }
 
 /* about section ends */
@@ -959,7 +963,7 @@ canvas {
   font-weight: 700;
   letter-spacing: 1px;
   padding: 14px 36px;
-  margin-top: 62px;
+  margin-top: 30px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -970,43 +974,55 @@ canvas {
   border-color: transparent;
 }
 
-/* End of feature section */
+#feature #unclickable {
+  background: transparent;
+  border: 3px solid #ffffff;
+  border-radius: 0px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 14px 36px;
+  margin-top: 30px;
+  cursor: default;
+}
 
+/* End of feature section */
 
 /* Changed CSS*/
 
-.address-container{
+.address-container {
   display: flex;
   justify-content: center;
 }
 
-.address-div{
+.address-div {
   flex: 0.3;
   border: 2px solid rgb(238, 237, 237);
   box-shadow: 4px 4px 2px rgb(238, 237, 237);
-    margin-left: 30px;
-    display: flex;
-      flex-direction: column;
-      align-items: center;
-        justify-content: center;
-        padding: 30px 10px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
 }
 
-.div-span{
+.div-span {
   padding-top: 30px;
-   color: black ;
-   font-weight: 500; 
-   font-size: 20px;
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
 }
-.div-line{
+.div-line {
   background-color: rgb(233, 231, 231);
   height: 3px;
-  width:50px;
+  width: 50px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.last-span{
+.last-span {
   padding-top: 20px;
 }
 
@@ -1018,9 +1034,8 @@ canvas {
   padding: 40px;
 }
 
-.contact-cards .con-card h3{
+.contact-cards .con-card h3 {
   margin-top: 40px;
-
 }
 
 .contact-cards .div-line {
@@ -1031,7 +1046,7 @@ canvas {
   padding-bottom: 20px;
 }
 
-.contact-cards .section-title h1{
+.contact-cards .section-title h1 {
   padding-bottom: 0;
 }
 
@@ -1041,37 +1056,33 @@ canvas {
 
 .line {
   background-color: green;
-  height: 4px; 
-  width: 80px; 
+  height: 4px;
+  width: 80px;
   margin: auto;
 }
 
-.email-span{
-  color: rgb(0,128,0)
+.email-span {
+  color: rgb(0, 128, 0);
 }
 
-
-.img-icon{
+.img-icon {
   height: 50px;
   width: 50px;
-  
 }
-.addrss{
+.addrss {
   padding-bottom: 80px;
   padding-top: 50px;
 }
 
 @media only screen and (max-width: 500px) {
-  .address-container{
+  .address-container {
     display: flex;
     flex-direction: column;
     margin-right: 20px;
   }
-  .address-div{
+  .address-div {
     margin-top: 20px;
   }
- 
-  
 }
 
 /* history section starts*/
@@ -1650,7 +1661,12 @@ canvas {
 }
 
 .career-cards .section-title h2 {
+  margin-bottom: 10px;
+  color: #194c23;
+}
+.career-cards .section-title p {
   margin-bottom: 0;
+  font-size: 20px;
 }
 
 .career-cards .section-title {
@@ -1801,14 +1817,15 @@ canvas {
   .job-content {
     margin-bottom: 60px;
   }
+}
+.career-mission p {
+  text-align: justify;
+  font-size: 20px;
+}
 
-  .career-mission p {
-    text-align: justify;
-  }
-
-  .career-mission h2 {
-    text-align: justify;
-  }
+.career-mission h2 {
+  text-align: center;
+  color: #194c23;
 }
 
 @media screen and (max-width: 767px) {
@@ -2419,16 +2436,6 @@ footer a:hover {
     height: 350px;
   }
 }
-
-
-
-
-
-
-
-
-
-
 
 .page-title {
   text-align: center;
