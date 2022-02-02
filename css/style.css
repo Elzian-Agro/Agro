@@ -20,6 +20,7 @@ html,
 body {
   width: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -309,7 +310,7 @@ strong {
   bottom: 15px;
 }
 
-.home .scrollTo {
+.scrollTo {
   color: #ffffff;
   font-weight: 900;
   font-size: 2rem;
@@ -344,7 +345,7 @@ strong {
     }
   }
 
-  .home .scrollTo {
+  .scrollTo {
     color: #ffffff;
     font-weight: 900;
     font-size: 1.6rem;
