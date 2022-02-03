@@ -1373,6 +1373,14 @@ canvas {
   color: white;
 }
 
+
+.inside-blog-image{
+  width: 600px;
+  margin: 60px auto 70px;
+  display: block;
+}
+
+
 @media screen and (max-width: 1250px) {
   .icon-bar {
     display: none;
