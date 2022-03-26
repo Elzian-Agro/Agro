@@ -298,6 +298,19 @@
   border-style: none;
 }
 
+.img-float-logo {
+  position: absolute;
+  z-index: 20;
+  bottom: 292px;
+  left: 43%;
+}
+
+.img-float-logo img {
+  width: 93px;
+  vertical-align: middle;
+  border-style: none;
+}
+
 @media screen and (max-width: 601px) {
   .img-float-hold {
     transform: rotate(20deg);
@@ -308,6 +321,31 @@
   }
   .img-float-hold img {
     width: 234px;
+    vertical-align: middle;
+    border-style: none;
+  }
+  .img-float-logo {
+    position: absolute;
+    z-index: 20;
+    bottom: 281px;
+    left: 69%;
+  }
+  .img-float-logo img {
+    width: 93px;
+    vertical-align: middle;
+    border-style: none;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .img-float-logo {
+    position: absolute;
+    z-index: 20;
+    bottom: 281px;
+    left: 56%;
+  }
+  .img-float-logo img {
+    width: 110px;
     vertical-align: middle;
     border-style: none;
   }
