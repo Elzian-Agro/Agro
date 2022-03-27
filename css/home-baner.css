@@ -236,7 +236,13 @@
 
 .untitled__slideContent span {
   display: block;
-  font-size: 12vmin;
+  font-size: 10vmin;
+}
+
+@media only screen and (min-width: 550px) and (max-width: 950px) {
+  .untitled__slideContent span {
+    font-size: 7vmin;
+  }
 }
 
 .text2 {
@@ -327,11 +333,11 @@
   .img-float-logo {
     position: absolute;
     z-index: 20;
-    bottom: 281px;
+    bottom: 293px;
     left: 69%;
   }
   .img-float-logo img {
-    width: 93px;
+    width: 78px;
     vertical-align: middle;
     border-style: none;
   }
@@ -349,4 +355,92 @@
     vertical-align: middle;
     border-style: none;
   }
+}
+
+/* inquire modal */
+
+.call-to-action-box {
+  margin-top: -50px;
+}
+.no-padding {
+  padding: 0;
+}
+section,
+.section-padding {
+  position: relative;
+}
+.container {
+  overflow: hidden;
+}
+.call-to-action-box .action-style-box {
+  background: #3a3e47;
+  padding: 30px;
+}
+.action-title {
+  color: #fff;
+  margin: 0;
+  line-height: 23px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #212121;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+.inq-btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.inq-btn a {
+  background-color: #5e6578;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 5px;
+  border: 0px !important;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  background: #52595d;
+}
+
+.modal-header span {
+  color: #fff;
+}
+.modal-footer {
+  border-top: 0px;
+}
+
+.modal.animate.show {
+  opacity: 1;
+}
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.modal-title {
+  color: white;
+  font-size: 32px;
 }
