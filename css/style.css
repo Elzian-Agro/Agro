@@ -412,6 +412,7 @@ strong {
 
 #about .about-thumb p {
   margin-left: 50px;
+  text-align: justify;
 }
 
 #ytplayer {
