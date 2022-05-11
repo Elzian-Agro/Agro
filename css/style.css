@@ -1102,6 +1102,7 @@ canvas {
 #history p {
   margin-left: 20px;
   margin-right: 20px;
+  text-align: justify;
 }
 
 /* history section ends*/
@@ -2524,6 +2525,7 @@ footer a:hover {
   margin-left: 70px;
   line-height: 24px;
   font-size: 14px;
+  text-align: justify;
 }
 
 /*wave*/
@@ -2987,6 +2989,12 @@ footer a:hover {
   #related-blogs {
     padding-bottom: 40px;
   }
+}
+
+/* Paragraphs text alignment for whole sight */
+
+.desc {
+  text-align: justify;
 }
 
 /* Related Blog Article Section Ends */
