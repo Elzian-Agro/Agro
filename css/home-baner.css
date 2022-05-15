@@ -369,9 +369,6 @@ section,
 .section-padding {
   position: relative;
 }
-.container {
-  overflow: hidden;
-}
 .call-to-action-box .action-style-box {
   background: #3a3e47;
   padding: 30px;
@@ -422,10 +419,6 @@ a:link,
 a:visited {
   text-decoration: none;
 }
-a:hover {
-  background: #52595d;
-}
-
 .modal-header span {
   color: #fff;
 }
