@@ -1325,7 +1325,9 @@ canvas {
 #blog .blog-contents {
   text-align: justify;
 }
-
+#blog .blog-contents strong {
+  color: #000;
+}
 .social-section {
   padding-bottom: 20px;
 }
