@@ -1980,7 +1980,7 @@ footer a:hover {
 
 /* modal */
 .modal-dialog .modal-content {
-  background: url("../images/modal-bg.jpg") no-repeat;
+  background: url("../images/inquire-modal-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
   border-radius: 0;
@@ -2006,7 +2006,7 @@ footer a:hover {
   position: absolute;
   top: 40px;
   right: 40px;
-  border: 2px solid #ffffff;
+  border: 2px solid gray;
   border-radius: 100px;
   width: 36px;
   height: 36px;
