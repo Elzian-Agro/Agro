@@ -989,6 +989,11 @@ canvas {
   cursor: default;
 }
 
+@media screen and (min-width: 990px) {
+  #feature .row {
+    margin-right: -200px;
+  }
+}
 /* End of feature section */
 
 /* Changed CSS*/
