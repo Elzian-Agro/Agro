@@ -28,6 +28,7 @@
 
 
     <!-- stylesheets css -->
+    
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/home-baner.css">
@@ -58,7 +59,7 @@
     </script>
 </head>
 
-<body>
+<body onload="slider()">
 
     <section class="ftco-section fixed-top">
         <div class="wrap">
@@ -139,85 +140,27 @@
     </section>
 
     <!-- home section -->
-    <div class="slideholder d-flex">
-        <div class="untitled">
-            <div class="untitled__slides">
-                <div class="untitled__slide">
-                    <div class="untitled__slideBg"></div>
-                    <div class="img-float-hold"><img src="../Agro/images/home-baner-hand-image.png" alt=""></div>
-                    <div class="img-float-logo"><img src="../Agro/images/logo.png" alt=""></div>
-                    <div class="untitled__slideContent">
-                        <span class="text1">more</span>
-                        <span class="text1">with less</span>
-                        <span class="text2">
-                            More targeted ways to protect crops, with less inputs.
-                        </span>
-                        <span class="text3">
-                            Innovation in the agriculture sector and precision farming will result in the need for fewer inputs. Find out how we are working every day to deliver more targeted ways to protect crops, with less inputs.
-                        </span>
-                        <a class="button" target="_self" href="https://agro.elzian.com/catalog" target="/black">MONITORING SERVICES</a
-                  >
+    <div class="banner">
+        <div class="slider">
+            <img src="images/home-baner-slide1_40.jpg" id="slideImg1">
+
+        </div>
+        <div class="overlay">
+
+            <div class="content">
+                <h1>MORE WITH LESS</h1>
+                <h2><span class="auto-type"></span></h2>
+                <h3>Innovation in the agriculture sector and precision farming will result in the need for fewer inputs. Find out how we are working every day to deliver more targeted ways to protect crops, with less inputs.</h3>
+
+                <div>
+                    <a target="_self" href="https://agro.elzian.com/catalog" target="/black"><button type="button">MONITORING SERVICES</button></a>
                 </div>
-                
-                </div>
-                <div class="untitled__slide">
-                    <div class="untitled__slideBg"></div>
-                    <div class="img-float-hold"><img src="../Agro/images/home-baner-hand-image.png" alt=""></div>
-                    <div class="img-float-logo"><img src="../Agro/images/logo.png" alt=""></div>
-                    <div class="untitled__slideContent">
-                        <span class="text1">more</span>
-                        <span class="text1">with less</span>
-                        <span class="text2">
-                            More targeted ways to protect crops, with less inputs.
-                        </span>
-                        <span class="text3">
-                            Innovation in the agriculture sector and precision farming will result in the need for fewer inputs. Find out how we are working every day to deliver more targeted ways to protect crops, with less inputs.
-                        </span>
-                        <a class="button" target="_self" href="https://agro.elzian.com/catalog" target="/black">MONITORING SERVICES</a
-                  >
-                </div>
-                
-                </div>
-                <div class="untitled__slide">
-                    <div class="untitled__slideBg"></div>
-                    <div class="img-float-hold"><img src="../Agro/images/home-baner-hand-image.png" alt=""></div>
-                    <div class="img-float-logo"><img src="../Agro/images/logo.png" alt=""></div>
-                    <div class="untitled__slideContent">
-                          <span class="text1">more</span>
-                          <span class="text1">with less</span>
-                          <span class="text2">
-                              More targeted ways to protect crops, with less inputs.
-                          </span>
-                          <span class="text3">
-                              Innovation in the agriculture sector and precision farming will result in the need for fewer inputs. Find out how we are working every day to deliver more targeted ways to protect crops, with less inputs.
-                          </span>
-                          <a class="button" target="_self" href="https://agro.elzian.com/catalog" target="/black">MONITORING SERVICES</a
-                  >
-                </div>
-                
-                </div>
-                <div class="untitled__slide">
-                    <div class="untitled__slideBg"></div>
-                    <div class="img-float-hold"><img src="../Agro/images/home-baner-hand-image.png" alt=""></div>
-                    <div class="img-float-logo"><img src="../Agro/images/logo.png" alt=""></div>
-                    <div class="untitled__slideContent">
-                          <span class="text1">more</span>
-                          <span class="text1">with less</span>
-                          <span class="text2">
-                              More targeted ways to protect crops, with less inputs.
-                          </span>
-                          <span class="text3">
-                              Innovation in the agriculture sector and precision farming will result in the need for fewer inputs. Find out how we are working every day to deliver more targeted ways to protect crops, with less inputs.
-                          </span>
-                          <a class="button" target="_self" href="https://agro.elzian.com/catalog" target="/black">MONITORING SERVICES</a
-                  >
-                </div>
-                
-                </div>
+
             </div>
-          <div class="untitled__shutters"></div>
         </div>
     </div>
+
+
 
     <!-- inquire -->
     <section class="call-to-action-box no-padding">
@@ -412,7 +355,7 @@
                 </div>
 
                 <div class="clearfix text-center col-md-12 col-sm-12">
-                    <h2 class="text-white pt-5">We will help you to <br>Automate your irrigation system.</h2>
+                    <h2 class="text-white pt-5">We will help you to <br>Automate your irrigation system.</h2> 
                     <a href="https://agro.elzian.com/contact" class="btn btn-default smoothScroll">Talk to us</a>
                     </div>
 
@@ -424,7 +367,7 @@
             <section class="feature section pt-0 agro-eye">
                 <div class="container">
                     <div class="section-title">
-                        <h2><u>Our Agro Eye Product</u></h2>
+                        <h2 class="h2text">Our Agro Eye Product</h2>
                     </div>
                     <div class="row justify-content-center align-items-center">
                         <div class="col-lg-4 col-md-4 col-sm-6 ml-auto align-self-center agro-eye-image">
@@ -679,6 +622,51 @@
                     m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p)
                 }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/bb13b86c2bdf71d3ac106940b/303c33500220a3706810bd204.js");
             </script>
+
+
+
+
+
+    <script>
+
+    var slideImg1 = document.getElementById("slideImg1");
+
+    var images = new Array(
+            "images/home-baner-slide1_40.jpg",
+            "images/home-baner-slide2_40.jpg",
+            "images/home-baner-slide3_40.jpg",
+            "images/home-baner-slide4_45.jpg"
+
+    );
+
+    var len = images.length;
+    var i = 0;
+
+    function slider(){
+        if(i > len-1){
+            i = 0;
+        }
+        slideImg1.src = images[i];
+        i++;
+        setTimeout('slider()',3000);
+
+    }
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+    var typed = new Typed(".auto-type",{
+        strings: ["More targeted ways to protect crops, with less inputs"],
+        typeSpeed: 130,
+        backSpeed: 130,
+        loop: true
+
+    })
+    </script>
+
+
 
 </body>
 
