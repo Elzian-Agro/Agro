@@ -2640,7 +2640,7 @@ footer a:hover {
 }
 
 .about_section .box .detail-box {
-  margin-top: 35px;
+  margin-top: 0;
   text-align: center;
 }
 
@@ -2725,6 +2725,17 @@ footer a:hover {
 .traceability-cards {
   padding-top: 10px;
   padding-bottom: 20px;
+}
+
+.traceability-cards .row .choose__item .avtartr{
+  width: 140px;
+  height: 140px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin:  0px auto 50px;
+  position: relative;
+  top: 30px;
+
 }
 
 .traceability-end-note p {
@@ -3041,7 +3052,7 @@ footer a:hover {
   z-index: 1;
   box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
   transform: scale(1.05);
-  background-color:  #99ff99;
+  background-color: #fff;
  
 }
 .about_section .boxcard:active{
@@ -3080,6 +3091,37 @@ footer a:hover {
 
 }
 
+.about_section .box .cards{
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 10px;
+}
+
+.about_section .box .aboutboxtitle{
+  font-size: 30px;
+  font-family: open sans-serif;
+  color: #313435; 
+  padding-top: 10px;
+}
+
+
+.about_section .choose__item .avtar{
+  width: 170px;
+  height: 170px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin:  0px auto 20px;
+  position: relative;
+  top: 30px;
+  margin-bottom: 50px;
+
+}
+
+.about_section .box .choose__item{
+  padding: 0 30px 0;
+
+}
+
 /* career */
 
  .choose__item .avtar{
@@ -3103,3 +3145,4 @@ footer a:hover {
   height: 90px;
   margin:  0px auto 20px;
 }
+
