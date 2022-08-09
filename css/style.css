@@ -242,8 +242,21 @@ strong {
   text-align: center;
   padding: 0 30px 60px;
   margin-bottom: 80px;
-}
+  height: 450px;
 
+  z-index: 0;
+  transition: 0.2s all;
+  position: relative;
+}
+/* //// */
+.choose__item:hover{
+  z-index: 1;
+  box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  background-color: #ffffff;
+ 
+}
+/* //// */
 .section {
   padding-top: 40px;
 }
@@ -590,6 +603,7 @@ strong {
   padding-top: 5%;
   padding-left: 5%;
   padding-right: 5%;
+  text-align: center;
 }
 
 #about2 {
@@ -995,7 +1009,7 @@ canvas {
 
 @media screen and (min-width: 990px) {
   #feature .row {
-    margin-right: -200px;
+    margin-right: 0;
   }
 }
 /* End of feature section */
@@ -1797,6 +1811,7 @@ canvas {
   padding-top: 15px;
   padding-bottom: 15px;
   text-shadow: 2px 3px 2px black;
+
 }
 
 .career-end-note h3 {
@@ -3026,14 +3041,48 @@ footer a:hover {
   z-index: 1;
   box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
   transform: scale(1.05);
-  background-color: #ccffcc;
+  background-color:  #99ff99;
  
 }
 .about_section .boxcard:active{
   color: #fff;
 }
 
-.about_section .boxcard .avtar{
+/* .about_section .boxcard .avtar{
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin:  0px auto 20px;
+  position: relative;
+  top: 30px;
+
+} */
+
+.about_section .boxcard .img-card{
+  width: 190px;
+  height: 190px;
+  align-items: center;
+  position: relative;
+  padding: 30px 30px 20px;
+  border-radius: 100%;
+  
+}
+
+.about_section .boxcard .box_content{
+  margin-top: 50px;
+}
+
+.about_section .boxcard .box_content .boxtitle{
+  font-size: 30px;
+  font-family: sans-serif;
+  color: #313435;
+
+}
+
+/* career */
+
+ .choose__item .avtar{
   width: 150px;
   height: 150px;
   border-radius: 100%;
@@ -3044,13 +3093,13 @@ footer a:hover {
 
 }
 
-.about_section .boxcard .box_content{
-  margin-top: 100px;
+.career-mission .career_title{
+  font-family: open sans-serif;
+  text-align: center;
 }
 
-.about_section .boxcard .box_content .boxtitle{
-  font-size: 30px;
-  font-family: sans-serif;
-  color: #313435;
-
+.iconimg{
+  width: 90px;
+  height: 90px;
+  margin:  0px auto 20px;
 }
