@@ -2738,6 +2738,7 @@ footer a:hover {
 
 }
 
+
 .traceability-end-note p {
   margin-top: 10px;
   text-align: justify;
@@ -3122,6 +3123,16 @@ footer a:hover {
 
 }
 
+
+ #history .container .row .historyimage{
+  width: 800px;
+  height: 200px;
+  display: block;
+  border-radius: 7px;
+  margin: 10px auto 20px auto;
+
+ }
+
 /* career */
 
  .choose__item .avtar{
@@ -3145,4 +3156,9 @@ footer a:hover {
   height: 90px;
   margin:  0px auto 20px;
 }
+ 
+/* catalog */
 
+#choosespad .container .row .choose__item .avtar{
+  border-radius: 20%;
+}
