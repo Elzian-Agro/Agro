@@ -28,10 +28,10 @@
 
 
     <!-- stylesheets css -->
+    <link rel="stylesheet" href="css/home-baner.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/home-baner.css">
-
+   
     <link rel="stylesheet" href="css/et-line-font.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
@@ -58,7 +58,7 @@
     </script>
 </head>
 
-<body>
+<body onload="slider()">
 
     <section class="ftco-section fixed-top">
         <div class="wrap">
@@ -83,7 +83,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
             <div class="container">
                 <a class="navbar-brand" href="index">
-                    <img class="logo" src="./images/logo.png" alt="Logo" />
+                    <img loading="lazy" class="logo" src="./images/logo.webp" alt="Logo" />
                     <div>
                         Elzian
                         <span>Agro</span>
@@ -128,7 +128,7 @@
             <div class="sk-circle4 sk-child"></div>
             <div class="sk-circle5 sk-child"></div>
             <div class="sk-circle6 sk-child"></div>
-            <div class="sk-child preloader-image"><img src="images/logo.png" alt="logo image" class="img-responsive" /> </div>
+            <div class="sk-child preloader-image"><img loading="lazy" src="images/logo.webp" alt="logo image" class="img-responsive" /> </div>
             <div class="sk-circle7 sk-child"></div>
             <div class="sk-circle8 sk-child"></div>
             <div class="sk-circle9 sk-child"></div>
@@ -139,85 +139,27 @@
     </section>
 
     <!-- home section -->
-    <div class="slideholder d-flex">
-        <div class="untitled">
-            <div class="untitled__slides">
-                <div class="untitled__slide">
-                    <div class="untitled__slideBg"></div>
-                    <div class="img-float-hold"><img src="../Agro/images/home-baner-hand-image.png" alt=""></div>
-                    <div class="img-float-logo"><img src="../Agro/images/logo.png" alt=""></div>
-                    <div class="untitled__slideContent">
-                        <span class="text1">more</span>
-                        <span class="text1">with less</span>
-                        <span class="text2">
-                            More targeted ways to protect crops, with less inputs.
-                        </span>
-                        <span class="text3">
-                            Innovation in the agriculture sector and precision farming will result in the need for fewer inputs. Find out how we are working every day to deliver more targeted ways to protect crops, with less inputs.
-                        </span>
-                        <a class="button" target="_self" href="https://agro.elzian.com/catalog" target="/black">MONITORING SERVICES</a
-                  >
+    <div class="banner">
+        <div class="slider">
+            <img loading="lazy" src="images/home-baner-slide1_40.jpg" id="slideImg1">
+
+        </div>
+        <div class="overlay">
+
+            <div class="content">
+                <h1>MORE WITH LESS</h1>
+                <h2><span class="auto-type"></span></h2>
+                <h3>Innovation in the agriculture sector and precision farming will result in the need for fewer inputs. Find out how we are working every day to deliver more targeted ways to protect crops, with less inputs.</h3>
+
+                <div>
+                    <a target="_self" href="https://agro.elzian.com/catalog" target="/black"><button type="button">MONITORING SERVICES</button></a>
                 </div>
-                
-                </div>
-                <div class="untitled__slide">
-                    <div class="untitled__slideBg"></div>
-                    <div class="img-float-hold"><img src="../Agro/images/home-baner-hand-image.png" alt=""></div>
-                    <div class="img-float-logo"><img src="../Agro/images/logo.png" alt=""></div>
-                    <div class="untitled__slideContent">
-                        <span class="text1">more</span>
-                        <span class="text1">with less</span>
-                        <span class="text2">
-                            More targeted ways to protect crops, with less inputs.
-                        </span>
-                        <span class="text3">
-                            Innovation in the agriculture sector and precision farming will result in the need for fewer inputs. Find out how we are working every day to deliver more targeted ways to protect crops, with less inputs.
-                        </span>
-                        <a class="button" target="_self" href="https://agro.elzian.com/catalog" target="/black">MONITORING SERVICES</a
-                  >
-                </div>
-                
-                </div>
-                <div class="untitled__slide">
-                    <div class="untitled__slideBg"></div>
-                    <div class="img-float-hold"><img src="../Agro/images/home-baner-hand-image.png" alt=""></div>
-                    <div class="img-float-logo"><img src="../Agro/images/logo.png" alt=""></div>
-                    <div class="untitled__slideContent">
-                          <span class="text1">more</span>
-                          <span class="text1">with less</span>
-                          <span class="text2">
-                              More targeted ways to protect crops, with less inputs.
-                          </span>
-                          <span class="text3">
-                              Innovation in the agriculture sector and precision farming will result in the need for fewer inputs. Find out how we are working every day to deliver more targeted ways to protect crops, with less inputs.
-                          </span>
-                          <a class="button" target="_self" href="https://agro.elzian.com/catalog" target="/black">MONITORING SERVICES</a
-                  >
-                </div>
-                
-                </div>
-                <div class="untitled__slide">
-                    <div class="untitled__slideBg"></div>
-                    <div class="img-float-hold"><img src="../Agro/images/home-baner-hand-image.png" alt=""></div>
-                    <div class="img-float-logo"><img src="../Agro/images/logo.png" alt=""></div>
-                    <div class="untitled__slideContent">
-                          <span class="text1">more</span>
-                          <span class="text1">with less</span>
-                          <span class="text2">
-                              More targeted ways to protect crops, with less inputs.
-                          </span>
-                          <span class="text3">
-                              Innovation in the agriculture sector and precision farming will result in the need for fewer inputs. Find out how we are working every day to deliver more targeted ways to protect crops, with less inputs.
-                          </span>
-                          <a class="button" target="_self" href="https://agro.elzian.com/catalog" target="/black">MONITORING SERVICES</a
-                  >
-                </div>
-                
-                </div>
+
             </div>
-          <div class="untitled__shutters"></div>
         </div>
     </div>
+
+
 
     <!-- inquire -->
     <section class="call-to-action-box no-padding">
@@ -342,7 +284,7 @@
             <div class="row justify-content-center align-items-center">
 
                 <div class="col-md-6 col-sm-12 youtube-image" id="ytplayer">
-                    <video src="videos/Climate-Smart%20Agriculture.mp4" width="500" height="100%" controls id="ytplayer"></video>
+                    <video loading="lazy" src="videos/Climate-Smart Agriculture reduce.mp4" width="500" height="100%" controls id="ytplayer"></video>
                 </div>
 
                 <div class="col-md-6 col-sm-12">
@@ -375,7 +317,7 @@
                 <div class="col-md-4 col-sm-6 ">
                     <div class="media wow fadeInUp" data-wow-delay="0.4s">
                         <div class="media-object media-left pr-4">
-                            <img src="https://img.icons8.com/ios-glyphs/90/ffffff/rain-sensor.png" alt="image of a rain sensor" />
+                            <img loading="lazy" src="images/rain-sensor.png" alt="image of a rain sensor" />
                             <!--            <i class="icon "></i>-->
                         </div>
                         <div class="media-body">
@@ -388,7 +330,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="media wow fadeInUp" data-wow-delay="0.8s">
                         <div class="media-object media-left">
-                            <img src="https://img.icons8.com/ios-filled/90/ffffff/thermometer-automation.png" alt="image of thermometer automation" />
+                            <img loading="lazy" src="images/thermometer-automation.png" alt="image of thermometer automation" />
                             <!--            <i class="icon icon-refresh"></i>-->
                         </div>
                         <div class="media-body">
@@ -401,7 +343,7 @@
                 <div class="col-md-4 col-sm-8">
                     <div class="media wow fadeInUp" data-wow-delay="1.2s">
                         <div class="media-object media-left">
-                            <img src="https://img.icons8.com/pastel-glyph/90/ffffff/soil.png" alt="image of soil" />
+                            <img loading="lazy" src="images/soil.png" alt="image of soil" />
                             <!--            <i class="icon icon-chat"></i>-->
                         </div>
                         <div class="media-body">
@@ -412,7 +354,7 @@
                 </div>
 
                 <div class="clearfix text-center col-md-12 col-sm-12">
-                    <h2 class="text-white pt-5">We will help you to <br>Automate your irrigation system.</h2>
+                    <h2 class="text-white pt-5">We will help you to <br>Automate your irrigation system.</h2> 
                     <a href="https://agro.elzian.com/contact" class="btn btn-default smoothScroll">Talk to us</a>
                     </div>
 
@@ -424,24 +366,24 @@
             <section class="feature section pt-0 agro-eye">
                 <div class="container">
                     <div class="section-title">
-                        <h2><u>Our Agro Eye Product</u></h2>
+                        <h2>Our Agro Eye Product</h2>
                     </div>
                     <div class="row justify-content-center align-items-center">
                         <div class="col-lg-4 col-md-4 col-sm-6 ml-auto align-self-center agro-eye-image">
-                            <img src="./images/ag-eye-1-test.png" alt="Image 1 of agro eye product" class="img-responsive-Product">
+                            <img loading="lazy" src="./images/ag-eye-1-test_reduce.webp" alt="Image 1 of agro eye product" class="img-responsive-Product">
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 ml-auto align-self-center agro-eye-image">
-                            <img src="./images/ag-eye-2.png" alt="Image 2 of agro eye product" class="img-responsive-Product">
+                            <img loading="lazy" src="./images/ag-eye-2reduce.webp" alt="Image 2 of agro eye product" class="img-responsive-Product">
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 ml-auto align-self-center agro-eye-image">
-                            <img src="./images/ag-eye-3.png" alt="Image 3 of agro eye product" class="img-responsive-Product">
+                            <img loading="lazy" src="./images/ag-eye-3reduce.webp" alt="Image 3 of agro eye product" class="img-responsive-Product">
                         </div>
                         <div class="row justify-content-center align-items-center">
                             <div class="col-lg-6 col-md-4 col-sm-6 ml-auto align-self-center agro-eye-image">
-                                <img src="./images/ag-detector-2.jpg" alt="Image 3 of agro eye product" class="img-responsive-Product">
+                                <img loading="lazy" src="./images/ag-detector-2reduce.webp" alt="Image 3 of agro eye product" class="img-responsive-Product">
                             </div>
                             <div class="col-lg-6 col-md-4 col-sm-6 ml-auto align-self-center agro-eye-image">
-                                <img src="./images/ag-detector-1.jpg" alt="Image 3 of agro eye product" class="img-responsive-Product">
+                                <img loading="lazy" src="./images/ag-detector-1reduce.webp" alt="Image 3 of agro eye product" class="img-responsive-Product">
                             </div>
                         </div>
                     </div>
@@ -454,7 +396,7 @@
                         <div class="col-lg-6 col-md-6 ml-auto justify-content-center">
                             <!-- Feature Mockup -->
                             <div class="image-content aos-init aos-animate text-center" data-aos="fade-right">
-                                <img class="img-responsive" src="images/feature/leaf.gif" alt="efficient">
+                                <img loading="lazy" class="img-responsive" src="images/feature/leaf_redu.gif" alt="efficient">
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 mr-auto align-self-center">
@@ -473,7 +415,7 @@
                                 </p>
                                 <ul class="list-inline meta">
                                     <li class="list-inline-item">
-                                        <img src="images/testimonial/images.jpg" alt="image of Peter F.Drucker">
+                                        <img loading="lazy" src="images/testimonial/images.jpg" alt="image of Peter F.Drucker">
                                     </li>
                                     <li class="list-inline-item">peter f. drucker</li>
                                 </ul>
@@ -501,7 +443,7 @@
                                 </p>
                                 <ul class="list-inline meta">
                                     <li class="list-inline-item">
-                                        <img src="images/testimonial/genichi_taguchi_.jpg" alt="image of Genichi Taguchi">
+                                        <img loading="lazy" src="images/testimonial/genichi_taguchi_.jpg" alt="image of Genichi Taguchi">
                                     </li>
                                     <li class="list-inline-item">Genichi taguchi</li>
                                 </ul>
@@ -510,7 +452,7 @@
                         <div class="col-lg-6 col-md-6 mr-auto justify-content-center">
                             <!-- Feature mockup -->
                             <div class="image-content aos-init aos-animate" data-aos="fade-left">
-                                <img class="img-responsive home-page-animation" src="images/feature/growing-tree-svg-animation-recut.gif" alt="quality">
+                                <img loading="lazy" class="img-responsive home-page-animation" src="images/feature/growing_tree_redu.gif" alt="quality">
                             </div>
                         </div>
                     </div>
@@ -524,7 +466,7 @@
                         <div class="col-lg-6 col-md-6 ml-auto justify-content-center">
                             <!-- Feature Mockup -->
                             <div class="image-content aos-init aos-animate" data-aos="fade-right">
-                                <img class="img-responsive home-page-animation" src="images/feature/efficient.gif" alt="iphone">
+                                <img loading="lazy" class="img-responsive home-page-animation" src="images/feature/efficient_redu.gif" alt="iphone">
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 mr-auto align-self-center">
@@ -544,7 +486,7 @@
                                 </p>
                                 <ul class="list-inline meta">
                                     <li class="list-inline-item">
-                                        <img src="images/testimonial/roosevelt.jpg" alt="image of Theodore Roosevelt">
+                                        <img loading="lazy" src="images/testimonial/roosevelt.jpg" alt="image of Theodore Roosevelt">
                                     </li>
                                     <li class="list-inline-item">Theodore Roosevelt</li>
                                 </ul>
@@ -641,7 +583,7 @@
                         </div>
 
                         <div class="col-md-4 col-sm-6">
-                            <img src="images/full_logo1.png" class="wow fadeInUp footer-logo" alt="logo">
+                            <img loading="lazy" src="images/full_logo1.png" class="wow fadeInUp footer-logo" alt="logo">
                         </div>
 
                     </div>
@@ -679,6 +621,51 @@
                     m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p)
                 }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/bb13b86c2bdf71d3ac106940b/303c33500220a3706810bd204.js");
             </script>
+
+
+
+
+
+    <script>
+
+    var slideImg1 = document.getElementById("slideImg1");
+
+    var images = new Array(
+            "images/home-baner-slide1_40.jpg",
+            "images/home-baner-slide2_40.jpg",
+            "images/home-baner-slide3_40.jpg",
+            "images/home-baner-slide4n.jpg"
+
+    );
+
+    var len = images.length;
+    var i = 0;
+
+    function slider(){
+        if(i > len-1){
+            i = 0;
+        }
+        slideImg1.src = images[i];
+        i++;
+        setTimeout('slider()',3000);
+
+    }
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+    var typed = new Typed(".auto-type",{
+        strings: ["More targeted ways to protect crops, with less inputs"],
+        typeSpeed: 130,
+        backSpeed: 130,
+        loop: true
+
+    })
+    </script>
+
+
 
 </body>
 
