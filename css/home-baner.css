@@ -510,21 +510,16 @@ a:visited {
   font-family: "Source Code Pro", monospace;
   font-size: 25px;
 }
-.content h3 {
-  width: 85%;
-  margin: 20px auto 40px;
-  font-weight: 100;
-  line-height: 25px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 15px;
+.content p {
+
   color: #fff;
 }
 
 .overlay .content button{
   width: max-content;
-  padding: 15px ;
+  padding:  10px 30px;
   text-align: center;
-  margin: 0 10px;
+  margin: 40px 10px;
   border-radius: 5px;
   font-weight: bold;
   border: 2px solid  #fff ;
