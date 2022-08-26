@@ -3162,3 +3162,9 @@ footer a:hover {
 #choosespad .container .row .choose__item .avtar{
   border-radius: 20%;
 }
+
+.feature .container .catalog-image{
+  height: 350px; 
+  width: 350px; 
+  object-fit: cover
+}
