@@ -1738,6 +1738,7 @@ canvas {
 
 .col-md-4.col-sm-6.col-xs-12.job-lising-card {
   padding-top: 30px;
+  width: 100%;
 }
 
 .career-job-listings .section-title h2 {
