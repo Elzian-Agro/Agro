@@ -1732,12 +1732,19 @@ canvas {
   text-align: justify;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  height: 152px;
+}
+
+.career-job-listings .career-posts{
+  width: 1200px;
 }
 
 .col-md-4.col-sm-6.col-xs-12.job-lising-card {
   padding-top: 30px;
+  width: 300px;
+  height: 423px;
 }
 
 .career-job-listings .section-title h2 {
@@ -1746,20 +1753,27 @@ canvas {
 
 .career-job-listings .job-content {
   box-shadow: 4px 3px 2px 2px #dcdcdc;
-  border-radius: 15px;
+  border-radius: 7px;
   overflow: hidden;
   cursor: pointer;
   border: 0.5px solid #d1d1d1;
   transition: 0.4s ease-in;
   transition: 1s ease-out;
+  height: 375px;
+ 
 }
 
 .career-job-listings .job-heading {
-  padding-top: 20px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-shadow: 1px 2px 2px #18d26e;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-shadow: 1px 1px 1px #18d26e;
+  height: 140px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 269px;
 }
 
 .career-job-listings .career-cv {
@@ -1769,16 +1783,17 @@ canvas {
   padding-bottom: 0;
 }
 
-.job-listing-button {
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
+/* .job-listing-button {
+  padding-top: 5px;
+  padding-bottom: 10px;
+} */
 
 .card-top-design {
   width: 100%;
   height: 100%;
   background-color: #000;
   color: #fff;
+  font-size: 16px;
 }
 
 .job-listing-button a {
@@ -1870,10 +1885,6 @@ canvas {
 
   #career .career-banner-heading span {
     font-size: 34px;
-  }
-
-  .career-job-listings .job-heading {
-    font-size: 18px;
   }
 
   .career-end-note h3 {
@@ -3161,4 +3172,10 @@ footer a:hover {
 
 #choosespad .container .row .choose__item .avtar{
   border-radius: 20%;
+}
+
+.feature .container .catalog-image{
+  height: 350px; 
+  width: 350px; 
+  object-fit: cover
 }

@@ -536,10 +536,14 @@ a:visited {
   box-shadow: 0 12px 16px 0 rgba(8, 2, 2, 0.24), 0 17px 50px 0 rgba(38, 37, 37, 0.19);
 }
 
-.content h3{
+:root{
+  --typewriterSpeed: 6s;
+}
+
+.content .bannerp{
   opacity: 0;
   transform: translateY(3rem);
-  animation: fadeInUp 3s ease forwards;
+  animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
 }
 
 @keyframes fadeInUp{
