@@ -3179,3 +3179,153 @@ footer a:hover {
   width: 350px; 
   object-fit: cover
 }
+
+/* career recommendations */
+
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+.career-job{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.career-job .slide-container{
+  max-width: 1140px;
+  width: 100%;
+  padding: 40px 0;
+  /* padding-right: 80px; */ 
+}
+.career-job .slide-content{
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.career-job .card{
+  border-radius: 25px;
+  background-color: #FFF;
+}
+.career-job .image-content,
+.career-job .card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+.career-job .image-content{
+  position: relative;
+  row-gap: 5px;
+  padding:  0;
+}
+.career-job .image-content .overlay{
+  position: absolute;
+  left: 0;
+  top: auto;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(25, 76, 35);
+  border-radius: 25px 25px 0 25px;
+}
+.career-job .image-content .overlay::before,
+.career-job .image-content .overlay::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(25, 76, 35);
+}
+.career-job .image-content .overlay::after{
+  border-radius: 0 25px 0 0;
+  background-color: #FFF;
+}
+.career-job .card-image{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+  margin: 15px 6px;
+}
+.career-job .card-image .card-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid rgb(11, 128, 33);;
+}
+.career-job .name{
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.career-job .names{
+  font-size: 18px;
+  font-weight: 800;
+  color: #333;
+}
+.career-job .description{
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+.career-job .card-content .button{
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 8px 16px;
+  background-color: #194c23;
+  font-family: Rajdhani, sans-serif;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.career-job .button:hover{
+  background: #FFF;
+  color: #194c23;
+  border: 1.5px solid rgb(25, 76, 35);
+}
+
+.career-job .swiper-navBtn{
+  color: rgb(11, 128, 33);
+  transition: color 0.3s ease;
+}
+.career-job .swiper-navBtn:hover{
+  color: rgb(25, 76, 35);
+}
+.career-job .swiper-navBtn::before,
+.career-job .swiper-navBtn::after{
+  font-size: 35px;
+}
+.career-job .swiper-button-next{
+  right: 0;
+}
+.career-job .swiper-button-prev{
+  left: 0;
+}
+.career-job .swiper-pagination-bullet{
+  background-color: rgb(11, 128, 33);
+  opacity: 1;
+}
+.career-job .swiper-pagination-bullet-active{
+  background-color: rgb(25, 76, 35);
+}
+
+@media screen and (max-width: 768px) {
+  .career-job .slide-content{
+    margin: 0 10px;
+  }
+  .career-job .swiper-navBtn{
+    display: none;
+  }
+}
+
+.career-job h1{
+  align-items: center;
+  
+}
