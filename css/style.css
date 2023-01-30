@@ -3206,6 +3206,7 @@ footer a:hover {
 .career-job .card{
   border-radius: 25px;
   background-color: #FFF;
+  width: 500px;
 }
 .career-job .image-content,
 .career-job .card-content{
@@ -3264,7 +3265,7 @@ footer a:hover {
   color: #333;
 }
 .career-job .names{
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 800;
   color: #333;
 }
@@ -3282,6 +3283,7 @@ footer a:hover {
   font-family: Rajdhani, sans-serif;
   border-radius: 6px;
   margin: 14px;
+  margin-bottom: 5px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
