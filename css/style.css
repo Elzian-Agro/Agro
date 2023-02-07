@@ -3326,11 +3326,6 @@ footer a:hover {
   }
 }
 
-.career-job h1{
-  align-items: center;
-  
-}
-
 @media screen and (max-width: 1140px) {
   .career-job .slide-container{
     width: 800px;
