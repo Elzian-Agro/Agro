@@ -12,7 +12,7 @@ http://www.templatemo.com/tm-490-comila
 
 body {
   background: #ffffff;
-  font-family: "Rajdhani", sans-serif;
+  font-family: "LEXEND", sans-serif;
   font-weight: 400;
 }
 
@@ -1453,7 +1453,7 @@ canvas {
   transition: all 0.3s;
   padding: 8px 20px;
   border-radius: 50px;
-  font-family: "Poppins", sans-serif;
+  font-family: "LEXEND", sans-serif;
 }
 .blog-tag-identify #blog-flters li:hover,
 .blog-tag-identify #blog-flters li.filter-active {
@@ -2419,7 +2419,7 @@ footer a:hover {
 }
 
 .feature .testimonial p {
-  font-family: "Lora", serif;
+  font-family: "LEXEND", sans-serif;
   margin-bottom: 10px;
   font-style: italic;
   color: #242424;
@@ -3097,7 +3097,7 @@ footer a:hover {
 
 .about_section .boxcard .box_content .boxtitle{
   font-size: 30px;
-  font-family: sans-serif;
+  font-family: "LEXEND", sans-serif;
   color: #313435;
 
 }
@@ -3110,7 +3110,7 @@ footer a:hover {
 
 .about_section .box .aboutboxtitle{
   font-size: 30px;
-  font-family: open sans-serif;
+  font-family: "LEXEND", sans-serif;
   color: #313435; 
   padding-top: 10px;
 }
@@ -3157,7 +3157,7 @@ footer a:hover {
 }
 
 .career-mission .career_title{
-  font-family: open sans-serif;
+  font-family: "LEXEND", sans-serif;
   text-align: center;
 }
 
@@ -3279,7 +3279,7 @@ footer a:hover {
   color: #FFF;
   padding: 8px 16px;
   background-color: #194c23;
-  font-family: Rajdhani, sans-serif;
+  font-family: "LEXEND", sans-serif;
   border-radius: 6px;
   margin: 14px;
   margin-bottom: 5px;
