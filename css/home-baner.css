@@ -216,7 +216,7 @@
   left: 55%;
   transform: translate3d(-50%, -50%, 0);
   color: white;
-  font-family: "Abril Fatface", sans-serif;
+  font-family: "LEXEND", sans-serif;
   line-height: 0.8;
   letter-spacing: -0.025em;
   z-index: 2;
@@ -257,7 +257,7 @@
 }
 
 .button {
-  font-family: "Roboto Mono", sans-serif;
+  font-family: "LEXEND", sans-serif;
   text-decoration: none;
   font-weight: 800;
   text-transform: uppercase;
@@ -394,7 +394,7 @@ h5,
 h6 {
   color: #212121;
   font-weight: 700;
-  font-family: open sans-serif, Arial, Helvetica, sans-serif;
+  font-family: "LEXEND", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased !important;
 }
@@ -498,7 +498,7 @@ a:visited {
 
 .content h1{
   font-size: 60px;
-  font-family: open sans-serif;
+  font-family: "LEXEND", sans-serif;
   color: #fff;
 }
 .content h2{
@@ -507,7 +507,7 @@ a:visited {
   font-weight: 100;
   line-height: 25px;
   position: relative;
-  font-family: "Source Code Pro", monospace;
+  font-family: "LEXEND", sans-serif;
   font-size: 25px;
 }
 .content p {
