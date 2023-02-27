@@ -62,7 +62,7 @@
 
 .base-media-container .media {
     width: 100%;
-    height: auto;
+    height:300px;
     -o-object-fit: cover;
     object-fit: cover;
     display: block;
@@ -75,7 +75,7 @@
 .base-media-container {
     max-width: 100%;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 30px;
     overflow: hidden;
 }
 
