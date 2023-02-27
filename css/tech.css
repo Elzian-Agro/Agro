@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-.container h2 {
+.container1 h2 {
     text-align: center;
-    text-align: center;
-    padding: 3rem;
-    font-size: 2rem;
+    /* padding: 3rem;
+    font-size: 2rem; */
     color: #194c23;
-    font-weight: 600;
+    font-weight: 600; 
 }
 
 /* Slider */
@@ -15,6 +14,15 @@
 }
 
 .slick-slide img {
-    width: 100%;
+    width: 100px;
     height: 100px;
+    
+}
+
+.techno {
+    padding-bottom: 40px;
+}
+
+.container1 {
+    padding-bottom: 35px;
 }
