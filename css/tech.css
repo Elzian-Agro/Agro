@@ -45,7 +45,7 @@
 }
 
 .Homeoffice{
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     padding-top: 60px;
 }
 
@@ -58,4 +58,16 @@
     color: #194c23;
     font-weight: 700;
     line-height: 1.3;
+}
+
+@media screen and (max-width: 768px) {
+    .Homeoffice_image {
+        padding-top: 40px;
+    }
+    .development_image{
+        padding-bottom: 40px;
+    }
+    .Interview_image{
+        padding-top: 10px;
+    }
 }
