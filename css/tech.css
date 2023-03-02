@@ -26,3 +26,15 @@
 .container1 {
     padding-bottom: 35px;
 }
+
+.EA_InterviewText{
+    /* text-align: center;   */
+    color: #194c23;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.EA_Interview{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
