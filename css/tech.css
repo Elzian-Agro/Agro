@@ -39,6 +39,10 @@
     padding-top: 40px;
 }
 
+.EA_InterviewText {
+    padding-bottom: 30px;
+}
+
 .learnAndDev {
     
     padding-top: 60px;
@@ -54,10 +58,10 @@
 }
 
 .learnAndDev_Text {
-
     color: #194c23;
     font-weight: 700;
     line-height: 1.3;
+    padding-bottom: 30px;
 }
 
 @media screen and (max-width: 768px) {
