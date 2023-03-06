@@ -3343,7 +3343,7 @@ footer a:hover {
   border-bottom: 2px solid var(--primary);
 }
 
-.job-item {
+/* .job-item {
   border: 1px solid transparent;
   border-radius: 2px;
   box-shadow: 0 0 45px rgba(0, 0, 0, .08);
@@ -3353,4 +3353,96 @@ footer a:hover {
 .job-item:hover {
   border-color: rgba(0, 0, 0, .08);
   box-shadow: none;
+} */
+
+/* Job Vacancy Section */
+.job-section{
+  padding-top: 50px;
+}
+.job-section .container .Job-heading{
+  color: #323232;
+  font-size: 12px;
+  font-weight: 700;
+}
+.job-section .container .Job-subHeading{
+  color: #194c23;
+  font-size: 26px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+.job-list{
+  margin: 5%;
+  padding: 1rem;
+}
+.job-card{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  min-height: 100px;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: rgba(0,0,0,0.16) 0px 1px 4px;
+  cursor: pointer;
+}
+.job-card:hover{
+  box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+}
+.job-name{
+  display: flex;
+}
+.job-profile{
+  width: 60px;
+  height: 60px;
+  margin: 0;
+}
+.job-detail{
+  padding: 0 10px;
+}
+.job-detail h5{
+  color: #323232;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 10px 0 0 10px;
+}
+.job-detail .job-icon{
+  padding: 0 5px 0 10px;
+}
+.job-label{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 350px;
+}
+.job-label .job-btn{
+  font-size: 16px;
+  border: 1.5px solid #194c23;
+  color: #fff;
+  padding: 5px 30px;
+  background: #194c23;
+  transition: 0.4s ease-in-out;
+  font-weight: bold;
+  margin: 10px 0 20px 0;
+  text-align: center;
+}
+.job-label .job-btn:hover{
+  color: #194c23;
+  background: #fff;
+}
+.job-moreBtn{
+  font-size: 16px;
+  border: 1.5px solid #194c23;
+  color: #194c23;
+  padding: 5px 30px;
+  background: #fff;
+  transition: 0.4s ease-in-out;
+  font-weight: bold;
+  margin: 10px 0 20px 0;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px; 
+}
+ .job-moreBtn:hover{
+  color: #fff;
+  background: #194c23;
 }
