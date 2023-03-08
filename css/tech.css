@@ -29,39 +29,49 @@
 
 .EA_InterviewText h2 {
     /* text-align: center;   */
-    color: #194c23;
+    color: #3c3c3c;
     font-weight: 700;
-    line-height: 1.3;
+    font-size: 26px;
+}
+
+.EA_InterviewText p{
+    padding-bottom: 10px;
 }
 
 .EA_Interview {
-
-    padding-top: 40px;
+    padding-top: 25px;
 }
 
 .EA_InterviewText {
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 }
 
 .learnAndDev {
-
     padding-top: 60px;
 }
 
 .Homeoffice {
     padding-bottom: 60px;
     padding-top: 60px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.Homeoffice img{
+    border-radius: 5%;
 }
 
 .learnAndDev_Col p {
     text-align: justify;
+    padding-bottom: 10px;
 }
 
-.learnAndDev_Text {
-    color: #194c23;
+.learnAndDev_Text h3{
+    color: #3c3c3c;
     font-weight: 700;
     line-height: 1.3;
     padding-bottom: 30px;
+    font-size: 26px;
 }
 
 @media screen and (max-width: 768px) {

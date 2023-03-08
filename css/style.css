@@ -1691,11 +1691,13 @@ canvas {
 
 .career-cards .section-title h2 {
   margin-bottom: 10px;
-  color: #194c23;
+  color: #005a0b;
 }
 .career-cards .section-title p {
   margin-bottom: 0;
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #8c8c8c;
 }
 
 .career-cards .section-title {
@@ -1877,7 +1879,7 @@ canvas {
 
 .career-mission h2 {
   text-align: center;
-  color: #194c23;
+  color: #005a0b;
 }
 
 @media screen and (max-width: 767px) {
@@ -3374,7 +3376,7 @@ footer a:hover {
   font-weight: 700;
 }
 .job-section .container .Job-subHeading{
-  color: #194c23;
+  color: #005a0b;
   font-size: 26px;
   font-weight: 700;
   padding-bottom: 30px;
