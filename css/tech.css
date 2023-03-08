@@ -35,7 +35,7 @@
 }
 
 .EA_Interview {
-    
+
     padding-top: 40px;
 }
 
@@ -44,11 +44,11 @@
 }
 
 .learnAndDev {
-    
+
     padding-top: 60px;
 }
 
-.Homeoffice{
+.Homeoffice {
     padding-bottom: 60px;
     padding-top: 60px;
 }
@@ -68,10 +68,106 @@
     .Homeoffice_image {
         padding-top: 40px;
     }
-    .development_image{
+
+    .development_image {
         padding-bottom: 40px;
     }
-    .Interview_image{
+
+    .Interview_image {
         padding-top: 10px;
     }
+}
+
+.Value_section{
+    background-color: #e9e9ec;
+}
+
+.Our_value {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transform-style: preserve-3d;
+    width: 100%;
+}
+
+.Our_value .card1 {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    transform-style: preserve-3d;
+    /* perspective: 1000px; */
+}
+
+.Our_value .card1 .box1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    transform-style: preserve-3d;
+    transition: 1s ease;
+}
+
+.Our_value .card1:hover .box1{
+    transform: rotateY(180deg);
+}
+
+.Our_value .card1 .box1 .imgBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.Our_value .card1 .box1 .contentbx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+}
+
+.Our_value .card1 .box1 .contentbx div{
+    transform-style: preserve-3d;
+    padding: 20px;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    /* transform: translateZ(100px); */
+}
+
+.Our_value .card1 .box1 .contentbx div h2{
+    color: #194c23;
+    font-size: 15PX;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ContentPara p {
+    color: black;
+    padding-bottom: 15px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.Our_valueHead{
+    color:#194c23;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 15px;
 }
