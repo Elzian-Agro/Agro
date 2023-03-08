@@ -1819,20 +1819,26 @@ canvas {
   padding-bottom: 50px;
 }
 
-.career-end-note h2 {
-  background: #194c23;
-  color: #fff;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  text-shadow: 2px 3px 2px black;
+.career-end-note .note-section {
+  background-color: rgba(0, 90, 11, 0.9);
+  height: 250px;
+  margin-top: 20px;
+}
 
+.career-end-note h2 {
+  /* background: #194c23; */
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .career-end-note h3 {
-  padding-top: 20px;
-  color: #194c23;
-  font-weight: 900;
-  font-size: 26px;
+  padding: 5px 0 10px 0;
+  color: #fff;
+  font-weight: 400;
+  font-size: 22px;
 }
 
 @media screen and (max-width: 991px) {
