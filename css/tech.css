@@ -90,9 +90,10 @@
 
 .Our_value {
     margin: 0;
-    padding: 0;
+    padding-bottom: 50px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+
 }
 
 .wrapper h1 {
@@ -237,7 +238,7 @@
 .inner p {
     color: #ffff;
     text-align: center;
-    font-size: 13px;
+    font-size: 22px;
     line-height: 35px;
 }
 
@@ -270,9 +271,9 @@
 }
 
 .front .inner p {
-    font-size: 2rem;
     margin-bottom: 2rem;
     position: relative;
+    text-transform: uppercase;
 }
 
 .front .inner p:after {
