@@ -3599,13 +3599,13 @@ grid-row: span 2;
 
 .Beheviour-container .box:nth-child(2)
 {
-grid-column: span 2;
+grid-column: span 3;
 
 }
 
 .Beheviour-container .box:nth-child(3)
 {
-grid-row: span 3;
+grid-row: span 1.75;
 
 }
 
@@ -3617,7 +3617,7 @@ grid-column: span 2;
 
 .Beheviour-container .box:nth-child(5)
 {
-  grid-column: span 3;
+  grid-column: span 4;
 
 }
 @media (max-width: 991px){
