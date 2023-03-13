@@ -74,6 +74,51 @@
     font-size: 26px;
 }
 
+.our_commit_img{
+    align-items: center;
+    padding-top: 110px;
+    padding-bottom: 50px;
+    border-radius: 50px;
+}
+
+.ourcommit{
+    color: #000;
+}
+
+.our_commitment {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.our_commitment_Col p {
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+/* .our_commitment_Text h2 {
+    color: #000;
+    font-weight: 700;
+    line-height: 1.3;
+    padding-bottom: 30px;
+    font-size: 26px;
+} */
+
+.lota-semibold {
+    font-weight: 600;
+}
+
+.highlighted-span span {
+    color: #194c23;
+}
+
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+
+.ps-0 {
+    padding-left: 0 !important;
+}
+
 @media screen and (max-width: 768px) {
     .Homeoffice_image {
         padding-top: 40px;
