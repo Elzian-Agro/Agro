@@ -3491,17 +3491,17 @@ footer a:hover {
   flex-direction: column;
   justify-content: center;
 }
-.career-banner h2{
+.banner_Head h2{
   font-size: 36px;
   font-weight: 700;
   line-height: 50px;
-  margin: 100px 0 10px 0;
+  margin: 150px 0 10px 0;
   color: #194c23;
 }
-.career-banner h2 span{
+.banner_Head h2 span{
   font-weight: 500;
 }
-.career-banner h4{
+.banner_Head h4{
   font-size: 16px;
   font-weight: 500;
   line-height: 25px;
@@ -3509,11 +3509,11 @@ footer a:hover {
   color: #323232;
   text-align: justify;
 }
-.career-banner .button-wrapper{
+.banner_Head .button-wrapper{
   display: flex;
   align-items: center;
 }
-.career-banner .banner-btn{
+.banner_Head .banner-btn{
   font-size: 16px;
   display: inline-block;
   letter-spacing: 1px;
@@ -3525,7 +3525,7 @@ footer a:hover {
   transition:  0.5s;
   text-decoration: none;
 }
-.career-banner .banner-btn:hover{
+.banner_Head .banner-btn:hover{
   background: #fff;
   border: 1px solid #194c23;
   color: #194c23;
