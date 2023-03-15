@@ -3617,9 +3617,17 @@ grid-column: span 2;
 
 .Beheviour-container .box:nth-child(5)
 {
-  grid-column: span 4;
+  grid-column: span 2;
 
 }
+
+.Beheviour-container .box:nth-child(6)
+{
+  grid-column: span 2;
+
+}
+
+
 @media (max-width: 991px){
    .Beheviour-container{
       
