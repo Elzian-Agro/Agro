@@ -1243,14 +1243,86 @@ canvas {
 
 /* Our Partners section starts */
 #our-partners {
-  padding-top: 20px;
-  padding-bottom: 80px;
+  padding: 20px 0 80px;
 }
 
-#our-partners .partner {
+.partner {
   width: 200px;
   margin-top: 50px;
 }
+
+.img-board {
+  max-width: 160px;
+}
+
+.cards {
+  position: relative;
+}
+
+.card-img-top {
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-details {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #194c23;
+  height: 280px;
+  width: 300px;
+  opacity: 0;
+  border-radius: 20px;
+  transition: opacity 0.2s ease-in-out;
+  padding: 25px;
+}
+
+.cards:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+.cards:hover .card-details {
+  opacity: 1;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fa-linkedin-square{
+  color: white;
+}
+
+.card-title,
+.card-text {
+  color: #fff;
+}
+
+.card-text {
+  font-size: 8px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.card-board {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+
+.card-boards {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 40px 0;
+}
+
 
 /* Our Partners section ends */
 
