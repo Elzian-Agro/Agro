@@ -1225,6 +1225,12 @@ canvas {
   width: 220px;
   margin-top: 50px;
 }
+.dev-goals-card-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
 
 #development-goals .section-title .sdg-subheading {
   color: #66a82b;
