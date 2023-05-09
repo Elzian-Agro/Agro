@@ -1274,7 +1274,7 @@ canvas {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #194c23;
+  background-color: rgba(25, 76, 35,0.9);
   height: 280px;
   width: 300px;
   opacity: 0;
@@ -1304,16 +1304,14 @@ canvas {
   color: #fff;
 }
 
-.card-text {
-  font-size: 8px;
-}
-
 .card-title {
   font-weight: bold;
 }
 
 .card-text {
-  font-size: 12px;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: justify;
   text-decoration: none;
 }
 
