@@ -87,8 +87,8 @@
 }
 
 .our_commitment {
-    padding-top: 20px;
-    padding-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 120px;
 }
 
 .our_commitment_Col p {
@@ -128,7 +128,7 @@
 }
 
 .Our_value {
-    margin: 0;
+    margin: 50px 0 60px 0;
     padding-bottom: 50px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
