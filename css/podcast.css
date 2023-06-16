@@ -1,0 +1,122 @@
+/*Latest Podcast*/
+h1{
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: rgb(88, 88, 88);
+}
+.section-podcast-intro {
+  padding: 20px;
+}
+.section-podcast-intro{
+    height: 80vh;
+    padding-top: 25vh;
+}
+
+.latest-podcast-background{
+    background-color: #f8f8f8;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.col-sm-6{
+    padding: 30px;
+}
+.section-podcast-intro h1 {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+#latestPodcastContainer {
+  margin-top: 20px;
+}
+
+#latestPodcastContainer .blog-card {
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .section-podcast-intro h1 {
+    text-align: left;
+  }
+}
+/*Latest Podcast End*/
+
+
+/*Podcast List*/
+.section-podcast{
+    background-color: white; 
+    height: 100vh;
+}
+
+.blog-card {
+    width: calc(33.33% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+  }
+
+  .blog-card {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .blog-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  
+  .blog-card .card-body {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .blog-card:hover .card-body {
+    transform: scale(1.02);
+  }
+  
+  .blog-card .btn {
+    transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+  
+  .blog-card .btn:hover {
+    opacity: 20;
+    background-color: #194c23;
+    color: white;
+  }
+  
+  #tagContainer .btn {
+    background-color: rgb(243, 243, 243);
+    color: black;
+  }
+  
+  #tagContainer .btn.active,
+  #tagContainer .btn:focus {
+    background-color: #333333;
+    color: white;
+  }
+  
+  .pod-title {
+
+    white-space: normal;
+  }
+  
+  .author-date {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .author, .date {
+    font-size: 12px;
+  }
+  
+  @media (max-width: 768px) {
+    .blog-card {
+      width: 100%; 
+    }
+  }
+
+/*Podcast List End*/

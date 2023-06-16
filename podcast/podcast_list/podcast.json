@@ -1,0 +1,51 @@
+[
+    {
+      "title": "Podcast Title 1",
+      "content": "This is the content of Podcast 1.",
+      "tags": ["activism", "learning"],
+      "author": "John Doe",
+      "date": "2023-06-01",
+      "buttonUrl": "https://example.com/podcast1"
+    },
+    {
+      "title": "Podcast Title 2",
+      "content": "This is the content of Podcast 2.",
+      "tags": ["investments", "work"],
+      "author": "Jane Smith",
+      "date": "2023-06-05",
+      "buttonUrl": "https://example.com/podcast2"
+    },
+    {
+      "title": "Podcast Title 3",
+      "content": "This is the content of Podcast 3.",
+      "tags": ["learning", "lifestyle"],
+      "author": "James Johnson",
+      "date": "2023-06-10",
+      "buttonUrl": "https://example.com/podcast3"
+    },
+    {
+      "title": "Podcast Title 4",
+      "content": "This is the content of Podcast 4.",
+      "tags": ["lifestyle"],
+      "author": "Emily Davis",
+      "date": "2023-06-15",
+      "buttonUrl": "https://example.com/podcast4"
+    },
+    {
+      "title": "Podcast Title 5",
+      "content": "This is the content of Podcast 5.",
+      "tags": ["work"],
+      "author": "Michael Wilson",
+      "date": "2023-06-20",
+      "buttonUrl": "https://example.com/podcast5"
+    },
+    {
+      "title": "Podcast Title 6",
+      "content": "This is the content of Podcast 6.",
+      "tags": ["activism", "investments"],
+      "author": "Sophia Brown",
+      "date": "2023-06-25",
+      "buttonUrl": "https://example.com/podcast6"
+    }
+  ]
+  
