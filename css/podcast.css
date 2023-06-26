@@ -112,10 +112,50 @@ h1{
   .author, .date {
     font-size: 12px;
   }
+
+  @media screen and (max-width: 900px) {
+    .tag-Container {
+      width: 130%;
+    }
+
+    .pdcst-list-title{
+      text-align: center;
+      
+    }
+  }
   
-  @media (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .blog-card {
       width: 100%; 
+    }
+    .blog-card {
+      position: relative;
+      margin-top: 300px;
+    }
+
+    #tagContainer p{
+      text-align: center;
+    }
+
+    .podcast-header h1{
+      text-align: center;
+    }
+
+    .section-podcast{
+      align-items: center;
+      
+    }
+    .section-podcast h1{
+      text-align: center;
+    }
+    
+    
+    .pdcst-list-title{
+      text-align: center;
+      
+    }
+    .tag-Container {
+      width: 100%;
     }
   }
 
