@@ -1637,6 +1637,11 @@ canvas {
     margin-top: 10px;
     border: 1px solid #005a0b;
 }
+#blog-share-2 .link-container input{
+    width:90%;
+    border: none;
+    outline: none;
+}
 
 #blog-share-2 .link{
     width: 100%;
@@ -1758,22 +1763,22 @@ canvas {
   background-color: #000;
 }
 
-.facebook {
+.facebook-1 {
   background: #5672ad;
   color: white;
 }
 
-.twitter {
+.twitter-1 {
   background: #55acee;
   color: white;
 }
 
-.whatsapp {
+.whatsapp-1 {
   background: #4fce5d;
   color: white;
 }
 
-.linkedin {
+.linkedin-1 {
   background: #007bb5;
   color: white;
 }
