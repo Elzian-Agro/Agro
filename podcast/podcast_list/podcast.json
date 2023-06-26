@@ -4,7 +4,7 @@
       "audioTitle":"Innovation to restore our oceans with Sustainable Ocean Alliance & Ocean Uprise, Ep #53",
       
 
-      "content": "This is the content of Podcast 1.",
+      "content": "This is the content of Podcast 1.This is the.",
       "brief": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae exercitationem dolorem maxime dolorum accusamus aliquam cumque? Commodi, voluptate aspernatur atque delectus pariatur praesentium assumenda nobis possimus aut necessitatibus consectetur aliquam.",
       "about":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae exercitationem dolorem maxime dolorum accusamus aliquam cumque? Commodi, voluptate aspernatur atque delectus pariatur praesentium assumenda nobis possimus aut necessitatibus consectetur aliquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae exercitationem dolorem maxime dolorum accusamus aliquam cumque? Commodi, voluptate aspernatur atque delectus pariatur praesentium assumenda nobis possimus aut necessitatibus consectetur aliquam.",
       "audioTimeline":["[3:37] Brandon’s personal story & role at SOA","[8:46] Bodhi’s personal story & role at Ocean Uprise","[15:10] The state of ocean health & how it’s linked to climate change","[20:28] The state of ocean investment & SOA’s diversified strategy","[24:30] The role of young people & the importance of youth leadership in creating sustainable oceans","[30:44] Insights on SOA’s Ocean Solutions Accelerator","[34:44] Current initiatives that Bodhi is excited about"],
@@ -13,8 +13,8 @@
       "author": "John Doe",
       "date": "2023-06-01",
       "buttonUrl": "https://example.com/podcast1",
-      "audio":"http://127.0.0.1:5501/podcast/audio/sample.mp3",
-      "tumbnail":"http://127.0.0.1:5501/images/W_A-vIYhEa9BmensypVRFDOL.jpg",
+      "audio":"http://127.0.0.1:5500/podcast/audio/sample.mp3",
+      "thumbnail":"http://127.0.0.1:5500/images/W_A-vIYhEa9BmensypVRFDOL.jpg",
       "tags": ["activism", "learning","agriculture"],
       "authorContact":"www.linkedin.com"
     }
