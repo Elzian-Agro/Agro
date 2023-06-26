@@ -47,14 +47,15 @@ h1{
 }
 
 .blog-card {
-    width: calc(33.33% - 20px);
+    width: calc(38.33% - 30px);
     border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: 30px;
+    padding: 30px;
     margin: 10px;
     display: inline-block;
     vertical-align: top;
     box-sizing: border-box;
+    background-color: #f7f5f5;
   }
 
   .blog-card {
@@ -99,11 +100,12 @@ h1{
   }
   
   .pod-title {
-
+    /* color: #004d00; */
     white-space: normal;
   }
   
   .author-date {
+    color: #004d00;
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
@@ -160,3 +162,84 @@ h1{
   }
 
 /*Podcast List End*/
+
+
+/*Podcast List End*/
+/*Podcast Subscription*/
+.podcast-subscription{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45vh;
+  padding-bottom: 100px;
+  margin: 0;
+}
+.subscription-title{
+  text-align: center;
+}
+#mc_embed_signup {
+  background: #004d00;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+  width: 50%;
+  padding: 30px;
+  border-radius: 20px;
+}
+.input-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 10px; */
+  padding-top: 10px;
+}
+.input-field input[type="email"] {
+  flex: 1;
+  min-width: 0;
+  height: 45px;
+  padding: 10px;
+  border: none;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.sub-response{
+  color: #ff0000;
+  text-align: center;
+}
+/* Button CSS */
+.button-28 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  min-height: 40px;
+  min-width: 0;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  flex-shrink: 0;
+  width: 100%;
+}
+.button-28:disabled {
+  pointer-events: none;
+}
+.button-28:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+/*Podcast Subscription*/
