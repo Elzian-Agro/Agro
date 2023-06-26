@@ -13,14 +13,14 @@ fetch('../podcast/podcast_list/podcast.json') /*Get Data from json file */
   .catch(error => console.error(error));
 
   /*Filter podcast by tags */
-tagButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    const selectedTag = button.getAttribute('data-tag');
-    const filteredData = (selectedTag === 'all') ? data : data.filter(podcast => podcast.tags.includes(selectedTag));
-    displayPodcastCards(filteredData);
+  tagButtons.forEach(button => {
+    button.addEventListener('click', (event) => {
+      const selectedTag = event.target.getAttribute('data-tag');
+      const filteredData = (selectedTag === 'all') ? data : data.filter(podcast => podcast.tags.some(tag => tag === selectedTag));
+      displayPodcastCards(filteredData);
+    });
   });
-});
-
+  
 function displayPodcastCards(data) {
   blogContainer.innerHTML = '';
 
@@ -38,62 +38,70 @@ function displayLatestPodcast(data) {
 }
 
 function createPodcastCard(podcast) {
-  /*Create Card */
+  // Create Card
   const card = document.createElement('div');
   card.className = 'blog-card card';
 
   const cardBody = document.createElement('div');
   cardBody.className = 'card-body';
 
-  /*Podcast Date */
+  // Podcast Date
   const authorDate = document.createElement('div');
   authorDate.className = 'author-date';
 
-  /*Author */
+  // Author
   const author = document.createElement('span');
   author.className = 'author';
   author.textContent = podcast.author;
   author.style.fontSize = '12px';
 
-  /*Date */
+  // Date
   const date = document.createElement('span');
   date.className = 'date';
   date.textContent = podcast.date;
   date.style.fontSize = '12px';
 
-  /*Title */
+  // Thumbnail
+  const thumbnail = document.createElement('img');
+  thumbnail.src = podcast.thumbnail;
+  thumbnail.className = 'thumbnail';
+  thumbnail.alt = 'Podcast Thumbnail';
+
+  // Title
   const title = document.createElement('h4');
   title.className = 'pod-title';
   title.textContent = podcast.title;
 
-  /*Content */
+  // Content
   const content = document.createElement('p');
   content.className = 'pod-text';
   content.textContent = podcast.content;
 
-  /*Audio file */
+  // Audio file
   const audio = document.createElement('audio');
-  audio.src = podcast.audio;;
+  audio.src = podcast.audio;
   audio.controls = true;
 
-  /*Tags */
+  // Tags
   const tags = document.createElement('h4');
   tags.textContent = podcast.tags;
 
-  /*Audio Timeline */
+  // Audio Timeline
   const audioTimeline = document.createElement('h4');
   audioTimeline.textContent = podcast.audioTimeline;
 
   const readMore = document.createElement('a');
   readMore.className = 'btn btn-dark';
+  readMore.style.borderRadius = '20px';
   readMore.href = 'podcast.html?podcast=' + encodeURIComponent(JSON.stringify(podcast)); /*Pass the data through link */
   readMore.textContent = 'Read More';
-  readMore.target = "_blank";
+  readMore.target = '_blank';
   readMore.style.display = 'flex';
   readMore.style.justifyContent = 'center';
 
   authorDate.appendChild(author);
   authorDate.appendChild(date);
+  cardBody.appendChild(thumbnail); 
   cardBody.appendChild(authorDate);
   cardBody.appendChild(title);
   cardBody.appendChild(content);

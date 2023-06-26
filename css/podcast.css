@@ -5,15 +5,20 @@ h1{
     color: rgb(88, 88, 88);
 }
 .section-podcast-intro {
-  padding: 20px;
+  padding: 30px;
 }
 .section-podcast-intro{
-    height: 80vh;
+    height: 120vh;
     padding-top: 25vh;
 }
 
 .latest-podcast-background{
-    background-color: #f8f8f8;
+    background-color: #ffffff;
+    background-image: url(../images/layered-waves-haikei\ \(1\).svg);
+    opacity: 20;
+    height: 80vh;
+    padding-top: 50px;
+    padding-left: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .col-sm-6{
@@ -46,11 +51,15 @@ h1{
     height: 100vh;
 }
 
+.btn-secondary{
+  background-color: #004d00;
+}
+
 .blog-card {
-    width: calc(38.33% - 30px);
+    width: calc(33.33% - 30px);
     border: 1px solid #ccc;
     border-radius: 30px;
-    padding: 30px;
+    padding: 20px;
     margin: 10px;
     display: inline-block;
     vertical-align: top;
@@ -58,6 +67,18 @@ h1{
     background-color: #f7f5f5;
   }
 
+  .thumbnail {
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .thumbnail:hover {
+    transform: scale(1.05);
+  }
   .blog-card {
     position: relative;
     overflow: hidden;
@@ -99,16 +120,27 @@ h1{
     color: white;
   }
   
+  #tagContainer .btn.active,
+  #tagContainer .btn:focus {
+    background-color: #004d00;
+  }
+
   .pod-title {
     /* color: #004d00; */
+    font-weight: 600;
+    color: #8b8b8b;
     white-space: normal;
   }
   
   .author-date {
-    color: #004d00;
+    color: #187e18;
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+  }
+
+  .pod-text{
+    font-size: 12px;
   }
   
   .author, .date {
@@ -181,9 +213,9 @@ h1{
   background: #004d00;
   clear: left;
   font: 14px Helvetica, Arial, sans-serif;
-  width: 50%;
+  width: 82%;
   padding: 30px;
-  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .input-field {
   display: flex;
