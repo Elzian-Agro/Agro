@@ -156,15 +156,15 @@
               <div class="col-sm">
                 <b><div id="podcastTitle"></div></b> <!--podcast title-->
                 <div class="w-100"></div>
-                <div class="row container">
-                  <div class="col-md-4"  style="font-size: 14px;">
+                <div class="row auther-date-section">
+                  <div class="col-md-5"  style="font-size: 14px;">
                     <p>Author: <span id="podcastAuthor"></span></p> <!--podcast author-->
                   </div>
-                  <div class="col-md-4" style="font-size: 14px;">
-                    <p>Date: <span id="podcastDate"></span></p> <!--podcast date-->
+                  <div class="col-md-5" style="font-size: 14px;">
+                    <p>Date: <span id="podcastDate" ></span></p> <!--podcast date-->
                   </div>
                   <!--Share-->
-                  <div class="col-md-1" style="font-size: 14px;">
+                  <div class="col-md-2 d-flex justify-content-center align-items-center" style="font-size: 14px;" >
                       <div id="shareButton" class="shareButton"> <!--trigger share icon-->
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
                             <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
@@ -193,13 +193,13 @@
                 </div>
                 <div class="w-100"></div>
                 <!--show podcast tags-->
-                <div class="col-sm">
+                <div class="col-sm" style=" padding-bottom: 5px;">
                     <span>Tags: <span id="podcastTags"></span></span>
                 </div>
                  <!--show podcast tags-->
               </div>
               <!--podcast brief content-->
-              <div class="col-sm" >
+              <div class="col-sm desc-container">
                 <div id="podcastContent"></div>
               </div>
               <!--podcast brief content-->
@@ -235,7 +235,7 @@
                 </div>
             </div>
         </div>
-        <div class="container text">
+        <div class="container text" style="padding-bottom: 20px;">
             <div id="podcastAbout"></div> <!--podcast about the episode-->
         <div class="container">
             <div class="on-light">
@@ -255,6 +255,7 @@
                 </div>
               </button>
             </div>
+          </div>
           </div>
     </section>
     <!--About episode-->
