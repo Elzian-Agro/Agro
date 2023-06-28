@@ -5,7 +5,7 @@
 
 .section-header{
     padding-top: 150px;
-    height: 65vh;
+    height: 68vh;
 }
 
 h5{
@@ -54,7 +54,7 @@ p{
 /*Player*/
 .player {
     padding: 30px;
-    /* position: absolute; */
+    position: absolute;
     left: 8%;
     display: flex;
     justify-content: center;
@@ -63,7 +63,7 @@ p{
 
 .audio-player {
     width: 100%;
-    background-color: rgb(27, 58, 27);
+    background-color: #004d00;
     display: flex;
     align-items: center;
     padding: 10px;
@@ -102,75 +102,6 @@ audio {
     width: 100%;
 }
 
-/* Mobile and Tablet Styles */
-@media (max-width: 768px) {
-    .section-content{
-        background-color: rgb(245, 245, 245);
-        height: 600px;
-    }
-    
-
-    .player {
-        padding: 15px;
-        /* position: absolute; */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        left: 1%;
-        margin-top: 320px;
-    }
-
-    .audio-player {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 5px;
-    }
-
-    .thumbnail {
-        width: 100%;
-        height: auto;
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-
-    .music-title {
-        font-size: 20px;
-        padding: 0;
-    }
-
-    .music-description {
-        font-size: 14px;
-        padding-bottom: 5px;
-    }
-    @media only screen and (min-width: 768px) and (max-width: 1023px) {
-        .section-content{
-            background-color: rgb(245, 245, 245);
-            height: 900px;
-        }
-    }
-    #podcastTimeline .left-align {
-        text-align: left;
-        padding: 10px;
-        padding-left: 10px;
-      }
-}
-
-/* tablet start */
-@media (max-width: 1023px) {
-    .section-header{
-        
-        height: 55vh;
-    }
-    #podcastContent{
-        padding: 5px;
-    }
-    
-    #podcastDate{
-        padding-left:50px;
-    }
-    
-}
-/* tablet end */
   
   /*Player*/
 
@@ -228,7 +159,7 @@ i{
 }
 
 .section-about-episode{
-    padding-top: 100px;
+    padding-top: 60px;
     padding-bottom: 50px;
     /* height: 200vh; */
     margin-top: 60px;
@@ -298,3 +229,130 @@ i{
   #podcastAudioTitle{
     color: white;
   }
+
+  /* Mobile Responsive Styles */
+
+@media (max-width: 768px) {
+    .podcast-main {
+      height: auto;
+      padding-top: 100px;
+    }
+  
+    .section-header {
+      padding-top: 160px;
+      height: auto;
+    }
+  
+    .section-content {
+      height: 150px;
+    }
+  
+    .audio-player {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 50px;
+      margin-left: 0px;
+      margin-right: 50px;
+    }
+  
+    .thumbnail {
+      margin-bottom: 10px;
+    }
+  
+    .music-title {
+      font-size: 20px;
+    }
+  
+    .music-description {
+      font-size: 14px;
+    }
+  
+    .border-gradient {
+      border-radius: 20px;
+    }
+  
+    .left-align-title {
+      padding: 10px;
+    }
+  
+    .on-light p {
+      padding: 0;
+    }
+
+    .section-about-episode{
+        padding-top: 100px;
+    }
+    
+  }
+  
+  /* Tablet Responsive Styles */
+
+@media (max-width: 1024px) {
+    .podcast-main {
+      height: auto;
+      padding-top: 100px;
+    }
+  
+    .section-header {
+      padding-top: 120px;
+      height: auto;
+    }
+  
+    .section-content {
+      height: 150px;
+    }
+  
+    .audio-player {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 50px;
+    }
+  
+    .thumbnail {
+      margin-bottom: 10px;
+      display: none;
+    }
+  
+    .music-title {
+      font-size: 20px;
+    }
+  
+    .music-description {
+      font-size: 14px;
+    }
+  
+    .border-gradient {
+      border-radius: 20px;
+    }
+  
+    .left-align-title {
+      padding: 10px;
+    }
+  
+    .auther-date-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      margin: 4px;
+    }
+  
+    #podcastAuthor {
+      opacity: 1;
+      font-size: 12px;
+      order: 1;
+      flex-basis: 50%;
+    }
+  
+    #podcastDate {
+      padding-left: 0;
+      font-size: 12px;
+      order: 2;
+      flex-basis: 50%;
+    }
+  
+    .on-light p {
+      padding: 0;
+    }
+  }
+  
