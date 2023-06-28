@@ -36,18 +36,12 @@ p{
     margin: 4px;
 }
 
-#popup {
-  /* Your existing styles for the popup element */
-
-  /* Animation styles */
-  transition: all 0.5s;
-  opacity: 0;
-  transform: translateY(10px);
+#facebook{
+  cursor: pointer;
 }
 
-#popup.triggered {
-  opacity: 1;
-  transform: translateY(0);
+#linkedin{
+  cursor: pointer;
 }
 
 
