@@ -32,6 +32,11 @@ p{
     height: 700vh;
 }
 
+.auther-date-section{
+    margin: 4px;
+}
+
+
 #podcastDate{
     padding-left: 80px;
 }
@@ -49,7 +54,7 @@ p{
 /*Player*/
 .player {
     padding: 30px;
-    position: absolute;
+    /* position: absolute; */
     left: 8%;
     display: flex;
     justify-content: center;
@@ -63,6 +68,7 @@ p{
     align-items: center;
     padding: 10px;
     border-radius: 10px;
+    margin-bottom: 100px;
 }
 
 .thumbnail {
@@ -102,14 +108,16 @@ audio {
         background-color: rgb(245, 245, 245);
         height: 600px;
     }
+    
 
     .player {
         padding: 15px;
-        position: absolute;
+        /* position: absolute; */
         display: flex;
         justify-content: center;
         align-items: center;
         left: 1%;
+        margin-top: 320px;
     }
 
     .audio-player {
@@ -140,7 +148,29 @@ audio {
             height: 900px;
         }
     }
+    #podcastTimeline .left-align {
+        text-align: left;
+        padding: 10px;
+        padding-left: 10px;
+      }
 }
+
+/* tablet start */
+@media (max-width: 1023px) {
+    .section-header{
+        
+        height: 55vh;
+    }
+    #podcastContent{
+        padding: 5px;
+    }
+    
+    #podcastDate{
+        padding-left:50px;
+    }
+    
+}
+/* tablet end */
   
   /*Player*/
 
@@ -199,7 +229,9 @@ i{
 
 .section-about-episode{
     padding-top: 100px;
-    height: 200vh;
+    padding-bottom: 50px;
+    /* height: 200vh; */
+    margin-top: 60px;
 }
 
 
