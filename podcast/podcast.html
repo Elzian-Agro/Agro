@@ -170,7 +170,6 @@
                             <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
                           </svg>
                         </div>
-
                         <div id="modalOverlay">
                             <div id="modalContent">
                                 <div class="row">
@@ -180,10 +179,10 @@
                                         <div id="popup">Link copied</div>
                                     </div>
                                     <div class="col-sm">
-                                        <i class="fa fa-facebook-official" aria-hidden="true"><p>Facebook</p></i> <!--facebook share-->
+                                        <i class="fa fa-facebook-official" aria-hidden="true" id="facebook"><p>Facebook</p></i> <!--facebook share-->
                                     </div>
                                     <div class="col-sm">
-                                        <i class="fa fa-linkedin" aria-hidden="true"><p>LinkedIn</p></i><!--linkedin share-->
+                                        <i class="fa fa-linkedin" aria-hidden="true" id="linkedin"><p>LinkedIn</p></i><!--linkedin share-->
                                     </div>
                                   </div>
                             </div>
@@ -333,62 +332,46 @@
             <script src="../js/podcast-page.js"> </script>
 
             <script>
-                // Find the share element
-                const shareElement = document.getElementById('share');
-        
-                // Add a click event listener to the share button
-                shareElement.addEventListener('click', function() {
-                    // Get the current URL
-                    const blogURL = window.location.href;
-        
-                    // Shorten the URL using Bitly API
-                    shortenURL(blogURL)
-                        .then(shortURL => {
-                            // Create a temporary input element
-                            const tempInput = document.createElement('input');
-                            tempInput.setAttribute('value', shortURL);
-                            document.body.appendChild(tempInput);
-        
-                            // Copy the URL to the clipboard
-                            tempInput.select();
-                            document.execCommand('copy');
-                            document.body.removeChild(tempInput);
-        
-                            // Notify the user that the URL has been copied
-                            // alert('Shortened URL copied to clipboard!');
-
-                            document.getElementById("share").addEventListener("click", function() {
-                                var popup = document.getElementById("popup");
-                                popup.style.display = "block";
-                                setTimeout(function() {
-                                    popup.style.display = "none";
-                                }, 2000); // Hide the popup after 2 seconds (adjust as needed)
-                                });
-
-                        })
-                        .catch(error => {
-                            console.error('Error shortening URL:', error);
-                        });
+                // Copy the current browser URL when the "Copy" button is clicked
+                document.getElementById("share").addEventListener("click", function() {
+                    var currentUrl = window.location.href;
+                    var tempInput = document.createElement("input");
+                    document.body.appendChild(tempInput);
+                    tempInput.value = currentUrl;
+                    tempInput.select();
+                    document.execCommand("copy");
+                    document.body.removeChild(tempInput);
+                    displayPopupMessage("Link copied");
+                    setTimeout(function() {
+                    document.getElementById("popup").style.display = "none";
+                }, 2000); // Hide the popup after 2 seconds
                 });
-        
-                // Function to shorten the URL using Bitly API
-                function shortenURL(url) {
-                    const apiKey = '41a008ae2863f50d8e8f64c8642cb87d30fbfafd';
-        
-                    return fetch(`https://api-ssl.bitly.com/v4/shorten`, {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json',
-                            'Authorization': `Bearer ${apiKey}`
-                        },
-                        body: JSON.stringify({
-                            long_url: url
-                        })
-                    })
-                    .then(response => response.json())
-                    .then(data => data.id);
+            
+                // Share the current browser URL on Facebook
+                document.getElementById("facebook").addEventListener("click", function() {
+                    var currentUrl = window.location.href;
+                    var facebookUrl = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(currentUrl);
+                    window.open(facebookUrl, "_blank");
+                });
+            
+                // Share the current browser URL on LinkedIn
+                document.getElementById("linkedin").addEventListener("click", function() {
+                    var currentUrl = window.location.href;
+                    var linkedinUrl = "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(currentUrl);
+                    window.open(linkedinUrl, "_blank");
+                });
+            
+                // Function to display the popup message
+                function displayPopupMessage(message) {
+                    var popup = document.getElementById("popup");
+                    popup.innerHTML = message;
+                    popup.style.display = "block";
+                    setTimeout(function() {
+                        popup.style.display = "none";
+                    }, 2000); // Display the message for 2 seconds
                 }
             </script>
+            
 
               <!-- Bootstrap JavaScript Libraries -->
             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
