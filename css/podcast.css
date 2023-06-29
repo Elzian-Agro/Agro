@@ -1,24 +1,33 @@
-/*Latest Podcast*/
-h1{
-    font-weight: bold;
-    padding-bottom: 20px;
-    color: rgb(88, 88, 88);
-}
-.section-podcast-intro {
-  padding: 20px;
-}
-.section-podcast-intro{
-    height: 80vh;
-    padding-top: 25vh;
+/* Latest Podcast */
+.h1 {
+  font-weight: bold;
+  padding-bottom: 20px;
+  color: rgb(88, 88, 88);
 }
 
-.latest-podcast-background{
-    background-color: #f8f8f8;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+.section-podcast-intro {
+  padding: 30px;
 }
-.col-sm-6{
-    padding: 30px;
+
+.section-podcast-intro {
+  height: 120vh;
+  padding-top: 25vh;
 }
+
+.latest-podcast-background {
+  background-color: #ffffff;
+  background-image: url(../images/layered-waves-haikei\ \(1\).svg);
+  opacity: 20;
+  height: 80vh;
+  padding-top: 50px;
+  padding-left: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.col-sm-6 {
+  padding: 30px;
+}
+
 .section-podcast-intro h1 {
   font-weight: bold;
   padding-bottom: 20px;
@@ -37,86 +46,362 @@ h1{
     text-align: left;
   }
 }
-/*Latest Podcast End*/
 
+/* Podcast List */
+.section-podcast {
+  background-color: white;
+  height: 120vh;
+  padding-top: 100px;
+}
 
-/*Podcast List*/
-.section-podcast{
-    background-color: white; 
-    height: 100vh;
+.btn-secondary {
+  background-color: #004d00;
 }
 
 .blog-card {
-    width: calc(33.33% - 20px);
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-    display: inline-block;
-    vertical-align: top;
-    box-sizing: border-box;
+  width: calc(33.33% - 30px);
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  background-color: #f7f5f5;
+}
+
+.thumbnail {
+  height: 150px;
+  width: 300px;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.thumbnail:hover {
+  transform: scale(1.05);
+}
+
+.blog-card {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.blog-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.blog-card .card-body {
+  transition: transform 0.3s ease-in-out;
+}
+
+.blog-card:hover .card-body {
+  transform: scale(1.02);
+}
+
+.blog-card .btn {
+  transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.blog-card .btn:hover {
+  opacity: 20;
+  background-color: #194c23;
+  color: white;
+}
+
+#tagContainer .btn {
+  background-color: rgb(243, 243, 243);
+  color: black;
+}
+
+#tagContainer .btn.active,
+#tagContainer .btn:focus {
+  background-color: #333333;
+  color: white;
+}
+
+#tagContainer .btn.active,
+#tagContainer .btn:focus {
+  background-color: #004d00;
+}
+
+.pod-title {
+  /* color: #004d00; */
+  font-weight: 600;
+  color: #8b8b8b;
+  white-space: normal;
+}
+
+.author-date {
+  color: #187e18;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.pod-text {
+  font-size: 12px;
+}
+
+.author,
+.date {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 900px) {
+  .tag-Container {
+    width: 130%;
+  }
+
+  .pdcst-list-title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blog-card {
+    width: 100%;
   }
 
   .blog-card {
     position: relative;
-    overflow: hidden;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease-in-out;
+    margin-top: 300px;
   }
-  
-  .blog-card:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
+
+  #tagContainer p {
+    text-align: center;
   }
-  
-  .blog-card .card-body {
+
+  .podcast-header h1 {
+    text-align: center;
+  }
+
+  .section-podcast {
+    align-items: center;
+  }
+
+  .section-podcast h1 {
+    text-align: center;
+  }
+
+  .pdcst-list-title {
+    text-align: center;
+  }
+
+  .tag-Container {
+    width: 100%;
+  }
+}
+
+/* Mobile responsive */
+@media only screen and (max-width: 480px) {
+  .section-podcast-intro {
+    padding: 30px;
+  }
+
+  .section-podcast-intro {
+    height: 110vh;
+    padding-top: 10vh;
+  }
+
+  .latest-podcast-background {
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  #latestPodcastContainer{
+    margin-left: 10px;
+    margin-right: 50px;
+  }
+
+  .section-podcast {
+    height: 120vh;
+  }
+
+  .blog-card {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    background-color: #f7f5f5;
+    width: calc(100% - 20px);
+    margin: 10px;
+  }
+
+  .thumbnail {
+    display: none;
+    height: 150px;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
   }
-  
-  .blog-card:hover .card-body {
-    transform: scale(1.02);
-  }
-  
-  .blog-card .btn {
-    transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out;
-  }
-  
-  .blog-card .btn:hover {
-    opacity: 20;
-    background-color: #194c23;
-    color: white;
-  }
-  
-  #tagContainer .btn {
-    background-color: rgb(243, 243, 243);
-    color: black;
-  }
-  
-  #tagContainer .btn.active,
-  #tagContainer .btn:focus {
-    background-color: #333333;
-    color: white;
-  }
-  
-  .pod-title {
 
+  .pod-title {
+    font-weight: 600;
+    color: #8b8b8b;
     white-space: normal;
   }
-  
-  .author-date {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
+  .button-28 {
+    width: 100%;
   }
-  
-  .author, .date {
-    font-size: 12px;
-  }
-  
-  @media (max-width: 768px) {
-    .blog-card {
-      width: 100%; 
-    }
+}
+
+/*Mobile responsive End*/
+
+/* Tablet responsive */
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .section-podcast-intro {
+    padding: 30px;
   }
 
-/*Podcast List End*/
+  .section-podcast-intro {
+    height: 90vh;
+    padding-top: 10vh;
+  }
+
+  .latest-podcast-background {
+    height: 80vh;
+    padding-top: 50px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  #latestPodcastContainer{
+    margin-left: 10px;
+    margin-right: 50px;
+  }
+
+  .section-podcast {
+    padding-top: 50px;
+    height: 100vh;
+  }
+
+  .thumbnail {
+    height: 150px;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .blog-card {
+    width: calc(50% - 30px);
+    margin: 10px;
+  }
+
+  .pdcst-list-title {
+    text-align: left;
+  }
+
+  #tagContainer p {
+    text-align: left;
+  }
+}
+
+/* Podcast List End */
+
+/* Podcast Subscription */
+.podcast-subscription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 47vh;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  margin: 0;
+}
+
+.subscription-title {
+  text-align: center;
+}
+
+#mc_embed_signup {
+  background: #004d00;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+  width: 80%;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 10px; */
+  padding-top: 10px;
+}
+
+.input-field input[type="email"] {
+  flex: 1;
+  min-width: 0;
+  height: 45px;
+  padding: 10px;
+  border: none;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.sub-response {
+  color: #ff0000;
+  text-align: center;
+}
+
+/* Button CSS */
+.button-28 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 1px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  min-height: 40px;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  flex-shrink: 0;
+  width: 100%;
+  background-color: #1a1a1a;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: #fff;
+  background-color: #004d00;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+/* Podcast Subscription */

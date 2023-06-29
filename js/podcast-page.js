@@ -110,6 +110,7 @@ function displayPodcastContent(podcast) {
   /*podcats audio title */
   const audioTitle = document.createElement('p');
   audioTitle.textContent = podcast.audioTitle;
+  audioTitle.style.color = 'white';
   podcastAudioTitle.appendChild(audioTitle);
   /*podcats audio title */
 
