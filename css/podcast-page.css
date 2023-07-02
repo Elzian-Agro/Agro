@@ -246,12 +246,12 @@ i{
     }
   
     .section-header {
-      padding-top: 160px;
+      padding-top: 180px;
       height: auto;
     }
   
     .section-content {
-      height: 150px;
+      height: 300px;
     }
   
     .audio-player {
@@ -264,6 +264,7 @@ i{
   
     .thumbnail {
       margin-bottom: 10px;
+      display: none;
     }
   
     .music-title {
@@ -287,7 +288,7 @@ i{
     }
 
     .section-about-episode{
-        padding-top: 100px;
+        padding-top: 200px;
     }
     
   }

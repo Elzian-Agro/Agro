@@ -65,6 +65,7 @@ function createPodcastCard(podcast) {
   const thumbnail = document.createElement('img');
   thumbnail.src = podcast.thumbnail;
   thumbnail.className = 'thumbnail';
+  thumbnail.style.borderRadius = '20px';
   thumbnail.alt = 'Podcast Thumbnail';
 
   // Title
