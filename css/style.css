@@ -1486,7 +1486,11 @@ canvas {
 }
 #blog .auther-data-container{
   display: flex;
- 
+}
+
+#blog .auther-data-container img{
+  width: 130px;
+  height: 130px;
 }
 
 #blog .card-title-1{
