@@ -12,7 +12,7 @@
 	{
 		"id":1,
 		"News":14,
-        "image": "https://english.slbcnews.lk/wp-content/uploads/2023/07/ELZIAN-AGRO-01.jpg",
+        "image": "../images/news_and_media/lanka_b_news.jpg",
         "news_site": "Sri Lanka Broadcasting Corporation",
         "date": "6-July-2023",
 		"title": "ELZIAN AGRO is Igniting a Technological Revolution in Agriculture",
@@ -22,7 +22,7 @@
     {
 		"id":2,
 		"News":13,
-        "image": "http://ceylontribune.com/wp-content/uploads/2023/07/Elzian-Agro-Expo.jpg",
+        "image": "../images/news_and_media/Elzian-Agro-Expo.jpg",
         "news_site": "Ceylon Tribune",
         "date": "9-July-2023",
 		"title": "ELZIAN AGRO, A Rising Star in Dubai’s Expo Live Innovation Program",
@@ -32,7 +32,7 @@
     {
 		"id":3,
 		"News":12,
-        "image": "http://ceylontribune.com/wp-content/uploads/2023/07/ELZIAN-AGRO-02.jpg",
+        "image": "../images/news_and_media/ELZIAN-AGRO-02.jpg",
         "news_site": "Ceylon Tribune",
         "date": "6-July-2023",
 		"title": "ELZIAN AGRO is Igniting a Technological Revolution in Agriculture",
@@ -42,7 +42,7 @@
     {
 		"id":4,
 		"News":11,
-        "image": "http://english.lankanewsnetwork.com/wp-content/uploads/2023/07/Elzian-Agro-Expo.jpg",
+        "image": "../images/news_and_media/Elzian-Agro-Expo.jpg",
         "news_site": "Lanka News Network",
         "date": "9-July-2023",
 		"title": "ELZIAN AGRO, A Rising Star in Dubai’s Expo Live Innovation Program",
@@ -52,7 +52,7 @@
     {
 		"id":5,
 		"News":10,
-        "image": "http://english.lankanewsnetwork.com/wp-content/uploads/2023/07/ELZIAN-AGRO-02.jpg",
+        "image": "../images/news_and_media/ELZIAN-AGRO-01.jpg",
         "news_site": "Lanka News Network",
         "date": "6-July-2023",
 		"title": "ELZIAN AGRO is Igniting a Technological Revolution in Agriculture ",
@@ -62,7 +62,7 @@
     {
 		"id":10,
 		"News":9,
-        "image": "https://cbr.lk/wp-content/uploads/2023/07/IMAGE-1-1-768x513.jpg",
+        "image": "../images/news_and_media/IMAGE-1-1-768x513.jpg",
         "news_site": "Ceylon Business Reporter",
         "date": " 6-July-2023",
 		"title": "ELZIAN AGRO Shines Bright at SLASSCOM National Ingenuity Awards 2023",
@@ -72,7 +72,7 @@
     {
 		"id":9,
 		"News":8,
-        "image": "https://cbr.lk/wp-content/uploads/2023/07/IMAGE-1-1-768x513.jpg",
+        "image": "../images/news_and_media/ELZIAN-AGRO-Secures-Innovation-Grant-in-Expo-Live-Innovation-Programme.jpg",
         "news_site": "Profit Magazine",
         "date": "4-July-2023",
 		"title": "ELZIAN AGRO: A Rising Star in Dubai’s Expo Live Innovation Program ",
@@ -82,7 +82,7 @@
     {
 		"id":8,
 		"News":7,
-        "image": "https://i0.wp.com/english.bizreport.lk/wp-content/uploads/2023/07/IMAGE-1.png?resize=640%2C426&ssl=1",
+        "image": "../images/news_and_media/IMAGE-1.webp",
         "news_site": "Biz Repor",
         "date": "4-July-2023",
 		"title": "ELZIAN AGRO’s Extraordinary Achievement in Expo City Dubai’s Innovation Programme",
@@ -92,7 +92,7 @@
     {
 		"id":7,
 		"News":6,
-        "image": "https://newsasia.lk/wp-content/uploads/2023/07/20-year-No1-Main-image-2.jpg",
+        "image": "../images/news_and_media/news_asia_0705.jpg",
         "news_site": "News Asia",
         "date": "5-July-2023",
 		"title": "ELZIAN AGRO Honored as Top Selected Finalist in Dubai’s Expo Live Innovation Programme",
@@ -102,7 +102,7 @@
     {
 		"id":6,
 		"News":5,
-        "image": "https://english.slbcnews.lk/wp-content/uploads/2023/07/ELZIAN-AGRO-01.jpg",
+        "image": "../images/news_and_media/ELZIAN-AGRO-02.jpg",
         "news_site": "Daily News",
         "date": "4 -July-2023",
 		"title": " ELZIAN AGRO honored at SLASSCOM National Ingenuity Awards 2023",
@@ -112,7 +112,7 @@
     {
 		"id":14,
 		"News":4,
-        "image": "http://ceylontribune.com/wp-content/uploads/2023/07/Elzian-Agro-Expo.jpg",
+        "image": "../images/news_and_media/lanka_b_news.jpg",
         "news_site": "Lanka Business News",
         "date": "30-June-2023",
 		"title": "ELZIAN AGRO is championing Innovation and Impact in Precision Agriculture Technology ",
@@ -122,7 +122,7 @@
     {
 		"id":13,
 		"News":3,
-        "image": "https://i0.wp.com/english.bizreport.lk/wp-content/uploads/2023/07/IMAGE-1.png?resize=640%2C426&ssl=1",
+        "image": "../images/news_and_media/1688101813355.jpg",
         "news_site": "SLASSCOM",
         "date": "30-June-2023",
 		"title": "LASSCOM National Ingenuity Awards",
@@ -132,7 +132,7 @@
     {
 		"id":12,
 		"News":2,
-        "image": "http://s3.amazonaws.com/bizenglish/wp-content/uploads/2023/06/29122009/IMAGE-1-129-e1688021444162.jpg",
+        "image": "../images/news_and_media/IMAGE-1-129-e1688021444162.jpg",
         "news_site": "Ada Derana Business News",
         "date": "29-June-2023",
 		"title": "ELZIAN AGRO Achieves Remarkable Success at SLASSCOM National Ingenuity Awards 2023 ",
@@ -142,7 +142,7 @@
     {
 		"id":11,
 		"News":1,
-        "image": "http://s3.amazonaws.com/bizenglish/wp-content/uploads/2023/06/29122013/IMAGE-2-122-e1688021424154.jpg",
+        "image": "../images/news_and_media/An-Exemplar-of-Innovation-and-Sustainable-Agriculture.jpg",
         "news_site": "Business Café",
         "date": "29-June-2023",
 		"title": "ELZIAN AGRO Secures Innovation Grant in Expo Live Innovation Programme",
