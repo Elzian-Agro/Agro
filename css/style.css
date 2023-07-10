@@ -4171,7 +4171,7 @@ footer a:hover {
   
 }
 .news-container{
-  
+  display: fl;
 }
 .news-image-container{
   width: 40%;

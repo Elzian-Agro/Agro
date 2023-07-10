@@ -73,6 +73,15 @@
 
     <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  
+    <style>
+      .card {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 10px;
+      }
+    </style>
+  
   </head>
   <body>
     <!--Navigation-bar-->
@@ -129,7 +138,7 @@
                           <a class="dropdown-item" href="https://agro.elzian.com/blog/blog-main">BLOGS</a>
                           <a class="dropdown-item  " href="https://agro.elzian.com/podcast/podcast-main">PODCASTS</a>
                           <a class="dropdown-item" href="http://127.0.0.1:5501/AgroGuard.html" target="_blank">ARBORETUM</a>
-                          <a class="dropdown-item active" href="#">NEWS/MEDIA</a>
+                          <a class="dropdown-item active" href="https://agro.elzian.com/news_media/news-main">NEWS/MEDIA</a>
                       </div>
                   </li>
                   <li class="nav-item"><a href="https://agro.elzian.com/about" class="nav-link">About Us</a></li>
@@ -193,7 +202,7 @@
         <div class=" news-container ">
 
 
-          <div class="  blog-item ">
+          <!-- <div class="  blog-item ">
 
             <div class="news-container d-flex" >
               <div class="news-image-container ">
@@ -223,144 +232,72 @@
   
               </div>
             </div>
-          </div><br><br><br>
+          </div><br><br><br> -->
 
 
-          <div class="  blog-item ">
+          <div id="blog-item"></div>
 
+  <script>
+    // Fetch JSON data
+    fetch('newsData.json')
+      .then(response => response.json())
+      .then(data => {
+        const cardsContainer = document.getElementById('blog-item');
+
+        // Get the first two items based on ID
+        const itemsToFetch = [1,2,3,4,5];
+
+        // Iterate over the JSON data
+        data.forEach(item => {
+          // Check if the item's ID is in the itemsToFetch array
+          if (itemsToFetch.includes(item.id)) {
+            // Create a card element
+            const card = document.createElement('news-container');
+            card.classList.add('news-container');
+
+            const img = document.createElement('img');
+            img.src = `${item}`
+
+            // Set card content using item properties
+            card.innerHTML = `
             <div class="news-container d-flex" >
               <div class="news-image-container ">
-                <img src="../images/news_and_media/An-Exemplar-of-Innovation-and-Sustainable-Agriculture.jpg" alt="">
+                
+                <img src=${item.image} alt="">
               </div>
               <div class="news-content-container text-center" >
                 <div class="news-top-container d-flex justify-content-between">
                 <div class="news-site">
-                  <p>Profit Magazine</p>
+                  <p>${item.news_site}</p>
                 </div>
                 <div class="news-date">
-                  <p>6-July-2023</p>
+                  <p>${item.date}</p>
                 </div>
                 </div>
                 
                 <div class="news-title text-center">
-                  <h3> ELZIAN AGRO: A Rising Star in Dubai’s Expo Live Innovation Program</h3>
+                  <h3>${item.title}</h3>
                 </div>
                 <div class="news-desc " style="padding: 10px;">
-                  <p> Recognized as an industry pioneer, ELZIAN AGRO has revolutionized farming practices through cutting-edge technologies and sustainable approaches. Their commitment to environmental stewardship and groundbreaking agricultural methods has earned them global acclaim, solidifying their position as a deserving finalist in the Expo City Dubai Innovation Programme.</p>
+                  <p>${item.description}</p>
                 </div>
                 <div class="news-buttons d-flex justify-content-around">
                   <div class="news-btn">
-                    <a href="https://profitmagazine.lk/elzian-agro-a-rising-star-in-dubais-expo-live-innovation-program/" target="_blank">Read More <i class="fa fa-arrow-right"></i></a>
+                    <a href=${item.link} target="_blank">Read More <i class="fa fa-arrow-right"></i></a>
                   </div>
                 </div>
   
               </div>
-            </div>
-          </div><br><br><br>
-          
+            </div><br><br><br>
+            
+            `;
 
-
-          <div class="  blog-item ">
-
-            <div class="news-container d-flex" >
-              <div class="news-image-container ">
-                <img src="../images/news_and_media/news asia 0705.jpg" alt="">
-              </div>
-              <div class="news-content-container text-center" >
-                <div class="news-top-container d-flex justify-content-between">
-                <div class="news-site">
-                  <p>News Asia</p>
-                </div>
-                <div class="news-date">
-                  <p>5-July-2023</p>
-                </div>
-                </div>
-                
-                <div class="news-title text-center">
-                  <h3>ELZIAN AGRO Honored as Top Selected Finalist in Dubai’s Expo Live Innovation Programme</h3>
-                </div>
-                <div class="news-desc " style="padding: 10px;">
-                  <p>ELZIAN AGRO, a leading agricultural solutions company, has achieved a remarkable feat by emerging as one of the top finalists in the highly competitive Expo City Dubai ExpoLive Innovation Programme in June 2023.</p>
-                </div>
-                <div class="news-buttons d-flex justify-content-around">
-                  <div class="news-btn">
-                    <a href="https://newsasia.lk/elzian-agro-honored-as-top-selected-finalist-in-dubais-expo-live-innovation-programme/" target="_blank">Read More <i class="fa fa-arrow-right"></i></a>
-                  </div>
-                </div>
-  
-              </div>
-            </div>
-          </div><br><br><br>
-
-
-
-          <div class="  blog-item ">
-
-            <div class="news-container d-flex" >
-              <div class="news-image-container ">
-                <img src="../images/news_and_media/IMAGE-1.webp" alt="">
-              </div>
-              <div class="news-content-container text-center" >
-                <div class="news-top-container d-flex justify-content-between">
-                <div class="news-site">
-                  <p>Biz Report</p>
-                </div>
-                <div class="news-date">
-                  <p>4-July-2023</p>
-                </div>
-                </div>
-                
-                <div class="news-title text-center">
-                  <h3>ELZIAN AGRO’s Extraordinary Achievement in Expo City Dubai’s Innovation Programme</h3>
-                </div>
-                <div class="news-desc " style="padding: 10px;">
-                  <p>ELZIAN AGRO, the trailblazing agricultural solutions company, has emerged as one of the top finalists in the fiercely competitive Expo City Dubai ExpoLive Innovation Programme.</p>
-                </div>
-                <div class="news-buttons d-flex justify-content-around">
-                  <div class="news-btn">
-                    <a href="https://english.bizreport.lk/elzian-agros-extraordinary-achievement-in-expo-city-dubais-innovation-programme/" target="_blank">Read More <i class="fa fa-arrow-right"></i></a>
-                  </div>
-                </div>
-  
-              </div>
-            </div>
-          </div><br><br><br>
-
-
-
-
-
-          <div class="  blog-item ">
-
-            <div class="news-container d-flex" >
-              <div class="news-image-container ">
-                <img src="../images/news_and_media/daly news 0704.jpg" alt="">
-              </div>
-              <div class="news-content-container text-center" >
-                <div class="news-top-container d-flex justify-content-between">
-                <div class="news-site">
-                  <p>Daily News</p>
-                </div>
-                 <div class="news-date">
-                  <p>4-July-2023</p>
-                </div>
-                </div>
-                
-                <div class="news-title text-center">
-                  <h3>ELZIAN AGRO honored at SLASSCOM National Ingenuity Awards 2023</h3>
-                </div>
-                <div class="news-desc " style="padding: 10px;">
-                  <p>  Sri Lanka's tech industry was abuzz with excitement and anticipation as the prestigious SLASSCOM National Ingenuity Awards 2023 unfolded, celebrating remarkable achievements and groundbreaking innovations.</p>
-                </div>
-                <div class="news-buttons d-flex justify-content-around">
-                  <div class="news-btn">
-                    <a href="https://epaper.dailynews.lk/Home/ShareArticle?OrgId=47b465f491&imageview=0&standalone=1" target="_blank">Read More <i class="fa fa-arrow-right"></i></a>
-                  </div>
-                </div>
-  
-              </div>
-            </div>
-          </div><br><br><br>
+            // Add the card to the container
+            cardsContainer.appendChild(card);
+          }
+        });
+      });
+  </script>
 
 
         </div>
@@ -378,6 +315,7 @@
           <a href="news-main.html" class="pagination-link active">1</a>
           
            <a href="news-main-2.html" class="pagination-link">2</a> 
+           <a href="news-main-3.html" class="pagination-link">3</a> 
           
           
           <!-- <a href="#" class="pagination-link">3</a>
