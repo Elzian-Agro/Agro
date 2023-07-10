@@ -64,9 +64,9 @@
 </head>
 <body>
 <div class="blur-btn">
-<!-- navigation bar start-->
-<div id="MainheaderContainer"></div>
-<!-- navigation bar end -->
+    <div id="pre-loader-placeholder"></div> <!--Pre-loader-->
+
+    <div id="navbar-placeholder"></div> <!--Navigation-bar-->
 
 <!-- preloader section -->
 <section class="preloader">
@@ -248,7 +248,7 @@
 
 
 <!-- footer section -->
-<div id="MainfooterContainer"></div>
+<div id="footer-placeholder"></div>
 
 </div>
 <div id="popup">
@@ -259,10 +259,10 @@
                 <hr>
                 <p>Share this blog via</p>
              <div class="social-media">                       
-                <button class="social-media-btn"> <a href="#" class="whatsapp whatsapp-side-btn " style="color: white;" target="_blank" rel="noopener noreferrer"><i class="fa fa-whatsapp"></i></a></button>                      
-                <button class="social-media-btn"><a href="#" class="twitter twitter-side-btn" target="_blank" style="color: white;" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a></button>
-                <button class="social-media-btn"><a href="#" class="facebook facebook-side-btn" target="_blank" style="color: white;" rel="noopener noreferrer"><i class="fa fa-facebook-f"></i></a></button>
-                <button class="social-media-btn "><a href="#" class="linkedin linkedin-side-btn b-ld" target="_blank"  style="color: white;" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a></button>
+                <button class="social-media-btn"> <a href="#" class="whatsapp whatsapp-side-btn " style="color: white;" target="_blank" rel="noopener noreferrer"><i class="fa fa-whatsapp" id="whatsapp"></i></a></button>                      
+                <button class="social-media-btn"><a href="#" class="twitter twitter-side-btn" target="_blank" style="color: white;" rel="noopener noreferrer"><i class="fa fa-twitter" id="twitter"></i></a></button>
+                <button class="social-media-btn"><a href="#" class="facebook facebook-side-btn" target="_blank" style="color: white;" rel="noopener noreferrer"><i class="fa fa-facebook-f" id="facebook"></i></a></button>
+                <button class="social-media-btn "><a href="#" class="linkedin linkedin-side-btn b-ld" target="_blank"  style="color: white;" rel="noopener noreferrer"><i class="fa fa-linkedin" id="linkedin"></i></a></button>
             </div>
             <p>Or copy link</p>
             <div class="link-container copy-link">
@@ -290,17 +290,8 @@
 <script src="../js/contact.js"></script>
 <script src="../js/blog-share.js"></script>
 <script src="../js/translate.js"></script>
-
- <!-- navbar and footer -->
-  <script>
-    $(function() {
-      // Load header.html into #headerContainer
-      $('#MainheaderContainer').load('blog-main-navbar.html');
-    
-      // Load footer.html into #footerContainer
-      $('#MainfooterContainer').load('blog-main-footer.html');
-    });
-    </script>
+<script src="../js/components.js"></script>
+<script src="../js/socialShare.js"></script>
 
 
 </body>
