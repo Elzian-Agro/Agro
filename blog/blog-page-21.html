@@ -63,11 +63,10 @@
 
 </head>
 <body>
-
-    <div id="pre-loader-placeholder"></div> <!--Pre-loader-->
-
-    <div id="navbar-placeholder"></div> <!--Navigation-bar-->
-
+<div class="blur-btn">
+<!-- navigation bar start-->
+<div id="MainheaderContainer"></div>
+<!-- navigation bar end -->
 
 <!-- preloader section -->
 <section class="preloader">
@@ -104,11 +103,11 @@
             <div class="col-md-12 ct-content">
                 <div class="blog-wrapper">
                     <h1 class="main-heading text-center">
-                        Promoting Inclusion and Diversity through the Power of Mobility.
+                        Embracing the Future of Work: Adapting HR Practices for Remote and Hybrid Agri-Tech Sector.
                     </h1>
                     <br>
-                    <img alt="SAVIOR OF REAL FARMERS IN SRI LANKA" class="img-responsive blog-inner" src="../images/Jithmi-blog-image.jpg">
-                    <em class= "post-by text-nowrap">Posted on 13 February 2023 - Author (Jithmi Deshanjalee)</em> <br>
+                    <img alt="SAVIOR OF REAL FARMERS IN SRI LANKA" class="img-responsive blog-inner" src="../images/Jithmi-blog-2.jpg">
+                    <em class= "post-by text-nowrap">Posted on 07 July 2023 - Author (Jithmi Deshanjalee)</em> <br>
                     <a class="p-2 badge bg-secondary text-decoration-none link-light" href="#!">Agriculture</a>
                     <a class="badge bg-secondary text-decoration-none link-light" href="#!">Diversity</a>
                     <a class="badge bg-secondary text-decoration-none link-light" href="#!">Smart_Agriculture</a>
@@ -156,53 +155,25 @@
                     <br>
                     <div class="blog-contents">
                         <p>
-                            In Sri Lanka, the agricultural sector is a vital part of the 
-                            economy, providing employment for a large portion of the population. 
-                            As in many industries, there is a need to increase diversity and 
-                            inclusion within the agricultural workforce. One way to do this is 
-                            by aligning inclusion and diversity with mobility. By providing 
-                            opportunities for mobility, organizations can create a more inclusive 
-                            and diverse workplace while also ensuring they have the talent they 
-                            need to meet their business goals.  To align inclusion and diversity 
-                            with mobility in the agricultural sector in Sri Lanka, organizations 
-                            can implement a range of strategies. This could involve creating 
-                            mentorship programs that connect employees from underrepresented groups 
-                            with senior leaders who can provide guidance and support for their career 
-                            development.
+                            The rapid advancement of technology has revolutionized various industries, and the agricultural sector is no exception. AgriTech companies are harnessing innovation to drive efficiency, sustainability, and productivity in farming practices. With the rise of remote and hybrid work models, it is crucial for HR professionals in the AgriTech sector to adapt their practices to effectively support their remote and distributed workforce. In this blog, we dive into the exemplary approach of <a href="https://agro.elzian.com/">Elzian Agro</a> , a prominent Agri-Tech company, in adapting HR practices to effectively manage its remote and hybrid workforce.
+
                         </p>
 
                         <p>
-                            Additionally, organizations can provide training and development opportunities 
-                            for employees from diverse backgrounds to ensure that they have the skills and 
-                            knowledge needed to succeed in mobility assignments. This could include language 
-                            training, cross-cultural training, and other types of support to help employees 
-                            thrive in new and unfamiliar environments. By supporting employees in this way, 
-                            organizations can create a more inclusive and diverse workplace while also building 
-                            a more skilled and capable workforce.
+                            Embrace Digital Collaboration. To facilitate effective communication and collaboration, AgriTech companies should leverage digital collaboration tools. Platforms like video conferencing, project management software, and instant messaging allow teams to connect, share ideas, and collaborate on projects irrespective of their location. Seamless communication is vital for remote and hybrid teams to work cohesively towards common goals.
                         </p>
                         
                         <p>
-                            In conclusion, Elzian Agro is committed to promoting inclusion and diversity through 
-                            mobility in the agricultural sector in Sri Lanka. By aligning inclusion and diversity 
-                            with mobility, we are creating a workplace that is more inclusive and diverse while also 
-                            ensuring that we have the talent we need to meet our business goals. We will continue to 
-                            implement policies and practices that support both inclusion and mobility to create a 
-                            workplace where all employees can thrive.
+                            Also agritech companies continue to grow and hire talent, remote onboarding and training processes become paramount. Implementing a comprehensive virtual onboarding program ensures that new hires understand the company culture, values, and their roles. Remote training sessions can equip employees with the necessary knowledge and skills to thrive in their positions, promoting professional growth and development.
 
                         </p>
 
-                        <p><a href="https://kpmg.com/lk/en/home/insights/2019/05/aligning-inclusion-and-diversity-with-mobility.html">Reference</a></p>
+                        <p>
+                            Clear performance management and goal-setting processes are essential for remote and hybrid employees. AgriTech companies should establish transparent metrics to evaluate performance objectively. Emphasize outcomes and deliverables rather than focusing solely on the number of hours worked. Regular feedback and performance reviews should be conducted using digital tools to align employee goals with organizational objectives.
+
+                        </p>
+
                         
-                        <p style=" text-align: center; font-size: small;"><span style="font-weight: bold;">
-                            A description about the topic mobility</span>  -- In the context of work, mobility refers 
-                            to the ability of employees to move or transition within an organization or across 
-                            different job roles, departments, projects, or geographic locations. It involves the 
-                            flexibility and adaptability of employees to take on new responsibilities, acquire 
-                            diverse skills, and work in various settings or locations as needed by the organization. 
-                            Work mobility can include opportunities for promotion, lateral moves, cross-functional 
-                            assignments, international assignments, remote work arrangements, and other forms of 
-                            job rotation or flexibility. It is aimed at enhancing employee development, promoting 
-                            organizational agility, and meeting the evolving needs of the business.</p>
                         </div>
                         <br>
                     </div>
@@ -277,7 +248,7 @@
 
 
 <!-- footer section -->
-<div id="footer-placeholder"></div>
+<div id="MainfooterContainer"></div>
 
 </div>
 <div id="popup">
@@ -318,9 +289,18 @@
 <script src="../js/custom.js"></script>
 <script src="../js/contact.js"></script>
 <script src="../js/blog-share.js"></script>
-<script src="../js/components.js"></script>
-    <script src="../js/translate.js"></script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script src="../js/translate.js"></script>
+
+ <!-- navbar and footer -->
+  <script>
+    $(function() {
+      // Load header.html into #headerContainer
+      $('#MainheaderContainer').load('blog-main-navbar.html');
+    
+      // Load footer.html into #footerContainer
+      $('#MainfooterContainer').load('blog-main-footer.html');
+    });
+    </script>
 
 
 </body>

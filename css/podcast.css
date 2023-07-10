@@ -204,12 +204,12 @@
   }
 
   .section-podcast-intro {
-    height: 110vh;
+    height: 120vh;
     padding-top: 10vh;
   }
 
   .latest-podcast-background {
-    height: 90vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -221,7 +221,7 @@
   }
 
   .section-podcast {
-    height: 120vh;
+    height: 200vh;
   }
 
   .blog-card {

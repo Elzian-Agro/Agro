@@ -40,7 +40,7 @@ function displayLatestPodcast(data) {
 function createPodcastCard(podcast) {
   // Create Card
   const card = document.createElement('div');
-  card.className = 'blog-card card';
+  card.className = 'blog-card';
 
   const cardBody = document.createElement('div');
   cardBody.className = 'card-body';
@@ -65,6 +65,7 @@ function createPodcastCard(podcast) {
   const thumbnail = document.createElement('img');
   thumbnail.src = podcast.thumbnail;
   thumbnail.className = 'thumbnail';
+  thumbnail.style.borderRadius = '20px';
   thumbnail.alt = 'Podcast Thumbnail';
 
   // Title
