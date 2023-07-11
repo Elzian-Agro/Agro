@@ -4351,6 +4351,13 @@ margin-left: -30px;
   
 }
 
+.section-news {
+  display: none;
+}
+
+.section-news.active {
+  display: block;
+}
 
 
 
