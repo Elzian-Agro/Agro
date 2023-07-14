@@ -3,11 +3,21 @@
 		"id":0,
 		"News":0,
         "image": "",
-        "news-site": "",
+        "news_site": "",
         "date": "",
 		"title": "",
 		"description": "",
 		"link": ""
+	},
+	{
+		"id":-1,
+		"News":15,
+        "image": "../images/news_and_media/An-Exemplar-of-Innovation-and-Sustainable-Agriculture.jpg",
+        "news_site": "Daily FT",
+        "date": "14-July-2023",
+		"title": "Elzian Agro becomes one of top finalists in Expo City Dubai ExpoLive Innovation Program",
+		"description": "Elzian Agro’s achievement was celebrated at the Terra Pavilion in Expo City Dubai, where they engaged with talented individuals from 37 nations who shared their passion for positive impact. Renowned for their groundbreaking technologies and sustainable farming methods, Elzian Agro stands as a frontrunner in the industry.",
+		"link": "https://www.ft.lk/sectors/Elzian-Agro-becomes-one-of-top-finalists-in-Expo-City-Dubai-ExpoLive-Innovation-Program/20-750577"
 	},
 	{
 		"id":1,
