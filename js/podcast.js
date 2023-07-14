@@ -95,7 +95,7 @@ function createPodcastCard(podcast) {
   readMore.className = 'btn btn-dark';
   readMore.style.borderRadius = '20px';
   readMore.href = 'podcast.html?podcast=' + encodeURIComponent(JSON.stringify(podcast)); /*Pass the data through link */
-  readMore.textContent = 'Read More';
+  readMore.textContent = 'More Details';
   readMore.target = '_blank';
   readMore.style.display = 'flex';
   readMore.style.justifyContent = 'center';
