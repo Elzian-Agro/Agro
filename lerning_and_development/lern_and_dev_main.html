@@ -59,27 +59,42 @@
     />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5XQ6529FXW"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-5XQ6529FXW"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+      window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'G-5XQ6529FXW');
+      gtag("config", "G-5XQ6529FXW");
     </script>
 
     <!-- Fontawesome CDN Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <style>
+      .card {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 10px;
+      }
+    </style>
   </head>
   <body>
     <!--Navigation-bar-->
- <!--Navigation-bar-->
- <div id="pre-loader-placeholder"></div> <!--Pre-loader-->
+    <div id="pre-loader-placeholder"></div>
+    <!--Pre-loader-->
 
- <div id="navbar-placeholder"></div> <!--Navigation-bar-->
+    <div id="navbar-placeholder"></div>
+    <!--Navigation-bar-->
 
     <!-- preloader section -->
     <section class="preloader">
@@ -111,96 +126,98 @@
     <section class="blog-card-post">
       <div class="banner news-banner">
         <img
-          src="../images/news_and_media/newban.jpg"
+          src="../images/lerning/lerning_banner.jpg"
           alt="background image of blog main page"
         />
         <div class="banner-heading">
-          <h3>
-            News & Media
-          </h3>
+          <h3>LEARNING AND DEVELOPMENT</h3>
         </div>
       </div>
     </section>
 
-
-
-
-
     <section id="blog-main-card-post" class="blog-tag-identify">
       <div class="container">
-       
-        <div class=" news-container ">
-
-
-
-        <div id="blog-item"></div>
-
-        <script>
-          // Fetch JSON data
-          fetch('newsData.json')
-            .then(response => response.json())
-            .then(data => {
-              const cardsContainer = document.getElementById('blog-item');
-      
-              // Get the first two items based on ID
-              const itemsToFetch = [6,7,8,9,10];
-      
-              // Iterate over the JSON data
-              data.forEach(item => {
-                // Check if the item's ID is in the itemsToFetch array
-                if (itemsToFetch.includes(item.id)) {
-                  // Create a card element
-                  const card = document.createElement('news-container');
-                  card.classList.add('news-container');
-      
-                  const img = document.createElement('img');
-                  img.src = `${item}`
-      
-                  // Set card content using item properties
-                  card.innerHTML = `
-                  <div class="news-container d-flex" >
-                    <div class="news-image-container ">
-                      
-                      <img src=${item.image} alt="">
+        <div class="news-container">
+          <section class="job-section" id="job-section">
+            <div class="container-xxl py-5">
+              <div class="container">
+                <h4 class="Job-heading text-center"></h4>
+                <h3 class="Job-subHeading text-center">DEPARTMENTS</h3>
+                <div>
+                  <div class="job_list" id="jobs">
+                    <div class="job-name job-card row">
+                      <i class="fa-solid fa-2x fa-users"></i>
+                      <div class="job-detail col-md-5">
+                        <h5>Hman Resource Department</h5>
+                      </div>
+                      <div class="applybutton job-label col-md-6">
+                        <a
+                          style="text-align: center"
+                          class="job-btn"
+                          href="HR-department.html"
+                          >Visit</a
+                        >
+                      </div>
                     </div>
-                    <div class="news-content-container text-center" >
-                      <div class="news-top-container d-flex justify-content-between">
-                      <div class="news-site">
-                        <p>${item.news_site}</p>
+                  </div>
+
+                  <div class="job_list" id="jobs">
+                    <div class="job-name job-card row">
+                      <i class="fa-solid fa-2x fa-laptop-code"></i>
+                      <div class="job-detail col-md-5">
+                        <h5>Software Engineering Department</h5>
                       </div>
-                      <div class="news-date">
-                        <p>${item.date}</p>
+                      <div class="applybutton job-label col-md-6">
+                        <a style="text-align: center" class="job-btn" href="#"
+                          >Visit</a
+                        >
                       </div>
+                    </div>
+                  </div>
+
+                  <div class="job_list" id="jobs">
+                    <div class="job-name job-card row">
+                      <i class="fa-solid fa-2x fa-coins"></i>
+                      <div class="job-detail col-md-5">
+                        <h5>Finance Department</h5>
                       </div>
+                      <div class="applybutton job-label col-md-6">
+                        <a style="text-align: center" class="job-btn" href="#"
+                          >Visit</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <button
+                  class="job-moreBtn"
+                  style="text-align: center"
+                  onclick="evtEllipse(this)"
+                >
+                  View More Sections
+                </button>
+                <span class="hide" onclick="spanEllipse(this)">
+                  <!-- <div class="job_list" id="jobs">
+                        <div class="job-name job-card row">
+                          <img src="./images/career/Web_Dev.png" class="job-profile col-md-3" />
+                          <div class="job-detail col-md-5">
                       
-                      <div class="news-title text-center">
-                        <h3>${item.title}</h3>
-                      </div>
-                      <div class="news-desc " style="padding: 10px;">
-                        <p>${item.description}</p>
-                      </div>
-                      <div class="news-buttons d-flex justify-content-around">
-                        <div class="news-btn">
-                          <a href=${item.link} target="_blank">Read More <i class="fa fa-arrow-right"></i></a>
+                            <h5>Web Developer Internship</h5>
+                            <span class="text-truncate me-3"><i class="job-icon fa-solid fa-location-dot"></i>Remote</span>
+                            <span class="text-truncate me-3"><i class="job-icon fa-solid fa-clock"></i>Full Time</span>
+                            <span class="text-truncate me-3"><i class="job-icon fa-solid fa-file-code"></i>Html, Bootstrap, JS</span>
+                          </div>
+                          <div class=" applybutton job-label col-md-6">
+                            <a style="text-align: center ;" class="job-btn" href="./docs/Web Developer Intern.pdf">Apply
+                              Now</a>
+                          </div>
                         </div>
-                      </div>
-        
-                    </div>
-                  </div><br><br><br>
-                  
-                  `;
-      
-                  // Add the card to the container
-                  cardsContainer.appendChild(card);
-                }
-              });
-            });
-        </script>
-
-
-
-        
-          
+                      </div> -->
+                </span>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
 
@@ -211,16 +228,21 @@
         <button class="pagination-button prevNext" id="prev" disabled>
           <i class="fa-solid fa-angle-left"></i>
         </button> -->
-  
+
         <div class="pagination-links">
-          <a href="news-main.html" class="pagination-link">1</a>
-          <a href="news-main-2.html" class="pagination-link active">2</a>
-          <a href="news-main-3.html" class="pagination-link ">3</a>
+          <!-- <button id="button1" class="pagination-link">1</button>
+          <button id="button2" class="pagination-link">2</button>
+          <button id="button3" class="pagination-link">3</button> -->
+          <!-- <a href="news-main.html" class="pagination-link active">1</a>
+          
+           <a href="news-main-2.html" class="pagination-link">2</a> 
+           <a href="news-main-3.html" class="pagination-link">3</a>  -->
+
           <!-- <a href="#" class="pagination-link">3</a>
           <a href="#" class="pagination-link">4</a>
           <a href="#" class="pagination-link">5</a> -->
         </div>
-  
+
         <!-- <button class="pagination-button prevNext" id="next">
           <i class="fa-solid fa-angle-right"></i>
         </button>
@@ -232,10 +254,8 @@
 
     <!-- Blog Main Section Ends -->
 
-
-    
-<!-- footer section -->
-<div id="footer-placeholder"></div>
+    <!-- footer section -->
+    <div id="footer-placeholder"></div>
 
     <!-- Back top -->
     <a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
@@ -245,12 +265,12 @@
     <script src="../js/popper.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/vegas.min.js"></script>
-    <script src="../js/main.js"></script>
-    <script src="../js/wow.min.js"></script>
+    <!-- <script src="../js/main.js"></script> -->
+    <!-- <script src="../js/wow.min.js"></script> -->
     <script src="../js/smoothscroll.js"></script>
     <script src="../js/custom.js"></script>
-    <script src="../js/contact.js"></script>
-    <script src="../js/blog-tag.js"></script>
+    <!-- <script src="../js/contact.js"></script> -->
+    <!-- <script src="../js/blog-tag.js"></script> -->
     <script src="../js/components.js"></script>
     <!-- <script src="../js/pagination.js"></script> -->
     <script src="../vendor/aos/aos.js"></script>
@@ -260,7 +280,9 @@
     <script src="../vendor/swiper/swiper-bundle.min.js"></script>
     <script src="../vendor/waypoints/noframework.waypoints.js"></script>
     <script src="../js/translate.js"></script>
-            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
- 
+    <script
+      type="text/javascript"
+      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    ></script>
   </body>
 </html>

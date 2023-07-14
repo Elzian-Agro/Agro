@@ -4167,9 +4167,7 @@ footer a:hover {
 
 /* news and media section start */
 
-.news-banner {
-  /* background-image: linear-gradient( rgba(0,0,0,0.4)); */
-}
+
 .news-top-container{
   padding: 10px 30px 0px 30px;
   
@@ -4185,6 +4183,10 @@ footer a:hover {
   /* top: 10%; */
   
   
+}
+
+a{
+  color: #009207;
 }
 
 .news-image-container img{
@@ -4351,6 +4353,13 @@ margin-left: -30px;
   
 }
 
+.section-news {
+  display: none;
+}
+
+.section-news.active {
+  display: block;
+}
 
 
 

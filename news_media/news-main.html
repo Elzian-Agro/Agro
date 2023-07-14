@@ -172,71 +172,17 @@
             </div>
           </div><br><br><br> -->
 
+          <div id="section1" class="section-news" style="background-color: white;">
+          <div id="blog-item-1"></div>
+          </div>
 
-          <div id="blog-item"></div>
+          <div id="section2" class="section-news" style="background-color: white;">
+            <div id="blog-item-2"></div>
+          </div>
 
-  <script>
-    // Fetch JSON data
-    fetch('newsData.json')
-      .then(response => response.json())
-      .then(data => {
-        const cardsContainer = document.getElementById('blog-item');
-
-        // Get the first two items based on ID
-        const itemsToFetch = [1,2,3,4,5];
-
-        // Iterate over the JSON data
-        data.forEach(item => {
-          // Check if the item's ID is in the itemsToFetch array
-          if (itemsToFetch.includes(item.id)) {
-            // Create a card element
-            const card = document.createElement('news-container');
-            card.classList.add('news-container');
-
-            const img = document.createElement('img');
-            img.src = `${item}`
-
-            // Set card content using item properties
-            card.innerHTML = `
-            <div class="news-container d-flex" >
-              <div class="news-image-container ">
-                
-                <img src="${item.image}" alt="">
-              </div>
-              <div class="news-content-container text-center" >
-                <div class="news-top-container d-flex justify-content-between">
-                <div class="news-site">
-                  <p>${item.news_site}</p>
-                </div>
-                <div class="news-date">
-                  <p>${item.date}</p>
-                </div>
-                </div>
-                
-                <div class="news-title text-center">
-                  <h3>${item.title}</h3>
-                </div>
-                <div class="news-desc " style="padding: 10px;">
-                  <p>${item.description}</p>
-                </div>
-                <div class="news-buttons d-flex justify-content-around">
-                  <div class="news-btn">
-                    <a href=${item.link} target="_blank">Read More <i class="fa fa-arrow-right"></i></a>
-                  </div>
-                </div>
-  
-              </div>
-            </div><br><br><br>
-            
-            `;
-
-            // Add the card to the container
-            cardsContainer.appendChild(card);
-          }
-        });
-      });
-  </script>
-
+          <div id="section3" class="section-news" style="background-color: white;">
+            <div id="blog-item-3"></div>
+          </div>
 
         </div>
       </div>
@@ -250,10 +196,13 @@
         </button> -->
   
         <div class="pagination-links">
-          <a href="news-main.html" class="pagination-link active">1</a>
+          <button id="button1" class="pagination-link">1</button>
+          <button id="button2" class="pagination-link">2</button>
+          <button id="button3" class="pagination-link">3</button>
+          <!-- <a href="news-main.html" class="pagination-link active">1</a>
           
            <a href="news-main-2.html" class="pagination-link">2</a> 
-           <a href="news-main-3.html" class="pagination-link">3</a> 
+           <a href="news-main-3.html" class="pagination-link">3</a>  -->
           
           
           <!-- <a href="#" class="pagination-link">3</a>
@@ -300,6 +249,244 @@
     <script src="../vendor/swiper/swiper-bundle.min.js"></script>
     <script src="../vendor/waypoints/noframework.waypoints.js"></script>
     <script src="../js/translate.js"></script>
-            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+    // Get all buttons and sections
+    var buttons = document.querySelectorAll("button");
+    var sections = document.querySelectorAll(".section-news");
+
+    // Show section1 on page load
+    var section1 = document.getElementById("section1");
+    section1.classList.add("active");
+
+    // Add click event listener to each button
+    buttons.forEach(function(button) {
+        button.addEventListener("click", function() {
+            // Check if the clicked button is button1 (section1)
+            if (this.id === "button1") {
+                // If button1 is clicked, do not disable section1
+                section1.classList.add("active");
+            } else {
+                // Remove active class from section1 to disable it
+                section1.classList.remove("active");
+            }
+
+            // Remove active class from all sections and buttons
+            sections.forEach(function(section) {
+                section.classList.remove("active");
+            });
+            buttons.forEach(function(button) {
+                button.classList.remove("active");
+            });
+
+            // Add active class to the clicked section and button
+            var sectionId = this.id.replace("button", "section");
+            var section = document.getElementById(sectionId);
+            section.classList.add("active");
+            this.classList.add("active");
+
+                        // Add color to buttons based on active section
+                        buttons.forEach(function(button) {
+                var sectionId = button.id.replace("button", "section");
+                var section = document.getElementById(sectionId);
+                if (section.classList.contains("active")) {
+                    button.style.backgroundColor = "red"; // Set the desired color
+                } else {
+                    button.style.backgroundColor = ""; // Remove any previously set color
+                }
+            });
+        });
+    });
+});
+
+    </script>
+
+<script>
+  // Fetch JSON data
+  fetch('newsData.json')
+    .then(response => response.json())
+    .then(data => {
+      const cardsContainer = document.getElementById('blog-item-1');
+
+      // Get the first two items based on ID
+      const itemsToFetch = [-1,1,2,3,4];
+
+      // Iterate over the JSON data
+      data.forEach(item => {
+        // Check if the item's ID is in the itemsToFetch array
+        if (itemsToFetch.includes(item.id)) {
+          // Create a card element
+          const card = document.createElement('news-container');
+          card.classList.add('news-container');
+
+          const img = document.createElement('img');
+          img.src = `${item}`
+
+          // Set card content using item properties
+          card.innerHTML = `
+          <div class="news-container d-flex" >
+            <div class="news-image-container ">
+              
+              <img src="${item.image}" alt="">
+            </div>
+            <div class="news-content-container text-center" >
+              <div class="news-top-container d-flex justify-content-between">
+              <div class="news-site">
+                <p>${item.news_site}</p>
+              </div>
+              <div class="news-date">
+                <p>${item.date}</p>
+              </div>
+              </div>
+              
+              <div class="news-title text-center">
+                <h3>${item.title}</h3>
+              </div>
+              <div class="news-desc " style="padding: 10px;">
+                <p>${item.description}</p>
+              </div>
+              <div class="news-buttons d-flex justify-content-around">
+                <div class="news-btn">
+                  <a href=${item.link} target="_blank">Read More <i class="fa fa-arrow-right"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </div><br><br><br>
+          
+          `;
+
+          // Add the card to the container
+          cardsContainer.appendChild(card);
+        }
+      });
+    });
+</script>
+
+
+<script>
+  // Fetch JSON data
+  fetch('newsData.json')
+    .then(response => response.json())
+    .then(data => {
+      const cardsContainer = document.getElementById('blog-item-2');
+
+      // Get the first two items based on ID
+      const itemsToFetch = [5,6,7,8,9];
+
+      // Iterate over the JSON data
+      data.forEach(item => {
+        // Check if the item's ID is in the itemsToFetch array
+        if (itemsToFetch.includes(item.id)) {
+          // Create a card element
+          const card = document.createElement('news-container');
+          card.classList.add('news-container');
+
+          const img = document.createElement('img');
+          img.src = `${item}`
+
+          // Set card content using item properties
+          card.innerHTML = `
+          <div class="news-container d-flex" >
+            <div class="news-image-container ">
+              
+              <img src=${item.image} alt="">
+            </div>
+            <div class="news-content-container text-center" >
+              <div class="news-top-container d-flex justify-content-between">
+              <div class="news-site">
+                <p>${item.news_site}</p>
+              </div>
+              <div class="news-date">
+                <p>${item.date}</p>
+              </div>
+              </div>
+              
+              <div class="news-title text-center">
+                <h3>${item.title}</h3>
+              </div>
+              <div class="news-desc " style="padding: 10px;">
+                <p>${item.description}</p>
+              </div>
+              <div class="news-buttons d-flex justify-content-around">
+                <div class="news-btn">
+                  <a href=${item.link} target="_blank">Read More <i class="fa fa-arrow-right"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </div><br><br><br>
+          
+          `;
+
+          // Add the card to the container
+          cardsContainer.appendChild(card);
+        }
+      });
+    });
+</script>
+
+<script>
+  // Fetch JSON data
+  fetch('newsData.json')
+    .then(response => response.json())
+    .then(data => {
+      const cardsContainer = document.getElementById('blog-item-3');
+
+      // Get the first two items based on ID
+      const itemsToFetch = [10,11,12,13,14];
+
+      // Iterate over the JSON data
+      data.forEach(item => {
+        // Check if the item's ID is in the itemsToFetch array
+        if (itemsToFetch.includes(item.id)) {
+          // Create a card element
+          const card = document.createElement('news-container');
+          card.classList.add('news-container');
+
+          const img = document.createElement('img');
+          img.src = `${item}`
+
+          // Set card content using item properties
+          card.innerHTML = `
+          <div class="news-container d-flex" >
+            <div class="news-image-container ">
+              
+              <img src=${item.image} alt="">
+            </div>
+            <div class="news-content-container text-center" >
+              <div class="news-top-container d-flex justify-content-between">
+              <div class="news-site">
+                <p>${item.news_site}</p>
+              </div>
+              <div class="news-date">
+                <p>${item.date}</p>
+              </div>
+              </div>
+              
+              <div class="news-title text-center">
+                <h3>${item.title}</h3>
+              </div>
+              <div class="news-desc " style="padding: 10px;">
+                <p>${item.description}</p>
+              </div>
+              <div class="news-buttons d-flex justify-content-around">
+                <div class="news-btn">
+                  <a href=${item.link} target="_blank">Read More <i class="fa fa-arrow-right"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </div><br><br><br>
+          
+          `;
+
+          // Add the card to the container
+          cardsContainer.appendChild(card);
+        }
+      });
+    });
+</script>
   </body>
 </html>
