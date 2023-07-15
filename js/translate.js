@@ -1,17 +1,15 @@
-
-
 function googleTranslateElementInit() {
-    new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
-  }
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    includedLanguages: 'en,si,ta,fr,de,id,th,hi,ja',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
 
+  // Event handler for language change
+  googleTranslateElement.addEventListener('googletranslateload', function(event) {
+    var iframe = document.querySelector('.goog-te-menu-frame');
+    var styleClass = iframe.contentDocument.documentElement.className;
+    document.querySelector('.goog-te-banner-frame').className = styleClass;
+  });
+}
 
-
-
-
-  function googleTranslateElementInit() {
-    new google.translate.TranslateElement({
-      pageLanguage: 'en',
-      includedLanguages: 'en,si,ta,fr,de,id,th,hi,ja', // Specify the languages you want to include
-      layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-    }, 'google_translate_element');
-  }
