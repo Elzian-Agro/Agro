@@ -1478,11 +1478,13 @@ canvas {
 }
 #blog .auther-data-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #blog .auther-data-container img {
-  width: 130px;
-  height: 130px;
+  width: 90px;
+  height: 90px;
 }
 
 #blog .card-title-1 {
@@ -1499,21 +1501,27 @@ canvas {
   padding-left: 20px;
 }
 #blog .card-block {
-  line-height: 4px;
+  line-height: 2px;
   display: flex;
 }
 
 #blog .auth-data {
   padding-left: 15px;
+  color: #707070;
+}
+
+#blog .auth-data h4{
+  color: #5c5c5c;
 }
 
 #blog .card-block h5 {
-  font-size: 15px;
+  font-size: 13px;
   text-align: start;
   align-items: start;
+  
 }
 #blog .card-block h6 {
-  font-size: 13px;
+  font-size: 11px;
   text-align: start;
   padding-right: 5px;
 }
@@ -4120,10 +4128,11 @@ footer a:hover {
 /* news and media section start */
 
 .news-top-container {
-  padding: 10px 30px 0px 30px;
+  padding: 10px 30px 0px 20px;
 }
 .news-container {
-  display: fl;
+  /* display: fl; */
+  
 }
 .news-image-container {
   width: 40%;
@@ -4149,11 +4158,13 @@ a {
 .news-title {
   padding: 0px 20px 0px 20px;
   text-align: justify;
+  margin-top: -20px;
 }
 
 .news-title h3 {
-  font-size: 20px;
+  font-size: 18px;
   color: #242424;
+  line-height: 28px;
 }
 
 .news-content-container {
@@ -4165,14 +4176,17 @@ a {
   z-index: 1;
   background: white;
 }
+.news-desc{
+  margin-top: -10px;
+}
 
 .news-desc p {
   text-align: justify;
   padding: 0px 25px;
-  font-size: 14px;
+  font-size: 13px;
 }
 .news-btn {
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 .news-btn a {
   border: 2px solid #009207;
@@ -4235,6 +4249,8 @@ a {
   background-color: #f2f2f2;
   border-radius: 6px;
   cursor: pointer;
+  border: none;
+  outline: none;
 }
 .pagination-links {
   column-gap: 12px;
