@@ -4130,10 +4130,7 @@ footer a:hover {
 .news-top-container {
   padding: 10px 30px 0px 20px;
 }
-.news-container {
-  /* display: fl; */
-  
-}
+
 .news-image-container {
   width: 40%;
   height: auto;
@@ -4267,6 +4264,29 @@ a {
 .pagination-link.active {
   color: #fff;
   background: #009207;
+}
+
+.learn-filter-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.learn-filter-container button{
+  background-color: #005a0b;
+  outline: none;
+  border: none;
+  padding: 5px 25px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: .5s;
+  letter-spacing: 1px;
+}
+
+.learn-filter-container button:hover{
+ color: #005a0b;
+ background-color: white;
+ box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 /* pagination end */
