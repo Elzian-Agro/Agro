@@ -4188,26 +4188,42 @@ a {
 .news-btn a {
   border: 2px solid #009207;
   outline: none;
-  background-color: white;
-  color: #009207;
+  background-color: #009207;
+  color: #fff;
   padding: 10px 40px;
-  border-radius: 10px;
+  border-radius: 4px;
   font-size: 14px;
   transition: 500ms;
 }
 
 .news-btn a:hover {
-  background-color: #009207;
-  color: white;
+  background-color: #ffffff;
+  color: #009207;
 }
 
-.news-btn a:hover {
-  /* background-color: #009207; */
-  color: white;
-}
+
 
 .news-btn a i {
   padding-left: 10px;
+}
+
+.read-now-btn{
+  border: 2px solid #009207;
+  outline: none;
+  background-color: #009207;
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: 500ms;
+  font: bold;
+}
+
+.read-now-btn:hover{
+  border: 2px solid #009207;
+  outline: none;
+  background-color: #ffffff;
+  color: #009207;
 }
 
 /* pagination start */
@@ -4272,7 +4288,7 @@ a {
 }
 
 .learn-filter-container button{
-  background-color: #005a0b;
+  background-color: #009207;
   outline: none;
   border: none;
   padding: 5px 25px;
@@ -4284,7 +4300,7 @@ a {
 }
 
 .learn-filter-container button:hover{
- color: #005a0b;
+ color: #009207;
  background-color: white;
  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
 }
