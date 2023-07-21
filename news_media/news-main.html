@@ -301,7 +301,6 @@
 });
 
     </script>
-
 <script>
   // Fetch JSON data
   fetch('newsData.json')
@@ -326,18 +325,23 @@
           // Set card content using item properties
           card.innerHTML = `
           <div class="news-container d-flex" >
-            <div class="news-image-container ">
-              
-              <img src="${item.image}" alt="">
-            </div>
+            
             <div class="news-content-container text-center" >
+              <div class="news-image-container ">
+          <div class="news-image-box">
+            <img src="${item.image}" alt="">
+            </div>
+              
+              
+            </div>
+            <div  class="news-box-body">
               <div class="news-top-container d-flex justify-content-between">
-              <div class="news-site">
-                <p>${item.news_site}</p>
-              </div>
-              <div class="news-date">
-                <p>${item.date}</p>
-              </div>
+                <div class="news-site">
+                  <p>${item.news_site}</p>
+                </div>
+                <div class="news-date">
+                  <p>${item.date}</p>
+                </div>
               </div>
               
               <div class="news-title text-center">
@@ -352,6 +356,7 @@
                 </div>
               </div>
 
+            </div>
             </div>
           </div><br><br><br>
           
@@ -389,11 +394,16 @@
           // Set card content using item properties
           card.innerHTML = `
           <div class="news-container d-flex" >
-            <div class="news-image-container ">
-              
-              <img src=${item.image} alt="">
-            </div>
+            
             <div class="news-content-container text-center" >
+              <div class="news-image-container ">
+          <div class="news-image-box">
+            <img src="${item.image}" alt="">
+            </div>
+              
+              
+            </div>
+            <div class="news-box-body">
               <div class="news-top-container d-flex justify-content-between">
               <div class="news-site">
                 <p>${item.news_site}</p>
@@ -415,6 +425,7 @@
                 </div>
               </div>
 
+            </div>
             </div>
           </div><br><br><br>
           
@@ -451,11 +462,16 @@
           // Set card content using item properties
           card.innerHTML = `
           <div class="news-container d-flex" >
-            <div class="news-image-container ">
-              
-              <img src=${item.image} alt="">
-            </div>
+            
             <div class="news-content-container text-center" >
+              <div class="news-image-container ">
+          <div class="news-image-box">
+            <img src="${item.image}" alt="">
+            </div>
+              
+              
+            </div>
+            <div class="news-box-body">
               <div class="news-top-container d-flex justify-content-between">
               <div class="news-site">
                 <p>${item.news_site}</p>
@@ -477,6 +493,7 @@
                 </div>
               </div>
 
+            </div>
             </div>
           </div><br><br><br>
           
