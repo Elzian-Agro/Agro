@@ -2850,7 +2850,7 @@ a:focus {
 }
 .ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu .dropdown-item:hover,
 .ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu .dropdown-item:focus,
-.active {
+.nav-link.active {
   background: #0b8021;
   color: #fff;
 }
