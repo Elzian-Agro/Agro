@@ -197,6 +197,13 @@ strong {
   .banner-heading h1 {
     margin-top: 50px;
   }
+  .banner h1{
+    font-size: 28px;
+    text-align: center;
+    margin: -25px;
+    margin-bottom: 20px;
+  }
+
 }
 
 @media screen and (max-width: 991px) {
@@ -1925,6 +1932,10 @@ canvas {
   #blog .sub-heading {
     font-size: 1.1rem;
   }
+  #blog .banner-heading h3{
+    font-size: 20px;
+    display: block;
+  }
 }
 
 /* Blog section Ends */
@@ -2004,7 +2015,7 @@ canvas {
   text-shadow: 3px 3px 6px #000;
 }
 
-.blog-card-post .banner-heading h3 {
+.blog-card-post .banner-heading h2 {
   font-weight: 900;
   font-size: 1.8rem;
   color: white;
@@ -2091,8 +2102,9 @@ canvas {
     font-size: 3rem;
   }
 
-  .blog-card-post .banner-heading h3 {
-    font-size: 2rem;
+  .blog-card-post .banner-heading h2 {
+    font-size: 1.5rem;
+    line-height: 30px;
   }
 
   .blog-post-title {
@@ -2116,10 +2128,54 @@ canvas {
     font-size: 2.4rem;
   }
 
-  .blog-card-post .banner-heading h3 {
-    font-size: 1.2rem;
+  .blog-card-post .banner-heading h2 {
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+
+  #blog .main-heading{
+    font-size: 20px;
+  }
+
+  
+}
+
+@media screen and (max-width: 568px){
+  #blog .ct-content{
+    width: 100%;
+  }
+
+  #blog .author-card{
+    width: 100%;
+  }
+
+  #blog .auth-data{
+    width: 100%;
+  }
+ 
+  #blog .auther-data-container img{
+    width: 25%;
+  }
+
+  #blog .share-btn{
+    width: 200px;
+  }
+
+  #popup{
+    padding: 10px;
+  }
+
+
+  #popup .close {
+    height: 30px;
+    width: 30px;
+    top: 50px;
+    right: 25px;
+  
   }
 }
+
+
 
 /* Blog Main Card Post Section Ends */
 
@@ -2719,6 +2775,10 @@ footer a:hover {
     height: 25px;
     line-height: 25px;
   }
+
+  footer .footer-adress{
+    justify-content: center;
+  } 
 }
 
 /* My Agro-guard benefits section starts */
@@ -4188,6 +4248,11 @@ a {
   
 }
 
+#news-main .banner-heading h2{
+  font-size: 32px;
+  color: #fff;
+}
+
 .news-title h3 {
   font-size: 18px;
   color: #242424;
@@ -4203,12 +4268,7 @@ a {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
   z-index: 1;
   background: white;
-
 display: flex;
-
-
-
-
 }
 .news-desc {
   margin-top: -10px;
@@ -4260,6 +4320,71 @@ display: flex;
   background-color: #ffffff;
   color: #009207;
 }
+
+
+/* learn and development start */
+
+
+
+
+.learn-filter-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.learn-filter-container button {
+  background-color: #009207;
+  outline: none;
+  border: none;
+  padding: 5px 25px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.5s;
+  letter-spacing: 1px;
+}
+
+.learn-filter-container button:hover {
+  color: #009207;
+  background-color: white;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+@media screen and (max-width: 568px){
+  #blog-main-card-post .learn-filter-container button{
+  background-color: #009207;
+  outline: none;
+  border: none;
+  padding: 4px 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 10px;
+  transition: 0.5s;
+  letter-spacing: 1px;
+  gap: 5px;
+  }
+  #blog-main-card-post .job-card{
+   text-align: center;
+  }
+
+  .read-now-btn {
+    border: 2px solid #009207;
+    outline: none;
+    background-color: #009207;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: 12px;
+    transition: 500ms;
+    font: bold;
+  }
+}
+
+
+
+
+/* learn and development end */
 
 /* pagination start */
 
@@ -4317,28 +4442,6 @@ display: flex;
   background: #009207;
 }
 
-.learn-filter-container {
-  display: flex;
-  justify-content: space-around;
-}
-
-.learn-filter-container button {
-  background-color: #009207;
-  outline: none;
-  border: none;
-  padding: 5px 25px;
-  color: #fff;
-  border-radius: 5px;
-  font-size: 14px;
-  transition: 0.5s;
-  letter-spacing: 1px;
-}
-
-.learn-filter-container button:hover {
-  color: #009207;
-  background-color: white;
-  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
-}
 
 /* pagination end */
 
