@@ -2582,14 +2582,23 @@ footer a:hover {
 /* modal */
 
 #inquire {
-  background: url("../images/inquire-modal-bg.jpg") no-repeat;
-  background-size: cover;
+  
+  background: transparent;
+}
+
+#inquire .modal-dialog {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.modal-backdrop.show {
+  opacity: 0.5; 
+  background-color: #000; 
 }
 
 .modal-dialog .modal-content {
   /* background: url("../images/inquire-modal-bg.jpg") no-repeat; */
   height: auto;
-  background-color: rgba(255, 255, 255, 0.7);
   border-color: #dbd4d4;
   box-shadow: #000000;
   background-position: center center;
