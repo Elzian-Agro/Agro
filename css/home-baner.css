@@ -401,7 +401,7 @@ h6 {
 
 .inq-btn {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .inq-btn a {
   background-color: #5e6578;
@@ -419,7 +419,7 @@ a:link,
 a:visited {
   text-decoration: none;
 }
-.modal-header span {
+/* .modal-header span {
   color: gray;
 }
 .modal-footer {
@@ -436,72 +436,101 @@ a:visited {
 .modal-title {
   color: gray;
   font-size: 32px;
+} */
+
+#inquire input[type="text"],
+#inquire input[type="email"] {
+  height: 30px;
 }
 
+#inquire textarea {
+  height: 100px !important;
+}
+#inquire label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  text-align: left;
+}
+
+#inquire .col-md-12 {
+  margin-bottom: 8px;
+}
+
+.modal.animate.show {
+  opacity: 0;
+}
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: hidden !important;
+}
+#inquire .modal-title {
+  color: black;
+  font-size: 32px;
+}
 
 /* monadi */
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-.banner{
+.banner {
   width: 100%;
   height: 90vh;
   position: relative;
   overflow: hidden;
 }
 
-.slider{
+.slider {
   width: 100%;
   height: 100vh;
   position: absolute;
   top: 0;
 }
 
-#slideImg1{
+#slideImg1 {
   width: 100%;
   height: 100%;
   animation: zoom 3s linear infinite;
-
 }
-@keyframes zoom{
-  0%{
-      transform: scale(1.3);
+@keyframes zoom {
+  0% {
+    transform: scale(1.3);
   }
-  15%{
-      transform: scale(1);
+  15% {
+    transform: scale(1);
   }
-  85%{
-      transform: scale(1);
+  85% {
+    transform: scale(1);
   }
-  100%{
-      transform: scale(1.3);
+  100% {
+    transform: scale(1.3);
   }
 }
 
-.overlay{
+.overlay {
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   position: absolute;
   top: 0;
 }
 
-.content{
+.content {
   width: 60%;
   margin: 160px auto 0;
   text-align: center;
   color: #fff;
 }
 
-.content h1{
+.content h1 {
   font-size: 60px;
   font-family: "LEXEND", sans-serif;
   color: #fff;
 }
-.content h2{
+.content h2 {
   width: 85%;
   margin: 20px auto 40px;
   font-weight: 100;
@@ -511,45 +540,43 @@ a:visited {
   font-size: 25px;
 }
 .content p {
-
   color: #fff;
 }
 
-.overlay .content button{
+.overlay .content button {
   width: max-content;
-  padding:  10px 30px;
+  padding: 10px 30px;
   text-align: center;
   margin: 40px 10px;
   border-radius: 5px;
   font-weight: bold;
-  border: 2px solid  #fff ;
-  background:  #0b8021 ;
+  border: 2px solid #fff;
+  background: #0b8021;
   color: #fff;
   cursor: pointer;
   transition: background 0.5s;
-  
 }
 
-.overlay .content button:hover{
+.overlay .content button:hover {
   background: transparent;
   border: 2px solid #fff;
-  box-shadow: 0 12px 16px 0 rgba(8, 2, 2, 0.24), 0 17px 50px 0 rgba(38, 37, 37, 0.19);
+  box-shadow: 0 12px 16px 0 rgba(8, 2, 2, 0.24),
+    0 17px 50px 0 rgba(38, 37, 37, 0.19);
 }
 
-:root{
+:root {
   --typewriterSpeed: 6s;
 }
 
-.content .bannerp{
+.content .bannerp {
   opacity: 0;
   transform: translateY(3rem);
   animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
 }
 
-@keyframes fadeInUp{
-  to{
-      opacity: 1;
-      transform: translateY(0);
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-
 }
