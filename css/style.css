@@ -197,13 +197,12 @@ strong {
   .banner-heading h1 {
     margin-top: 50px;
   }
-  .banner h1{
+  .banner h1 {
     font-size: 28px;
     text-align: center;
     margin: -25px;
     margin-bottom: 20px;
   }
-
 }
 
 @media screen and (max-width: 991px) {
@@ -1932,7 +1931,7 @@ canvas {
   #blog .sub-heading {
     font-size: 1.1rem;
   }
-  #blog .banner-heading h3{
+  #blog .banner-heading h3 {
     font-size: 20px;
     display: block;
   }
@@ -2133,49 +2132,43 @@ canvas {
     line-height: 25px;
   }
 
-  #blog .main-heading{
+  #blog .main-heading {
     font-size: 20px;
   }
-
-  
 }
 
-@media screen and (max-width: 568px){
-  #blog .ct-content{
+@media screen and (max-width: 568px) {
+  #blog .ct-content {
     width: 100%;
   }
 
-  #blog .author-card{
+  #blog .author-card {
     width: 100%;
   }
 
-  #blog .auth-data{
+  #blog .auth-data {
     width: 100%;
   }
- 
-  #blog .auther-data-container img{
+
+  #blog .auther-data-container img {
     width: 25%;
   }
 
-  #blog .share-btn{
+  #blog .share-btn {
     width: 200px;
   }
 
-  #popup{
+  #popup {
     padding: 10px;
   }
-
 
   #popup .close {
     height: 30px;
     width: 30px;
     top: 50px;
     right: 25px;
-  
   }
 }
-
-
 
 /* Blog Main Card Post Section Ends */
 
@@ -2587,13 +2580,31 @@ footer a:hover {
 }
 
 /* modal */
+
+#inquire {
+  
+  background: transparent;
+}
+
+#inquire .modal-dialog {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.modal-backdrop.show {
+  opacity: 0.5; 
+  background-color: #000; 
+}
+
 .modal-dialog .modal-content {
-  background: url("../images/inquire-modal-bg.jpg") no-repeat;
-  background-size: cover;
+  /* background: url("../images/inquire-modal-bg.jpg") no-repeat; */
+  height: auto;
+  border-color: #dbd4d4;
+  box-shadow: #000000;
   background-position: center center;
-  border-radius: 0;
+  border-radius: 3;
   text-align: center;
-  padding: 100px 50px 100px 50px;
+  padding: 10px 50px 470px 50px;
   position: relative;
 }
 
@@ -2601,19 +2612,20 @@ footer a:hover {
   outline: none;
 }
 
-.modal-header {
+#inquire .header {
   border-bottom: 0px;
+  margin-top: 15px;
 }
 
 .modal-dialog .close {
   color: #194c23;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 300;
   text-shadow: none;
   opacity: 1;
   position: absolute;
-  top: 40px;
-  right: 40px;
+  top: 10px;
+  right: 10px;
   border: 2px solid gray;
   border-radius: 100px;
   width: 36px;
@@ -2630,30 +2642,38 @@ footer a:hover {
   padding: 20px;
 }
 
-.modal-dialog form input {
+/* .modal-dialog form input {
   height: 55px;
-}
+} */
 
 .modal-dialog form .form-control {
   background: transparent;
-  border: 1px solid #f0f0f0;
-  border-radius: 0px;
+  border: 1px solid #000;
+  border-radius: 10px;
   box-shadow: none;
-  font-size: 20px;
+  font-size: 14px;
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   transition: all 0.4s ease-in-out;
 }
 
 .modal-dialog form input[type="submit"] {
-  background: #ffffff;
-  color: #242424;
-  text-transform: uppercase;
-  margin-top: 30px;
+  background: #242424 !important;
+  border: none;
+  color: #ffffff !important;
+  background: #242424;
+  border: 1.5px solid #999;
+  border-radius: 0% !important;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  transition: all 0.4s ease-in-out;
+  margin-top: 10px;
 }
 
 .modal-dialog form input[type="submit"]:hover {
-  background: #194c23;
+  background: #194c23 !important;
   border-color: transparent;
   color: #ffffff;
 }
@@ -2759,6 +2779,7 @@ footer a:hover {
 
   .modal-dialog .modal-content {
     padding: 50px 20px;
+    align-items: center;
   }
 
   footer {
@@ -2776,9 +2797,9 @@ footer a:hover {
     line-height: 25px;
   }
 
-  footer .footer-adress{
+  footer .footer-adress {
     justify-content: center;
-  } 
+  }
 }
 
 /* My Agro-guard benefits section starts */
@@ -4195,32 +4216,28 @@ footer a:hover {
 
 .news-top-container {
   padding: 10px 30px 0px 25px;
- 
 }
 
-.news-box-body{
-overflow: hidden;
-border-radius: 0px 30px 30px 0px;
-display: flex;
-justify-content: center;
-/* align-items: center; */
-flex-direction: column;
+.news-box-body {
+  overflow: hidden;
+  border-radius: 0px 30px 30px 0px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
 }
 
 .news-image-container {
   width: 100%;
   /* height: auto; */
-  
 
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-border-radius: 30px;
-
-
+  border-radius: 30px;
 }
-.news-image-box{
+.news-image-box {
   border-radius: 40px;
   padding: 30px;
 }
@@ -4238,17 +4255,15 @@ a {
   z-index: -100;
   /* overflow: hidden; */
   border-radius: 10px;
-  
 }
 
 .news-title {
   padding: 0px 0px 0px 0px;
   text-align: justify;
   margin-top: -20px;
-  
 }
 
-#news-main .banner-heading h2{
+#news-main .banner-heading h2 {
   font-size: 32px;
   color: #fff;
 }
@@ -4268,7 +4283,7 @@ a {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
   z-index: 1;
   background: white;
-display: flex;
+  display: flex;
 }
 .news-desc {
   margin-top: -10px;
@@ -4321,11 +4336,7 @@ display: flex;
   color: #009207;
 }
 
-
 /* learn and development start */
-
-
-
 
 .learn-filter-container {
   display: flex;
@@ -4350,22 +4361,21 @@ display: flex;
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-
-@media screen and (max-width: 568px){
-  #blog-main-card-post .learn-filter-container button{
-  background-color: #009207;
-  outline: none;
-  border: none;
-  padding: 4px 12px;
-  color: #fff;
-  border-radius: 5px;
-  font-size: 10px;
-  transition: 0.5s;
-  letter-spacing: 1px;
-  gap: 5px;
+@media screen and (max-width: 568px) {
+  #blog-main-card-post .learn-filter-container button {
+    background-color: #009207;
+    outline: none;
+    border: none;
+    padding: 4px 12px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 10px;
+    transition: 0.5s;
+    letter-spacing: 1px;
+    gap: 5px;
   }
-  #blog-main-card-post .job-card{
-   text-align: center;
+  #blog-main-card-post .job-card {
+    text-align: center;
   }
 
   .read-now-btn {
@@ -4380,9 +4390,6 @@ display: flex;
     font: bold;
   }
 }
-
-
-
 
 /* learn and development end */
 
@@ -4442,7 +4449,6 @@ display: flex;
   background: #009207;
 }
 
-
 /* pagination end */
 
 @media screen and (max-width: 1000px) {
@@ -4480,14 +4486,12 @@ display: flex;
   .news-title {
     padding: 0px 10px 0px 10px;
   }
-  .news-box-body{
+  .news-box-body {
     border-radius: 0px;
   }
-
-  
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
   .news-image-container img {
     width: 300px;
     height: auto;
@@ -4495,7 +4499,7 @@ display: flex;
     z-index: -100;
   }
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
   .news-image-container img {
     width: 200px;
     height: auto;
