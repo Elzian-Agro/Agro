@@ -1,0 +1,61 @@
+
+
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    position: relative; /* Required for dropdown menus */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+
+  
+  nav ul li a:active{
+    color: #fff;
+  }
+
+
+  
+  
+  /* Styles for dropdown menu */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1; /* Ensure dropdowns appear above other elements */
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content li {
+    display: block;
+  }
+  
+  .dropdown-content li a {
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+  }
+  
+ 
+
+  nav .nav-link:active{
+    color: #fff;
+  }
+  
+  
+  
+  /* common navigation bar end */
+  

@@ -4654,4 +4654,15 @@ display: flex;
   list-style: none;
 }
 
+.ct-topbar{
+ height: 35px;
+
+}
+
+.ct-language{
+  width: 30%;
+  font-size: 14px;
+}
 /*Google Translate End*/
+
+
