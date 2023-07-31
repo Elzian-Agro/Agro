@@ -415,9 +415,16 @@ h6 {
   border-radius: 5px;
   border: 0px !important;
 }
+
+.inq-btn a:hover{
+  background: #ffffff !important;
+  border-color: transparent;
+  color: #194c23;
+}
+
 a:link,
 a:visited {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 /* .modal-header span {
   color: gray;
