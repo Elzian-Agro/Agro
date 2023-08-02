@@ -372,6 +372,7 @@ section,
 .call-to-action-box .action-style-box {
   background: #3a3e47;
   padding: 30px;
+  margin-top: 30px;
 }
 .action-title {
   color: #fff;
@@ -380,6 +381,7 @@ section,
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  margin-top: 10px;
 }
 h3 {
   font-size: 24px;
@@ -404,12 +406,12 @@ h6 {
   margin-bottom: 5px;
 }
 .inq-btn a {
-  background-color: #5e6578;
+  background-color: #ffffff;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 8px;
-  color: white;
+  color: #194c23;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   border-radius: 5px;
@@ -417,9 +419,9 @@ h6 {
 }
 
 .inq-btn a:hover{
-  background: #ffffff !important;
+  background: #5e6578 !important;
   border-color: transparent;
-  color: #194c23;
+  color: #ffffff;
 }
 
 a:link,
