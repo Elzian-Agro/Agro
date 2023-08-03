@@ -2422,6 +2422,8 @@ canvas {
   .job-content {
     margin-bottom: 60px;
   }
+
+ 
 }
 
 .career-mission p {
@@ -2457,6 +2459,10 @@ canvas {
   .job-content {
     margin-right: 30px;
     margin-left: 30px;
+  }
+
+  #career-job .swiper-slide{
+    width: 400px;
   }
 }
 
@@ -3981,6 +3987,60 @@ footer a:hover {
   .career-job .swiper-navBtn {
     display: none;
   }
+
+  .career-job .card {
+   
+    width: 90%;
+    margin: -10px;
+    
+  }
+
+ 
+  
+.career-job .name {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+}
+
+.career-job .names {
+  font-size: 17px;
+  font-weight: 600;
+  color: #333;
+}
+
+.career-job .description {
+  font-size: 12px;
+  color: #707070;
+  text-align: center;
+}
+
+.career-job .card-content .button {
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  padding: 8px 16px;
+  background-color: #194c23;
+  font-family: "LEXEND", sans-serif;
+  border-radius: 6px;
+  margin: 14px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.career-job .card-image {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 3px;
+  margin: 15px 6px;
+}
+
+
+
 }
 
 @media screen and (max-width: 1140px) {
