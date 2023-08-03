@@ -411,7 +411,7 @@ h6 {
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 8px;
-  color: #194c23;
+  color: #0ea72c;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   border-radius: 5px;
@@ -419,7 +419,7 @@ h6 {
 }
 
 .inq-btn a:hover{
-  background: #5e6578 !important;
+  background: #194c23 !important;
   border-color: transparent;
   color: #ffffff;
 }
@@ -450,8 +450,10 @@ a:visited {
 #inquire input[type="text"],
 #inquire input[type="email"] {
   height: 30px;
+  width: 100%;
+  
 }
-
+/* 
 #inquire textarea {
   height: 100px !important;
 }
@@ -460,10 +462,73 @@ a:visited {
   margin-bottom: 5px;
   font-size: 16px;
   text-align: left;
-}
+}*/
 
 #inquire .col-md-12 {
-  margin-bottom: 8px;
+  margin-top: 10px;
+} 
+
+.input-data input,
+.textarea textarea{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid rgba(0,0,0, 0.12);
+  margin-bottom: 10px;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+.input-data input:focus ~ label, .textarea textarea:focus ~ label,
+.input-data input:valid ~ label, .textarea textarea:valid ~ label{
+  transform: translateY(-20px);
+  font-size: 14px;
+  color: #0ea72c;
+  border-color: #fff !important;
+}
+.textarea textarea{
+  resize: none;
+  padding-top: 10px;
+}
+
+.input-data label{
+  position: absolute;
+  pointer-events: none;
+  bottom: 10px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.textarea label{
+  width: 100%;
+  bottom: 70px;
+  background: #fff;
+}
+.input-data .underline{
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+}
+.input-data .underline:before{
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background: #0ea72c;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+
+.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before,
+.textarea textarea:focus ~ .underline:before,
+.textarea textarea:valid ~ .underline:before{
+  transform: scale(1);
 }
 
 .modal.animate.show {
