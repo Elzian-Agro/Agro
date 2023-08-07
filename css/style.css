@@ -4507,8 +4507,10 @@ a {
 }
 .pagination-link.active {
   color: #fff;
-  background: #009207;
+  /* background: #009207; */
 }
+
+
 
 /* pagination end */
 
