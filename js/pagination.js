@@ -47,6 +47,7 @@ prevNext.forEach((button) => {
     numbers.forEach((number, numIndex) => {
       // Toggle the "active" class on the number links based on the current step
       number.classList.toggle("active", numIndex === currentStep);
+      
       updateBtn(); // Update the button states
     });
   });
