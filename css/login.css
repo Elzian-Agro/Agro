@@ -99,21 +99,35 @@ main {
 }
 
 .btn:hover {
-  background-color: green;
-  color: black;
+  background-color: green !important;
+  color: white !important;
 }
 
 
 /* Media queries for responsive design */
 @media (max-width: 768px) {
     .login-card {
-      width: 90%;
+      /* width: 90%; */
+      height: 100vh;
+      width: 100%;
     }
+  .remember-me{
+    margin-right: 90px;
   }
+  .row {
+    padding: 10px;
+  }
+  .btn{
+    margin-left: -30px !important;
+  }
+}
   
   @media (max-width: 576px) {
     .login-card {
       width: 100%;
       padding: 10px;
+    }
+    .remember-me{
+      margin-right: 230px;
     }
   }
