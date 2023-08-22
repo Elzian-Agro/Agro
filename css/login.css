@@ -49,7 +49,7 @@ main {
 .input-label {
   position: absolute;
   top: 50%;
-  left: 10px;
+  left: 80px;
   transform: translateY(-50%);
   color: #999;
   pointer-events: none;
@@ -57,7 +57,7 @@ main {
 }
 
 .input-field {
-  width: 100%;
+  width: 80%;
   padding: 10px;
   border: 2px solid #ccc;
   border-radius: 50px;
@@ -82,7 +82,7 @@ main {
 }
 .button {
   width: 70%;
-  margin-left: 60px;
+  margin-left: 80px;
   margin-right: 50px;
 }
 
@@ -128,6 +128,30 @@ main {
       padding: 10px;
     }
     .remember-me{
-      margin-right: 230px;
+      margin-right: 120px;
+    }
+    .input-label {
+      left: 10px;
+    }
+    .input-field {
+      width: 100%;
     }
   }
+
+  /*Responsive Tablet*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .login-card{
+    width: 80%;
+    padding: 10px;
+    height: 35vh;
+  }
+  .remember-me{
+    margin-right: 150px;
+  }
+  .input-label {
+    left: 10px;
+  }
+  .input-field {
+    width: 100%;
+  }
+}
