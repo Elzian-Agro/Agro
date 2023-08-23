@@ -152,10 +152,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function setActiveLink() {
   const currentPage = window.location.pathname.split("/").pop();
+  const currentPageHome = window.location.pathname.split("https://agro.elzian.com").pop();
   const navLinks = document.querySelectorAll("#navbar-placeholder a");
 
   navLinks.forEach((link) => {
-    if (link.getAttribute("href").endsWith(currentPage)) {
+   
+    if(link.getAttribute("href").endsWith(currentPageHome)) {
+      link.classList.add("active");
+     
+    }
+     else if (link.getAttribute("href").endsWith(currentPage)) {
       link.classList.add("active");
       // Also set parent link active if a dropdown menu is active
       const parentListItem = link.closest("li.dropdown");
