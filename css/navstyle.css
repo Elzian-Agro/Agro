@@ -760,9 +760,9 @@ a:not([href]):not([tabindex]):focus {
 }
 .dropdown-item.active,
 .dropdown-item:active {
-  color: #ffffff;
+  color: #333;
   text-decoration: none;
-  background-color: green;
+  /* background-color: green; */
 }
 .dropdown-item.disabled,
 .dropdown-item:disabled {
