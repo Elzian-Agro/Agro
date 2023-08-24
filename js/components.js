@@ -151,37 +151,63 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function setActiveLink() {
+  console.log(
+
+    'hello world'
+  );
+  const currentPageHome = window.location.pathname.split(" ").pop();
   const currentPage = window.location.pathname.split("/").pop();
-  const currentPageHome = window.location.pathname.split("https://agro.elzian.com").pop();
+  const dropdownPage = window.location.pathname.split("main.html").pop();
+  const homeAnchor = document.getElementById('home-anchor');
   const navLinks = document.querySelectorAll("#navbar-placeholder a");
+  
 
   navLinks.forEach((link) => {
-   
-    if(link.getAttribute("href").endsWith(currentPageHome)) {
-      link.classList.add("active");
+
+    switch (link.getAttribute("href").endsWith(currentPage) && link.getAttribute("href").endsWith(currentPageHome)) {
+      case true:
+        
+        link.classList.add("active");
+        
+
+      if (link.getAttribute("href").endsWith(dropdownPage)) {
      
-    }
-     else if (link.getAttribute("href").endsWith(currentPage)) {
-      link.classList.add("active");
-      // Also set parent link active if a dropdown menu is active
       const parentListItem = link.closest("li.dropdown");
       if (parentListItem) {
-        parentListItem.querySelector("a").classList.add("active");
+        parentListItem.querySelector("li a").classList.add("active");
+        
       }
+      
     }
+    
+        break;
+      case false:
+        link.classList.remove("active");
+        homeAnchor.classList.remove("active");
+        const parentListItem = link.closest("li.dropdown");
+      if (parentListItem) {
+        parentListItem.querySelector("li a").classList.remove("active");
+        
+      }
+        break;
+    
+      default:
+       
+        break;
+    }
+   
+    
+
+    if(link.getAttribute("href").endsWith(currentPage)) {
+      homeAnchor.classList.add("active");
+    }
+    
   });
+
 }
 
-function addDropdownEventListeners() {
-  const dropdownLinks = document.querySelectorAll(".dropdown > a");
 
-  dropdownLinks.forEach((link) => {
-    link.addEventListener("click", function (event) {
-      event.preventDefault();
-      const dropdownContent = this.nextElementSibling;
-      dropdownContent.classList.toggle("active");
-    });
-  });
-}
+
+
 
 
