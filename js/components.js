@@ -25,9 +25,13 @@ document.addEventListener("DOMContentLoaded", function () {
       // Insert the fetched content into the container
       navbarContainer.innerHTML = data;
       // Add the "active" class to the current page link
-      setActiveLink();
-      // Add event listener for dropdown menus
-      addDropdownEventListeners();
+      
+
+      if (currentPage = window.location.pathname.split("/").pop()){
+        setActiveLink();
+      }else{
+        setHomeActiveLink()
+      }
     })
     .catch((error) => console.error("Error fetching navigation bar:", error));
 });
@@ -48,6 +52,12 @@ function setActiveLink() {
       }
     }
   });
+}
 
-  
+function setHomeActiveLink() {
+   
+  // Add active class to the Home page link
+  const homeLink = document.querySelector('a[href="../index.html"]');
+  homeLink.classList.add("active"); 
+
 }
