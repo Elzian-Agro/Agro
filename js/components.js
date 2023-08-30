@@ -1,42 +1,33 @@
-// Fetch and insert the pre-loader
-fetch("../components/pre-loader.html")
-  .then((response) => response.text())
-  .then((data) => {
-    document.getElementById("pre-loader-placeholder").innerHTML = data;
-  });
 
-
-// Fetch and insert the footer
-fetch("../components/footer.html")
-  .then((response) => response.text())
-  .then((data) => {
-    document.getElementById("footer-placeholder").innerHTML = data;
-  });
-
+$("#pre-loader-placeholder").load("../components/pre-loader.html");
+$("#footer-placeholder").load("../components/footer.html");
+$("#navbar-placeholder").load("../components/navbar.html");
 
 // common/navbar.js
 document.addEventListener("DOMContentLoaded", function () {
-  const navbarContainer = document.getElementById("navbar-placeholder");
+  let jk = window.location.pathname.split("/").pop();
+console.log("navbar.js loaded", jk   );
+      //Add the "active" class to the current page link
 
-  // Fetch the navigation bar content from "navbar.html"
-  fetch("../components/navbar.html")
-    .then((response) => response.text())
-    .then((data) => {
-      // Insert the fetched content into the container
-      navbarContainer.innerHTML = data;
-      // Add the "active" class to the current page link
-      
-
-      if (currentPage = window.location.pathname.split("/").pop()){
+      if ((window.location.pathname.split("/").pop()) != "") {
         setActiveLink();
-      }else{
-        setHomeActiveLink()
+        addDropdownEventListeners();
+      } else {
+        setHomeActiveLink();
       }
-    })
-    .catch((error) => console.error("Error fetching navigation bar:", error));
 });
 
+function addDropdownEventListeners() {
+  const dropdownLinks = document.querySelectorAll(".dropdown > a");
 
+  dropdownLinks.forEach((link) => {
+    link.addEventListener("click", function (event) {
+      event.preventDefault();
+      const dropdownContent = this.nextElementSibling;
+      dropdownContent.classList.toggle("active");
+    });
+  });
+}
 
 function setActiveLink() {
   const currentPage = window.location.pathname.split("/").pop();
@@ -55,9 +46,7 @@ function setActiveLink() {
 }
 
 function setHomeActiveLink() {
-   
   // Add active class to the Home page link
   const homeLink = document.querySelector('a[href="../index.html"]');
-  homeLink.classList.add("active"); 
-
+  homeLink.classList.add("active");
 }
