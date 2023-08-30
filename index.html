@@ -42,6 +42,8 @@
     <link href='https://fonts.googleapis.com/css?family=Rajdhani:400,500,700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css2?family=Eudoxus+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet" type='text/css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
 
     <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
 
@@ -526,6 +528,122 @@
                 </div>
             </section>
 
+            <!-- testimonial section start -->
+
+            <section id="testimonials">
+                <div class="container">
+                  <div class="section-header">
+                    <div class="section-title">
+                      <h2>Testimonials</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider-containern">
+                  <div class="slider-testimonials">
+                    <div class="slider-card">
+                      <div class="col-sm">
+                        <img
+                          src="./images/testimonial/T1.PNG"
+                          alt="profile-sample3"
+                          class="profile"
+                        />
+                        <figure class="snip1390">
+                          <figcaption>
+                            <h4>Osanda Dunuvila</h4>
+                            <h6>Executive Director of QR Meals</h6>
+                            <h6>Melbourne, Australia</h6>
+                            <blockquote>
+                              I had an opportunity use the prototype of ELZIAN AGRO’s
+                              portable device while I was in Sri Lanka. Their device was
+                              super easy to handle. I purchased their prototype right
+                              away. The device still works properly. The readings of the
+                              IoT device also very accurate.
+                            </blockquote>
+                          </figcaption>
+                        </figure>
+                      </div>
+                    </div>
+                    <div class="slider-card">
+                      <div class="col-sm">
+                        <img
+                          src="./images/testimonial/DSC09297.jpg"
+                          alt="profile-sample3"
+                          class="profile"
+                        />
+                        <figure class="snip1390">
+                          <figcaption>
+                            <h4>Vairamuthu Satkunam</h4>
+                            <h6>Farmer</h6>
+                            <h6>Jaffna, Sri Lanka</h6>
+                            <blockquote>
+                              My gratitude knows no bounds for ELZIAN AGRO, as they've introduced a groundbreaking product that has undeniably elevated my farming practices to new heights.
+                            </blockquote>
+                          </figcaption>
+                        </figure>
+                      </div>
+                    </div>
+                    <div class="slider-card">
+                      <div class="col-sm">
+                        <img
+                          src="./images/testimonial/Thurairasa .jpg"
+                          alt="profile-sample3"
+                          class="profile"
+                        />
+                        <figure class="snip1390">
+                          <figcaption>
+                            <h4>Thurairasa Thusyanthan</h4>
+                            <h6>Farmer</h6>
+                            <h6>Jaffna, Sri Lanka</h6>
+                            <blockquote>
+                              I wholeheartedly endorse ELZIAN AGRO and their portable device. It has simplified and transformed the way I approach farming, and I can't imagine my operations without it. The combination of user-friendly design, unwavering performance, and precise IoT readings make this device an invaluable asset for any farmer. I am incredibly grateful to ELZIAN AGRO for creating such a game-changing product that has undoubtedly enhanced the agricultural landscape.
+                            </blockquote>
+                          </figcaption>
+                        </figure>
+                      </div>
+                    </div>
+                    <div class="slider-card">
+                      <div class="col-sm">
+                        <img
+                          src="./images/testimonial/Isuru .jpg"
+                          alt="profile-sample3"
+                          class="profile"
+                        />
+                        <figure class="snip1390">
+                          <figcaption>
+                            <h4>Isuru Sudharaka</h4>
+                            <h6>Farmer</h6>
+                            <h6>Mahiyanganaya, Sri Lanka</h6>
+                            <blockquote>
+                              The decision to invest in the prototype was an easy one, thanks to its consistent and unwavering performance. Even after prolonged use, the device continues to function flawlessly.
+                            </blockquote>
+                          </figcaption>
+                        </figure>
+                      </div>
+                    </div>
+                    <div class="slider-card">
+                      <div class="col-sm">
+                        <img
+                          src="./images/testimonial/Poorna .jpg"
+                          alt="profile-sample3"
+                          class="profile"
+                        />
+                        <figure class="snip1390">
+                          <figcaption>
+                            <h4>Poorna Sampath</h4>
+                            <h6>Farmer</h6>
+                            <h6>Mahiyanganaya, Sri Lanka</h6>
+                            <blockquote>
+                              Elzian Agro has not only simplified my farming methods but has also elevated them to a whole new level. Its user-friendly design, consistent performance, and precision in IoT readings make it an invaluable tool.
+                            </blockquote>
+                          </figcaption>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+      <!-- end testimonial section-->
+
             <!-- contact section -->
             <section id="contact">
                 <div class="container">
@@ -579,6 +697,12 @@
             <a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
 
             <!-- javscript js -->
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
             <script src="js/jquery.js"></script>
             <script src="js/popper.js"></script>
             <script src="js/bootstrap.min.js"></script>
@@ -594,10 +718,6 @@
                     m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p)
                 }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/bb13b86c2bdf71d3ac106940b/303c33500220a3706810bd204.js");
             </script>
-
-
-
-
 
     <script>
 
@@ -639,10 +759,31 @@
     </script>
 
     <script src="./js/components.js"></script>
-    <!-- <script src="./js/commonItems.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
     <script src="./js/translate.js"></script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script src="./js/translation-map.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.slider-testimonials').slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 5000,
+          dots: true,
+          arrows: false,
+          responsive: [
+      {
+        breakpoint: 768, 
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
+        });
+      });
+    </script>
 </body>
 
 </html>

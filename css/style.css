@@ -4732,4 +4732,112 @@ a {
 }
 /*Google Translate End*/
 
+/*Testimonials*/
+.slider-containern {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  margin-top: -80px;
+}
+figure.snip1390 {
+position: relative; 
+overflow: hidden;
+margin: 10px;
+min-width: 230px;
+max-width: 315px;
+width: 100%;
+color: #000000;
+text-align: center;
+font-size: 16px;
+background-color: #194c23;
+padding: 30px;
+background-image: linear-gradient(
+  -25deg,
+  rgba(0, 0, 0, 0.2) 0%,
+  rgba(255, 255, 255, 0.1) 100%
+);
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+border-radius: 10px;
+box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
+}
+figure.snip1390 *,
+figure.snip1390 *:before,
+figure.snip1390 *:after {
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+-webkit-transition: all 0.35s ease;
+transition: all 0.35s ease;
+}
+figure.snip1390 figcaption {
+width: 100%;
+margin-top: 20px;
+}
+figure.snip1390 h2,
+figure.snip1390 h4,
+figure.snip1390 blockquote {
+margin: 0;
+}
+figure.snip1390 h4 {
+font-weight: 300;
+}
+figure.snip1390 h4 {
+color: #ffffff;
+font-size: 22px;
+}
+figure.snip1390 h6 {
+color: #e9e9e9;
 
+}
+figure.snip1390 blockquote {
+font-size: 14px;
+padding: 45px 20px 40px 50px;
+margin-top: 30px;
+background-color: #ffffff;
+border-radius: 5px;
+box-shadow: inset -1.4px -1.4px 2px rgba(0, 0, 0, 0.3);
+text-align: left;
+position: relative;
+}
+figure.snip1390 blockquote:before {
+content: "\201C";
+position: absolute;
+font-size: 70px;
+opacity: 0.25;
+font-style: normal;
+top: 0px;
+left: 20px;
+}
+.profile {
+width: 100px;
+border-radius: 50%;
+display: inline-block;
+box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
+margin: 10px auto 10px ; 
+border: solid 5px #a6a57a;
+position: relative; 
+top: 50px; 
+left: 13%;
+transform: translateX(-50%); 
+z-index: 4; 
+}
+#testimonials{
+margin-top: 80px;
+}
+#testimonials .testimonial-card{
+margin-top: -80px;
+}
+@media screen and (min-width: 2560px) {
+  /* Your styles for 27-inch iMac here */
+  .profile {
+    left: -120px;
+    }
+}
+/* Media query for 21.5-inch iMac */
+@media screen and (min-width: 1920px) and (max-width: 2560px) {
+  /* Your styles for 21.5-inch iMac here */
+  .profile {
+    left: -30px; 
+    }
+}
+/*Testimonials End*/
