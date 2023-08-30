@@ -5,10 +5,6 @@ $("#navbar-placeholder").load("../components/navbar.html");
 
 // common/navbar.js
 document.addEventListener("DOMContentLoaded", function () {
-  let jk = window.location.pathname.split("/").pop();
-console.log("navbar.js loaded", jk   );
-      //Add the "active" class to the current page link
-
       if ((window.location.pathname.split("/").pop()) != "") {
         setActiveLink();
         addDropdownEventListeners();
