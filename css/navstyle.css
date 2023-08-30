@@ -139,7 +139,7 @@ a:not([href]):not([tabindex]):focus {
 }
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 1500px;
   }
 }
 
@@ -760,9 +760,9 @@ a:not([href]):not([tabindex]):focus {
 }
 .dropdown-item.active,
 .dropdown-item:active {
-  color: #333;
+  color: white;
   text-decoration: none;
-  /* background-color: green; */
+  background-color: green;
 }
 .dropdown-item.disabled,
 .dropdown-item:disabled {
