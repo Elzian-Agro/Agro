@@ -479,6 +479,7 @@
                             <h6>Executive Director of QR Meals</h6>
                             <h6>Melbourne, Australia</h6>
                             <blockquote>
+                              <br/>
                               I had an opportunity use the prototype of ELZIAN AGRO’s
                               portable device while I was in Sri Lanka. Their device was
                               super easy to handle. I purchased their prototype right
@@ -502,6 +503,7 @@
                             <h6>Farmer</h6>
                             <h6>Jaffna, Sri Lanka</h6>
                             <blockquote>
+                              <br/>
                               My gratitude knows no bounds for ELZIAN AGRO, as they've introduced a groundbreaking product that has undeniably elevated my farming practices to new heights.
                             </blockquote>
                           </figcaption>
@@ -540,6 +542,7 @@
                             <h6>Farmer</h6>
                             <h6>Mahiyanganaya, Sri Lanka</h6>
                             <blockquote>
+                              <br/>
                               The decision to invest in the prototype was an easy one, thanks to its consistent and unwavering performance. Even after prolonged use, the device continues to function flawlessly.
                             </blockquote>
                           </figcaption>
@@ -559,13 +562,58 @@
                             <h6>Farmer</h6>
                             <h6>Mahiyanganaya, Sri Lanka</h6>
                             <blockquote>
+                              <br/>
                               Elzian Agro has not only simplified my farming methods but has also elevated them to a whole new level. Its user-friendly design, consistent performance, and precision in IoT readings make it an invaluable tool.
                             </blockquote>
                           </figcaption>
                         </figure>
                       </div>
                     </div>
+                    <div class="slider-card">
+                      <div class="col-sm">
+                        <img
+                          src="./images/testimonial/Kweon Suk Ju.PNG"
+                          alt="profile-sample3"
+                          class="profile"
+                        />
+                        <figure class="snip1390">
+                          <figcaption>
+                            <h4>Kweon Suk Ju</h4>
+                            <h6>Director of Kumkang Mountain Korean Restaurant & Farm
+                            </h6>
+                            <h6>Kumkang, South Korea</h6>
+                            <blockquote>
+                              I am thrilled to share how Elzian Agro's customized software engineering products have completely revolutionized the way I manage my farm & restaurant. As a dedicated food nutritionist, I've always been on the lookout for ways to simplify my operations and maximize productivity. Elzian Agro not only met but exceeded my expectations in every aspect.
+                            </blockquote>
+                          </figcaption>
+                        </figure>
+                      </div>
+                    </div>
+                    <div class="slider-card">
+                      <div class="col-sm">
+                        <img
+                          src="./images/testimonial/Isuru.jpg"
+                          alt="profile-sample3"
+                          class="profile"
+                        />
+                        <figure class="snip1390">
+                          <figcaption>
+                            <h4>Mohammed Nufilan</h4>
+                            <h6>Farmer</h6>
+                            <h6>Kegalle, Sri Lanka</h6>
+                            <blockquote>
+                              Elzian Agro's IoT monitoring service has transformed the way I manage my farm. The level of real-time data and insights it provides is unparalleled. From soil moisture levels to weather conditions, I can monitor it all remotely and make informed decisions without being physically present on the farm.
+                            </blockquote>
+                          </figcaption>
+                        </figure>
+                      </div>
+                    </div>
                   </div>
+                    <!-- Add previous and next arrows here -->
+                <div class="custom-arrows">
+                  <div class="slick-prev"><span></span></div>
+                  <div class="slick-next"><span></span></div>
+                </div>
                 </div>
               </section>
       <!-- end testimonial section-->
@@ -688,16 +736,26 @@
           dots: true,
           arrows: false,
           responsive: [
-      {
-        breakpoint: 768, 
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+              }
+            }
+          ]
+        });
+    
+        
+        $('.custom-arrows .slick-prev').click(function() {
+          $('.slider-testimonials').slick('slickPrev');
+        });
+    
+        $('.custom-arrows .slick-next').click(function() {
+          $('.slider-testimonials').slick('slickNext');
         });
       });
     </script>
+    
 </body>
 
 </html>
