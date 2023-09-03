@@ -4881,14 +4881,12 @@ figure.snip1390 blockquote:before {
 }
 
 @media screen and (min-width: 2560px) {
-  /* Your styles for 27-inch iMac here */
   .profile {
     left: -120px;
   }
 }
 /* Media query for 21.5-inch iMac */
 @media screen and (min-width: 1920px) and (max-width: 2560px) {
-  /* Your styles for 21.5-inch iMac here */
   .profile {
     left: -30px;
   }
