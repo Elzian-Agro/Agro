@@ -4821,7 +4821,7 @@ figure.snip1390 blockquote:before {
 }
 
 /* Arrow*/
-.custom-arrows {
+/* .custom-arrows {
   position: relative;
   text-align: center;
 }
@@ -4848,7 +4848,7 @@ figure.snip1390 blockquote:before {
 
 .slick-next {
   right: 30px;
-}
+} */
 
 @media only screen and (max-width: 600px) {
   /*Mobile*/
