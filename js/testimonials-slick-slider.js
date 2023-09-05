@@ -5,7 +5,7 @@ $(document).ready(function() {
       autoplay: true,
       autoplaySpeed: 5000,
       dots: true,
-      arrows: true,
+      arrows: false,
       responsive: [
         {
           breakpoint: 768,
@@ -17,11 +17,11 @@ $(document).ready(function() {
     });
 
     
-    // $('.custom-arrows .slick-prev').click(function() {
-    //   $('.slider-testimonials').slick('slickPrev');
-    // });
+    $('.custom-arrows .slick-prev').click(function() {
+      $('.slider-testimonials').slick('slickPrev');
+    });
 
-    // $('.custom-arrows .slick-next').click(function() {
-    //   $('.slider-testimonials').slick('slickNext');
-    // });
+    $('.custom-arrows .slick-next').click(function() {
+      $('.slider-testimonials').slick('slickNext');
+    });
   });
