@@ -37,12 +37,12 @@
     <meta name="twitter:image" content="https://agro.elzian.comundefined" />
 
     <!-- stylesheets css -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"
-    />
+    <link rel="stylesheet" href="css/slick-carousel.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/animate.min.css" />
+
+    <!-- <script src="./js/fontawesome.min.js"></script> -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -51,7 +51,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="css/et-line-font.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
 
     <link rel="stylesheet" href="css/vegas.min.css" />
 
@@ -61,16 +61,12 @@
 
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Rajdhani:400,500,700"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
-      rel="stylesheet"
-      type="text/css"
-    />
+
+    <!--Google Fonts-->
+    <link href="./fonts/font-rajdhani.ttf" rel="stylesheet" type="text/css" />
+    <link href="./fonts/font-lexend.ttf" rel="stylesheet" type="text/css" />
+
+    <!-- favicon -->
     <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -78,16 +74,8 @@
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-5XQ6529FXW"
     ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
 
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-5XQ6529FXW");
-    </script>
+    <script src="./js/google-tag.js"></script>
   </head>
 
   <body>
@@ -97,6 +85,7 @@
     <div id="navbar-placeholder"></div>
     <!--Navigation-bar-->
 
+    <!-- hero section -->
     <section class="container">
       <div class="row d-flex" style="margin-top: 60px">
         <div class="banner_Head col-md-6">
@@ -151,6 +140,7 @@
       </div>
     </section>
 
+    <!-- video section -->
     <section
       class="career-info wow fadeInUp animated"
       style="visibility: visible; animation-name: fadeInUp"
@@ -191,6 +181,7 @@
       </div>
     </section>
 
+    <!-- career card section -->
     <section class="career-cards">
       <div class="container">
         <div class="row">
@@ -420,6 +411,7 @@
       </div>
     </section>
 
+    <!-- technology section -->
     <section class="container py-4">
       <div class="container1">
         <div class="techno">
@@ -467,6 +459,7 @@
       </div>
     </section>
 
+    <!-- career endnote section -->
     <section class="career-end-note">
       <div class="text-center">
         <div class="note-section">
@@ -480,69 +473,7 @@
       </div>
     </section>
 
-    <!-- <section class="career-info wow fadeInUp">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 ml-auto justify-content-center">
-            /
-            <div class="image-content aos-init aos-animate text-center" data-aos="fade-right">
-              <img loading="lazy" class="img-responsive" src="images/career-transformation.png"
-                alt="career transformation image" />
-            </div>
-          </div>
-          <div class="col-md-6 mr-auto align-self-center">
-            <div class="feature-content">
-              
-              <h2 class="text-success text-center">
-                A Place that values transformation
-              </h2> -->
-    <!-- Feature Description -->
-    <!-- <p class="desc">
-                We seek to improve people's lives by strengthening the workplace
-                culture. The firm values its social responsibility and invests
-                in its workers to prepare them for a brighter future. We offer
-                cutting-edge technology as well as extensive industry knowledge.
-                We improve the company alignment with the business strategy and
-                vision by changing procedures and people with the company
-                offering the best.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="row career-col-reverse">
-          <div class="col-md-6 mr-auto align-self-center">
-            <div class="feature-content">
-              
-              <h2 class="text-success text-center">
-                Family-like work environment
-              </h2>
-              
-              <p class="desc">
-                A family-oriented culture is our secret recipe for teamwork.
-                This is a one-of-a-kind place to work, with its own set of
-                organizational ideas, and we strive to make you feel right at
-                home. It will provide a workplace where multiple teams
-                collaborate to create incomparable results while enhancing job
-                quality.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 ml-auto justify-content-center">
-            
-            <div class="image-content aos-init aos-animate text-center" data-aos="fade-right">
-              <img loading="lazy" class="img-responsive" src="images/career-workasfamily.png"
-                alt="workplace is a family image" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
     <!-- Job Vacancy Section -->
-
     <section class="job-section" id="job-section">
       <div class="container-xxl py-5">
         <div class="container">
@@ -1014,9 +945,6 @@
               ></span>
             </a>
           </div>
-          <!-- <div>
-            <a href=""> Learn More <i class="fa fa-arrow-right"></i></a>
-          </div> -->
         </div>
       </div>
     </section>
@@ -1083,10 +1011,15 @@
                     learning experience. As a software engineering intern, I was
                     given the opportunity to work on real projects and
                     collaborate with team members.<span class="dots">...</span>
-                    <br /><button class="button" onclick="evtEllipse(this)">
+                    <br /><button
+                      class="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
+                    >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       The mentorship I received was invaluable, and I felt like
                       my contributions were valued and meaningful. The company
                       culture was also fantastic, with a strong emphasis on
@@ -1123,11 +1056,13 @@
                     results. The one of major facts about ELZIAN AGRO is it is a
                     multicultural working place.<span>...</span> <br /><button
                       class="button"
-                      onclick="evtEllipse(this)"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
                     >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       I got a chance to work with many very helpful and talented
                       teams. I received good mentoring and support from my
                       supervisor, and the organization values continuing
@@ -1170,19 +1105,19 @@
                     professional knowledge and the practical experience I have
                     <span>...</span> <br /><button
                       class="button"
-                      onclick="evtEllipse(this)"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
                     >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       gained during my internship program will become an asset
                       in my future career opportunities as well.Therefore, I
                       highly recommend ELZIAN AGRO as the perfect place for
                       anyone looking for a flexible internship opportunity.
                     </span>
                   </p>
-
-                  <!-- <button class="button">View More</button> -->
                 </div>
               </div>
               <div class="card swiper-slide">
@@ -1213,11 +1148,13 @@
                     for a challenging and rewarding experience in software
                     development.<span>...</span> <br /><button
                       class="button"
-                      onclick="evtEllipse(this)"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
                     >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       The team at ELZIAN AGRO is knowledgeable, supportive, and
                       dedicated to fostering professional growth. The company
                       provided me with a great work environment to work on
@@ -1233,8 +1170,6 @@
                       and rewarding opportunity in software development.</span
                     >
                   </p>
-
-                  <!-- <button class="button">View More</button> -->
                 </div>
               </div>
               <div class="card swiper-slide">
@@ -1262,10 +1197,15 @@
                     Engineering Intern. In that period, I learned a lot. And in
                     the first few weeks of the intern period, they provided some
                     study materials to gain knowledge,<span>...</span>
-                    <br /><button class="button" onclick="evtEllipse(this)">
+                    <br /><button
+                      class="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
+                    >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       which helped me throughout my working period. Moreover,
                       the company offers us flexible working hours; so it gave
                       me a better convenience of working. Moreover, along with
@@ -1301,10 +1241,15 @@
                     Machine Learning Engineer at ELZIAN AGRO, and I am
                     incredibly grateful for the experience.The company provided
                     a challenging and stimulating environment<span>...</span>
-                    <br /><button class="button" onclick="evtEllipse(this)">
+                    <br /><button
+                      class="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
+                    >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       that allowed me to learn and grow in the field of machine
                       learning.I was able to gain hands-on experience with
                       various ML algorithms and techniques and apply them to
@@ -1353,11 +1298,13 @@
                     to anyone looking for a challenging and rewarding
                     experience. <span>...</span> <br /><button
                       class="button"
-                      onclick="evtEllipse(this)"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
                     >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       The team at ELZIAN AGRO is knowledgeable, supportive, and
                       dedicated to fostering professional growth. The mentorship
                       and guidance provided by my supervisor were invaluable,
@@ -1400,11 +1347,13 @@
                     software development and Cloud Computing side.
                     <span>...</span> <br /><button
                       class="button"
-                      onclick="evtEllipse(this)"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
                     >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       The team at ELZIAN AGRO is knowledgeable, supportive, and
                       dedicated to fostering professional growth. The company
                       provided me with a great working environment, where I was
@@ -1452,11 +1401,13 @@
                     opportunity to work with Elzian Agro, and I highly recommend
                     the company to anyone <span>...</span> <br /><button
                       class="button"
-                      onclick="evtEllipse(this)"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
                     >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       searching for a career-enhancing opportunity.The team was
                       really supportive and friendly, and I am grateful to those
                       experts for helping me in gaining experience by working on
@@ -1497,11 +1448,13 @@
                     challenging and interesting, which helped me
                     <span>...</span> <br /><button
                       class="button"
-                      onclick="evtEllipse(this)"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
                     >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       learn and grow as a software developer. My supervisor's
                       help and advice were very helpful, and I'm confident that
                       I'll be able to use the skills and knowledge I gained at
@@ -1540,10 +1493,15 @@
                     recommend the company to anyone who is looking for an
                     opportunity to start their career path. The team is very
                     friendly, supportive, and highly talented. <span>...</span>
-                    <br /><button class="button" onclick="evtEllipse(this)">
+                    <br /><button
+                      class="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
+                    >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       I could get hands-on experience by contributing to their
                       projects and could improve my communication skills. My
                       supervisor provided me with excellent guidance and it's a
@@ -1583,11 +1541,13 @@
                     supportive people I've ever had the opportunity to work
                     <span>...</span> <br /><button
                       class="button"
-                      onclick="evtEllipse(this)"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
                     >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       with. My coworkers were educated and well respected in
                       their respective areas but at the same time, very easy to
                       work with. At Elzian Agro, I learned a lot, not just about
@@ -1632,11 +1592,13 @@
                     with the commitment to creating a positive and inclusive
                     work environment, <span>...</span> <br /><button
                       class="button"
-                      onclick="evtEllipse(this)"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
                     >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       , as well as their focus on innovation and growth. The
                       company's leadership team was always supportive and
                       encouraged employees to bring forward new ideas and
@@ -1677,11 +1639,13 @@
                     anyone looking for a challenging and rewarding experience in
                     software development. <span>...</span> <br /><button
                       class="button"
-                      onclick="evtEllipse(this)"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
                     >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       The team at ELZIAN AGRO is knowledgeable, supportive, and
                       dedicated to fostering professional growth. The company
                       provided me with a great working environment, where I was
@@ -1724,11 +1688,13 @@
                     experience.The team at ELZIAN AGRO is knowledgeable,
                     supportive, <span>...</span> <br /><button
                       class="button"
-                      onclick="evtEllipse(this)"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
                     >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       and dedicated to fostering professional growth. The
                       company provided ample opportunities for me to learn and
                       gain practical experience. I am grateful for the valuable
@@ -1768,11 +1734,13 @@
                     the technologies I had to work with when I first started.
                     <span>...</span> <br /><button
                       class="button"
-                      onclick="evtEllipse(this)"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
                     >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       The training I received throughout my probation period
                       greatly aided in the improvement of my skills. After my
                       probation, I worked at EA's Software department. My
@@ -1813,10 +1781,15 @@
                     team who consistently exceeded expectations. The Elzian
                     Agro’s organizational culture fostered creativity,
                     collaboration, and a drive for excellence, <span>...</span>
-                    <br /><button class="button" onclick="evtEllipse(this)">
+                    <br /><button
+                      class="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
+                    >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       which was reflected in our marketing initiatives.I was
                       impressed by the level of commitment from all departments
                       to support our marketing efforts, which allowed us to
@@ -1858,11 +1831,13 @@
                     the opportunity to work with a talented and dedicated team
                     of professionals,<span>...</span> <br /><button
                       class="button"
-                      onclick="evtEllipse(this)"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
                     >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       but I was also given the freedom to contribute my own
                       ideas and take on meaningful projects that helped shape
                       the company's marketing strategy. The work culture at
@@ -1905,11 +1880,13 @@
                     stimulating environment that allowed me to learn and grow as
                     a professional. <span>...</span> <br /><button
                       class="button"
-                      onclick="evtEllipse(this)"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
                     >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       The mentorship and guidance provided by my supervisor were
                       invaluable, and I feel confident in my ability to apply
                       the skills and knowledge I gained during my time at ELZIAN
@@ -1949,10 +1926,15 @@
                     development
 
                     <span>...</span>
-                    <br /><button class="button" onclick="evtEllipse(this)">
+                    <br /><button
+                      class="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
+                    >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       team at ELZIAN AGRO is highly skilled, dedicated, and
                       knowledgeable in their field. My supervisor provided
                       valuable mentorship and guidance, and the company offered
@@ -2000,10 +1982,15 @@
                     environment.
 
                     <span>...</span>
-                    <br /><button class="button" onclick="evtEllipse(this)">
+                    <br /><button
+                      class="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
+                    >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       The team is made up of incredibly talented and
                       knowledgeable individuals who are dedicated to their work.
                       My supervisor provided excellent mentorship and guidance,
@@ -2050,10 +2037,15 @@
                     atmosphere of the team. The company offers a time-flexible
 
                     <span>...</span>
-                    <br /><button class="button" onclick="evtEllipse(this)">
+                    <br /><button
+                      class="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
+                    >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       schedule which is great for those who have other
                       responsibilities or obligations outside of work. The team
                       is incredibly friendly, welcoming, and supportive. The
@@ -2099,10 +2091,15 @@
                     mentorship and the company offered numerous opportunities
 
                     <span>...</span>
-                    <br /><button class="button" onclick="evtEllipse(this)">
+                    <br /><button
+                      class="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
+                    >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       for me to learn and gain practical experience. I was able
                       to easily manage my career and personal life because of
                       the company's flexible work schedules and remote
@@ -2145,10 +2142,15 @@
                     Elzian Agro assisted
 
                     <span>...</span>
-                    <br /><button class="button" onclick="evtEllipse(this)">
+                    <br /><button
+                      class="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
+                    >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       to sharpen my technical and soft skills, and also provided
                       an opportunity to discover my hidden potential. I am sure
                       these skills and experience will guide me through my
@@ -2186,10 +2188,15 @@
                     development. The company has a culture of friendliness,
 
                     <span>...</span>
-                    <br /><button class="button" onclick="evtEllipse(this)">
+                    <br /><button
+                      class="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
+                    >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       supportiveness, and flexibility that makes it a great
                       place to work. The team at ELZIAN AGRO is incredibly
                       talented, dedicated, and knowledgeable in their field of
@@ -2238,10 +2245,15 @@
                     makes it a great workplace.
 
                     <span>...</span>
-                    <br /><button class="button" onclick="evtEllipse(this)">
+                    <br /><button
+                      class="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
+                    >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       The team at ELZIAN AGRO is incredibly talented, dedicated,
                       and knowledgeable in their field of web development. My
                       supervisor provided excellent mentorship and guidance, and
@@ -2285,10 +2297,15 @@
                     able to expand my skills as a software engineer because
 
                     <span>...</span>
-                    <br /><button class="button" onclick="evtEllipse(this)">
+                    <br /><button
+                      class="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
+                    >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       of the company's supportive and demanding work
                       environment. Thanks to my supervisor's thoughtful coaching
                       and direction, I left ELZIAN AGRO with a solid foundation
@@ -2330,10 +2347,15 @@
                     knowledgeable
 
                     <span>...</span>
-                    <br /><button class="button" onclick="evtEllipse(this)">
+                    <br /><button
+                      class="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
+                    >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       , passionate, and supportive. I was allowed to work on
                       real-world projects and gain practical experience in a
                       variety of programming languages and technologies. My
@@ -2376,10 +2398,15 @@
                     seeking a challenging and rewarding experience. Throughout
                     my internship, the ELZIAN AGRO team was incredibly
                     <span>...</span>
-                    <br /><button class="button" onclick="evtEllipse(this)">
+                    <br /><button
+                      class="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#readMoreText"
+                      aria-expanded="false"
+                    >
                       Read more
                     </button>
-                    <span class="hide" onclick="spanEllipse(this)">
+                    <span id="readMoreText" class="collapse">
                       knowledgeable, supportive, and dedicated to fostering
                       professional growth. My supervisor provided invaluable
                       mentorship and guidance, equipping me with the skills and
@@ -2404,6 +2431,7 @@
       </section>
     </div>
     <!-- end of recommendation section -->
+
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 career-cv">
@@ -2443,26 +2471,14 @@
     <script src="js/custom.js"></script>
     <script src="js/contact.js"></script>
 
-    <script>
-      function evtEllipse(info) {
-        info.nextElementSibling.classList.toggle("hide");
-        info.classList.toggle("hide");
-      }
-      function spanEllipse(info) {
-        info.classList.toggle("hide");
-        info.previousElementSibling.classList.toggle("hide");
-      }
-    </script>
+    <script src="./js/view-more.js"></script>
     <script src="./js/components.js"></script>
     <script src="./js/translate.js"></script>
-    <script
-      type="text/javascript"
-      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
-    ></script>
+    <script src="./js/google-translate-element.js"></script>
     <script src="./js/translation-map.js"></script>
 
-    <!-- javscript js -->
-    
+    <!-- javascript js -->
+
     <script src="./js/slick.min.js"></script>
     <script src="./js/slick-slide-custom-logo.js"></script>
   </body>
