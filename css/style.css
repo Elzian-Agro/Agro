@@ -917,6 +917,10 @@ canvas {
   text-align: center;
 }
 
+#home .col-md-8 {
+  width: 100%;
+}
+
 #home .btn {
   background: transparent;
   border: 3px solid #ffffff;
@@ -1317,13 +1321,15 @@ canvas {
 .card-board {
   display: flex;
   justify-content: space-between;
-  padding: 0 80px;
+  padding: 0 180px;
 }
 
 .card-boards {
   display: flex;
   justify-content: space-between;
-  padding: 60px 40px 0;
+  padding: 60px 30px 0;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 /* Our Partners section ends */
@@ -4859,25 +4865,25 @@ figure.snip1390 blockquote:before {
   }
   figure.snip1390 {
     margin-left: -2px;
-}
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   /*Tablet*/
-    figure.snip1390 blockquote {
-      font-size: 12px;
-      padding: 45px 24px 40px 22px;
-      width: 200px;
-      margin-left: 0px;
-      height: 290px;
-    }
-    .slider-card{
-      margin-left: 20px;
-    }
-    .profile {
-      top: 50px;
-      left: 25%;
-    }
+  figure.snip1390 blockquote {
+    font-size: 12px;
+    padding: 45px 24px 40px 22px;
+    width: 200px;
+    margin-left: 0px;
+    height: 290px;
+  }
+  .slider-card {
+    margin-left: 20px;
+  }
+  .profile {
+    top: 50px;
+    left: 25%;
+  }
 }
 
 @media screen and (min-width: 2560px) {
