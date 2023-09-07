@@ -98,16 +98,8 @@
     <!-- Load a script for handling contact form submissions and interactions -->
     <script src="js/contact.js"></script>
 
-    <script>
-      window.dataLayer = window.dataLayer || [];
-
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-5XQ6529FXW");
-    </script>
+    <!--Google Tags-->
+    <script src="js/google-tag.js"></script>
   </head>
 
   <body onload="slider()">
@@ -160,12 +152,12 @@
                 </h3>
               </div>
             </div>
-            <div class="col-md 2 d-flex align-items-center">
+            <div class="col-md-2 d-flex align-items-center">
               <div class="inq-btn">
                 <a
-                  href="#"
-                  data-toggle="modal"
-                  data-target="#inquire"
+                  href="#inquire"
+                  data-bs-toggle="modal"
+                  data-bs-target="#inquireModal"
                   data-ui-class="a-fadeUpBig"
                   >INQUIRE</a
                 >
@@ -176,82 +168,73 @@
       </div>
     </section>
 
-    <div class="modal" id="inquire">
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="inquireModal"
+      tabindex="-1"
+      aria-labelledby="inquireModalLabel"
+      aria-hidden="true"
+    >
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="header">
+          <div class="modal-header">
             <h5 class="modal-title" id="inquireModalLabel">
               Contact Elzian-Agro
             </h5>
             <button
-              type="type"
-              class="close"
-              data-dismiss="modal"
-              area-lable="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
           </div>
-          <div class="body">
-            <br />
+          <div class="modal-body">
             <form
               id="contact-form"
               class="contact-form"
               method="post"
               action="#"
             >
-              <div class="col-md-12 col-sm-12">
-                <div class="input-data">
-                  <input type="text" required />
-                  <div class="underline"></div>
-                  <label for="">Your Name</label>
-                </div>
+              <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name" required />
               </div>
-              <br /><br /><br />
 
-              <div class="col-md-12 col-sm-12">
-                <div class="input-data">
-                  <input type="text" required />
-                  <div class="underline"></div>
-                  <label for="">Your Email</label>
-                </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" class="form-control" id="email" required />
               </div>
-              <br /><br /><br />
 
-              <div class="col-md-12 col-sm-12">
-                <div class="input-data">
-                  <input type="text" required />
-                  <div class="underline"></div>
-                  <label for="">Your Subject</label>
-                </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label">Your Subject</label>
+                <input type="text" class="form-control" id="subject" required />
               </div>
-              <br /><br /><br />
-              <div class="col-md-12 col-sm-12">
-                <div class="input-data textarea">
-                  <textarea rows="3" cols="80" required></textarea>
-                  <br />
-                  <div class="underline"></div>
-                  <label for="">Message</label>
-                </div>
+
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  rows="3"
+                  class="form-control"
+                  id="message"
+                  required
+                ></textarea>
               </div>
-              <br />
-              <div class="col-md-12">
+
+              <div class="mb-3 text-center">
                 <div class="loading">Message is Sending........</div>
                 <div class="error-message">
-                  Message is not sent. please check your connection.
+                  Message is not sent. Please check your connection.
                 </div>
                 <div class="sent-message">
                   Your message has been sent. Thank you!
                 </div>
               </div>
-              <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
-                <input
-                  name="submit"
-                  type="submit"
-                  class="form-control submit"
-                  id="submit"
-                  value="SEND MESSAGE"
-                />
+
+              <div class="mb-3 text-center">
+                <button type="submit" class="form-control submit" id="submit">
+                  SEND MESSAGE
+                </button>
               </div>
             </form>
           </div>
@@ -387,73 +370,74 @@
           </div>
         </div>
       </div>
-    </section><br/><br/>
+    </section>
+    <br /><br />
 
     <section class="feature section pt-0 agro-eye">
       <div class="container">
         <div class="section-title">
           <h2>Our Agro Eye Product</h2>
         </div>
-    
+
         <!-- Gallery -->
         <div class="row">
           <!-- First Column -->
           <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
             <img
               src="./images/ag-eye-1-test_reduce.webp"
-              class="w-100 shadow-1-strong  mb-4"
+              class="w-100 shadow-1-strong mb-4"
               loading="lazy"
             />
           </div>
-    
+
           <!-- Second Column -->
           <div class="col-lg-4 mb-4 mb-lg-0">
             <img
               src="./images/ag-eye-3reduce.webp"
-              class="w-100 shadow-1-strong  mb-4"
+              class="w-100 shadow-1-strong mb-4"
               loading="lazy"
             />
           </div>
-    
+
           <!-- Third Column -->
           <div class="col-lg-4 mb-4 mb-lg-0">
             <img
               src="./images/ag-eye-2reduce.webp"
-              class="w-100 shadow-1-strong  mb-4"
+              class="w-100 shadow-1-strong mb-4"
               loading="lazy"
             />
           </div>
-    
+
           <!-- Fourth Column (Two images in the same row) -->
           <div class="col-lg-6 col-md-6 mb-4 mb-lg-0">
             <img
               src="./images/ag-detector-1reduce.webp"
-              class="w-100 shadow-1-strong  mb-4"
+              class="w-100 shadow-1-strong mb-4"
               loading="lazy"
             />
           </div>
           <div class="col-lg-6 col-md-6 mb-4 mb-lg-0">
             <img
               src="./images/ag-detector-2reduce.webp"
-              class="w-100 shadow-1-strong  mb-4"
+              class="w-100 shadow-1-strong mb-4"
               loading="lazy"
             />
           </div>
-    
+
           <!-- Additional Columns for Other Images -->
           <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
             <img
               src="./images/ag-eye-7.JPG"
-              class="w-100 shadow-1-strong  mb-4"
+              class="w-100 shadow-1-strong mb-4"
               loading="lazy"
-              style="height: 385px;"
+              style="height: 385px"
             />
           </div>
-    
+
           <div class="col-lg-4 mb-4 mb-lg-0">
             <img
               src="./images/ag-eye-4-_1_.jpg"
-              class="w-100 shadow-1-strong  mb-4"
+              class="w-100 shadow-1-strong mb-4"
               loading="lazy"
             />
           </div>
@@ -461,7 +445,7 @@
           <div class="col-lg-4 mb-4 mb-lg-0">
             <img
               src="./images/ag-eye-9.jpg"
-              class="w-100 shadow-1-strong  mb-4"
+              class="w-100 shadow-1-strong mb-4"
               loading="lazy"
             />
           </div>
@@ -470,12 +454,10 @@
       </div>
     </section>
 
-    
-    
     <section class="feature section pt-0">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-md-6 ml-auto justify-content-center">
+          <div class="col-lg-6 col-md-6 justify-content-center">
             <!-- Feature Mockup -->
             <div
               class="image-content aos-init aos-animate text-center"
@@ -483,13 +465,13 @@
             >
               <img
                 loading="lazy"
-                class="img-responsive"
+                class="img-fluid"
                 src="images/feature/leaf_redu.gif"
                 alt="efficient"
               />
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 mr-auto align-self-center">
+          <div class="col-lg-6 col-md-6 align-self-center">
             <div class="feature-content">
               <!-- Feature Title -->
               <h2 class="text-success">Excelled efficiency</h2>
@@ -507,13 +489,13 @@
             </div>
             <!-- Testimonial Quote -->
             <div class="testimonial">
-              <p>"Efficency is doing better what is already being done"</p>
+              <p>"Efficiency is doing better what is already being done"</p>
               <ul class="list-inline meta">
                 <li class="list-inline-item">
                   <img
                     loading="lazy"
                     src="images/testimonial/images.jpg"
-                    alt="image of Peter F.Drucker"
+                    alt="image of Peter F. Drucker"
                   />
                 </li>
                 <li class="list-inline-item">Peter F. Drucker</li>
@@ -521,6 +503,7 @@
             </div>
           </div>
         </div>
+        <br />
       </div>
     </section>
 
@@ -812,11 +795,6 @@
             </div>
           </div>
         </div>
-        <!-- previous and next arrows -->
-        <!-- <div class="custom-arrows">
-          <div class="slick-prev"><span></span></div>
-          <div class="slick-next"><span></span></div>
-        </div> -->
       </div>
     </section>
     <!-- end testimonial section-->
@@ -825,7 +803,7 @@
     <section id="contact">
       <div class="container">
         <div class="row">
-          <div class="col-md-offset-2 col-md-8 col-sm-12">
+          <div class="col-md-8 offset-md-2 col-sm-12">
             <div class="section-title">
               <h2 class="wow fadeInUp" data-wow-delay="0.3s">Get in touch</h2>
               <p class="wow fadeInUp" data-wow-delay="0.6s">
@@ -841,31 +819,31 @@
                 method="post"
                 action="#"
               >
-                <div class="col-md-6 col-sm-6">
-                  <label for="name">Name</label>
+                <div class="mb-3 col-md-6 col-sm-6">
+                  <label for="name" class="form-label">Name</label>
                   <input
                     name="name"
                     id="name"
                     type="text"
-                    class="form-control"
+                    class="form-control custom-width"
                     placeholder="Your Name"
                     required
                   />
                 </div>
-                <div class="col-md-6 col-sm-6">
-                  <label for="email">Email</label>
+                <div class="mb-3 col-md-6 col-sm-6">
+                  <label for="email" class="form-label">Email</label>
                   <input
                     name="email"
                     id="email"
                     type="email"
-                    class="form-control"
+                    class="form-control custom-width"
                     placeholder="Your Email"
                     required
                   />
                 </div>
 
-                <div class="col-md-12 col-sm-12">
-                  <label for="subject">Subject</label>
+                <div class="mb-3 col-md-12 col-sm-12">
+                  <label for="subject" class="form-label">Subject</label>
                   <input
                     name="subject"
                     id="subject"
@@ -875,8 +853,8 @@
                     required
                   />
                 </div>
-                <div class="col-md-12 col-sm-12">
-                  <label for="message">Message</label>
+                <div class="mb-3 col-md-12 col-sm-12">
+                  <label for="message" class="form-label">Message</label>
                   <textarea
                     name="message"
                     id="message"
@@ -889,17 +867,17 @@
                 <div class="col-md-12">
                   <div class="loading">Message is Sending........</div>
                   <div class="error-message">
-                    Message is not sent. please check your connection.
+                    Message is not sent. Please check your connection.
                   </div>
                   <div class="sent-message">
                     Your message has been sent. Thank you!
                   </div>
                 </div>
-                <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
+                <div class="mb-3 col-md-6 offset-md-3 col-sm-8 offset-sm-2">
                   <input
                     name="submit"
                     type="submit"
-                    class="form-control submit"
+                    class="form-control btn btn-primary"
                     id="submit"
                     value="SEND MESSAGE"
                   />
@@ -910,6 +888,7 @@
         </div>
       </div>
     </section>
+
     <!--Footer-->
     <div id="footer-placeholder"></div>
 
