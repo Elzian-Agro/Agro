@@ -433,6 +433,10 @@ strong {
   min-height: 100%;
 }
 
+.fa-jet-fighter {
+  color: #ffffff;
+}
+
 #about .about-thumb p {
   margin-left: 50px;
   text-align: justify;
@@ -917,10 +921,6 @@ canvas {
   text-align: center;
 }
 
-#home .col-md-8 {
-  width: 100%;
-}
-
 #home .btn {
   background: transparent;
   border: 3px solid #ffffff;
@@ -996,6 +996,29 @@ canvas {
 
 /* about section ends */
 
+/* AgroEagel about section */
+
+#about .img-responsive {
+  width: 100%;
+}
+
+#feature .media-heading {
+  text-align: center;
+}
+
+#feature img {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#feature .media-body p {
+  text-align: justify;
+}
+.media-object img {
+  padding-right: 30px;
+}
+
 /* feature section starts*/
 
 #feature {
@@ -1006,6 +1029,11 @@ canvas {
   color: #ffffff;
   font-size: 42px;
   padding-right: 14px;
+}
+
+#feature a {
+  text-decoration: none;
+  font-size: medium;
 }
 
 #feature .talk-btn-center {
@@ -2570,10 +2598,6 @@ footer a:hover {
   text-decoration: none;
 }
 
-.media-object img {
-  padding-right: 30px;
-}
-
 /* svg */
 .svgcolor-light {
   /*position: absolute;
@@ -3288,6 +3312,7 @@ footer a:hover {
   text-transform: uppercase;
   margin-top: 35px;
   margin-bottom: 10px;
+  text-decoration: none;
 }
 
 .about_section .box .detail-box a:hover {
@@ -3914,7 +3939,7 @@ footer a:hover {
   border: 4px solid rgb(11, 128, 33);
 }
 .custom-width {
-  width: 200%; 
+  width: 200%;
 }
 
 .career-job .name {
