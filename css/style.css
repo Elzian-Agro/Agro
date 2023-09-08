@@ -433,7 +433,8 @@ strong {
   min-height: 100%;
 }
 
-.fa-jet-fighter {
+.fa-jet-fighter,
+.fa-cogs {
   color: #ffffff;
 }
 
