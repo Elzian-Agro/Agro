@@ -670,6 +670,10 @@ progress {
   flex: 0 0 auto;
   width: 16.6666666667%;
 }
+
+a{
+  text-decoration: none;
+}
 .col-auto {
   flex: 0 0 auto;
   width: auto;
