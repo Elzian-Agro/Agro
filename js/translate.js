@@ -12,4 +12,3 @@ function googleTranslateElementInit() {
     document.querySelector('.goog-te-banner-frame').className = styleClass;
   });
 }
-
