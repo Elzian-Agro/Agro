@@ -1,5 +1,5 @@
 function googleTranslateElementInit() {
-  new google.translate.TranslateElement({
+  var googleTranslateElement = new google.translate.TranslateElement({
     pageLanguage: 'en',
     includedLanguages: 'en,si,ta,fr,de,id,th,hi,ja',
     layout: google.translate.TranslateElement.InlineLayout.SIMPLE
@@ -12,4 +12,3 @@ function googleTranslateElementInit() {
     document.querySelector('.goog-te-banner-frame').className = styleClass;
   });
 }
-

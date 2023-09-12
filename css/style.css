@@ -27,11 +27,6 @@ html {
   font-size: 100%;
 }
 
-.preloader-image {
-  height: 20px;
-  padding-top: 5px;
-}
-
 h1,
 h2,
 h3 {
@@ -433,6 +428,11 @@ strong {
   min-height: 100%;
 }
 
+.fa-jet-fighter,
+.fa-cogs {
+  color: #ffffff;
+}
+
 #about .about-thumb p {
   margin-left: 50px;
   text-align: justify;
@@ -561,6 +561,7 @@ strong {
 
 .section-title {
   text-align: center;
+  margin-top: 100px;
 }
 
 .section-title1 {
@@ -992,6 +993,31 @@ canvas {
 
 /* about section ends */
 
+/* AgroEagel about section */
+.center-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#feature .media-heading {
+  text-align: center;
+}
+
+#feature img {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#feature .media-body p {
+  text-align: justify;
+}
+.media-object img {
+  padding-right: 30px;
+}
+
 /* feature section starts*/
 
 #feature {
@@ -1002,6 +1028,11 @@ canvas {
   color: #ffffff;
   font-size: 42px;
   padding-right: 14px;
+}
+
+#feature a {
+  text-decoration: none;
+  font-size: medium;
 }
 
 #feature .talk-btn-center {
@@ -1317,13 +1348,32 @@ canvas {
 .card-board {
   display: flex;
   justify-content: space-between;
-  padding: 0 80px;
+  padding: 0 180px;
+}
+/* Adjustments for Mobile Screens */
+@media (max-width: 767px) {
+  .card-mobile-adjustment {
+    padding-left: 100px !important;
+  }
+  .card-board {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+  .card-detail-profile {
+    position: static;
+    transform: none;
+    margin-bottom: 20px;
+  }
 }
 
 .card-boards {
   display: flex;
   justify-content: space-between;
-  padding: 60px 40px 0;
+  padding: 60px 30px 0;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 /* Our Partners section ends */
@@ -1552,9 +1602,46 @@ canvas {
   margin-left: -10px;
 }
 
-/* blog share-start */
-.share-btn {
-  border: none;
+
+/* blogger data start*/
+
+.blogger{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blogger-data{
+  display: flex;
+  align-items: center;
+  color: #707070;
+  min-width: 400px;
+}
+
+.blogger-data h4{
+  font-size: 16px;
+  font-weight: bold;
+  color: #757575;
+}
+
+.blogger-data h5, h6{
+  font-size: 13px;
+}
+
+.blog-auther{
+  padding-left: 20px;
+  min-width: 200px;
+}
+
+.blogger-img{
+  width: 90px;
+  height: 90px;
+}
+.blogger-btn{
+  
+   border: none;
   color: #ffffff;
   background-color: #009207;
   border-radius: 10px;
@@ -1569,15 +1656,55 @@ canvas {
   padding: 0px 20px;
 }
 
-.share-btn:hover {
+.blogger-btn button{
+  border: none;
+  outline: none;
+  background-color: #009207;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.blogger-btn:hover {
   scale: 1.05;
 }
 
-.share-btn i {
-  font-size: 20px;
-  line-height: 40px;
-  padding-left: 20px;
+
+ /* Media query for mobile responsiveness */
+@media (max-width: 767px) {
+  .blogger {
+  display: block; /* Non-flex for mobile screens */
+  }
+
+  .blogger-data{
+  width: 100%;
+  display: block;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  }
+
+  .blogger-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .blog-auther{
+    padding-top: 100px;
+  }
+
+  .blogger-btn {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
 }
+/* blogegr data end */
 
 .share-options {
   transform-origin: bottom left;
@@ -1788,22 +1915,6 @@ canvas {
     width: 70px;
   }
 
-  .share-btn {
-    border: none;
-    color: #ffffff;
-    background-color: #009207;
-    border-radius: 10px;
-    width: 300px;
-    line-height: 40px;
-    font-size: 14px;
-    cursor: pointer;
-    z-index: 9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 25px;
-    margin-top: 20px;
-  }
 
   .auth-data {
     text-align: center;
@@ -2170,9 +2281,6 @@ canvas {
     width: 25%;
   }
 
-  #blog .share-btn {
-    width: 200px;
-  }
 
   #popup {
     padding: 10px;
@@ -2578,10 +2686,6 @@ footer a:hover {
   color: white;
   font-size: 20px;
   text-decoration: none;
-}
-
-.media-object img {
-  padding-right: 30px;
 }
 
 /* svg */
@@ -3298,6 +3402,7 @@ footer a:hover {
   text-transform: uppercase;
   margin-top: 35px;
   margin-bottom: 10px;
+  text-decoration: none;
 }
 
 .about_section .box .detail-box a:hover {
@@ -3332,7 +3437,11 @@ footer a:hover {
 .our-awards {
   height: 300px;
 }
-
+@media (max-width: 767px) {
+  .our-awards {
+    padding-left: 100px;
+  }
+}
 .agro-guard-bg-image {
   padding-top: 80px;
   padding: 40px;
@@ -3923,6 +4032,9 @@ footer a:hover {
   border-radius: 50%;
   border: 4px solid rgb(11, 128, 33);
 }
+.custom-width {
+  width: 200%;
+}
 
 .career-job .name {
   font-size: 18px;
@@ -4129,6 +4241,12 @@ footer a:hover {
 .applybutton {
   display: flex;
   justify-content: flex-end;
+}
+
+@media (max-width: 767px) {
+  .applybutton {
+    padding-right: 80px;
+  }
 }
 
 .job-profile {
@@ -4648,6 +4766,15 @@ a {
   text-align: left;
 }
 
+@media (max-width: 767px) {
+  .ct-content {
+    z-index: 1000;
+  }
+  .google-translator-text {
+    display: none;
+  }
+}
+
 .ct-topbar__list {
   margin-bottom: 0px;
 }
@@ -4836,36 +4963,6 @@ figure.snip1390 blockquote:before {
   margin-top: -80px;
 }
 
-/* Arrow*/
-.custom-arrows {
-  position: relative;
-  text-align: center;
-}
-
-.slick-prev,
-.slick-next {
-  font-size: 0;
-  color: transparent;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-300px);
-  cursor: pointer;
-}
-
-.slick-prev:before,
-.slick-next:before {
-  font-family: "slick";
-  font-size: 40px;
-  color: black;
-}
-.slick-prev {
-  left: 10px;
-}
-
-.slick-next {
-  right: 30px;
-}
-
 @media only screen and (max-width: 600px) {
   /*Mobile*/
   figure.snip1390 blockquote {
@@ -4897,16 +4994,18 @@ figure.snip1390 blockquote:before {
 }
 
 @media screen and (min-width: 2560px) {
-  /* Your styles for 27-inch iMac here */
   .profile {
     left: -120px;
   }
 }
 /* Media query for 21.5-inch iMac */
 @media screen and (min-width: 1920px) and (max-width: 2560px) {
-  /* Your styles for 21.5-inch iMac here */
   .profile {
     left: -30px;
   }
+}
+
+.pl-5 {
+  padding-left: 120px;
 }
 /*Testimonials End*/

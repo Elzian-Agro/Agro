@@ -1,113 +1,131 @@
-const tagButtons = document.querySelectorAll('#tagContainer button');
-const blogContainer = document.getElementById('blogContainer');
-const latestPodcastContainer = document.getElementById('latestPodcastContainer');
-let data = [];
+document.addEventListener("DOMContentLoaded", function () {
+  const tagButtons = document.querySelectorAll("#tagContainer button");
+  const blogContainer = document.getElementById("blogContainer");
+  const latestPodcastContainer = document.getElementById(
+    "latestPodcastContainer"
+  );
+  let data = [];
 
-fetch('../podcast/podcast_list/podcast.json') /*Get Data from json file */
-  .then(response => response.json())
-  .then(jsonData => {
-    data = jsonData;
-    displayPodcastCards(data);
-    displayLatestPodcast(data);
-  })
-  .catch(error => console.error(error));
+  fetch("../podcast/podcast_list/podcast.json") /*Get Data from json file */
+    .then((response) => response.json())
+    .then((jsonData) => {
+      data = jsonData;
+      displayPodcastCards(data);
+      displayLatestPodcast(data);
+    })
+    .catch((error) => console.error(error));
 
   /*Filter podcast by tags */
-  tagButtons.forEach(button => {
-    button.addEventListener('click', (event) => {
-      const selectedTag = event.target.getAttribute('data-tag');
-      const filteredData = (selectedTag === 'all') ? data : data.filter(podcast => podcast.tags.some(tag => tag === selectedTag));
+  tagButtons.forEach((button) => {
+    button.addEventListener("click", (event) => {
+      const selectedTag = event.target.getAttribute("data-tag");
+      const filteredData =
+        selectedTag === "all"
+          ? data
+          : data.filter((podcast) =>
+              podcast.tags.some((tag) => tag === selectedTag)
+            );
       displayPodcastCards(filteredData);
     });
   });
-  
-function displayPodcastCards(data) {
-  blogContainer.innerHTML = '';
 
-  data.forEach(podcast => {
-    const podcastCard = createPodcastCard(podcast);
-    blogContainer.appendChild(podcastCard);
-  });
-}
+  function displayPodcastCards(data) {
+    if (!blogContainer) {
+      console.error("Element 'blogContainer' not found.");
+      return;
+    }
 
-/*Display latest podcast according to the recent date */
-function displayLatestPodcast(data) {
-  const latestPodcast = data[data.length - 1];
-  const latestPodcastCard = createPodcastCard(latestPodcast);
-  latestPodcastContainer.appendChild(latestPodcastCard);
-}
+    blogContainer.innerHTML = "";
 
-function createPodcastCard(podcast) {
-  // Create Card
-  const card = document.createElement('div');
-  card.className = 'blog-card';
+    data.forEach((podcast) => {
+      const podcastCard = createPodcastCard(podcast);
+      blogContainer.appendChild(podcastCard);
+    });
+  }
 
-  const cardBody = document.createElement('div');
-  cardBody.className = 'card-body';
+  /*Display latest podcast according to the recent date */
+  function displayLatestPodcast(data) {
+    const latestPodcast = data[data.length - 1];
+    const latestPodcastCard = createPodcastCard(latestPodcast);
+    latestPodcastContainer.appendChild(latestPodcastCard);
+  }
 
-  // Podcast Date
-  const authorDate = document.createElement('div');
-  authorDate.className = 'author-date';
+  function createPodcastCard(podcast) {
+    // Create Card
+    const card = document.createElement("div");
+    card.className = "blog-card";
 
-  // Author
-  const author = document.createElement('span');
-  author.className = 'author';
-  author.textContent = podcast.author;
-  author.style.fontSize = '12px';
+    const cardBody = document.createElement("div");
+    cardBody.className = "card-body";
 
-  // Date
-  const date = document.createElement('span');
-  date.className = 'date';
-  date.textContent = podcast.date;
-  date.style.fontSize = '12px';
+    // Podcast Date
+    const authorDate = document.createElement("div");
+    authorDate.className = "author-date";
 
-  // Thumbnail
-  const thumbnail = document.createElement('img');
-  thumbnail.src = podcast.thumbnail;
-  thumbnail.className = 'thumbnail';
-  thumbnail.style.borderRadius = '20px';
-  thumbnail.alt = 'Podcast Thumbnail';
+    // Author
+    const author = document.createElement("span");
+    author.className = "author";
+    author.textContent = podcast.author;
+    author.style.fontSize = "12px";
 
-  // Title
-  const title = document.createElement('h4');
-  title.className = 'pod-title';
-  title.textContent = podcast.title;
+    // Date
+    const date = document.createElement("span");
+    date.className = "date";
+    date.textContent = podcast.date;
+    date.style.fontSize = "12px";
 
-  // Content
-  const content = document.createElement('p');
-  content.className = 'pod-text';
-  content.textContent = podcast.content;
+    // Thumbnail
+    const thumbnail = document.createElement("img");
+    thumbnail.src = podcast.thumbnail;
+    thumbnail.className = "thumbnail";
+    thumbnail.style.borderRadius = "20px";
+    thumbnail.alt = "Podcast Thumbnail";
 
-  // Audio file
-  const audio = document.createElement('audio');
-  audio.src = podcast.audio;
-  audio.controls = true;
+    // Title
+    const title = document.createElement("h4");
+    title.className = "pod-title";
+    title.textContent = podcast.title;
 
-  // Tags
-  const tags = document.createElement('h4');
-  tags.textContent = podcast.tags;
+    // Content
+    const content = document.createElement("p");
+    content.className = "pod-text";
+    content.textContent = podcast.content;
 
-  // Audio Timeline
-  const audioTimeline = document.createElement('h4');
-  audioTimeline.textContent = podcast.audioTimeline;
+    // Audio file
+    const audio = document.createElement("audio");
+    audio.src = podcast.audio;
+    audio.controls = true;
 
-  const readMore = document.createElement('a');
-  readMore.className = 'btn btn-dark';
-  readMore.style.borderRadius = '20px';
-  readMore.href = 'podcast.html?podcast=' + encodeURIComponent(JSON.stringify(podcast)); /*Pass the data through link */
-  readMore.textContent = 'More Details';
-  readMore.target = '_blank';
-  readMore.style.display = 'flex';
-  readMore.style.justifyContent = 'center';
+    // Tags
+    const tags = document.createElement("h4");
+    tags.textContent = podcast.tags;
 
-  authorDate.appendChild(author);
-  authorDate.appendChild(date);
-  cardBody.appendChild(thumbnail); 
-  cardBody.appendChild(authorDate);
-  cardBody.appendChild(title);
-  cardBody.appendChild(content);
-  cardBody.appendChild(readMore);
-  card.appendChild(cardBody);
+    // Audio Timeline
+    const audioTimeline = document.createElement("h4");
+    audioTimeline.textContent = podcast.audioTimeline;
 
-  return card;
-}
+    const readMore = document.createElement("a");
+    readMore.className = "btn btn-dark";
+    readMore.style.borderRadius = "20px";
+    readMore.href =
+      "podcast.html?podcast=" +
+      encodeURIComponent(
+        JSON.stringify(podcast)
+      ); /*Pass the data through link */
+    readMore.textContent = "More Details";
+    readMore.target = "_blank";
+    readMore.style.display = "flex";
+    readMore.style.justifyContent = "center";
+
+    authorDate.appendChild(author);
+    authorDate.appendChild(date);
+    cardBody.appendChild(thumbnail);
+    cardBody.appendChild(authorDate);
+    cardBody.appendChild(title);
+    cardBody.appendChild(content);
+    cardBody.appendChild(readMore);
+    card.appendChild(cardBody);
+
+    return card;
+  }
+});
