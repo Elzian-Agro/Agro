@@ -37,43 +37,38 @@
     <meta name="twitter:image" content="https://agro.elzian.comundefined" />
 
     <!-- stylesheets css -->
+    <!-- Include Bootstrap CSS -->
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <!-- Include Animate.css for animations -->
     <link rel="stylesheet" href="../css/animate.min.css" />
 
+    <!-- Include custom font styles -->
     <link rel="stylesheet" href="../css/et-line-font.css" />
     <link rel="stylesheet" href="../css/font-awesome.min.css" />
 
+    <!-- Include Vegas.js for background slideshow -->
     <link rel="stylesheet" href="../css/vegas.min.css" />
+
+    <!-- Include custom navigation styles -->
     <link rel="stylesheet" href="../css/navstyle.css" />
+
+    <!-- Include your main custom styles -->
     <link rel="stylesheet" href="../css/style.css" />
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Rajdhani:400,500,700"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <!-- Include custom fonts -->
+    <link href="../fonts/font-rajdhani.ttf" rel="stylesheet" type="text/css" />
+
+    <!-- Include site favicon -->
     <link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
-    />
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5XQ6529FXW"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+    <!-- Include Font Awesome again (is it intended?) -->
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+    <!-- Include Google Analytics -->
+    <script async src="../js/google-gtags.js"></script>
+    <script src="../js/google-tag.js"></script>
 
-        gtag('config', 'G-5XQ6529FXW');
-    </script>
-
-    <!-- Fontawesome CDN Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
-  
     <style>
       .card {
         border: 1px solid #ccc;
@@ -81,13 +76,14 @@
         margin: 10px;
       }
     </style>
-  
   </head>
   <body>
     <!--Navigation-bar-->
-    <div id="pre-loader-placeholder"></div> <!--Pre-loader-->
+    <div id="pre-loader-placeholder"></div>
+    <!--Pre-loader-->
 
-    <div id="navbar-placeholder"></div> <!--Navigation-bar-->
+    <div id="navbar-placeholder"></div>
+    <!--Navigation-bar-->
 
     <!-- preloader section -->
     <section class="preloader">
@@ -123,389 +119,131 @@
           alt="background image of blog main page"
         />
         <div class="banner-heading">
-          <h2>
-            News & Media
-          </h2>
+          <h2>News & Media</h2>
         </div>
       </div>
     </section>
 
-
-
-
-
     <section id="blog-main-card-post" class="blog-tag-identify">
       <div class="container">
-        
-        <div class=" news-container ">
-
-
-          <!-- <div class="  blog-item ">
-
-            <div class="news-container d-flex" >
-              <div class="news-image-container ">
-                <img src="../images/news_and_media/IMAGE-1-1-768x513.jpg" alt="">
-              </div>
-              <div class="news-content-container text-center" >
-                <div class="news-top-container d-flex justify-content-between">
-                <div class="news-site">
-                  <p>Ceylon Business Reporter</p>
-                </div>
-                <div class="news-date">
-                  <p>6-July-2023</p>
-                </div>
-                </div>
-                
-                <div class="news-title text-center">
-                  <h3> ELZIAN AGRO Shines Bright at SLASSCOM National Ingenuity Awards 2023</h3>
-                </div>
-                <div class="news-desc " style="padding: 10px;">
-                  <p> ELZIAN AGRO, recognized as one of the top Technology Disruptors, garnered high praise and esteemed accolades in various categories, solidifying their position as a leading force in the industry. The company’s commitment to innovation and relentless pursuit of excellence was wholeheartedly acknowledged, with the team being honored in multiple domains.</p>
-                </div>
-                <div class="news-buttons d-flex justify-content-around">
-                  <div class="news-btn">
-                    <a href="https://cbr.lk/technology/elzian-agro-shines-bright-at-slasscom-national-ingenuity-awards-2023/" target="_blank">Read More <i class="fa fa-arrow-right"></i></a>
-                  </div>
-                </div>
-  
-              </div>
-            </div>
-          </div><br><br><br> -->
-
-          <div id="section1" class="section-news" style="background-color: white;">
-          <div id="blog-item-1"></div>
+        <div class="news-container">
+          <div
+            id="section1"
+            class="section-news"
+            style="background-color: white"
+          >
+            <div id="blog-item-1"></div>
           </div>
 
-          <div id="section2" class="section-news" style="background-color: white;">
+          <div
+            id="section2"
+            class="section-news"
+            style="background-color: white"
+          >
             <div id="blog-item-2"></div>
           </div>
 
-          <div id="section3" class="section-news" style="background-color: white;">
+          <div
+            id="section3"
+            class="section-news"
+            style="background-color: white"
+          >
             <div id="blog-item-3"></div>
           </div>
-
         </div>
       </div>
 
       <div class="pagination-container">
-        <!-- <button class="pagination-button" id="startBtn" disabled>
-          <i class="fa-solid fa-angles-left"></i>
-        </button>
-        <button class="pagination-button prevNext" id="prev" disabled>
-          <i class="fa-solid fa-angle-left"></i>
-        </button> -->
-  
         <div class="pagination-links">
-          <button id="button1" class="pagination-link page-active" id="scrollToTopBtn">1</button>
-          <button id="button2" class="pagination-link" id="scrollToTopBtn">2</button>
-          <button id="button3" class="pagination-link" id="scrollToTopBtn">3</button>
-          <!-- <a href="news-main.html" class="pagination-link active">1</a>
-          
-           <a href="news-main-2.html" class="pagination-link">2</a> 
-           <a href="news-main-3.html" class="pagination-link">3</a>  -->
-          
-          
-          <!-- <a href="#" class="pagination-link">3</a>
-          <a href="#" class="pagination-link">4</a>
-          <a href="#" class="pagination-link">5</a> -->
+          <button
+            id="button1"
+            class="pagination-link page-active"
+            id="scrollToTopBtn"
+          >
+            1
+          </button>
+          <button id="button2" class="pagination-link" id="scrollToTopBtn">
+            2
+          </button>
+          <button id="button3" class="pagination-link" id="scrollToTopBtn">
+            3
+          </button>
         </div>
-  
-        <!-- <button class="pagination-button prevNext" id="next">
-          <i class="fa-solid fa-angle-right"></i>
-        </button>
-        <button class="pagination-button" id="endBtn">
-          <i class="fa-solid fa-angles-right"></i>
-        </button> -->
       </div>
     </section>
 
     <!-- Blog Main Section Ends -->
 
-
-
-   <!-- footer section -->
-   <div id="footer-placeholder"></div>
+    <!-- footer section -->
+    <div id="footer-placeholder"></div>
 
     <!-- Back top -->
     <a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
 
     <!-- javscript js -->
+    <!-- Include jQuery library -->
     <script src="../js/jquery.js"></script>
+
+    <!-- Include Popper.js for Bootstrap (dependency) -->
     <script src="../js/popper.js"></script>
+
+    <!-- Include Bootstrap JavaScript -->
     <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Include Vegas.js for background slideshow -->
     <script src="../js/vegas.min.js"></script>
-    <script src="../js/main.js"></script>
+
+    <!-- Include Wow.js for animations -->
     <script src="../js/wow.min.js"></script>
+
+    <!-- Include Smoothscroll.js for smooth scrolling behavior -->
     <script src="../js/smoothscroll.js"></script>
+
+    <!-- Include custom JavaScript file -->
     <script src="../js/custom.js"></script>
+
+    <!-- Include contact.js for contact form functionality -->
     <script src="../js/contact.js"></script>
+
+    <!-- Include blog-tag.js for blog tags functionality -->
     <script src="../js/blog-tag.js"></script>
+
+    <!-- Include components.js for reusable components -->
     <script src="../js/components.js"></script>
-    <!-- <script src="../js/pagination.js"></script> -->
+
+    <!-- Include AOS library for animations on scroll -->
     <script src="../vendor/aos/aos.js"></script>
+
+    <!-- Include Bootstrap JavaScript (vendor) -->
     <script src="../vendor/bootstrap/js/"></script>
+
+    <!-- Include GLightbox for lightbox functionality -->
     <script src="../vendor/glightbox/js/"></script>
+
+    <!-- Include Isotope.js for filterable grids -->
     <script src="../vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Include Swiper.js for carousel functionality -->
     <script src="../vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Include Waypoints for triggering events when scrolling -->
     <script src="../vendor/waypoints/noframework.waypoints.js"></script>
+
+    <!-- Include translate.js for language translation -->
     <script src="../js/translate.js"></script>
+
+    <!-- Include Google Translate Element script -->
+    <script src="../js/google-translate-element.js"></script>
+
+    <script src="../js/translation-map.js"></script>
+
+    <!-- Include scroll.js for scrolling to top button -->
     <script src="../js/scroll.js"></script>
-    
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-    // Get all buttons and sections
-    var buttons = document.querySelectorAll("button");
-    var sections = document.querySelectorAll(".section-news");
 
-    // Show section1 on page load
-    var section1 = document.getElementById("section1");
-    section1.classList.add("active");
+    <!-- Include Font Awesome JavaScript -->
+    <script src="../js/fontawesome.min.js"></script>
 
-    // Add click event listener to each button
-    buttons.forEach(function(button) {
-        button.addEventListener("click", function() {
-            // Check if the clicked button is button1 (section1)
-            if (this.id === "button1") {
-                // If button1 is clicked, do not disable section1
-                section1.classList.add("active");
-            } else {
-                // Remove active class from section1 to disable it
-                section1.classList.remove("active");
-            }
-
-            // Remove active class from all sections and buttons
-            sections.forEach(function(section) {
-                section.classList.remove("active");
-            });
-            buttons.forEach(function(button) {
-                button.classList.remove("active");
-            });
-
-            // Add active class to the clicked section and button
-            var sectionId = this.id.replace("button", "section");
-            var section = document.getElementById(sectionId);
-            section.classList.add("active");
-            this.classList.add("active");
-
-                        // Add color to buttons based on active section
-                        buttons.forEach(function(button) {
-                var sectionId = button.id.replace("button", "section");
-                var section = document.getElementById(sectionId);
-                if (section.classList.contains("active")) {
-                    button.style.backgroundColor = "#009207"; // Set the desired color
-                } else {
-                    button.style.backgroundColor = ""; // Remove any previously set color
-                }
-            });
-        });
-    });
-});
-
-    </script>
-<script>
-  // Fetch JSON data
-  fetch('newsData.json')
-    .then(response => response.json())
-    .then(data => {
-      const cardsContainer = document.getElementById('blog-item-1');
-
-      // Get the first two items based on ID
-      const itemsToFetch = [-1,1,2,3,4];
-
-      // Iterate over the JSON data
-      data.forEach(item => {
-        // Check if the item's ID is in the itemsToFetch array
-        if (itemsToFetch.includes(item.id)) {
-          // Create a card element
-          const card = document.createElement('news-container');
-          card.classList.add('news-container');
-
-          const img = document.createElement('img');
-          img.src = `${item}`
-
-          // Set card content using item properties
-          card.innerHTML = `
-          <div class="news-container d-flex" >
-            
-            <div class="news-content-container text-center" >
-              <div class="news-image-container ">
-          <div class="news-image-box">
-            <img src="${item.image}" alt="">
-            </div>
-              
-              
-            </div>
-            <div  class="news-box-body">
-              <div class="news-top-container d-flex justify-content-between">
-                <div class="news-site">
-                  <p>${item.news_site}</p>
-                </div>
-                <div class="news-date">
-                  <p>${item.date}</p>
-                </div>
-              </div>
-              
-              <div class="news-title text-center">
-                <h3>${item.title}</h3>
-              </div>
-              <div class="news-desc " style="padding: 10px;">
-                <p>${item.description}</p>
-              </div>
-              <div class="news-buttons d-flex justify-content-around">
-                <div class="news-btn">
-                  <a href=${item.link} target="_blank">Read More <i class="fa fa-arrow-right"></i></a>
-                </div>
-              </div>
-
-            </div>
-            </div>
-          </div><br><br><br>
-          
-          `;
-
-          // Add the card to the container
-          cardsContainer.appendChild(card);
-        }
-      });
-    });
-</script>
-
-
-<script>
-  // Fetch JSON data
-  fetch('newsData.json')
-    .then(response => response.json())
-    .then(data => {
-      const cardsContainer = document.getElementById('blog-item-2');
-
-      // Get the first two items based on ID
-      const itemsToFetch = [5,6,7,8,9];
-
-      // Iterate over the JSON data
-      data.forEach(item => {
-        // Check if the item's ID is in the itemsToFetch array
-        if (itemsToFetch.includes(item.id)) {
-          // Create a card element
-          const card = document.createElement('news-container');
-          card.classList.add('news-container');
-
-          const img = document.createElement('img');
-          img.src = `${item}`
-
-          // Set card content using item properties
-          card.innerHTML = `
-          <div class="news-container d-flex" >
-            
-            <div class="news-content-container text-center" >
-              <div class="news-image-container ">
-          <div class="news-image-box">
-            <img src="${item.image}" alt="">
-            </div>
-              
-              
-            </div>
-            <div class="news-box-body">
-              <div class="news-top-container d-flex justify-content-between">
-              <div class="news-site">
-                <p>${item.news_site}</p>
-              </div>
-              <div class="news-date">
-                <p>${item.date}</p>
-              </div>
-              </div>
-              
-              <div class="news-title text-center">
-                <h3>${item.title}</h3>
-              </div>
-              <div class="news-desc " style="padding: 10px;">
-                <p>${item.description}</p>
-              </div>
-              <div class="news-buttons d-flex justify-content-around">
-                <div class="news-btn">
-                  <a href=${item.link} target="_blank">Read More <i class="fa fa-arrow-right"></i></a>
-                </div>
-              </div>
-
-            </div>
-            </div>
-          </div><br><br><br>
-          
-          `;
-
-          // Add the card to the container
-          cardsContainer.appendChild(card);
-        }
-      });
-    });
-</script>
-
-<script>
-  // Fetch JSON data
-  fetch('newsData.json')
-    .then(response => response.json())
-    .then(data => {
-      const cardsContainer = document.getElementById('blog-item-3');
-
-      // Get the first two items based on ID
-      const itemsToFetch = [10,11,12,13,14];
-
-      // Iterate over the JSON data
-      data.forEach(item => {
-        // Check if the item's ID is in the itemsToFetch array
-        if (itemsToFetch.includes(item.id)) {
-          // Create a card element
-          const card = document.createElement('news-container');
-          card.classList.add('news-container');
-
-          const img = document.createElement('img');
-          img.src = `${item}`
-
-          // Set card content using item properties
-          card.innerHTML = `
-          <div class="news-container d-flex" >
-            
-            <div class="news-content-container text-center" >
-              <div class="news-image-container ">
-          <div class="news-image-box">
-            <img src="${item.image}" alt="">
-            </div>
-              
-              
-            </div>
-            <div class="news-box-body">
-              <div class="news-top-container d-flex justify-content-between">
-              <div class="news-site">
-                <p>${item.news_site}</p>
-              </div>
-              <div class="news-date">
-                <p>${item.date}</p>
-              </div>
-              </div>
-              
-              <div class="news-title text-center">
-                <h3>${item.title}</h3>
-              </div>
-              <div class="news-desc " style="padding: 10px;">
-                <p>${item.description}</p>
-              </div>
-              <div class="news-buttons d-flex justify-content-around">
-                <div class="news-btn">
-                  <a href=${item.link} target="_blank">Read More <i class="fa fa-arrow-right"></i></a>
-                </div>
-              </div>
-
-            </div>
-            </div>
-          </div><br><br><br>
-          
-          `;
-
-          // Add the card to the container
-          cardsContainer.appendChild(card);
-        }
-      });
-    });
-</script>
+    <!-- Include new-and-media.js for news and media functionality -->
+    <script src="../js/new-and-media.js"></script>
   </body>
 </html>

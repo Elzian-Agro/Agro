@@ -59,21 +59,18 @@
     />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5XQ6529FXW"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'G-5XQ6529FXW');
-    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-5XQ6529FXW"
+    ></script>
+    <script src="../js/google-tags.js"></script>
 
     <!-- Fontawesome CDN Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
-  
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
     <style>
       .card {
         border: 1px solid #ccc;
@@ -81,13 +78,14 @@
         margin: 10px;
       }
     </style>
-  
   </head>
   <body>
     <!--Navigation-bar-->
-    <div id="pre-loader-placeholder"></div> <!--Pre-loader-->
+    <div id="pre-loader-placeholder"></div>
+    <!--Pre-loader-->
 
-    <div id="navbar-placeholder"></div> <!--Navigation-bar-->
+    <div id="navbar-placeholder"></div>
+    <!--Navigation-bar-->
 
     <!-- preloader section -->
     <section class="preloader">
@@ -128,10 +126,6 @@
       </div>
     </section>
 
-
-
-
-
     <section id="blog-main-card-post" class="blog-tag-identify">
       <div class="container">
         <div class="learn-filter-container">
@@ -139,64 +133,78 @@
           <button class="filter-button" data-key="key1">For Interns</button>
           <button class="filter-button" data-key="key2">For Associates</button>
         </div>
-        
-        <div class=" news-container ">
 
-
-
-            <section class="job-section" id="job-section">
-                <div class="container-xxl py-5">
-                  <div class="container">
-                    <h4 class="Job-heading text-center">
-                      
-                    </h4>
-                    <!-- <h3 class="Job-subHeading text-center">
+        <div class="news-container">
+          <section class="job-section" id="job-section">
+            <div class="container-xxl py-5">
+              <div class="container">
+                <h4 class="Job-heading text-center"></h4>
+                <!-- <h3 class="Job-subHeading text-center">
                       WHAT YOU SHOULD LEARN
                     </h3> -->
-                    <div>
-            
-                      <div class="job_list learn-card" data-key="key1" id="jobs">           
-                          <div class="job-name job-card row">
-                            <img src="../images/jithmi.deshanjalee.jpg" alt="img" class="job-profile rounded-circle col-md-3" />
-                            
-                            <div class="job-detail col-md-5">
-                             
-                              <h5>Jithmi Deshanjalee</h5>
-                              <span class="text-truncate me-3 "><i class="fa-solid fa-briefcase mx-auto"></i> Human Resource Management Intern at ELZIAN AGRO</span>
-                              
-                            </div>
-                            <div class=" applybutton job-label col-md-6">
-                              <a style="text-align: center ;" class="read-now-btn" href="../docs/lern_and_dev/HRM Intern's Lifestyle - Jithmi (1).pdf">Read Now</a>
-                            </div>
-                          </div>  
+                <div>
+                  <div class="job_list learn-card" data-key="key1" id="jobs">
+                    <div class="job-name job-card row">
+                      <img
+                        src="../images/jithmi.deshanjalee.jpg"
+                        alt="img"
+                        class="job-profile rounded-circle col-md-3"
+                      />
+
+                      <div class="job-detail col-md-5">
+                        <h5>Jithmi Deshanjalee</h5>
+                        <span class="text-truncate me-3"
+                          ><i class="fa-solid fa-briefcase mx-auto"></i> Human
+                          Resource Management Intern at ELZIAN AGRO</span
+                        >
                       </div>
-            
-                    
-
-
-                     <div class="job_list learn-card" data-key="key1" id="jobs">           
-                          <div class="job-name job-card row">
-                            <img src="../images/Gajani-Vivekanandan.png" alt="img" class="job-profile rounded-circle col-md-3" />
-                            
-                            <div class="job-detail col-md-5">
-                             
-                              <h5>Gajani Vivekanandan</h5>
-                              <span class="text-truncate me-3 "><i class="fa-solid fa-briefcase mx-auto"></i> Human Resource Management Intern at ELZIAN AGRO</span>
-                              
-                            </div>
-                            <div class=" applybutton job-label col-md-6">
-                              <a style="text-align: center ;" class="read-now-btn" href="../docs/lern_and_dev/HRM Intern's Lifestyle - Gajani.pdf">Read Now</a>
-                            </div>
-                          </div>  
+                      <div class="applybutton job-label col-md-6">
+                        <a
+                          style="text-align: center"
+                          class="read-now-btn"
+                          href="../docs/lern_and_dev/HRM Intern's Lifestyle - Jithmi (1).pdf"
+                          >Read Now</a
+                        >
                       </div>
-
-            
                     </div>
-            
-                    <button class="job-moreBtn" style="text-align:center;" onclick="evtEllipse(this)">View More Articles</button>
-                    <span class="hide" onclick="spanEllipse(this)">
-            
-                      <!-- <div class="job_list" id="jobs">
+                  </div>
+
+                  <div class="job_list learn-card" data-key="key1" id="jobs">
+                    <div class="job-name job-card row">
+                      <img
+                        src="../images/Gajani-Vivekanandan.png"
+                        alt="img"
+                        class="job-profile rounded-circle col-md-3"
+                      />
+
+                      <div class="job-detail col-md-5">
+                        <h5>Gajani Vivekanandan</h5>
+                        <span class="text-truncate me-3"
+                          ><i class="fa-solid fa-briefcase mx-auto"></i> Human
+                          Resource Management Intern at ELZIAN AGRO</span
+                        >
+                      </div>
+                      <div class="applybutton job-label col-md-6">
+                        <a
+                          style="text-align: center"
+                          class="read-now-btn"
+                          href="../docs/lern_and_dev/HRM Intern's Lifestyle - Gajani.pdf"
+                          >Read Now</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <button
+                  class="job-moreBtn"
+                  style="text-align: center"
+                  onclick="evtEllipse(this)"
+                >
+                  View More Articles
+                </button>
+                <span class="hide" onclick="spanEllipse(this)">
+                  <!-- <div class="job_list" id="jobs">
                         <div class="job-name job-card row">
                           <img src="./images/career/Web_Dev.png" class="job-profile col-md-3" />
                           <div class="job-detail col-md-5">
@@ -212,16 +220,12 @@
                           </div>
                         </div>
                       </div> -->
-            
-                     
-    
-            
-                    </span>
-                  </div>
-                </div>
-              </section>
+                </span>
+              </div>
+            </div>
+          </section>
 
-<!-- 
+          <!-- 
           <div id="section1" class="section-news" style="background-color: white;">
           <div id="blog-item-1"></div>
           </div>
@@ -233,7 +237,6 @@
           <div id="section3" class="section-news" style="background-color: white;">
             <div id="blog-item-3"></div>
           </div> -->
-
         </div>
       </div>
 
@@ -244,7 +247,7 @@
         <button class="pagination-button prevNext" id="prev" disabled>
           <i class="fa-solid fa-angle-left"></i>
         </button> -->
-  
+
         <div class="pagination-links">
           <!-- <button id="button1" class="pagination-link">1</button>
           <button id="button2" class="pagination-link">2</button>
@@ -253,13 +256,12 @@
           
            <a href="news-main-2.html" class="pagination-link">2</a> 
            <a href="news-main-3.html" class="pagination-link">3</a>  -->
-          
-          
+
           <!-- <a href="#" class="pagination-link">3</a>
           <a href="#" class="pagination-link">4</a>
           <a href="#" class="pagination-link">5</a> -->
         </div>
-  
+
         <!-- <button class="pagination-button prevNext" id="next">
           <i class="fa-solid fa-angle-right"></i>
         </button>
@@ -271,18 +273,8 @@
 
     <!-- Blog Main Section Ends -->
 
-
-
-   <!-- footer section -->
-   <div id="footer-placeholder"></div>
-
-
-
-    
-
-
-
-
+    <!-- footer section -->
+    <div id="footer-placeholder"></div>
 
     <!-- Back top -->
     <a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
@@ -307,44 +299,44 @@
     <script src="../vendor/swiper/swiper-bundle.min.js"></script>
     <script src="../vendor/waypoints/noframework.waypoints.js"></script>
     <script src="../js/translate.js"></script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-  
+    <script
+      type="text/javascript"
+      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    ></script>
+
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-    const filterButtons = document.querySelectorAll(".filter-button");
-    const cards = document.querySelectorAll(".learn-card");
-    const showAllButton = document.querySelector(".show-all-button");
-  
-    // Function to filter cards based on key name
-    function filterCards(key) {
-      cards.forEach((card) => {
-        const cardKey = card.dataset.key;
-  
-        // If the card key matches the selected button's data-key, show the card; otherwise, hide it.
-        card.style.display = cardKey === key ? "block" : "none";
-      });
-    }
+        const filterButtons = document.querySelectorAll(".filter-button");
+        const cards = document.querySelectorAll(".learn-card");
+        const showAllButton = document.querySelector(".show-all-button");
 
-      // Function to show all cards
-  function showAllCards() {
-    cards.forEach((card) => {
-      card.style.display = "block";
-    });
-  }
-  
-    // Event listener for the filter buttons click
-    filterButtons.forEach((button) => {
-      button.addEventListener("click", function () {
-        const key = this.dataset.key;
-        filterCards(key);
-      });
-    });
-    // Event listener for the "Show All" button click
-  showAllButton.addEventListener("click", showAllCards);
+        // Function to filter cards based on key name
+        function filterCards(key) {
+          cards.forEach((card) => {
+            const cardKey = card.dataset.key;
 
-  });
-  
+            // If the card key matches the selected button's data-key, show the card; otherwise, hide it.
+            card.style.display = cardKey === key ? "block" : "none";
+          });
+        }
+
+        // Function to show all cards
+        function showAllCards() {
+          cards.forEach((card) => {
+            card.style.display = "block";
+          });
+        }
+
+        // Event listener for the filter buttons click
+        filterButtons.forEach((button) => {
+          button.addEventListener("click", function () {
+            const key = this.dataset.key;
+            filterCards(key);
+          });
+        });
+        // Event listener for the "Show All" button click
+        showAllButton.addEventListener("click", showAllCards);
+      });
     </script>
-
   </body>
 </html>
