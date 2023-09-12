@@ -994,7 +994,7 @@ canvas {
 /* about section ends */
 
 /* AgroEagel about section */
-.center-image{
+.center-image {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1349,6 +1349,23 @@ canvas {
   display: flex;
   justify-content: space-between;
   padding: 0 180px;
+}
+/* Adjustments for Mobile Screens */
+@media (max-width: 767px) {
+  .card-mobile-adjustment {
+    padding-left: 100px !important;
+  }
+  .card-board {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+  .card-detail-profile {
+    position: static;
+    transform: none;
+    margin-bottom: 20px;
+  }
 }
 
 .card-boards {
@@ -3346,7 +3363,11 @@ footer a:hover {
 .our-awards {
   height: 300px;
 }
-
+@media (max-width: 767px) {
+  .our-awards {
+    padding-left: 100px;
+  }
+}
 .agro-guard-bg-image {
   padding-top: 80px;
   padding: 40px;
@@ -4148,6 +4169,12 @@ footer a:hover {
   justify-content: flex-end;
 }
 
+@media (max-width: 767px) {
+  .applybutton {
+    padding-right: 80px;
+  }
+}
+
 .job-profile {
   width: 70px;
   height: 70px;
@@ -4666,10 +4693,10 @@ a {
 }
 
 @media (max-width: 767px) {
-  .ct-content{
+  .ct-content {
     z-index: 1000;
   }
-  .google-translator-text{
+  .google-translator-text {
     display: none;
   }
 }
