@@ -1569,9 +1569,46 @@ canvas {
   margin-left: -10px;
 }
 
-/* blog share-start */
-.share-btn {
-  border: none;
+
+/* blogger data start*/
+
+.blogger{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blogger-data{
+  display: flex;
+  align-items: center;
+  color: #707070;
+  min-width: 400px;
+}
+
+.blogger-data h4{
+  font-size: 16px;
+  font-weight: bold;
+  color: #757575;
+}
+
+.blogger-data h5, h6{
+  font-size: 13px;
+}
+
+.blog-auther{
+  padding-left: 20px;
+  min-width: 200px;
+}
+
+.blogger-img{
+  width: 90px;
+  height: 90px;
+}
+.blogger-btn{
+  
+   border: none;
   color: #ffffff;
   background-color: #009207;
   border-radius: 10px;
@@ -1586,15 +1623,55 @@ canvas {
   padding: 0px 20px;
 }
 
-.share-btn:hover {
+.blogger-btn button{
+  border: none;
+  outline: none;
+  background-color: #009207;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.blogger-btn:hover {
   scale: 1.05;
 }
 
-.share-btn i {
-  font-size: 20px;
-  line-height: 40px;
-  padding-left: 20px;
+
+ /* Media query for mobile responsiveness */
+@media (max-width: 767px) {
+  .blogger {
+  display: block; /* Non-flex for mobile screens */
+  }
+
+  .blogger-data{
+  width: 100%;
+  display: block;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  }
+
+  .blogger-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .blog-auther{
+    padding-top: 100px;
+  }
+
+  .blogger-btn {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
 }
+/* blogegr data end */
 
 .share-options {
   transform-origin: bottom left;
@@ -1805,22 +1882,6 @@ canvas {
     width: 70px;
   }
 
-  .share-btn {
-    border: none;
-    color: #ffffff;
-    background-color: #009207;
-    border-radius: 10px;
-    width: 300px;
-    line-height: 40px;
-    font-size: 14px;
-    cursor: pointer;
-    z-index: 9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 25px;
-    margin-top: 20px;
-  }
 
   .auth-data {
     text-align: center;
@@ -2187,9 +2248,6 @@ canvas {
     width: 25%;
   }
 
-  #blog .share-btn {
-    width: 200px;
-  }
 
   #popup {
     padding: 10px;
