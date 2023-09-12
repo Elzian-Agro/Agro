@@ -1517,6 +1517,22 @@ canvas {
   text-align: justify;
 }
 
+#blog li {
+  color: #828282;
+  letter-spacing: 0.8px;
+  line-height: 28px;
+}
+
+#blog .img1 {
+  height: 35rem;
+  width: 200rem;
+}
+
+#blog .img2 {
+  height: 30rem;
+  width: 200rem;
+}
+
 #blog .blog-contents strong {
   color: #000;
 }
