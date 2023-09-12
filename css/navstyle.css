@@ -923,12 +923,16 @@ a:not([href]):not([tabindex]):focus {
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
-
+.navbar-toggler-icon {
+  color: #000;
+}
 .navbar-brand {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-right: 120px;
+   padding-left: 40px;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
@@ -998,7 +1002,7 @@ a:not([href]):not([tabindex]):focus {
   height: 1.5em;
   vertical-align: middle;
   content: "";
-  background: no-repeat center center;
+
   background-size: 100% 100%;
 }
 

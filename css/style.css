@@ -4665,6 +4665,15 @@ a {
   text-align: left;
 }
 
+@media (max-width: 767px) {
+  .ct-content{
+    z-index: 1000;
+  }
+  .google-translator-text{
+    display: none;
+  }
+}
+
 .ct-topbar__list {
   margin-bottom: 0px;
 }
@@ -4852,36 +4861,6 @@ figure.snip1390 blockquote:before {
 #testimonials .testimonial-card {
   margin-top: -80px;
 }
-
-/* Arrow*/
-/* .custom-arrows {
-  position: relative;
-  text-align: center;
-}
-
-.slick-prev,
-.slick-next {
-  font-size: 0;
-  color: transparent;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-300px);
-  cursor: pointer;
-}
-
-.slick-prev:before,
-.slick-next:before {
-  font-family: "slick";
-  font-size: 40px;
-  color: black;
-}
-.slick-prev {
-  left: 10px;
-}
-
-.slick-next {
-  right: 30px;
-} */
 
 @media only screen and (max-width: 600px) {
   /*Mobile*/
