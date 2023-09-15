@@ -562,6 +562,7 @@ strong {
 .section-title {
   text-align: center;
   margin-top: 100px;
+  margin-bottom: 80px;
 }
 
 .section-title1 {
@@ -3766,7 +3767,7 @@ footer a:hover {
   overflow: hidden;
   border: 0.2px solid #e3e3e3;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.19);
-  height: 600px;
+  height: 650px;
 }
 
 #related-blogs .card-body {
@@ -5003,6 +5004,65 @@ figure.snip1390 blockquote:before {
   .profile {
     left: -30px;
   }
+}
+
+@media screen and (min-width: 859px) and (max-width: 1115px) {
+  .profile {
+    left: 50px;
+  }
+  .slider-card {
+    margin-left: 20px;
+  }
+  figure.snip1390 blockquote {
+    font-size: 12px;
+    padding: 45px 24px 40px 22px;
+    width: 200px;
+    margin-left: 0px;
+    height: 290px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 975px) {
+  .profile {
+    left: 120px;
+  }
+  .slider-card {
+    margin-left: 250px;
+  }
+  figure.snip1390 blockquote {
+    font-size: 12px;
+    padding: 45px 24px 40px 22px;
+    width: 180px;
+    margin-left: 0px;
+    height: 290px;
+  }
+}
+@media screen and (min-width: 585px) and (max-width: 766px) {
+  .profile {
+    left: -30px;
+  }
+  figure.snip1390 blockquote {
+    font-size: 12px;
+    padding: 45px 24px 40px 22px;
+    width: 280px;
+    margin-left: 0px;
+    height: 290px;
+  }
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 584px) {
+  .profile {
+    left: 50px;
+  }
+  figure.snip1390 blockquote {
+    font-size: 12px;
+    padding: 45px 24px 40px 22px;
+    width: 240px;
+    margin-left: 0px;
+    height: 290px;
+  }
+
 }
 
 .pl-5 {
