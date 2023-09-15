@@ -5006,6 +5006,65 @@ figure.snip1390 blockquote:before {
   }
 }
 
+@media screen and (min-width: 859px) and (max-width: 1115px) {
+  .profile {
+    left: 50px;
+  }
+  .slider-card {
+    margin-left: 20px;
+  }
+  figure.snip1390 blockquote {
+    font-size: 12px;
+    padding: 45px 24px 40px 22px;
+    width: 200px;
+    margin-left: 0px;
+    height: 290px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 975px) {
+  .profile {
+    left: 120px;
+  }
+  .slider-card {
+    margin-left: 250px;
+  }
+  figure.snip1390 blockquote {
+    font-size: 12px;
+    padding: 45px 24px 40px 22px;
+    width: 180px;
+    margin-left: 0px;
+    height: 290px;
+  }
+}
+@media screen and (min-width: 585px) and (max-width: 766px) {
+  .profile {
+    left: -30px;
+  }
+  figure.snip1390 blockquote {
+    font-size: 12px;
+    padding: 45px 24px 40px 22px;
+    width: 280px;
+    margin-left: 0px;
+    height: 290px;
+  }
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 584px) {
+  .profile {
+    left: 50px;
+  }
+  figure.snip1390 blockquote {
+    font-size: 12px;
+    padding: 45px 24px 40px 22px;
+    width: 240px;
+    margin-left: 0px;
+    height: 290px;
+  }
+
+}
+
 .pl-5 {
   padding-left: 120px;
 }
