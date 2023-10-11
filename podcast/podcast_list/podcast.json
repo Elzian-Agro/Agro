@@ -1,20 +1,20 @@
 [
     {
-      "title": "Innovation to restore our oceans with Sustainable Ocean Alliance & Ocean Uprise, Ep #53",
-      "audioTitle":"Innovation to restore our oceans with Sustainable Ocean Alliance & Ocean Uprise, Ep #53",
+      "title": "Analog Forestry for Regenerative Agriculture, Ep #1",
+      "audioTitle":"Analog Forestry for Regenerative Agriculture, Ep #1",
       
 
-      "content": "This is the content of Podcast 1.This is the.",
-      "brief": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae exercitationem dolorem maxime dolorum accusamus aliquam cumque? Commodi, voluptate aspernatur atque delectus pariatur praesentium assumenda nobis possimus aut necessitatibus consectetur aliquam.",
-      "about":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae exercitationem dolorem maxime dolorum accusamus aliquam cumque? Commodi, voluptate aspernatur atque delectus pariatur praesentium assumenda nobis possimus aut necessitatibus consectetur aliquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae exercitationem dolorem maxime dolorum accusamus aliquam cumque? Commodi, voluptate aspernatur atque delectus pariatur praesentium assumenda nobis possimus aut necessitatibus consectetur aliquam.",
-      "audioTimeline":["[3:37] Brandon’s personal story & role at SOA","[8:46] Bodhi’s personal story & role at Ocean Uprise","[15:10] The state of ocean health & how it’s linked to climate change","[20:28] The state of ocean investment & SOA’s diversified strategy","[24:30] The role of young people & the importance of youth leadership in creating sustainable oceans","[30:44] Insights on SOA’s Ocean Solutions Accelerator","[34:44] Current initiatives that Bodhi is excited about"],
+      "content": "Dr. Ranil explains how Analog forestry can positively impact on organic & regenerative agriculture.",
+      "brief": "Dr. Ranil explains how Analog forestry can positively impact on organic & regenerative agriculture. Dr. Ranil’s original 17-acre model analog forest in Sri Lanka (now over 40 years, established) actively demonstrates that the restoration and protection of rainforests and natural resources is compatible with the economic wellbeing of rural communities. With his 60+ years of experience in the field of Forestry and Ecology sector and as the leading scientist of the Earth Restoration Foundation and a director of the International Analog Forestry Network, he believes in rapid digital inclusion in sustainable development efforts.",
+      "about":"Dr. Ranil explains how Analog forestry can positively impact on organic & regenerative agriculture. Dr. Ranil’s original 17-acre model analog forest in Sri Lanka (now over 40 years, established) actively demonstrates that the restoration and protection of rainforests and natural resources is compatible with the economic wellbeing of rural communities. With his 60+ years of experience in the field of Forestry and Ecology sector and as the leading scientist of the Earth Restoration Foundation and a director of the International Analog Forestry Network, he believes in rapid digital inclusion in sustainable development efforts.",
+      "audioTimeline":["[03:40] How can Analog forestry help organic & regenerative agriculture?","[06:00] How can Analog forestry help in arresting the loss of living soil?","[11:00] How can Analog forestry help in arresting loss of water holding capacity?","[13:54] How can Analog forestry help in responding to increasing ambient temperature?","[16:31] How can Analog forestry help in restoring the loss of biodiversity?","[20:00] How technology-based, data-driven (precision) solutions can impact Analog Forestry practices?","[27:13] Incorporating trees and perennial plants into agricultural systems for sustainability and ecological benefits.","[32:22] Changing agricultural landscape sustainably."],
 
 
-      "author": "John Doe",
-      "date": "2023-06-01",
+      "author": "Dr. Ranil Senanayake",
+      "date": "2023-09-10",
       "buttonUrl": "https://example.com/podcast1",
       "audio":"https://agro.elzian.com//podcast/audio/sample-02.mp3",
-      "thumbnail":"https://agro.elzian.com//images/W_A-vIYhEa9BmensypVRFDOL.jpg",
+      "thumbnail":"/images/Dr Ranil bg.png",
       "tags": ["activism", "learning","agriculture"],
       "authorContact":"www.linkedin.com"
     }
