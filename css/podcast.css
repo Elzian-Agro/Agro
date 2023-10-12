@@ -18,7 +18,7 @@
   background-color: #ffffff;
   background-image: url(../images/layered-waves-haikei.svg);
   opacity: 20;
-  height: 80vh;
+  height: 85vh;
   padding-top: 50px;
   padding-left: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -34,7 +34,7 @@
 }
 
 #latestPodcastContainer {
-  margin-top: 20px;
+  margin-top: -20px;
 }
 
 #latestPodcastContainer .blog-card {

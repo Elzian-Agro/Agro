@@ -4,19 +4,21 @@
       "audioTitle":"Analog Forestry for Regenerative Agriculture, Ep #1",
       
 
-      "content": "Dr. Ranil explains how Analog forestry can positively impact on organic & regenerative agriculture.",
-      "brief": "Dr. Ranil explains how Analog forestry can positively impact on organic & regenerative agriculture. Dr. Ranil’s original 17-acre model analog forest in Sri Lanka (now over 40 years, established) actively demonstrates that the restoration and protection of rainforests and natural resources is compatible with the economic wellbeing of rural communities. With his 60+ years of experience in the field of Forestry and Ecology sector and as the leading scientist of the Earth Restoration Foundation and a director of the International Analog Forestry Network, he believes in rapid digital inclusion in sustainable development efforts.",
+      "content": "Tune in now for a riveting exploration of sustainable farming practices that are shaping the future of agriculture.",
+      "brief": "Tune into this captivating episode where we delve into the crucial role of Analog Forestry in paving the way for regenerative and precision agriculture. Get ready for a treasure trove of insights into the future of precision agriculture and a seamless transition into the world of organic farming. Tune in now for a riveting exploration of sustainable farming practices that are shaping the future of agriculture.",
       "about":"Dr. Ranil explains how Analog forestry can positively impact on organic & regenerative agriculture. Dr. Ranil’s original 17-acre model analog forest in Sri Lanka (now over 40 years, established) actively demonstrates that the restoration and protection of rainforests and natural resources is compatible with the economic wellbeing of rural communities. With his 60+ years of experience in the field of Forestry and Ecology sector and as the leading scientist of the Earth Restoration Foundation and a director of the International Analog Forestry Network, he believes in rapid digital inclusion in sustainable development efforts.",
       "audioTimeline":["[03:40] How can Analog forestry help organic & regenerative agriculture?","[06:00] How can Analog forestry help in arresting the loss of living soil?","[11:00] How can Analog forestry help in arresting loss of water holding capacity?","[13:54] How can Analog forestry help in responding to increasing ambient temperature?","[16:31] How can Analog forestry help in restoring the loss of biodiversity?","[20:00] How technology-based, data-driven (precision) solutions can impact Analog Forestry practices?","[27:13] Incorporating trees and perennial plants into agricultural systems for sustainability and ecological benefits.","[32:22] Changing agricultural landscape sustainably."],
 
 
       "author": "Dr. Ranil Senanayake",
-      "date": "2023-09-10",
+      "date": "2023-Oct-09",
       "buttonUrl": "https://example.com/podcast1",
-      "audio":"https://agro.elzian.com//podcast/audio/sample-02.mp3",
+      "audio":"/podcast/audio/Ep1.mp3",
       "thumbnail":"/images/Dr Ranil bg.png",
-      "tags": ["activism", "learning","agriculture"],
-      "authorContact":"www.linkedin.com"
+      "thumbnailBackground":"/images/layered-waves-haikei.svg",
+      "tags": ["#agriculture", "#climate","#forestry","SDGs"],
+      "authorContactLink":"https://www.linkedin.com/company/elzianagro/"
+      
     }
   ]
   
