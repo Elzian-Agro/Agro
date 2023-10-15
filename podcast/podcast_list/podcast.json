@@ -15,7 +15,6 @@
       "buttonUrl": "https://example.com/podcast1",
       "audio":"/podcast/audio/Ep1.mp3",
       "thumbnail":"/images/Dr Ranil bg.png",
-      "thumbnailBackground":"/images/layered-waves-haikei.svg",
       "tags": ["#agriculture", "#climate","#forestry","SDGs"],
       "authorContactLink":"https://www.linkedin.com/company/elzianagro/"
       

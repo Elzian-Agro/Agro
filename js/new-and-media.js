@@ -113,5 +113,5 @@ document.addEventListener("DOMContentLoaded", function () {
   fetchAndRenderNews("blog-item-2", [5, 6, 7, 8, 9]);
   
   // Fetch and render news for section 3
-  fetchAndRenderNews("blog-item-3", [10, 11, 12, 13, 14]);
+  fetchAndRenderNews("blog-item-3", [10, 11, 12, 13, 14, 15]);
   
