@@ -10,6 +10,16 @@
 		"link": ""
 	},
 	{
+		"id":16,
+		"News":17,
+        "image": "../images/news_and_media/Innovative.png",
+        "news_site": "Futurology",
+        "date": "17-October-2023",
+		"title": "40 Most Innovative Western Based Farming Companies & Startups",
+		"description": "This article showcases our top picks for the best Western based Farming companies. These startups and companies are taking a variety of approaches to innovating the Farming industry, but are all exceptional companies well worth a follow under innovation, growth, management and social impact.",
+		"link": "https://futurology.life/40-most-innovative-western-based-farming-companies-startups/"
+	},
+	{
 		"id":-1,
 		"News":15,
         "image": "../images/news_and_media/An-Exemplar-of-Innovation-and-Sustainable-Agriculture.jpg",
@@ -169,6 +179,5 @@
 		"description": "Elzian Agro provides smart agronomy solutions through advanced automation systems for farmers who face extreme weather changes, pests, and diseases and have limited resources such as water, fertiliser, and labour.",
 		"link": "https://yourcommonwealth.org/economic-development/putting-an-end-to-world-hunger-through-smart-agronomy-solutions/"
 	}
-	
 	
 ]
