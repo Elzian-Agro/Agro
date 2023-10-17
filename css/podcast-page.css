@@ -83,6 +83,7 @@ p{
     height: 150px;
     margin-right: 10px;
     border-radius: 10px;
+    background-image: url(../images/layered-waves-haikei.svg);
 }
 
 .music-info {
