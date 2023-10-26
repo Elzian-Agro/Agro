@@ -2977,3 +2977,8 @@ a:focus {
   padding-top: 8px !important;
   padding-bottom: 8px !important;
 }
+
+.navbar-nav > li > a:active{
+  background-color: #0b8021;
+  color: white;
+}
