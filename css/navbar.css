@@ -61,5 +61,10 @@
     color: white;
   }
   
+  .nav-item :active{
+    background-color: green;
+    color: white;
+  }
+
   /* common navigation bar end */
   
