@@ -56,7 +56,10 @@
     background-color: green;
   }
   
-  
+  .navbar-nav m-auto m-2 > nav-item :active{
+    background-color: green;
+    color: white;
+  }
   
   /* common navigation bar end */
   
