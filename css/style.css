@@ -1289,7 +1289,7 @@ canvas {
 }
 
 .img-board {
-  max-width: 160px;
+  max-width: 200px;
 }
 
 .cards {
@@ -1349,7 +1349,7 @@ canvas {
 .card-board {
   display: flex;
   justify-content: space-between;
-  padding: 0 180px;
+  padding: 0 130px;
 }
 /* Adjustments for Mobile Screens */
 @media (max-width: 767px) {
@@ -1603,10 +1603,9 @@ canvas {
   margin-left: -10px;
 }
 
-
 /* blogger data start*/
 
-.blogger{
+.blogger {
   width: 100%;
   padding: 10px;
   display: flex;
@@ -1614,35 +1613,35 @@ canvas {
   align-items: center;
 }
 
-.blogger-data{
+.blogger-data {
   display: flex;
   align-items: center;
   color: #707070;
   min-width: 400px;
 }
 
-.blogger-data h4{
+.blogger-data h4 {
   font-size: 16px;
   font-weight: bold;
   color: #757575;
 }
 
-.blogger-data h5, h6{
+.blogger-data h5,
+h6 {
   font-size: 13px;
 }
 
-.blog-auther{
+.blog-auther {
   padding-left: 20px;
   min-width: 200px;
 }
 
-.blogger-img{
+.blogger-img {
   width: 90px;
   height: 90px;
 }
-.blogger-btn{
-  
-   border: none;
+.blogger-btn {
+  border: none;
   color: #ffffff;
   background-color: #009207;
   border-radius: 10px;
@@ -1657,7 +1656,7 @@ canvas {
   padding: 0px 20px;
 }
 
-.blogger-btn button{
+.blogger-btn button {
   border: none;
   outline: none;
   background-color: #009207;
@@ -1670,22 +1669,21 @@ canvas {
   scale: 1.05;
 }
 
-
- /* Media query for mobile responsiveness */
+/* Media query for mobile responsiveness */
 @media (max-width: 767px) {
   .blogger {
-  display: block; /* Non-flex for mobile screens */
+    display: block; /* Non-flex for mobile screens */
   }
 
-  .blogger-data{
-  width: 100%;
-  display: block;
-  text-align: center;
-  align-items: center;
-  position: relative;
+  .blogger-data {
+    width: 100%;
+    display: block;
+    text-align: center;
+    align-items: center;
+    position: relative;
   }
 
-  .blogger-img{
+  .blogger-img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1694,7 +1692,7 @@ canvas {
     transform: translateX(-50%);
   }
 
-  .blog-auther{
+  .blog-auther {
     padding-top: 100px;
   }
 
@@ -1703,7 +1701,6 @@ canvas {
     display: block;
     text-align: center;
   }
-
 }
 /* blogegr data end */
 
@@ -1915,7 +1912,6 @@ canvas {
   #blog .author-card img {
     width: 70px;
   }
-
 
   .auth-data {
     text-align: center;
@@ -2281,7 +2277,6 @@ canvas {
   #blog .auther-data-container img {
     width: 25%;
   }
-
 
   #popup {
     padding: 10px;
@@ -5048,7 +5043,6 @@ figure.snip1390 blockquote:before {
     margin-left: 0px;
     height: 290px;
   }
-
 }
 
 @media screen and (min-width: 360px) and (max-width: 584px) {
@@ -5062,7 +5056,6 @@ figure.snip1390 blockquote:before {
     margin-left: 0px;
     height: 290px;
   }
-
 }
 
 .pl-5 {
