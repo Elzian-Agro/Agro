@@ -1377,7 +1377,7 @@ canvas {
     margin-bottom: 20px;
   }
 } 
-@media (max-width: 1200px) {
+@media (max-width: 2100px) {
   .card-mobile-adjustment {
     padding-left: 100px !important;
   }
