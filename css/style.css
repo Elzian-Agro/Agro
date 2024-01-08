@@ -1280,7 +1280,7 @@ canvas {
 
 /* Our Partners section starts */
 #our-partners {
-  padding: 20px 0 80px;
+  padding: 0px 0 0px;
 }
 
 .partner {
@@ -2883,7 +2883,7 @@ footer a:hover {
   }
 
   #home {
-    height: 65vh;
+    height: 120vh;
   }
 
   #particles-js {
@@ -2903,6 +2903,18 @@ footer a:hover {
   }
 }
 
+@media (min-width: 387px) and (max-width: 513px) {
+  #home {
+    height: 120vh;
+  }
+}
+
+@media (max-width: 386px) {
+  #home {
+    height: 150vh;
+  }
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 2rem;
@@ -2918,7 +2930,7 @@ footer a:hover {
   }
 }
 
-@media (max-width: 700px) {
+@media (min-width: 514px) and (max-width: 700px) {
   #home {
     height: 100vh;
   }
