@@ -3939,6 +3939,17 @@ footer a:hover {
   margin: 10px auto 20px auto;
 }
 
+@media (min-width: 578px) and (max-width: 992px) {
+  .about_section .choose__item {
+    height: 650px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1500px) {
+  .about_section .choose__item {
+    height: 500px;
+  }
+}
 /* career */
 
 .choose__item .avtar {
@@ -3963,6 +3974,23 @@ footer a:hover {
   margin: 0px auto 20px;
 }
 
+@media (min-width: 576px) and (max-width: 768px) {
+  .career-cards .choose__item {
+    height: 600px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .career-cards .choose__item {
+    height: 680px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1500px) {
+  .career-cards .choose__item {
+    height: 530px;
+  }
+}
 /* catalog */
 
 #choosespad .container .row .choose__item .avtar {
