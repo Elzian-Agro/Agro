@@ -654,3 +654,8 @@ a:visited {
     transform: translateY(0);
   }
 }
+@media (max-width: 386px) {
+  .banner .overlay {
+    top: 45px;
+  }
+}
