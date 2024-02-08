@@ -20,6 +20,16 @@
 		"link": "https://futurology.life/40-most-innovative-western-based-farming-companies-startups/"
 	},
 	{
+		"id":17,
+		"News":18,
+        "image": "../images/news_and_media/2023-semifinalists-selected-for-wff-startup-innovation-awards.jpg",
+        "news_site": "World Food Forum (WFF)",
+        "date": "02-August-2023",
+		"title": "Elzian Agro Pitches for the WFF Startup Innovation Awards",
+		"description": "The WFF Startup Innovation Awards, powered by Extreme Tech Challenge (XTC) are a global startup competition established to support and showcase young innovators and entrepreneurs who are harnessing the power of technology to drive the sustainable transformation of agrifood systems in support of ending global hunger and achieving the Sustainable Development Goals.",
+		"link": "https://www.world-food-forum.org/news/detail/2023-semifinalists-selected-for-wff-startup-innovation-awards/en"
+	},
+	{
 		"id":-1,
 		"News":15,
         "image": "../images/news_and_media/An-Exemplar-of-Innovation-and-Sustainable-Agriculture.jpg",
