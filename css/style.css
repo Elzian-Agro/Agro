@@ -1289,7 +1289,8 @@ canvas {
 }
 
 .img-board {
-  max-width: 200px;
+  width: 200px;
+  height: auto;
 }
 
 .cards {
@@ -1362,7 +1363,7 @@ canvas {
 /* Adjustments for Mobile Screens */
 @media (max-width: 767px) {
   .card-mobile-adjustment {
-    padding-left: 100px !important;
+    padding-left: 0 !important;
   }
   .card-board {
     flex-direction: column;
@@ -1379,7 +1380,7 @@ canvas {
 }
 @media (max-width: 2100px) {
   .card-mobile-adjustment {
-    padding-left: 100px !important;
+    padding-left: 0 !important;
   }
 
   .card-board {
