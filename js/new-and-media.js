@@ -107,10 +107,10 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   
   // Fetch and render news for section 2
-  fetchAndRenderNews("blog-item-1", [16, -1, 1, 2, 3, 4]);
+  fetchAndRenderNews("blog-item-1", [16, 17, -1, 1, 2, 3]);
   
   // Fetch and render news for section 2
-  fetchAndRenderNews("blog-item-2", [5, 6, 7, 8, 9]);
+  fetchAndRenderNews("blog-item-2", [4, 5, 6, 7, 8, 9]);
   
   // Fetch and render news for section 3
   fetchAndRenderNews("blog-item-3", [10, 11, 12, 13, 14, 15]);

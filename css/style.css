@@ -1276,7 +1276,11 @@ canvas {
 
 /* Our Partners section starts */
 #our-partners {
-  padding: 0px 0 0px;
+  padding: 0px 0 30px;
+}
+
+#our-advisory {
+  padding: 0px 0 400px;
 }
 
 .partner {
@@ -1302,7 +1306,7 @@ canvas {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(25, 76, 35, 0.9);
-  height: 280px;
+  height: 310px;
   width: 300px;
   opacity: 0;
   border-radius: 20px;
@@ -3466,7 +3470,9 @@ footer a:hover {
 
 .our-awards {
   height: 300px;
+  margin-left: 50px;
 }
+
 @media (max-width: 767px) {
   .our-awards {
     padding-left: 100px;
