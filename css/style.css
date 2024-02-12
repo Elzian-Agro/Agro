@@ -1357,8 +1357,8 @@ canvas {
   display: flex;
   justify-content: space-between;
   padding: 60px 30px 0;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 /* Adjustments for Mobile Screens */
 @media (max-width: 767px) {
