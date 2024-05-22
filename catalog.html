@@ -59,18 +59,62 @@
   <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
   <!-- Favicon Image -->
 
+  <!-- jQuery Library -->
+  <script src="js/jquery.js"></script>
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="js/google-gtags.js"></script>
 
-  <script src="js/google-tag.js"></script>
   <!-- Custom Google Analytics Script -->
+  <script defer src="js/google-tag.js"></script>
+
+  <!-- Font Awesome Icons -->
+  <script async src="js/fontawesome.min.js"></script>
+  
+   <!-- Popper.js Library -->
+  <script src="js/popper.js"></script>
+
+  <!-- Bootstrap JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+  
+  <!-- Vegas JavaScript (for background images) -->
+  <script src="js/vegas.min.js"></script>
+  
+  <script src="js/wow.min.js"></script>
+  <!-- Wow.js (for animations) -->
+
+  <script defer src="js/smoothscroll.js"></script>
+  <!-- Smoothscroll.js (for smooth scrolling) -->
+
+  <script defer src="js/custom.js"></script>
+  <!-- Custom JavaScript -->
+
+  <script defer src="js/contact.js"></script>
+  <!-- Contact JavaScript -->
+
+  <script defer src="js/main.js"></script>
+  <!-- Main JavaScript -->
+
+  <script defer src="js/components.js"></script>
+  <!-- Font Awesome Components JavaScript -->
+  
+  <!-- Load the Google Translate element script for language translation -->
+  <script src="js/google-translate-element.js"></script>
+
+  <!-- Load the script for translating content on the website -->
+  <script defer src="js/translate.js"></script>
+
+  <!-- Load the script for managing translation mapping -->
+  <script defer src="js/translation-map.js"></script>
 </head>
 
 <body>
   <div id="pre-loader-placeholder"></div>
+  <script>$("#pre-loader-placeholder").load("../components/pre-loader.html");</script>
   <!--Pre-loader-->
 
   <div id="navbar-placeholder"></div>
+  <script>$("#navbar-placeholder").load("../components/navbar.html");</script>
   <!--Navigation-bar-->
 
   <!-- home section -->
@@ -633,48 +677,12 @@
   </section>
 
   <div id="footer-placeholder"></div>
+  <script>$("#footer-placeholder").load("../components/footer.html");</script>
   <!--Footer-->
 
   <!-- Back top -->
   <a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
 
-  <!-- javscript js -->
-  <!-- JavaScript Libraries -->
-  <script src="js/jquery.js"></script>
-  <!-- jQuery Library -->
-  <script src="js/popper.js"></script>
-  <!-- Popper.js Library -->
-  <script src="js/bootstrap.min.js"></script>
-  <!-- Bootstrap JavaScript -->
-  <script src="js/vegas.min.js"></script>
-  <!-- Vegas JavaScript (for background images) -->
-
-  <!-- Additional JavaScript Libraries -->
-  <script src="js/wow.min.js"></script>
-  <!-- Wow.js (for animations) -->
-  <script src="js/smoothscroll.js"></script>
-  <!-- Smoothscroll.js (for smooth scrolling) -->
-  <script src="js/custom.js"></script>
-  <!-- Custom JavaScript -->
-  <script src="js/contact.js"></script>
-  <!-- Contact JavaScript -->
-  <script src="js/main.js"></script>
-  <!-- Main JavaScript -->
-
-  <!-- Font Awesome Icons -->
-  <script src="./js/fontawesome.min.js"></script>
-  <!-- Font Awesome Icons Library -->
-  <script src="./js/components.js"></script>
-  <!-- Font Awesome Components JavaScript -->
-  <script src="./js/translate.js"></script>
-  <!-- Translation JavaScript -->
-
-  <!-- Google Translate Integration -->
-  <script type="text/javascript"
-    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-  <!-- Google Translate Element Initialization -->
-  <script src="./js/translation-map.js"></script>
-  <!-- Translation Map JavaScript -->
 </body>
 
 </html>

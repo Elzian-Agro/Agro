@@ -1,7 +1,7 @@
-// Load external HTML components into placeholders
-$("#pre-loader-placeholder").load("../components/pre-loader.html");
-$("#footer-placeholder").load("../components/footer.html");
-$("#navbar-placeholder").load("../components/navbar.html");
+// // Load external HTML components into placeholders
+// $("#pre-loader-placeholder").load("../components/pre-loader.html");
+// $("#footer-placeholder").load("../components/footer.html");
+// $("#navbar-placeholder").load("../components/navbar.html");
 
 // common/navbar.js
 
@@ -44,7 +44,7 @@ function setActiveLink() {
     if (link.getAttribute("href").endsWith(currentPage)) {
       // Add the "active" class to the link
       link.classList.add("active");
-      
+
       // If a dropdown menu is active, also set its parent link as active
       const parentListItem = link.closest("li.dropdown");
       if (parentListItem) {

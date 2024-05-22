@@ -58,21 +58,38 @@
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
     />
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-5XQ6529FXW"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="../js/google-gtags.js"></script>
+    <script defer src="../js/google-tag.js"></script>
+    <!-- javscript js -->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script  src="../js/vegas.min.js"></script>
+    <!-- <script src="../js/main.js"></script> -->
+    <!-- <script src="../js/wow.min.js"></script> -->
+    <script defer src="../js/smoothscroll.js"></script>
+    <script defer src="../js/custom.js"></script>
+    <!-- <script src="../js/contact.js"></script> -->
+    <!-- <script src="../js/blog-tag.js"></script> -->
+    <script defer src="../js/components.js"></script>
+    <!-- <script src="../js/pagination.js"></script> -->
+    <script src="../vendor/aos/aos.js"></script>
+    <!-- <script src="../vendor/bootstrap/js/"></script>
+    <script src="../vendor/glightbox/js/"></script> -->
+    <script src="../vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="../vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../vendor/waypoints/noframework.waypoints.js"></script>
 
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+    <!-- Load the Google Translate element script for language translation -->
+    <script src="../js/google-translate-element.js"></script>
 
-      gtag("config", "G-5XQ6529FXW");
-    </script>
+    <!-- Load the script for translating content on the website -->
+    <script defer src="../js/translate.js"></script>
+
+    <!-- Load the script for managing translation mapping -->
+    <script defer src="../js/translation-map.js"></script>
+  
 
     <!-- Fontawesome CDN Link -->
     <link
@@ -91,9 +108,11 @@
   <body>
     <!--Navigation-bar-->
     <div id="pre-loader-placeholder"></div>
+    <script>$("#pre-loader-placeholder").load("../components/pre-loader.html");</script>
     <!--Pre-loader-->
 
     <div id="navbar-placeholder"></div>
+    <script>$("#navbar-placeholder").load("../components/navbar.html");</script>
     <!--Navigation-bar-->
 
     <!-- preloader section -->
@@ -256,33 +275,9 @@
 
     <!-- footer section -->
     <div id="footer-placeholder"></div>
+    <script>$("#footer-placeholder").load("../components/footer.html");</script>
 
     <!-- Back top -->
     <a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
-
-    <!-- javscript js -->
-    <script src="../js/jquery.js"></script>
-    <script src="../js/popper.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/vegas.min.js"></script>
-    <!-- <script src="../js/main.js"></script> -->
-    <!-- <script src="../js/wow.min.js"></script> -->
-    <script src="../js/smoothscroll.js"></script>
-    <script src="../js/custom.js"></script>
-    <!-- <script src="../js/contact.js"></script> -->
-    <!-- <script src="../js/blog-tag.js"></script> -->
-    <script src="../js/components.js"></script>
-    <!-- <script src="../js/pagination.js"></script> -->
-    <script src="../vendor/aos/aos.js"></script>
-    <script src="../vendor/bootstrap/js/"></script>
-    <script src="../vendor/glightbox/js/"></script>
-    <script src="../vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="../vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="../vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="../js/translate.js"></script>
-    <script
-      type="text/javascript"
-      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
-    ></script>
   </body>
 </html>

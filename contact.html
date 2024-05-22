@@ -58,18 +58,59 @@
   <!-- Favicon (Website icon) -->
   <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
 
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+
   <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5XQ6529FXW"></script>
+  <script async src="js/google-gtags.js"></script>
 
   <!-- Google Analytics Script -->
-  <script src="js/google-tag.js"></script>
+  <script defer src="js/google-tag.js"></script>
+
+  <!-- font awasome -->
+  <script async src="./js/fontawesome.min.js"></script>
+
+  <!-- Popper.js (Required by Bootstrap) -->
+  <script src="js/popper.js"></script>
+
+  <!-- Bootstrap JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Vegas.js (Optional, if used for background images) -->
+  <script src="js/vegas.min.js"></script>
+
+  <!-- Wow.js (Optional, for animations) -->
+  <script src="js/wow.min.js"></script>
+
+  <!-- Smoothscroll.js (Optional, for smooth scrolling) -->
+  <script defer src="js/smoothscroll.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script defer src="js/custom.js"></script>
+
+  <!-- Contact.js (Assuming this script handles contact form functionality) -->
+  <script defer src="js/contact.js"></script>
+
+  <!-- Components.js (Assuming this script includes additional components) -->
+  <script defer src="js/components.js"></script>
+
+  <!-- Load the Google Translate element script for language translation -->
+  <script src="js/google-translate-element.js"></script>
+
+  <!-- Load the script for translating content on the website -->
+  <script defer src="js/translate.js"></script>
+
+  <!-- Load the script for managing translation mapping -->
+  <script defer src="js/translation-map.js"></script>
 </head>
 
 <body>
   <div id="pre-loader-placeholder"></div>
+  <script>$("#pre-loader-placeholder").load("../components/pre-loader.html");</script>
   <!--Pre-loader-->
 
   <div id="navbar-placeholder"></div>
+  <script>$("#navbar-placeholder").load("../components/navbar.html");</script>
   <!--Navigation-bar-->
 
   <!-- home section -->
@@ -251,49 +292,11 @@
   </section>
 
   <div id="footer-placeholder"></div>
+  <script>$("#footer-placeholder").load("../components/footer.html");</script>
   <!--Footer-->
 
   <!-- Back top -->
   <a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
-
-  <!-- javscript js -->
-  <!-- jQuery -->
-  <script src="js/jquery.js"></script>
-
-  <!-- Popper.js (Required by Bootstrap) -->
-  <script src="js/popper.js"></script>
-
-  <!-- Bootstrap JavaScript -->
-  <script src="js/bootstrap.min.js"></script>
-
-  <!-- Vegas.js (Optional, if used for background images) -->
-  <script src="js/vegas.min.js"></script>
-
-  <!-- Wow.js (Optional, for animations) -->
-  <script src="js/wow.min.js"></script>
-
-  <!-- Smoothscroll.js (Optional, for smooth scrolling) -->
-  <script src="js/smoothscroll.js"></script>
-
-  <!-- Custom JavaScript -->
-  <script src="js/custom.js"></script>
-
-  <!-- Contact.js (Assuming this script handles contact form functionality) -->
-  <script src="js/contact.js"></script>
-
-  <!-- Components.js (Assuming this script includes additional components) -->
-  <script src="./js/components.js"></script>
-
-  <!-- Translate.js (Assuming this script handles translation) -->
-  <script src="./js/translate.js"></script>
-
-  <!-- Translation Map (Assuming this is a map for translations) -->
-  <script src="./js/translation-map.js"></script>
-
-  <!-- Google Translate Element (Assuming this is for Google Translate functionality) -->
-  <script type="text/javascript" src="js/google-translate-element.js"></script>
-
-  <script src="./js/fontawesome.min.js"></script>
 </body>
 
 </html>

@@ -71,19 +71,59 @@
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
 
+    <script src="../js/jquery.js"></script>
+    <!-- jQuery library -->
+
     <!-- Google Analytics Global Site Tag -->
-    <script
-      async
-      src="js/google-gtags.js"
-    ></script>
-    <script src="../js/google-tag.js"></script>
+    <script async src="js/google-gtags.js"></script>
+    <script defer src="../js/google-tag.js"></script>
+
+    <script async src="../js/fontawesome.min.js"></script>
+    <!-- Font Awesome library -->
+
+    <script src="../js/popper.js"></script>
+    <!-- Popper.js library -->
+
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- Bootstrap library -->
+
+    <script src="../js/vegas.min.js"></script>
+    <!-- Vegas background library -->
+
+    <script src="../js/wow.min.js"></script>
+    <!-- WOW.js library -->
+
+    <script defer src="../js/podcast.js"></script>
+    <!-- Podcast-related JavaScript -->
+    <!-- JavaScript to pass data -->
+
+    <script defer src="../js/components.js"></script>
+    <!-- Component-specific JavaScript -->
+    <!-- Additional JavaScript libraries and scripts -->
+
+    <script defer src="../js/smoothscroll.js"></script>
+    <!-- Smooth scrolling library -->
+
+    <script defer src="../js/custom.js"></script>
+    <!-- Custom JavaScript -->
+
+    <!-- Load the Google Translate element script for language translation -->
+    <script src="../js/google-translate-element.js"></script>
+
+    <!-- Load the script for translating content on the website -->
+    <script defer src="../js/translate.js"></script>
+
+    <!-- Load the script for managing translation mapping -->
+    <script defer src="../js/translation-map.js"></script>
   </head>
 
   <body>
     <div id="pre-loader-placeholder"></div>
+    <script>$("#pre-loader-placeholder").load("../components/pre-loader.html");</script>
     <!--Pre-loader-->
 
     <div id="navbar-placeholder"></div>
+    <script>$("#navbar-placeholder").load("../components/navbar.html");</script>
     <!--Navigation-bar-->
 
     <!--Latest Podcast-->
@@ -208,38 +248,11 @@
 
     <!-- footer section -->
     <div id="footer-placeholder"></div>
+    <script>$("#footer-placeholder").load("../components/footer.html");</script>
 
     <!-- Back top -->
     <a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
 
-    <!-- JavaScript dependencies -->
-    <script src="../js/jquery.js"></script>
-    <!-- jQuery library -->
-    <script src="../js/popper.js"></script>
-    <!-- Popper.js library -->
-    <script src="../js/bootstrap.min.js"></script>
-    <!-- Bootstrap library -->
-    <script src="../js/vegas.min.js"></script>
-    <!-- Vegas background library -->
-    <script src="../js/podcast.js"></script>
-    <!-- Podcast-related JavaScript -->
-    <!-- JavaScript to pass data -->
-    <script src="../js/components.js"></script>
-    <!-- Component-specific JavaScript -->
-    <!-- Additional JavaScript libraries and scripts -->
-    <script src="../js/wow.min.js"></script>
-    <!-- WOW.js library -->
-    <script src="../js/smoothscroll.js"></script>
-    <!-- Smooth scrolling library -->
-    <script src="../js/custom.js"></script>
-    <!-- Custom JavaScript -->
-    <script src="../js/fontawesome.min.js"></script>
-    <!-- Font Awesome library -->
-    <script src="../js/translate.js"></script>
-    <!-- Translation-related JavaScript -->
-    <script src="../js/google-translate-element.js"></script>
-    <!-- Google Translate Element -->
-    <script src="../js/translation-map.js"></script>
-    <!-- Translation map -->
+    
   </body>
 </html>

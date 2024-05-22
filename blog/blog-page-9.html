@@ -56,10 +56,10 @@
     
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="js/google-gtags.js"></script>
-<script src="../js/google-tags.js"></script> 
+    <script async src="../js/google-gtags.js"></script>
+    <script defer src="../js/google-tag.js"></script>
  
-         <!-- Load the jQuery library for DOM manipulation and event handling -->
+    <!-- Load the jQuery library for DOM manipulation and event handling -->
     <script src="../js/jquery.js"></script>
 
     <!-- Load the Popper.js library, which is often used with Bootstrap for UI interactions -->
@@ -68,33 +68,67 @@
     <!-- Load the Vegas.js library for creating stunning background slideshows -->
     <script src="../js/vegas.min.js"></script>
 
+    <!--fontawesome Javascript-->
+    <script src="../js/fontawesome.min.js"></script>
+
+    <!--Bootstrap Javascript-->
+    <script src="../js/bootstrap.min.js"></script>
+
     <!-- Load the Wow.js library for adding CSS animations when elements scroll into view -->
     <script src="../js/wow.min.js"></script>
 
+    <!-- blog tags -->
+    <script src="../js/blog-tag.js"></script>
+
+    <!-- for aos library -->
+    <script src="../vendor/aos/aos.js"></script>
+
+    <!-- for istope library -->
+    <script src="../vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- for swipper library -->
+    <script src="../vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- for waypoint library -->
+    <script src="../vendor/waypoints/noframework.waypoints.js"></script>
+
     <!-- Load a script for smooth scrolling behavior when navigating through the page -->
-    <script src="../js/smoothscroll.js"></script>
+    <script defer src="../js/smoothscroll.js"></script>
 
     <!-- Load a custom JavaScript file containing application-specific code -->
-    <script src="../js/custom.js"></script>
+    <script defer src="../js/custom.js"></script>
 
     <!-- Load a script for handling contact form submissions and interactions -->
-    <script src="../js/contact.js"></script>
+    <script defer src="../js/contact.js"></script>
 
-     <!--Google Tags-->
-    <script src="../js/google-tag.js"></script>
+    <!-- Load the script containing common components used across the website -->
+    <script defer src="../js/components.js"></script>
 
+    <!-- for social media share buttons -->
+    <script defer src="../js/blog-share.js"></script>
 
+    <!-- for blog share in social media -->
+    <script defer src="../js/socialShare.js"></script>
+    
+    <!-- Load the Google Translate element script for language translation -->
+    <script src="../js/google-translate-element.js"></script>
 
+    <!-- Load the script for translating content on the website -->
+    <script defer src="../js/translate.js"></script>
 
+    <!-- Load the script for managing translation mapping -->
+    <script defer src="../js/translation-map.js"></script>
 </head>
 <body>
     <!-- Blur  Area start-->
     <div class="blur-btn">
         <!--Place Holer-->
-    <div id="pre-loader-placeholder"></div> 
+    <div id="pre-loader-placeholder"></div>
+    <script>$("#pre-loader-placeholder").load("../components/pre-loader.html");</script> 
 
     <!--Navigation-bar-->
     <div id="navbar-placeholder"></div>
+    <script>$("#navbar-placeholder").load("../components/navbar.html");</script>
 
 
 <!-- Blog Section Starts -->
@@ -354,47 +388,6 @@
 
 <!-- Back top -->
 <a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
-
- <!-- javscript js -->
-    <!-- blog tags -->
-    <script src="../js/blog-tag.js"></script>
-
-    <!-- for aos library -->
-    <script src="../vendor/aos/aos.js"></script>
-
-    <!-- for istope library -->
-    <script src="../vendor/isotope-layout/isotope.pkgd.min.js"></script>
-
-    <!-- for swipper library -->
-    <script src="../vendor/swiper/swiper-bundle.min.js"></script>
-
-    <!-- for waypoint library -->
-    <script src="../vendor/waypoints/noframework.waypoints.js"></script>
-
-    <!-- Load the script containing common components used across the website -->
-    <script src="../js/components.js"></script>
-
-    <!-- Load the script for translating content on the website -->
-    <script src="../js/translate.js"></script>
-
-    <!-- Translaet -->
-    <script src="../js/translation-map.js"></script>
-
-    <!--fontawesome Javascript-->
-    <script src="../js/fontawesome.min.js"></script>
-
-    <!--Bootstrap Javascript-->
-    <script src="../js/bootstrap.min.js"></script>
-
-    <!-- Load the Google Translate element script for language translation -->
-    <script src="../js/google-translate-element.js"></script>
-
-    <!-- for social media share buttons -->
-    <script src="../js/blog-share.js"></script>
-
-    <!-- for blog share in social media -->
-    <script src="../js/socialShare.js"></script>    
-
 
 </body>
 </html>

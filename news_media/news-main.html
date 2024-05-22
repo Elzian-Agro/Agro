@@ -65,9 +65,75 @@
     <!-- Include Font Awesome again (is it intended?) -->
     <link rel="stylesheet" href="../css/font-awesome.min.css" />
 
+    <!-- Include jQuery library -->
+    <script src="../js/jquery.js"></script>
+
     <!-- Include Google Analytics -->
     <script async src="../js/google-gtags.js"></script>
-    <script src="../js/google-tag.js"></script>
+    <script defer src="../js/google-tag.js"></script>
+    
+    <!-- Include Font Awesome JavaScript -->
+    <script src="../js/fontawesome.min.js"></script>
+
+    <!-- Include Popper.js for Bootstrap (dependency) -->
+    <script src="../js/popper.js"></script>
+
+    <!-- Include Bootstrap JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Include Vegas.js for background slideshow -->
+    <script src="../js/vegas.min.js"></script>
+
+    <!-- Include Wow.js for animations -->
+    <script src="../js/wow.min.js"></script>
+
+    <!-- Include blog-tag.js for blog tags functionality -->
+    <script src="../js/blog-tag.js"></script>
+
+    <!-- Include Smoothscroll.js for smooth scrolling behavior -->
+    <script defer src="../js/smoothscroll.js"></script>
+
+    <!-- Include custom JavaScript file -->
+    <script defer src="../js/custom.js"></script>
+
+    <!-- Include contact.js for contact form functionality -->
+    <script defer src="../js/contact.js"></script>
+
+    <!-- Include components.js for reusable components -->
+    <script defer src="../js/components.js"></script>
+
+    <!-- Include AOS library for animations on scroll -->
+    <script src="../vendor/aos/aos.js"></script>
+
+    <!-- Include Bootstrap JavaScript (vendor) -->
+    <!-- <script src="../vendor/bootstrap/js/"></script> -->
+
+    <!-- Include GLightbox for lightbox functionality -->
+    <!-- <script src="../vendor/glightbox/js/"></script> -->
+
+    <!-- Include Isotope.js for filterable grids -->
+    <script src="../vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Include Swiper.js for carousel functionality -->
+    <script src="../vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Include Waypoints for triggering events when scrolling -->
+    <script src="../vendor/waypoints/noframework.waypoints.js"></script>
+
+    <!-- Include scroll.js for scrolling to top button -->
+    <script defer src="../js/scroll.js"></script>
+
+    <!-- Include new-and-media.js for news and media functionality -->
+    <script defer src="../js/new-and-media.js"></script>
+
+    <!-- Load the Google Translate element script for language translation -->
+    <script src="../js/google-translate-element.js"></script>
+
+    <!-- Load the script for translating content on the website -->
+    <script defer src="../js/translate.js"></script>
+
+    <!-- Load the script for managing translation mapping -->
+    <script defer src="../js/translation-map.js"></script>
 
     <style>
       .card {
@@ -80,9 +146,11 @@
   <body>
     <!--Navigation-bar-->
     <div id="pre-loader-placeholder"></div>
+    <script>$("#pre-loader-placeholder").load("../components/pre-loader.html");</script>
     <!--Pre-loader-->
 
     <div id="navbar-placeholder"></div>
+    <script>$("#navbar-placeholder").load("../components/navbar.html");</script>
     <!--Navigation-bar-->
 
     <!-- Blog Main Section Starts -->
@@ -151,74 +219,9 @@
 
     <!-- footer section -->
     <div id="footer-placeholder"></div>
+    <script>$("#footer-placeholder").load("../components/footer.html");</script>
 
     <!-- Back top -->
     <a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
-
-    <!-- javscript js -->
-    <!-- Include jQuery library -->
-    <script src="../js/jquery.js"></script>
-
-    <!-- Include Popper.js for Bootstrap (dependency) -->
-    <script src="../js/popper.js"></script>
-
-    <!-- Include Bootstrap JavaScript -->
-    <script src="../js/bootstrap.min.js"></script>
-
-    <!-- Include Vegas.js for background slideshow -->
-    <script src="../js/vegas.min.js"></script>
-
-    <!-- Include Wow.js for animations -->
-    <script src="../js/wow.min.js"></script>
-
-    <!-- Include Smoothscroll.js for smooth scrolling behavior -->
-    <script src="../js/smoothscroll.js"></script>
-
-    <!-- Include custom JavaScript file -->
-    <script src="../js/custom.js"></script>
-
-    <!-- Include contact.js for contact form functionality -->
-    <script src="../js/contact.js"></script>
-
-    <!-- Include blog-tag.js for blog tags functionality -->
-    <script src="../js/blog-tag.js"></script>
-
-    <!-- Include components.js for reusable components -->
-    <script src="../js/components.js"></script>
-
-    <!-- Include AOS library for animations on scroll -->
-    <script src="../vendor/aos/aos.js"></script>
-
-    <!-- Include Bootstrap JavaScript (vendor) -->
-    <script src="../vendor/bootstrap/js/"></script>
-
-    <!-- Include GLightbox for lightbox functionality -->
-    <script src="../vendor/glightbox/js/"></script>
-
-    <!-- Include Isotope.js for filterable grids -->
-    <script src="../vendor/isotope-layout/isotope.pkgd.min.js"></script>
-
-    <!-- Include Swiper.js for carousel functionality -->
-    <script src="../vendor/swiper/swiper-bundle.min.js"></script>
-
-    <!-- Include Waypoints for triggering events when scrolling -->
-    <script src="../vendor/waypoints/noframework.waypoints.js"></script>
-
-    <!-- Include translate.js for language translation -->
-    <script src="../js/translate.js"></script>
-
-    <!-- Include Google Translate Element script -->
-    <script src="../js/google-translate-element.js"></script>
-
-    <script src="../js/translation-map.js"></script>
-
-    <!-- Include scroll.js for scrolling to top button -->
-    <script src="../js/scroll.js"></script>
-
-    <!-- Include Font Awesome JavaScript -->
-    <script src="../js/fontawesome.min.js"></script>
-
-    <!-- Include new-and-media.js for news and media functionality -->
-    <script src="../js/new-and-media.js"></script>
   </body>
 </html>
