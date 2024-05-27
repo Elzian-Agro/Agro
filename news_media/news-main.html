@@ -65,6 +65,14 @@
     <!-- Include Font Awesome again (is it intended?) -->
     <link rel="stylesheet" href="../css/font-awesome.min.css" />
 
+    <style>
+      .card {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 10px;
+      }
+    </style>
+
     <!-- Include jQuery library -->
     <script src="../js/jquery.js"></script>
 
@@ -119,8 +127,8 @@
 
     <!-- Include Waypoints for triggering events when scrolling -->
     <script src="../vendor/waypoints/noframework.waypoints.js"></script>
-
-    <!-- Include scroll.js for scrolling to top button -->
+    
+    <!-- Include scroll.js for scrolling to of the page -->
     <script defer src="../js/scroll.js"></script>
 
     <!-- Include new-and-media.js for news and media functionality -->
@@ -134,14 +142,6 @@
 
     <!-- Load the script for managing translation mapping -->
     <script defer src="../js/translation-map.js"></script>
-
-    <style>
-      .card {
-        border: 1px solid #ccc;
-        padding: 10px;
-        margin: 10px;
-      }
-    </style>
   </head>
   <body>
     <!--Navigation-bar-->
@@ -198,19 +198,9 @@
 
       <div class="pagination-container">
         <div class="pagination-links">
-          <button
-            id="button1"
-            class="pagination-link page-active"
-            id="scrollToTopBtn"
-          >
-            1
-          </button>
-          <button id="button2" class="pagination-link" id="scrollToTopBtn">
-            2
-          </button>
-          <button id="button3" class="pagination-link" id="scrollToTopBtn">
-            3
-          </button>
+          <button id="button1" class="pagination-link page-active">1</button>
+          <button id="button2" class="pagination-link">2</button>
+          <button id="button3" class="pagination-link">3</button>
         </div>
       </div>
     </section>

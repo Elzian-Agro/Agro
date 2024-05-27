@@ -1,17 +1,12 @@
-// script.js
-const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+// Function to scroll to the top of the page
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+}
 
-// Show or hide the button based on scroll position
-window.onscroll = function() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        scrollToTopBtn.style.display = "block";
-    } else {
-        scrollToTopBtn.style.display = "none";
-    }
-};
-
-// Scroll to the top when the button is clicked
-scrollToTopBtn.addEventListener("click", function() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-});
+// Add event listeners to pagination buttons
+document.getElementById("button1").addEventListener("click", scrollToTop);
+document.getElementById("button2").addEventListener("click", scrollToTop);
+document.getElementById("button3").addEventListener("click", scrollToTop);
