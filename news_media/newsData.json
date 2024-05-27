@@ -1,7 +1,17 @@
 [
   {
+    "id": 23,
+    "News": 24,
+    "image": "../images/news_and_media/food-tech-congress.jpg",
+    "news_site": "Lanka Business News",
+    "date": "27-May-2024",
+    "title": "Elzian Agro Named Among Top 10 Regenerative Agriculture Startups at Food Tech Congress",
+    "description": "The Food Tech Congress, aligned with the Farm to Fork Strategy of the European Green Deal, is a hub where innovation flourishes, bold ideas ignite, and significant business transactions occur. The congress will bring together the most prominent food tech entrepreneurs, innovators, investors, and government leaders from around the world to address the industry’s most pressing challenges.",
+    "link": "https://www.lankabusinessnews.com/elzian-agro-named-among-top-10-regenerative-agriculture-startups-at-food-tech-congress/"
+  },
+  {
     "id": 22,
-    "News": 21,
+    "News": 23,
     "image": "../images/news_and_media/world-bank-youth-innovation-challenge.jpg",
     "news_site": "Profit Magazine",
     "date": "24-May-2024",
@@ -11,7 +21,7 @@
   },
   {
     "id": 21,
-    "News": 17,
+    "News": 18,
     "image": "../images/news_and_media/Innovative.png",
     "news_site": "Futurology",
     "date": "17-October-2023",
@@ -21,7 +31,7 @@
   },
   {
     "id": 20,
-    "News": 18,
+    "News": 20,
     "image": "../images/news_and_media/2023-semifinalists-selected-for-wff-startup-innovation-awards.jpg",
     "news_site": "World Food Forum (WFF)",
     "date": "02-August-2023",
@@ -181,7 +191,7 @@
   },
   {
     "id": 4,
-    "News": 20,
+    "News": 22,
     "image": "../images/news_and_media/global-south-development-expo.jpg",
     "news_site": "Elzian Agro",
     "date": "12-August-2022",
@@ -191,7 +201,7 @@
   },
   {
     "id": 3,
-    "News": 18,
+    "News": 19,
     "image": "../images/news_and_media/pest-prediction-system-uok.png",
     "news_site": "University of Kelaniya",
     "date": "15-July-2022",
@@ -221,7 +231,7 @@
   },
   {
     "id": 0,
-    "News": 19,
+    "News": 21,
     "image": "../images/news_and_media/GU.JPG",
     "news_site": "United Nations Development Programme",
     "date": "01-October-2021",
