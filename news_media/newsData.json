@@ -1,6 +1,42 @@
 [
   {
-    "id": 23,
+    "id": 29,
+    "image": "../images/news_and_media/eye-view.jpg",
+    "news_site": "Eye View",
+    "date": "29-May-2024",
+    "title": "Elzian Agro Named Among Top 10 Sri Lankan Startups by TechRound",
+    "description": "TechRound, a premier online magazine based in the UK, is renowned for its coverage of the latest startup and tech news, offering insights into business trends and helping brands achieve new heights. Elzian Agro, a leading precision agriculture company in  Sri Lanka, has been recognized by TechRound as one of the top 10  Sri Lankan startups to watch.",
+    "link": "https://eyeviewsl.com/elzian-agro-named-among-top-10-sri-lankan-startups-by-techround/"
+  },
+  {
+    "id": 28,
+    "image": "../images/news_and_media/28-May-2024-ada-derana-business-news.jpg",
+    "news_site": "Ada Derana Business News",
+    "date": "28-May-2024",
+    "title": "ELZIAN AGRO REACHES FINALS IN WORLD BANK YOUTH INNOVATION CHALLENGE",
+    "description": "Elzian Agro brings a rich mix of skills and expertise, enabling them to offer robust support to farmers through an advanced monitoring and decision-support system with integrated automation. Their IoT monitoring system provides precise environmental weather and soil data, mainly for industrial and agricultural applications. Additionally, their automation system, which includes both hardware and software, efficiently manages irrigation and other agricultural processes.",
+    "link": "https://bizenglish.adaderana.lk/elzian-agro-reaches-finals-in-world-bank-youth-innovation-challenge/"
+  },
+  {
+    "id": 27,
+    "image": "../images/news_and_media/lanka-business-news-agro-eye.jpg",
+    "news_site": "Lanka Business News",
+    "date": "28-May-2024",
+    "title": "Elzian Agro has been recognized by TechRound as one of the top 10 Sri Lankan startups",
+    "description": "Elzian Agro, a leading precision agriculture company in Sri Lanka, has been recognized by TechRound as one of the top 10 Sri Lankan startups to watch.This recognition by TechRound is the latest in a series of accolades for Elzian Agro. The company was named among the top ten youth-driven social enterprises at the Global-South Development Expo 2022, an honor bestowed by the United Nations.",
+    "link": "https://www.lankabusinessnews.com/elzian-agro-named-among-top-10-sri-lankan-startups-by-techround/"
+  },
+  {
+    "id": 26,
+    "image": "../images/news_and_media/biz-report.jpg",
+    "news_site": "Biz Report",
+    "date": "27-May-2024",
+    "title": "ELZIAN AGRO TACKLES CLIMATE CHANGE WITH WATER SOLUTIONS AS FINALIST IN WORLD BANK YOUTH INNOVATION CHALLENGE",
+    "description": "Elzian Agro, a Sri Lankan precision agriculture firm, has been named a finalist in the World Bank Youth Innovation Challenge, specifically focusing on water solutions for a new climate reality. The challenge, orchestrated by the World Bank’s Solutions for Youth Employment (S4YE).",
+    "link": "https://english.bizreport.lk/elzian-agro-tackles-climate-change-with-water-solutions-as-finalist-in-world-bank-youth-innovation-challenge/"
+  },
+  {
+    "id": 25,
     "News": 24,
     "image": "../images/news_and_media/food-tech-congress.jpg",
     "news_site": "Lanka Business News",
@@ -8,6 +44,24 @@
     "title": "Elzian Agro Named Among Top 10 Regenerative Agriculture Startups at Food Tech Congress",
     "description": "The Food Tech Congress, aligned with the Farm to Fork Strategy of the European Green Deal, is a hub where innovation flourishes, bold ideas ignite, and significant business transactions occur. The congress will bring together the most prominent food tech entrepreneurs, innovators, investors, and government leaders from around the world to address the industry’s most pressing challenges.",
     "link": "https://www.lankabusinessnews.com/elzian-agro-named-among-top-10-regenerative-agriculture-startups-at-food-tech-congress/"
+  },
+  {
+    "id": 24,
+    "image": "../images/news_and_media/24-May-2024-lanka-news-network.jpg",
+    "news_site": "Lanka News Network",
+    "date": "24-May-2024",
+    "title": "ELZIAN AGRO INNOVATES WATER SOLUTIONS TO ADDRESS CLIMATE CHANGE",
+    "description": "Elzian Agro has been selected to participate in the World Bank Youth Innovation Challenge, recognized for its cutting-edge water solutions tailored to address new climate challenges. The challenge, organized by the World Bank’s Solutions for Youth Employment (S4YE), and young people to create programs that increase productive employment for youth.",
+    "link": "https://english.lankanewsnetwork.com/?p=956"
+  },
+  {
+    "id": 23,
+    "image": "../images/news_and_media/ceylon-tribune.jpg",
+    "news_site": "Ceylon Tribune",
+    "date": "24-May-2024",
+    "title": "ELZIAN AGRO INNOVATES WATER SOLUTIONS TO ADDRESS CLIMATE CHANGE AS FINALIST IN WORLD BANK YOUTH INNOVATION CHALLENGE",
+    "description": "Elzian Agro, a pioneering precision agriculture company from Sri Lanka, has been honored as a finalist in the World Bank Youth Innovation Challenge, which highlights innovative water solutions for the new climate reality.",
+    "link": "https://ceylontribune.com/?p=898"
   },
   {
     "id": 22,
