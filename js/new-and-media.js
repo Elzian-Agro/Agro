@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
       .then((response) => response.json())
       .then((data) => {
         const cardsContainer = document.getElementById(sectionId);
-  
+
         // Iterate over the JSON data
         data.forEach((item) => {
           // Check if the item's ID is in the itemsToFetch array
@@ -61,10 +61,10 @@ document.addEventListener("DOMContentLoaded", function () {
             // Create a card element
             const card = document.createElement("news-container");
             card.classList.add("news-container");
-  
+
             const img = document.createElement("img");
             img.src = `${item}`;
-  
+
             // Set card content using item properties
             card.innerHTML = `
               <div class="news-container d-flex">
@@ -89,25 +89,47 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="news-desc" style="padding: 10px;">
                       <p>${item.description}</p>
                     </div>
-                    <div class="news-buttons d-flex justify-content-around">
-                      <div class="news-btn">
-                        <a href="${item.link}" target="_blank">Read More <i class="fa fa-arrow-right"></i></a>
-                      </div>
+                    ${
+                      item.link
+                        ? `<div class="news-buttons d-flex justify-content-around">
+                          <div class="news-btn">
+                              <a href="${item.link}" target="_blank">Read More <i class="fa fa-arrow-right"></i></a>
+                          </div>
+                        </div>`
+                        : ""
+                    }
+
+                    <div style="display: grid; grid-template-columns: 1fr 1fr;">
+                      ${
+                        item.extra_link
+                          ? item.extra_link
+                              .map((link) => {
+                                return `
+                              <div class="news-btn">
+                                <a href="${link.link}" target="_blank">
+                                  ${link.name} <i class="fa fa-arrow-right"></i>
+                                </a>
+                              </div>`;
+                              })
+                              .join("")
+                          : ""
+                      }
                     </div>
+
                   </div>
                 </div>
               </div><br><br><br>
             `;
-  
+
             // Add the card to the container
             cardsContainer.appendChild(card);
           }
         });
       });
   }
-  
+
   // Fetch and render news for section 2
-  fetchAndRenderNews("blog-item-1", [29, 28, 27, 26, 25, 24, 23, 22, 21, 20]);
+  fetchAndRenderNews("blog-item-1", [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20]);
 
   // Fetch and render news for section 2
   fetchAndRenderNews("blog-item-2", [19, 18, 17, 16, 15, 14, 13, 12, 11, 10]);

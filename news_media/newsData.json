@@ -1,5 +1,55 @@
 [
   {
+    "id": 30,
+    "image": "../images/news_and_media/forbes-lilan-dayananda.jpg",
+    "news_site": "Forbes",
+    "date": "",
+    "title": "Forbes Social Impact List",
+    "description": "<a href='https://www.linkedin.com/in/lilanofficial/' target='_blank' style='color: blue;'>Lilan Dayananda</a>, our cofounder and CEO, has secured a prestigious position on Forbes Magazine’s “30 Under 30 Asia” list in the social impact category.",
+    "link": "https://www.forbes.com/profile/lilan-dayananda/?list=30under30-asia-social-impact/&sh=47305d8b5e76",
+    "extra_link": [
+      {
+        "name": "Forbes",
+        "link": "https://www.forbes.com/profile/lilan-dayananda/?list=30under30-asia-social-impact/&sh=47305d8b5e76"
+      },
+      {
+        "name": "News Asia",
+        "link": "https://newsasia.lk/sri-lankan-entrepreneur-lilan-dayananda-makes-forbes-30-under-30-asia-list/"
+      },
+      {
+        "name": "Lanka Business News",
+        "link": "https://www.lankabusinessnews.com/sri-lankas-lilan-dayananda-in-forbes-30-under-30-asia-list/#:~:text=Sri%20Lankan%20entrepreneur%20Lilan%20Dayananda,30%20Under%2030%20Asia%E2%80%9D%20list"
+      },
+      { "name": "The Morning", "link": "https://www.themorning.lk/articles/MJd1syvb8TIK7DviAyo6" },
+      {
+        "name": "Elzian Agro",
+        "link": "https://www.linkedin.com/posts/elzianagro_lilan-forbes-elzian-activity-7202685068182499328-wTna?utm_source=share&utm_medium=member_desktop"
+      },
+      {
+        "name": "Council for Inclusive Capitalism",
+        "link": "https://www.linkedin.com/posts/council-for-inclusive-capitalism_forbesunder30-forbesu30asia-sdgs-activity-7198340897409777666-kHqt?utm_source=share&utm_medium=member_desktop"
+      },
+      {
+        "name": "Sunday Times",
+        "link": "https://sundaytimes.lk/online/business/Sri-Lankas-Lilan-Dayananda-in-Forbes-30-Under-30-Asia-List/10-1145847"
+      },
+      {
+        "name": "Pulse Today",
+        "link": "https://www.instagram.com/p/C7Ly5MNB7CX/?utm_source=ig_web_copy_link"
+      },
+      {
+        "name": "Ada Derana Business News",
+        "link": "https://bizenglish.adaderana.lk/sri-lankan-entrepreneur-lilan-dayananda-in-forbes-30-under-30-asia-list/"
+      },
+      {
+        "name": "Business Café",
+        "link": "https://businesscafe.lk/business-news/food-beverage/item/15460-forbes-30-under-30-asia-list-celebrates-sri-lankan-entrepreneur-lilan-dayananda"
+      },
+      { "name": "Ceylon Tribune", "link": "https://ceylontribune.com/?p=895" },
+      { "name": "National News Agency", "link": "https://english.lankapuvath.lk/2024/05/28/lilan-dayananda/" }
+    ]
+  },
+  {
     "id": 29,
     "image": "../images/news_and_media/eye-view.jpg",
     "news_site": "Eye View",
