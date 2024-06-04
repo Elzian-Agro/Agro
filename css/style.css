@@ -4526,6 +4526,8 @@ a {
 }
 
 .news-content-container {
+  display: flex; 
+  flex-direction: column;
   width: 100%;
   /* height: 400px; */
   margin-left: -30px;
@@ -4533,8 +4535,15 @@ a {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
   z-index: 1;
   background: white;
-  display: flex;
 }
+
+.news-content{
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between; 
+  align-items: center;
+}
+
 .news-desc {
   margin-top: -10px;
 }
@@ -4564,6 +4573,45 @@ a {
 }
 
 .news-btn a i {
+  padding-left: 10px;
+}
+
+.news-extra-buttons{
+  display: grid; 
+  grid-template-columns: auto auto auto auto; 
+  align-items: center; 
+  justify-items: center; 
+  padding-bottom: 10px;
+}
+
+.news-extra-btn {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  padding: 8px 5px;
+  width: 250px;
+  border: 2px solid #009207;
+  margin: 5px 20px;
+  background-color: #009207;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: 500ms;
+}
+
+.news-extra-btn a {
+  outline: none;
+  color: #fff;
+}
+
+.news-extra-btn:hover {
+  background-color: #ffffff;
+}
+
+.news-extra-btn:hover a {
+  color: #009207;
+}
+
+.news-extra-btn a i {
   padding-left: 10px;
 }
 
@@ -4711,22 +4759,17 @@ a {
     /* width: 100%; */
     height: auto;
   }
+
+  .news-content{
+    display: flex; 
+    flex-direction: column; 
+  }
+
   .news-image-container img {
     width: 400px;
     height: auto;
     /* box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); */
     z-index: -100;
-  }
-  .news-content-container {
-    width: 100%;
-    margin-left: 0px;
-    border-radius: 30px;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
-    z-index: 1;
-    background: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
   }
 
   .news-title h3 {
@@ -5120,6 +5163,24 @@ figure.snip1390 blockquote:before {
     width: 240px;
     margin-left: 0px;
     height: 290px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .news-extra-buttons{
+    grid-template-columns: auto auto auto; 
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .news-extra-buttons{
+    grid-template-columns: auto auto; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news-extra-buttons{
+    grid-template-columns: auto; 
   }
 }
 

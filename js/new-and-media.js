@@ -69,43 +69,45 @@ document.addEventListener("DOMContentLoaded", function () {
             card.innerHTML = `
               <div class="news-container d-flex">
                 <div class="news-content-container text-center">
-                  <div class="news-image-container">
-                    <div class="news-image-box">
-                      <img src="${item.image}" alt="">
+                  <div class="news-content">
+                    <div class="news-image-container">
+                      <div class="news-image-box">
+                        <img src="${item.image}" alt="">
+                      </div>
+                    </div>
+                    <div class="news-box-body">
+                      <div class="news-top-container d-flex justify-content-between">
+                        <div class="news-site">
+                          <p>${item.news_site}</p>
+                        </div>
+                        <div class="news-date">
+                          <p>${item.date}</p>
+                        </div>
+                      </div>
+                      <div class="news-title text-center">
+                        <h3>${item.title}</h3>
+                      </div>
+                      <div class="news-desc" style="padding: 10px;">
+                        <p>${item.description}</p>
+                      </div>
+                      ${
+                        item.link
+                          ? `<div class="news-buttons d-flex justify-content-around">
+                            <div class="news-btn">
+                                <a href="${item.link}" target="_blank">Read More <i class="fa fa-arrow-right"></i></a>
+                            </div>
+                          </div>`
+                          : ""
+                      }
                     </div>
                   </div>
-                  <div class="news-box-body">
-                    <div class="news-top-container d-flex justify-content-between">
-                      <div class="news-site">
-                        <p>${item.news_site}</p>
-                      </div>
-                      <div class="news-date">
-                        <p>${item.date}</p>
-                      </div>
-                    </div>
-                    <div class="news-title text-center">
-                      <h3>${item.title}</h3>
-                    </div>
-                    <div class="news-desc" style="padding: 10px;">
-                      <p>${item.description}</p>
-                    </div>
-                    ${
-                      item.link
-                        ? `<div class="news-buttons d-flex justify-content-around">
-                          <div class="news-btn">
-                              <a href="${item.link}" target="_blank">Read More <i class="fa fa-arrow-right"></i></a>
-                          </div>
-                        </div>`
-                        : ""
-                    }
-
-                    <div style="display: grid; grid-template-columns: 1fr 1fr;">
+                  <div class="news-extra-buttons">
                       ${
                         item.extra_link
                           ? item.extra_link
                               .map((link) => {
                                 return `
-                              <div class="news-btn">
+                              <div class="news-extra-btn">
                                 <a href="${link.link}" target="_blank">
                                   ${link.name} <i class="fa fa-arrow-right"></i>
                                 </a>
@@ -115,8 +117,6 @@ document.addEventListener("DOMContentLoaded", function () {
                           : ""
                       }
                     </div>
-
-                  </div>
                 </div>
               </div><br><br><br>
             `;
