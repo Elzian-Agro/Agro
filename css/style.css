@@ -4588,26 +4588,23 @@ a {
   display: flex;
   align-items: center; 
   justify-content: center;
-  padding: 8px 5px;
+}
+
+.news-extra-btn a {
   width: 250px;
   border: 2px solid #009207;
   margin: 5px 20px;
+  padding: 8px 5px;
   background-color: #009207;
   border-radius: 4px;
   font-size: 14px;
   transition: 500ms;
-}
-
-.news-extra-btn a {
   outline: none;
   color: #fff;
 }
 
-.news-extra-btn:hover {
+.news-extra-btn a:hover {
   background-color: #ffffff;
-}
-
-.news-extra-btn:hover a {
   color: #009207;
 }
 
