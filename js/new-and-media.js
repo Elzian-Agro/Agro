@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
       .then((response) => response.json())
       .then((data) => {
         const cardsContainer = document.getElementById(sectionId);
-  
+
         // Iterate over the JSON data
         data.forEach((item) => {
           // Check if the item's ID is in the itemsToFetch array
@@ -61,53 +61,75 @@ document.addEventListener("DOMContentLoaded", function () {
             // Create a card element
             const card = document.createElement("news-container");
             card.classList.add("news-container");
-  
+
             const img = document.createElement("img");
             img.src = `${item}`;
-  
+
             // Set card content using item properties
             card.innerHTML = `
               <div class="news-container d-flex">
                 <div class="news-content-container text-center">
-                  <div class="news-image-container">
-                    <div class="news-image-box">
-                      <img src="${item.image}" alt="">
+                  <div class="news-content">
+                    <div class="news-image-container">
+                      <div class="news-image-box">
+                        <img src="${item.image}" alt="">
+                      </div>
+                    </div>
+                    <div class="news-box-body">
+                      <div class="news-top-container d-flex justify-content-between">
+                        <div class="news-site">
+                          <p>${item.news_site}</p>
+                        </div>
+                        <div class="news-date">
+                          <p>${item.date}</p>
+                        </div>
+                      </div>
+                      <div class="news-title text-center">
+                        <h3>${item.title}</h3>
+                      </div>
+                      <div class="news-desc" style="padding: 10px;">
+                        <p>${item.description}</p>
+                      </div>
+                      ${
+                        item.link
+                          ? `<div class="news-buttons d-flex justify-content-around">
+                            <div class="news-btn">
+                                <a href="${item.link}" target="_blank">Read More <i class="fa fa-arrow-right"></i></a>
+                            </div>
+                          </div>`
+                          : ""
+                      }
                     </div>
                   </div>
-                  <div class="news-box-body">
-                    <div class="news-top-container d-flex justify-content-between">
-                      <div class="news-site">
-                        <p>${item.news_site}</p>
-                      </div>
-                      <div class="news-date">
-                        <p>${item.date}</p>
-                      </div>
+                  <div class="news-extra-buttons">
+                      ${
+                        item.extra_link
+                          ? item.extra_link
+                              .map((link) => {
+                                return `
+                              <div class="news-extra-btn">
+                                <a href="${link.link}" target="_blank">
+                                  ${link.name} <i class="fa fa-arrow-right"></i>
+                                </a>
+                              </div>`;
+                              })
+                              .join("")
+                          : ""
+                      }
                     </div>
-                    <div class="news-title text-center">
-                      <h3>${item.title}</h3>
-                    </div>
-                    <div class="news-desc" style="padding: 10px;">
-                      <p>${item.description}</p>
-                    </div>
-                    <div class="news-buttons d-flex justify-content-around">
-                      <div class="news-btn">
-                        <a href="${item.link}" target="_blank">Read More <i class="fa fa-arrow-right"></i></a>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div><br><br><br>
             `;
-  
+
             // Add the card to the container
             cardsContainer.appendChild(card);
           }
         });
       });
   }
-  
+
   // Fetch and render news for section 2
-  fetchAndRenderNews("blog-item-1", [29, 28, 27, 26, 25, 24, 23, 22, 21, 20]);
+  fetchAndRenderNews("blog-item-1", [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20]);
 
   // Fetch and render news for section 2
   fetchAndRenderNews("blog-item-2", [19, 18, 17, 16, 15, 14, 13, 12, 11, 10]);
