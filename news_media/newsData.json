@@ -1,6 +1,6 @@
 [
   {
-    "id": 30,
+    "id": 32,
     "image": "../images/news_and_media/forbes-lilan-dayananda.jpg",
     "news_site": "Forbes",
     "date": "",
@@ -51,6 +51,24 @@
         "link": "https://bizenglish.adaderana.lk/sri-lankan-entrepreneur-lilan-dayananda-in-forbes-30-under-30-asia-list/"
       }
     ]
+  },
+  {
+    "id": 31,
+    "image": "../images/news_and_media/16-June-2024-Elzian-Agro.jpg",
+    "news_site": "Elzian Agro",
+    "date": "16-June-2024",
+    "title": "Elzian Agro at the DigiEcon Global Investment Summit 2024",
+    "description": "Elzian Agro is delighted to announce its selection for the prestigious DigiEcon Global Investment Summit 2024. This exceptional opportunity will allow Elzian Agro to showcase its groundbreaking solutions, and engage with global leaders, investors, and visionaries in the technology sector.",
+    "link": "https://www.linkedin.com/posts/elzianagro_digiecon2024-elzianabragro-innovation-activity-7208742524792762368-0qsZ?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+    "id": 30,
+    "image": "../images/news_and_media/15-June-2024-Elzian-Agro.jpg",
+    "news_site": "Elzian Agro",
+    "date": "15-June-2024",
+    "title": "Elzian Agro is among the Science Startup Finalist at the Faling Walls Science Summit",
+    "description": "The Falling Walls Science Summit features a Science Startup category, which is part of the global competition Falling Walls Venture. This platform showcases pioneering science-based start-ups that have successfully turned scientific innovations into business solutions. The most innovative start-ups are selected by an Advisory Board and invited to pitch their breakthrough innovations on the Falling Walls Venture stage in Berlin. The selected start-ups gain access to exclusive networking events and the Falling Walls Community.",
+    "link": "https://www.linkedin.com/posts/elzianagro_fallingwallsventure-globalcall24-fallingwalls-activity-7207428038089670657-ktb8?utm_source=share&utm_medium=member_desktop"
   },
   {
     "id": 29,
