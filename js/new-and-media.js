@@ -1,72 +1,72 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Get all buttons and sections
-    var buttons = document.querySelectorAll("button");
-    var sections = document.querySelectorAll(".section-news");
-  
-    // Show section1 on page load
-    var section1 = document.getElementById("section1");
-    section1.classList.add("active");
-  
-    // Add click event listener to each button
-    buttons.forEach(function (button) {
-      button.addEventListener("click", function () {
-        // Check if the clicked button is button1 (section1)
-        if (this.id === "button1") {
-          // If button1 is clicked, do not disable section1
-          section1.classList.add("active");
-        } else {
-          // Remove active class from section1 to disable it
-          section1.classList.remove("active");
-        }
-  
-        // Remove active class from all sections and buttons
-        sections.forEach(function (section) {
-          section.classList.remove("active");
-        });
-        buttons.forEach(function (button) {
-          button.classList.remove("active");
-        });
-  
-        // Add active class to the clicked section and button
-        var sectionId = this.id.replace("button", "section");
+  // Get all buttons and sections
+  var buttons = document.querySelectorAll("button");
+  var sections = document.querySelectorAll(".section-news");
+
+  // Show section1 on page load
+  var section1 = document.getElementById("section1");
+  section1.classList.add("active");
+
+  // Add click event listener to each button
+  buttons.forEach(function (button) {
+    button.addEventListener("click", function () {
+      // Check if the clicked button is button1 (section1)
+      if (this.id === "button1") {
+        // If button1 is clicked, do not disable section1
+        section1.classList.add("active");
+      } else {
+        // Remove active class from section1 to disable it
+        section1.classList.remove("active");
+      }
+
+      // Remove active class from all sections and buttons
+      sections.forEach(function (section) {
+        section.classList.remove("active");
+      });
+      buttons.forEach(function (button) {
+        button.classList.remove("active");
+      });
+
+      // Add active class to the clicked section and button
+      var sectionId = this.id.replace("button", "section");
+      var section = document.getElementById(sectionId);
+      section.classList.add("active");
+      this.classList.add("active");
+
+      // Add color to buttons based on active section
+      buttons.forEach(function (button) {
+        var sectionId = button.id.replace("button", "section");
         var section = document.getElementById(sectionId);
-        section.classList.add("active");
-        this.classList.add("active");
-  
-        // Add color to buttons based on active section
-        buttons.forEach(function (button) {
-          var sectionId = button.id.replace("button", "section");
-          var section = document.getElementById(sectionId);
-          if (section.classList.contains("active")) {
-            button.style.backgroundColor = "#009207"; // Set the desired color
-          } else {
-            button.style.backgroundColor = ""; // Remove any previously set color
-          }
-        });
+        if (section.classList.contains("active")) {
+          button.style.backgroundColor = "#009207"; // Set the desired color
+        } else {
+          button.style.backgroundColor = ""; // Remove any previously set color
+        }
       });
     });
   });
-  
-  // Fetch JSON data for multiple sections (assuming they have unique IDs)
-  function fetchAndRenderNews(sectionId, itemsToFetch) {
-    fetch("newsData.json")
-      .then((response) => response.json())
-      .then((data) => {
-        const cardsContainer = document.getElementById(sectionId);
+});
 
-        // Iterate over the JSON data
-        data.forEach((item) => {
-          // Check if the item's ID is in the itemsToFetch array
-          if (itemsToFetch.includes(item.id)) {
-            // Create a card element
-            const card = document.createElement("news-container");
-            card.classList.add("news-container");
+// Fetch JSON data for multiple sections (assuming they have unique IDs)
+function fetchAndRenderNews(sectionId, itemsToFetch) {
+  fetch("newsData.json")
+    .then((response) => response.json())
+    .then((data) => {
+      const cardsContainer = document.getElementById(sectionId);
 
-            const img = document.createElement("img");
-            img.src = `${item}`;
+      // Iterate over the JSON data
+      data.forEach((item) => {
+        // Check if the item's ID is in the itemsToFetch array
+        if (itemsToFetch.includes(item.id)) {
+          // Create a card element
+          const card = document.createElement("news-container");
+          card.classList.add("news-container");
 
-            // Set card content using item properties
-            card.innerHTML = `
+          const img = document.createElement("img");
+          img.src = `${item}`;
+
+          // Set card content using item properties
+          card.innerHTML = `
               <div class="news-container d-flex">
                 <div class="news-content-container text-center">
                   <div class="news-content">
@@ -121,19 +121,21 @@ document.addEventListener("DOMContentLoaded", function () {
               </div><br><br><br>
             `;
 
-            // Add the card to the container
-            cardsContainer.appendChild(card);
-          }
-        });
+          // Add the card to the container
+          cardsContainer.appendChild(card);
+        }
       });
-  }
+    });
+}
 
-  // Fetch and render news for section 2
-  fetchAndRenderNews("blog-item-1", [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20]);
+// Fetch and render news for section 2
+fetchAndRenderNews("blog-item-1", [32, 31, 30, 29, 28, 27, 26, 25]);
 
-  // Fetch and render news for section 2
-  fetchAndRenderNews("blog-item-2", [19, 18, 17, 16, 15, 14, 13, 12, 11, 10]);
+// Fetch and render news for section 2
+fetchAndRenderNews("blog-item-2", [24, 23, 22, 20, 19, 18, 17, 16]);
 
-  // Fetch and render news for section 3
-  fetchAndRenderNews("blog-item-3", [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]);
-  
+// Fetch and render news for section 3
+fetchAndRenderNews("blog-item-3", [15, 14, 13, 12, 11, 10, 9, 8]);
+
+// Fetch and render news for section 4
+fetchAndRenderNews("blog-item-4", [7, 6, 5, 4, 3, 2, 1, 0]);
