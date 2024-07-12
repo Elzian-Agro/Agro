@@ -92,9 +92,12 @@ function fetchAndRenderNews(sectionId, itemsToFetch) {
                       </div>
                       ${
                         item.link
-                          ? `<div class="news-buttons d-flex justify-content-around">
+                          ? `<div class="news-buttons d-flex justify-content-center align-items-center gap-3">
                             <div class="news-btn">
                                 <a href="${item.link}" target="_blank">Read More <i class="fa fa-arrow-right"></i></a>
+                            </div>
+                            <div class="news-download-btn">
+                               <a href="${item.download_link}" target="_blank"><i class="fa fa-download"></i></a>
                             </div>
                           </div>`
                           : ""
@@ -111,6 +114,9 @@ function fetchAndRenderNews(sectionId, itemsToFetch) {
                                 <a href="${link.link}" target="_blank">
                                   ${link.name} <i class="fa fa-arrow-right"></i>
                                 </a>
+                                <div class="news-extra-download-btn">
+                                  <a href="" target="_blank"><i class="fa fa-download"></i></a>
+                                </div>
                               </div>`;
                               })
                               .join("")
