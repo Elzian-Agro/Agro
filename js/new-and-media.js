@@ -90,16 +90,25 @@ function fetchAndRenderNews(sectionId, itemsToFetch) {
                       <div class="news-desc" style="padding: 10px;">
                         <p>${item.description}</p>
                       </div>
-                      <div class="news-buttons d-flex justify-content-center align-items-center gap-3">
-                        <div class="news-btn">
-                            <a href="${
-                              item.link
-                            }" target="_blank">Read More <i class="fa fa-arrow-right"></i></a>
-                        </div>
-                        <div class="news-download-btn">
-                            <a href="${item.download_link}" target="_blank"><i class="fa fa-download"></i></a>
-                        </div>
-                      </div>
+                      ${
+                        item.link
+                          ? `
+                        <div class="news-buttons d-flex justify-content-center align-items-center gap-3">
+                          <div class="news-btn">
+                           <a href="${item.link}" target="_blank" style="${
+                              item.link === "#" ? "pointer-events: none;" : ""
+                            }">
+                            Read More <i class="fa fa-arrow-right"></i>
+                          </a>
+                          </div>
+                          <div class="news-download-btn">
+                            <a href="${item.download_link}" target="_blank" style="${
+                              !item.download_link ? "pointer-events: none;" : ""
+                            }"><i class="fa fa-download"></i></a>
+                          </div>
+                        </div>`
+                          : ""
+                      }
                     </div>
                   </div>
                   <div class="news-extra-buttons">
