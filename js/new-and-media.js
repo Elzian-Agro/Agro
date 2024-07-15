@@ -135,10 +135,10 @@ function fetchAndRenderNews(sectionId, itemsToFetch) {
 }
 
 // Fetch and render news for section 2
-fetchAndRenderNews("blog-item-1", [-1, 31, 30, 29, 28, 27, 26, 25]);
+fetchAndRenderNews("blog-item-1", [-1, 31, 30, 29, 28, 27, 26, 25, 24]);
 
 // Fetch and render news for section 2
-fetchAndRenderNews("blog-item-2", [24, 23, 22, 20, 19, 18, 17, 16]);
+fetchAndRenderNews("blog-item-2", [23, 22, 21, 20, 19, 18, 17, 16]);
 
 // Fetch and render news for section 3
 fetchAndRenderNews("blog-item-3", [15, 14, 13, 12, 11, 10, 9, 8]);
