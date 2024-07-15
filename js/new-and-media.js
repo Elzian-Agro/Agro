@@ -115,7 +115,7 @@ function fetchAndRenderNews(sectionId, itemsToFetch) {
                                   ${link.name} <i class="fa fa-arrow-right"></i>
                                 </a>
                                 <div class="news-extra-download-btn">
-                                  <a href="" target="_blank"><i class="fa fa-download"></i></a>
+                                  <a href="${link.download_link}" target="_blank"><i class="fa fa-download"></i></a>
                                 </div>
                               </div>`;
                               })
@@ -135,7 +135,7 @@ function fetchAndRenderNews(sectionId, itemsToFetch) {
 }
 
 // Fetch and render news for section 2
-fetchAndRenderNews("blog-item-1", [32, 31, 30, 29, 28, 27, 26, 25]);
+fetchAndRenderNews("blog-item-1", [-1, 31, 30, 29, 28, 27, 26, 25]);
 
 // Fetch and render news for section 2
 fetchAndRenderNews("blog-item-2", [24, 23, 22, 20, 19, 18, 17, 16]);

@@ -1,6 +1,6 @@
 [
   {
-    "id": 32,
+    "id": -1,
     "image": "../images/news_and_media/forbes-lilan-dayananda.jpg",
     "news_site": "Forbes",
     "date": "",
@@ -10,45 +10,63 @@
     "extra_link": [
       {
         "name": "Forbes",
-        "link": "https://www.forbes.com/profile/lilan-dayananda/?list=30under30-asia-social-impact/&sh=47305d8b5e76"
+        "link": "https://www.forbes.com/profile/lilan-dayananda/?list=30under30-asia-social-impact/&sh=47305d8b5e76",
+        "download_link": "../images/news_and_media/published_news/main_forbes.png"
       },
       {
         "name": "Elzian Agro",
-        "link": "https://www.linkedin.com/posts/elzianagro_lilan-forbes-elzian-activity-7202685068182499328-wTna?utm_source=share&utm_medium=member_desktop"
+        "link": "https://www.linkedin.com/posts/elzianagro_lilan-forbes-elzian-activity-7202685068182499328-wTna?utm_source=share&utm_medium=member_desktop",
+        "download_link": "../images/news_and_media/published_news/main_elzian_agro.png"
       },
       {
         "name": "News Asia",
-        "link": "https://newsasia.lk/sri-lankan-entrepreneur-lilan-dayananda-makes-forbes-30-under-30-asia-list/"
+        "link": "https://newsasia.lk/sri-lankan-entrepreneur-lilan-dayananda-makes-forbes-30-under-30-asia-list/",
+        "download_link": "../images/news_and_media/published_news/main_news_asia.png"
       },
-      { "name": "The Morning", "link": "https://www.themorning.lk/articles/MJd1syvb8TIK7DviAyo6" },
+      {
+        "name": "The Morning",
+        "link": "https://www.themorning.lk/articles/MJd1syvb8TIK7DviAyo6",
+        "download_link": "../images/news_and_media/published_news/main_the_morning.png"
+      },
       {
         "name": "Pulse Today",
-        "link": "https://www.instagram.com/p/C7Ly5MNB7CX/?utm_source=ig_web_copy_link"
+        "link": "https://www.instagram.com/p/C7Ly5MNB7CX/?utm_source=ig_web_copy_link",
+        "download_link": "../images/news_and_media/published_news/main_pulse_today.png"
       },
       {
         "name": "Sunday Times",
-        "link": "https://sundaytimes.lk/online/business/Sri-Lankas-Lilan-Dayananda-in-Forbes-30-Under-30-Asia-List/10-1145847"
+        "link": "https://sundaytimes.lk/online/business/Sri-Lankas-Lilan-Dayananda-in-Forbes-30-Under-30-Asia-List/10-1145847",
+        "download_link": "../images/news_and_media/published_news/sunday_times.png"
       },
       {
         "name": "Business Café",
-        "link": "https://businesscafe.lk/business-news/food-beverage/item/15460-forbes-30-under-30-asia-list-celebrates-sri-lankan-entrepreneur-lilan-dayananda"
+        "link": "https://businesscafe.lk/business-news/food-beverage/item/15460-forbes-30-under-30-asia-list-celebrates-sri-lankan-entrepreneur-lilan-dayananda",
+        "download_link": "../images/news_and_media/published_news/main_business_cafe.png"
       },
-      { "name": "Ceylon Tribune", "link": "https://ceylontribune.com/?p=895" },
+      {
+        "name": "Ceylon Tribune",
+        "link": "https://ceylontribune.com/?p=895",
+        "download_link": "../images/news_and_media/published_news/main_ceylon_tribune.png"
+      },
       {
         "name": "Lanka Business News",
-        "link": "https://www.lankabusinessnews.com/sri-lankas-lilan-dayananda-in-forbes-30-under-30-asia-list/#:~:text=Sri%20Lankan%20entrepreneur%20Lilan%20Dayananda,30%20Under%2030%20Asia%E2%80%9D%20list"
+        "link": "https://www.lankabusinessnews.com/sri-lankas-lilan-dayananda-in-forbes-30-under-30-asia-list/#:~:text=Sri%20Lankan%20entrepreneur%20Lilan%20Dayananda,30%20Under%2030%20Asia%E2%80%9D%20list",
+        "download_link": "../images/news_and_media/published_news/main_lanka_business_news.png"
       },
       {
         "name": "National News Agency",
-        "link": "https://english.lankapuvath.lk/2024/05/28/lilan-dayananda/"
+        "link": "https://english.lankapuvath.lk/2024/05/28/lilan-dayananda/",
+        "download_link": "../images/news_and_media/published_news/main_ntional_news_agencey.png"
       },
       {
         "name": "Council for Inclusive Capitalism",
-        "link": "https://www.linkedin.com/posts/council-for-inclusive-capitalism_forbesunder30-forbesu30asia-sdgs-activity-7198340897409777666-kHqt?utm_source=share&utm_medium=member_desktop"
+        "link": "https://www.linkedin.com/posts/council-for-inclusive-capitalism_forbesunder30-forbesu30asia-sdgs-activity-7198340897409777666-kHqt?utm_source=share&utm_medium=member_desktop",
+        "download_link": "../images/news_and_media/published_news/main_council_for_inclusive_capitalism.png"
       },
       {
         "name": "Ada Derana Business News",
-        "link": "https://bizenglish.adaderana.lk/sri-lankan-entrepreneur-lilan-dayananda-in-forbes-30-under-30-asia-list/"
+        "link": "https://bizenglish.adaderana.lk/sri-lankan-entrepreneur-lilan-dayananda-in-forbes-30-under-30-asia-list/",
+        "download_link": "../images/news_and_media/published_news/main_ada_derana_news.png"
       }
     ]
   },
@@ -59,7 +77,8 @@
     "date": "16-June-2024",
     "title": "Elzian Agro at the DigiEcon Global Investment Summit 2024",
     "description": "Elzian Agro is delighted to announce its selection for the prestigious DigiEcon Global Investment Summit 2024. This exceptional opportunity will allow Elzian Agro to showcase its groundbreaking solutions, and engage with global leaders, investors, and visionaries in the technology sector.",
-    "link": "https://www.linkedin.com/posts/elzianagro_digiecon2024-elzianabragro-innovation-activity-7208742524792762368-0qsZ?utm_source=share&utm_medium=member_desktop"
+    "link": "https://www.linkedin.com/posts/elzianagro_digiecon2024-elzianabragro-innovation-activity-7208742524792762368-0qsZ?utm_source=share&utm_medium=member_desktop",
+    "download_link": "../images/news_and_media/published_news/31.png"
   },
   {
     "id": 30,
@@ -68,7 +87,8 @@
     "date": "15-June-2024",
     "title": "Elzian Agro is among the Science Startup Finalist at the Faling Walls Science Summit",
     "description": "The Falling Walls Science Summit features a Science Startup category, which is part of the global competition Falling Walls Venture. This platform showcases pioneering science-based start-ups that have successfully turned scientific innovations into business solutions. The most innovative start-ups are selected by an Advisory Board and invited to pitch their breakthrough innovations on the Falling Walls Venture stage in Berlin. The selected start-ups gain access to exclusive networking events and the Falling Walls Community.",
-    "link": "https://www.linkedin.com/posts/elzianagro_fallingwallsventure-globalcall24-fallingwalls-activity-7207428038089670657-ktb8?utm_source=share&utm_medium=member_desktop"
+    "link": "https://www.linkedin.com/posts/elzianagro_fallingwallsventure-globalcall24-fallingwalls-activity-7207428038089670657-ktb8?utm_source=share&utm_medium=member_desktop",
+    "download_link": "../images/news_and_media/published_news/30.png"
   },
   {
     "id": 29,
@@ -77,7 +97,8 @@
     "date": "29-May-2024",
     "title": "Elzian Agro Named Among Top 10 Sri Lankan Startups by TechRound",
     "description": "TechRound, a premier online magazine based in the UK, is renowned for its coverage of the latest startup and tech news, offering insights into business trends and helping brands achieve new heights. Elzian Agro, a leading precision agriculture company in  Sri Lanka, has been recognized by TechRound as one of the top 10  Sri Lankan startups to watch.",
-    "link": "https://eyeviewsl.com/elzian-agro-named-among-top-10-sri-lankan-startups-by-techround/"
+    "link": "https://eyeviewsl.com/elzian-agro-named-among-top-10-sri-lankan-startups-by-techround/",
+    "download_link": "../images/news_and_media/published_news/29.pmg"
   },
   {
     "id": 28,
@@ -86,7 +107,8 @@
     "date": "28-May-2024",
     "title": "ELZIAN AGRO REACHES FINALS IN WORLD BANK YOUTH INNOVATION CHALLENGE",
     "description": "Elzian Agro brings a rich mix of skills and expertise, enabling them to offer robust support to farmers through an advanced monitoring and decision-support system with integrated automation. Their IoT monitoring system provides precise environmental weather and soil data, mainly for industrial and agricultural applications. Additionally, their automation system, which includes both hardware and software, efficiently manages irrigation and other agricultural processes.",
-    "link": "https://bizenglish.adaderana.lk/elzian-agro-reaches-finals-in-world-bank-youth-innovation-challenge/"
+    "link": "https://bizenglish.adaderana.lk/elzian-agro-reaches-finals-in-world-bank-youth-innovation-challenge/",
+    "download_link": "../images/news_and_media/published_news/28.png"
   },
   {
     "id": 27,
@@ -95,7 +117,8 @@
     "date": "28-May-2024",
     "title": "Elzian Agro has been recognized by TechRound as one of the top 10 Sri Lankan startups",
     "description": "Elzian Agro, a leading precision agriculture company in Sri Lanka, has been recognized by TechRound as one of the top 10 Sri Lankan startups to watch.This recognition by TechRound is the latest in a series of accolades for Elzian Agro. The company was named among the top ten youth-driven social enterprises at the Global-South Development Expo 2022, an honor bestowed by the United Nations.",
-    "link": "https://www.lankabusinessnews.com/elzian-agro-named-among-top-10-sri-lankan-startups-by-techround/"
+    "link": "https://www.lankabusinessnews.com/elzian-agro-named-among-top-10-sri-lankan-startups-by-techround/",
+    "download_link": "../images/news_and_media/published_news/27.png"
   },
   {
     "id": 26,
@@ -104,17 +127,18 @@
     "date": "27-May-2024",
     "title": "ELZIAN AGRO TACKLES CLIMATE CHANGE WITH WATER SOLUTIONS AS FINALIST IN WORLD BANK YOUTH INNOVATION CHALLENGE",
     "description": "Elzian Agro, a Sri Lankan precision agriculture firm, has been named a finalist in the World Bank Youth Innovation Challenge, specifically focusing on water solutions for a new climate reality. The challenge, orchestrated by the World Bank’s Solutions for Youth Employment (S4YE).",
-    "link": "https://english.bizreport.lk/elzian-agro-tackles-climate-change-with-water-solutions-as-finalist-in-world-bank-youth-innovation-challenge/"
+    "link": "https://english.bizreport.lk/elzian-agro-tackles-climate-change-with-water-solutions-as-finalist-in-world-bank-youth-innovation-challenge/",
+    "download_link": "../images/news_and_media/published_news/26.png"
   },
   {
     "id": 25,
-    "News": 24,
     "image": "../images/news_and_media/food-tech-congress.jpg",
     "news_site": "Lanka Business News",
     "date": "27-May-2024",
     "title": "Elzian Agro Named Among Top 10 Regenerative Agriculture Startups at Food Tech Congress",
     "description": "The Food Tech Congress, aligned with the Farm to Fork Strategy of the European Green Deal, is a hub where innovation flourishes, bold ideas ignite, and significant business transactions occur. The congress will bring together the most prominent food tech entrepreneurs, innovators, investors, and government leaders from around the world to address the industry’s most pressing challenges.",
-    "link": "https://www.lankabusinessnews.com/elzian-agro-named-among-top-10-regenerative-agriculture-startups-at-food-tech-congress/"
+    "link": "https://www.lankabusinessnews.com/elzian-agro-named-among-top-10-regenerative-agriculture-startups-at-food-tech-congress/",
+    "download_link": "../images/news_and_media/published_news/25.png"
   },
   {
     "id": 24,
@@ -123,7 +147,8 @@
     "date": "24-May-2024",
     "title": "ELZIAN AGRO INNOVATES WATER SOLUTIONS TO ADDRESS CLIMATE CHANGE",
     "description": "Elzian Agro has been selected to participate in the World Bank Youth Innovation Challenge, recognized for its cutting-edge water solutions tailored to address new climate challenges. The challenge, organized by the World Bank’s Solutions for Youth Employment (S4YE), and young people to create programs that increase productive employment for youth.",
-    "link": "https://english.lankanewsnetwork.com/?p=956"
+    "link": "https://english.lankanewsnetwork.com/?p=956",
+    "download_link": "../images/news_and_media/published_news/24.png"
   },
   {
     "id": 23,
@@ -132,236 +157,237 @@
     "date": "24-May-2024",
     "title": "ELZIAN AGRO INNOVATES WATER SOLUTIONS TO ADDRESS CLIMATE CHANGE AS FINALIST IN WORLD BANK YOUTH INNOVATION CHALLENGE",
     "description": "Elzian Agro, a pioneering precision agriculture company from Sri Lanka, has been honored as a finalist in the World Bank Youth Innovation Challenge, which highlights innovative water solutions for the new climate reality.",
-    "link": "https://ceylontribune.com/?p=898"
+    "link": "https://ceylontribune.com/?p=898",
+    "download_link": "../images/news_and_media/published_news/23.png"
   },
   {
     "id": 22,
-    "News": 23,
     "image": "../images/news_and_media/world-bank-youth-innovation-challenge.jpg",
     "news_site": "Profit Magazine",
     "date": "24-May-2024",
     "title": "Elzian Agro Named Finalist in World Bank Youth Innovation Challenge",
     "description": "The challenge is organized by the World Bank Solutions for Youth Employment (S4YE). S4YE is a global program that brings together donors, governments, foundations, private sector companies, NGOs, and youth to support catalytic programs that increase the number of young people engaged in productive work.",
-    "link": "https://profitmagazine.lk/elzian-agro-named-finalist-in-world-bank-youth-innovation-challenge/"
+    "link": "https://profitmagazine.lk/elzian-agro-named-finalist-in-world-bank-youth-innovation-challenge/",
+    "download_link": "../images/news_and_media/published_news/22.png"
   },
   {
     "id": 21,
-    "News": 18,
     "image": "../images/news_and_media/Innovative.png",
     "news_site": "Futurology",
     "date": "17-October-2023",
     "title": "40 Most Innovative Western Based Farming Companies & Startups",
     "description": "This article showcases our top picks for the best Western based Farming companies. These startups and companies are taking a variety of approaches to innovating the Farming industry, but are all exceptional companies well worth a follow under innovation, growth, management and social impact.",
-    "link": "https://futurology.life/40-most-innovative-western-based-farming-companies-startups/"
+    "link": "https://futurology.life/40-most-innovative-western-based-farming-companies-startups/",
+    "download_link": "../images/news_and_media/published_news/21.png"
   },
   {
     "id": 20,
-    "News": 20,
     "image": "../images/news_and_media/2023-semifinalists-selected-for-wff-startup-innovation-awards.jpg",
     "news_site": "World Food Forum (WFF)",
     "date": "02-August-2023",
     "title": "Elzian Agro Pitches for the WFF Startup Innovation Awards",
     "description": "The WFF Startup Innovation Awards, powered by Extreme Tech Challenge (XTC) are a global startup competition established to support and showcase young innovators and entrepreneurs who are harnessing the power of technology to drive the sustainable transformation of agrifood systems in support of ending global hunger and achieving the Sustainable Development Goals.",
-    "link": "https://www.world-food-forum.org/news/detail/2023-semifinalists-selected-for-wff-startup-innovation-awards/en"
+    "link": "https://www.world-food-forum.org/news/detail/2023-semifinalists-selected-for-wff-startup-innovation-awards/en",
+    "download_link": "../images/news_and_media/published_news/20.png"
   },
   {
     "id": 19,
-    "News": 15,
     "image": "../images/news_and_media/An-Exemplar-of-Innovation-and-Sustainable-Agriculture.jpg",
     "news_site": "Daily FT",
     "date": "14-July-2023",
     "title": "Elzian Agro becomes one of top finalists in Expo City Dubai ExpoLive Innovation Program",
     "description": "Elzian Agro’s achievement was celebrated at the Terra Pavilion in Expo City Dubai, where they engaged with talented individuals from 37 nations who shared their passion for positive impact. Renowned for their groundbreaking technologies and sustainable farming methods, Elzian Agro stands as a frontrunner in the industry.",
-    "link": "https://www.ft.lk/sectors/Elzian-Agro-becomes-one-of-top-finalists-in-Expo-City-Dubai-ExpoLive-Innovation-Program/20-750577"
+    "link": "https://www.ft.lk/sectors/Elzian-Agro-becomes-one-of-top-finalists-in-Expo-City-Dubai-ExpoLive-Innovation-Program/20-750577",
+    "download_link": "../images/news_and_media/published_news/19.png"
   },
   {
     "id": 18,
-    "News": 13,
     "image": "../images/news_and_media/Elzian-Agro-Expo.jpg",
     "news_site": "Ceylon Tribune",
     "date": "9-July-2023",
     "title": "ELZIAN AGRO, A Rising Star in Dubai’s Expo Live Innovation Program",
     "description": "In a world grappling with the challenges of food security and environmental sustainability, ELZIAN AGRO’s outstanding achievement serves as a beacon of hope and inspiration. Their unwavering pursuit of excellence, fueled by a strong commitment to innovation and sustainability, positions them as catalysts for change and progress.",
-    "link": "http://ceylontribune.com/?p=243"
+    "link": "http://ceylontribune.com/?p=243",
+    "download_link": "../images/news_and_media/published_news/18.png"
   },
   {
     "id": 17,
-    "News": 11,
     "image": "../images/news_and_media/Elzian-Agro-Expo.jpg",
     "news_site": "Lanka News Network",
     "date": "9-July-2023",
     "title": "ELZIAN AGRO, A Rising Star in Dubai’s Expo Live Innovation Program",
     "description": " ELZIAN AGRO, a prominent player in the agricultural solutions sector, has achieved an extraordinary feat by securing a coveted spot as one of the top finalists in the highly competitive Expo City Dubai ExpoLive Innovation Programme.",
-    "link": "http://english.lankanewsnetwork.com/?p=160"
+    "link": "http://english.lankanewsnetwork.com/?p=160",
+    "download_link": "../images/news_and_media/published_news/17.png"
   },
   {
     "id": 16,
-    "News": 14,
     "image": "../images/news_and_media/lanka_b_news.jpg",
     "news_site": "Sri Lanka Broadcasting Corporation",
     "date": "6-July-2023",
     "title": "ELZIAN AGRO is Igniting a Technological Revolution in Agriculture",
     "description": " ELZIAN AGRO’s relentless pursuit of excellence have set new benchmarks within the industry. By pushing the boundaries of innovation, ELZIAN AGRO has paved the way for a future where agriculture merges seamlessly with technology, unlocking new realms of possibility.",
-    "link": "https://english.slbcnews.lk/?p=40265"
+    "link": "https://english.slbcnews.lk/?p=40265",
+    "download_link": "../images/news_and_media/published_news/16.png"
   },
   {
     "id": 15,
-    "News": 12,
     "image": "../images/news_and_media/ELZIAN-AGRO-02.jpg",
     "news_site": "Ceylon Tribune",
     "date": "6-July-2023",
     "title": "ELZIAN AGRO is Igniting a Technological Revolution in Agriculture",
     "description": "By harnessing the power of technology, ELZIAN AGRO is leading the charge in transforming traditional agricultural practices into cutting-edge, sustainable solutions. ELZIAN AGRO’s resounding success is a testament to their unwavering passion for innovation.",
-    "link": "http://ceylontribune.com/?p=233"
+    "link": "http://ceylontribune.com/?p=233",
+    "download_link": "../images/news_and_media/published_news/15.png"
   },
   {
     "id": 14,
-    "News": 10,
     "image": "../images/news_and_media/ELZIAN-AGRO-01.jpg",
     "news_site": "Lanka News Network",
     "date": "6-July-2023",
     "title": "ELZIAN AGRO is Igniting a Technological Revolution in Agriculture ",
     "description": "ELZIAN AGRO soared to new heights, claiming the prestigious title of National Winner in the category of Best Disruptive Product Innovation. Their transformative product has revolutionized traditional agricultural practices, leaving an indelible mark on the industry. By pushing boundaries and introducing cutting-edge technologies, ELZIAN AGRO has redefined the possibilities within farming.",
-    "link": "http://english.lankanewsnetwork.com/?p=147"
+    "link": "http://english.lankanewsnetwork.com/?p=147",
+    "download_link": "../images/news_and_media/published_news/14.png"
   },
   {
     "id": 13,
-    "News": 9,
     "image": "../images/news_and_media/IMAGE-1-1-768x513.jpg",
     "news_site": "Ceylon Business Reporter",
     "date": " 6-July-2023",
     "title": "ELZIAN AGRO Shines Bright at SLASSCOM National Ingenuity Awards 2023",
     "description": "ELZIAN AGRO, recognized as one of the top Technology Disruptors, garnered high praise and esteemed accolades in various categories, solidifying their position as a leading force in the industry. The company’s commitment to innovation and relentless pursuit of excellence was wholeheartedly acknowledged, with the team being honored in multiple domains.",
-    "link": "https://cbr.lk/technology/elzian-agro-shines-bright-at-slasscom-national-ingenuity-awards-2023/"
+    "link": "https://cbr.lk/technology/elzian-agro-shines-bright-at-slasscom-national-ingenuity-awards-2023/",
+    "download_link": "../images/news_and_media/published_news/13.png"
   },
   {
     "id": 12,
-    "News": 6,
     "image": "../images/news_and_media/news_asia_0705.jpg",
     "news_site": "News Asia",
     "date": "5-July-2023",
     "title": "ELZIAN AGRO Honored as Top Selected Finalist in Dubai’s Expo Live Innovation Programme",
     "description": " ELZIAN AGRO, a leading agricultural solutions company, has achieved a remarkable feat by emerging as one of the top finalists in the highly competitive Expo City Dubai ExpoLive Innovation Programme in June 2023.",
-    "link": "https://newsasia.lk/elzian-agro-honored-as-top-selected-finalist-in-dubais-expo-live-innovation-programme/"
+    "link": "https://newsasia.lk/elzian-agro-honored-as-top-selected-finalist-in-dubais-expo-live-innovation-programme/",
+    "download_link": "../images/news_and_media/published_news/12.png"
   },
   {
     "id": 11,
-    "News": 8,
     "image": "../images/news_and_media/ELZIAN-AGRO-Secures-Innovation-Grant-in-Expo-Live-Innovation-Programme.jpg",
     "news_site": "Profit Magazine",
     "date": "4-July-2023",
     "title": "ELZIAN AGRO: A Rising Star in Dubai’s Expo Live Innovation Program ",
     "description": "Recognized as an industry pioneer, ELZIAN AGRO has revolutionized farming practices through cutting-edge technologies and sustainable approaches. Their commitment to environmental stewardship and groundbreaking agricultural methods has earned them global acclaim, solidifying their position as a deserving finalist in the Expo City Dubai Innovation Programme.",
-    "link": "https://profitmagazine.lk/elzian-agro-a-rising-star-in-dubais-expo-live-innovation-program/"
+    "link": "https://profitmagazine.lk/elzian-agro-a-rising-star-in-dubais-expo-live-innovation-program/",
+    "download_link": "../images/news_and_media/published_news/11.png"
   },
   {
     "id": 10,
-    "News": 7,
     "image": "../images/news_and_media/IMAGE-1.webp",
     "news_site": "Biz Report",
     "date": "4-July-2023",
     "title": "ELZIAN AGRO’s Extraordinary Achievement in Expo City Dubai’s Innovation Programme",
     "description": " ELZIAN AGRO, the trailblazing agricultural solutions company, has emerged as one of the top finalists in the fiercely competitive Expo City Dubai ExpoLive Innovation Programme.",
-    "link": "https://english.bizreport.lk/elzian-agros-extraordinary-achievement-in-expo-city-dubais-innovation-programme/"
+    "link": "https://english.bizreport.lk/elzian-agros-extraordinary-achievement-in-expo-city-dubais-innovation-programme/",
+    "download_link": "../images/news_and_media/published_news/10.png"
   },
   {
     "id": 9,
-    "News": 5,
     "image": "../images/news_and_media/ELZIAN-AGRO-02.jpg",
     "news_site": "Daily News",
     "date": "4-July-2023",
     "title": "ELZIAN AGRO honored at SLASSCOM National Ingenuity Awards 2023",
     "description": "Sri Lanka's tech industry was abuzz with excitement and anticipation as the prestigious SLASSCOM National Ingenuity Awards 2023 unfolded, celebrating remarkable achievements and groundbreaking innovations.",
-    "link": "https://epaper.dailynews.lk/Home/ShareArticle?OrgId=47b465f491&imageview=0&standalone=1"
+    "link": "https://epaper.dailynews.lk/Home/ShareArticle?OrgId=47b465f491&imageview=0&standalone=1",
+    "download_link": "../images/news_and_media/published_news/9.png"
   },
   {
     "id": 8,
-    "News": 4,
     "image": "../images/news_and_media/lanka_b_news.jpg",
     "news_site": "Lanka Business News",
     "date": "30-June-2023",
     "title": "ELZIAN AGRO is championing Innovation and Impact in Precision Agriculture Technology ",
     "description": "ELZIAN AGRO, a trailblazer in the field of agricultural technology, emerged as a shining star at the prestigious SLASSCOM National Ingenuity Awards 2023. The event, which celebrated groundbreaking innovation and exceptional achievements in the tech industry, bore witness to ELZIAN AGRO's remarkable success and garnered them well-deserved accolades across various categories.",
-    "link": "https://www.lankabusinessnews.com/elzian-agro-is-championing-innovation-and-impact-in-precision-agriculture-technology/"
+    "link": "https://www.lankabusinessnews.com/elzian-agro-is-championing-innovation-and-impact-in-precision-agriculture-technology/",
+    "download_link": "../images/news_and_media/published_news/8.png"
   },
   {
     "id": 7,
-    "News": 3,
     "image": "../images/news_and_media/1688101813355.jpg",
     "news_site": "SLASSCOM",
     "date": "30-June-2023",
     "title": "SLASSCOM National Ingenuity Awards",
     "description": "We are thrilled to announce the National Winners of the prestigious SLASSCOM National Ingenuity Awards!These brilliant minds have redefined innovation and set new benchmarks in the tech industry. Join us in celebrating their remarkable achievements!",
-    "link": "https://www.linkedin.com/posts/slasscom_slasscomingenuityawards-snia-winners-activity-7080412198577049600-F0ct?utm_source=share&utm_medium=member_android"
+    "link": "https://www.linkedin.com/posts/slasscom_slasscomingenuityawards-snia-winners-activity-7080412198577049600-F0ct?utm_source=share&utm_medium=member_android",
+    "download_link": "../images/news_and_media/published_news/7.png"
   },
   {
     "id": 6,
-    "News": 2,
     "image": "../images/news_and_media/IMAGE-1-129-e1688021444162.jpg",
     "news_site": "Ada Derana Business News",
     "date": "29-June-2023",
     "title": "ELZIAN AGRO Achieves Remarkable Success at SLASSCOM National Ingenuity Awards 2023 ",
     "description": "ELZIAN AGRO, a true visionary in the agricultural technology sector, has reached unprecedented heights with their exceptional performance at the highly esteemed SLASSCOM National Ingenuity Awards 2023. The company's relentless pursuit of innovation and commitment to sustainability has garnered them resounding praise and numerous accolades across multiple categories, solidifying their position as leaders in the industry.",
-    "link": "http://bizenglish.adaderana.lk/elzian-agro-achieves-remarkable-success-at-slasscom-national-ingenuity-awards-2023/"
+    "link": "http://bizenglish.adaderana.lk/elzian-agro-achieves-remarkable-success-at-slasscom-national-ingenuity-awards-2023/",
+    "download_link": "../images/news_and_media/published_news/6.png"
   },
   {
     "id": 5,
-    "News": 1,
     "image": "../images/news_and_media/An-Exemplar-of-Innovation-and-Sustainable-Agriculture.jpg",
     "news_site": "Business Café",
     "date": "29-June-2023",
     "title": "ELZIAN AGRO Secures Innovation Grant in Expo Live Innovation Programme",
     "description": " ELZIAN AGRO, a leading agricultural solutions company, has made waves in the industry by emerging as one of the top finalists in the fiercely competitive Expo City Dubai ExpoLive Innovation Programme in June 2023.",
-    "link": "https://businesscafe.lk/business-news/food-beverage/item/12854-elzian-agro-secures-innovation-grant-in-expo-live-innovation-programme"
+    "link": "https://businesscafe.lk/business-news/food-beverage/item/12854-elzian-agro-secures-innovation-grant-in-expo-live-innovation-programme",
+    "download_link": "../images/news_and_media/published_news/5.png"
   },
   {
     "id": 4,
-    "News": 22,
     "image": "../images/news_and_media/global-south-development-expo.jpg",
     "news_site": "Elzian Agro",
     "date": "12-August-2022",
     "title": "ELZIAN AGRO AT THE GLOBAL SOUTH-SOUTH DEVELOPMENT EXPO",
     "description": "ELZIAN AGRO made the awareness of our ongoing bio-socio-economic experiments that can quantify human contributions of Oxygen and clean water cycling to the atmosphere (Primary ecosystem services) with one of our affiliate organizations and the importance of climate-smart data-driven precision agriculture.",
-    "link": "https://www.linkedin.com/posts/elzianagro_development-agriculture-elzianabragro-activity-6977111764077359104-omUa?utm_source=share&utm_medium=member_desktop"
+    "link": "https://www.linkedin.com/posts/elzianagro_development-agriculture-elzianabragro-activity-6977111764077359104-omUa?utm_source=share&utm_medium=member_desktop",
+    "download_link": "../images/news_and_media/published_news/4.png"
   },
   {
     "id": 3,
-    "News": 19,
     "image": "../images/news_and_media/pest-prediction-system-uok.png",
     "news_site": "University of Kelaniya",
     "date": "15-July-2022",
     "title": "University of Kelaniya played a leading role in the success of Elzian Agro",
     "description": "ELZIAN AGRO Pest Prediction System won the Merit Award of SLASSCOM National Ingenuity Awards 2022 under Best Innovative Product. COO of ELZIAN AGRO Pankajan Satkunam received the award on behalf of the team on the 1st of July, 2022 at Shangri-La Colombo.",
-    "link": "https://news.kln.ac.lk/index.php/updates/news/1351-university-of-kelaniya-played-a-leading-role-in-the-success-of-elzian-agro-pvt-ltd"
+    "link": "https://news.kln.ac.lk/index.php/updates/news/1351-university-of-kelaniya-played-a-leading-role-in-the-success-of-elzian-agro-pvt-ltd",
+    "download_link": "../images/news_and_media/published_news/3.png"
   },
   {
     "id": 2,
-    "News": 17,
     "image": "../images/news_and_media/pest-prediction-system-merit-award.jpg",
     "news_site": "Elzian Agro",
     "date": "02-July-2022",
     "title": "Merit Award of SLASSCOM National Ingenuity Awards 2022 under Best Innovative Product",
     "description": "ELZIAN AGRO Pest Prediction System won the Merit Award of SLASSCOM National Ingenuity Awards 2022 under Best Innovative Product. COO of ELZIAN AGRO Pankajan Satkunam received the award on behalf of the team on the 1st of July, 2022 at Shangri-La Colombo.",
-    "link": "https://www.linkedin.com/posts/elzianagro_slasscom-national-ingenuity-awards-2022-activity-6950716253351088128-_jZw?utm_source=share&utm_medium=member_desktop"
+    "link": "https://www.linkedin.com/posts/elzianagro_slasscom-national-ingenuity-awards-2022-activity-6950716253351088128-_jZw?utm_source=share&utm_medium=member_desktop",
+    "download_link": "../images/news_and_media/published_news/2.png"
   },
   {
     "id": 1,
-    "News": 16,
     "image": "../images/news_and_media/smart-agronomy.png",
     "news_site": "Your commonwealth",
     "date": "16-May-2022",
     "title": "Putting an end to world hunger through smart agronomy solutions",
     "description": "Elzian Agro provides smart agronomy solutions through advanced automation systems for farmers who face extreme weather changes, pests, and diseases and have limited resources such as water, fertiliser, and labour.",
-    "link": "https://yourcommonwealth.org/economic-development/putting-an-end-to-world-hunger-through-smart-agronomy-solutions/"
+    "link": "https://yourcommonwealth.org/economic-development/putting-an-end-to-world-hunger-through-smart-agronomy-solutions/",
+    "download_link": "../images/news_and_media/published_news/1.png"
   },
   {
     "id": 0,
-    "News": 21,
     "image": "../images/news_and_media/GU.JPG",
     "news_site": "United Nations Development Programme",
     "date": "01-October-2021",
     "title": "Elzian Agro - Generation Unlimited Youth Challenge",
     "description": "At GenU, ELZIAN AGRO on a mission to provide climate-smart, data-driven precision agriculture solutions for support farmers to increase crop yield.",
-    "link": "https://www.hackadev.lk/hackadev-incubated-companies/elzian-agro/"
+    "link": "https://www.hackadev.lk/hackadev-incubated-companies/elzian-agro/",
+    "download_link": "../images/news_and_media/published_news/0.png"
   }
 ]
