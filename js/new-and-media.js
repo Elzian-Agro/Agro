@@ -92,11 +92,21 @@ function fetchAndRenderNews(sectionId, itemsToFetch) {
                       </div>
                       ${
                         item.link
-                          ? `<div class="news-buttons d-flex justify-content-around">
-                            <div class="news-btn">
-                                <a href="${item.link}" target="_blank">Read More <i class="fa fa-arrow-right"></i></a>
-                            </div>
-                          </div>`
+                          ? `
+                        <div class="news-buttons d-flex justify-content-center align-items-center gap-3">
+                          <div class="news-btn">
+                           <a href="${item.link}" target="_blank" style="${
+                              item.link === "#" ? "pointer-events: none;" : ""
+                            }">
+                            Read More <i class="fa fa-arrow-right"></i>
+                          </a>
+                          </div>
+                          <div class="news-download-btn">
+                            <a href="${item.download_link}" target="_blank" style="${
+                              !item.download_link ? "pointer-events: none;" : ""
+                            }"><i class="fa fa-download"></i></a>
+                          </div>
+                        </div>`
                           : ""
                       }
                     </div>
@@ -111,6 +121,9 @@ function fetchAndRenderNews(sectionId, itemsToFetch) {
                                 <a href="${link.link}" target="_blank">
                                   ${link.name} <i class="fa fa-arrow-right"></i>
                                 </a>
+                                <div class="news-extra-download-btn">
+                                  <a href="${link.download_link}" target="_blank"><i class="fa fa-download"></i></a>
+                                </div>
                               </div>`;
                               })
                               .join("")
@@ -129,10 +142,10 @@ function fetchAndRenderNews(sectionId, itemsToFetch) {
 }
 
 // Fetch and render news for section 2
-fetchAndRenderNews("blog-item-1", [32, 31, 30, 29, 28, 27, 26, 25]);
+fetchAndRenderNews("blog-item-1", [-1, 31, 30, 29, 28, 27, 26, 25, 24]);
 
 // Fetch and render news for section 2
-fetchAndRenderNews("blog-item-2", [24, 23, 22, 20, 19, 18, 17, 16]);
+fetchAndRenderNews("blog-item-2", [23, 22, 21, 20, 19, 18, 17, 16]);
 
 // Fetch and render news for section 3
 fetchAndRenderNews("blog-item-3", [15, 14, 13, 12, 11, 10, 9, 8]);
