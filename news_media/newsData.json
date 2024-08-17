@@ -71,6 +71,36 @@
     ]
   },
   {
+    "id": 35,
+    "image": "../images/news_and_media/16-August-2024-Business Cafe.jpg",
+    "news_site": "Business Cafe",
+    "date": "17-August-2024",
+    "title": "CEO of Elzian Agro has been selected to participate in the prestigious Moonshot Young Leaders Camp",
+    "description": "During the program, Lilan also met the President Petr Pavel of the Czech Republic, the royal family of the House of Lobkowicz at Prague Castle, Senator Ondřej Šimetka and Martin Kupka, Minister of Transport of Czechia. The Moonshot Young Leaders Camp, held in the historic cities of Prague and Ostrava, offered participants direct mentorship from global leaders and hands-on leadership workshops.",
+    "link": "https://www.businesscafe.lk/business-news/food-beverage/item/16085-lilan-dayananda-selected-for-moonshot-young-leaders-camp-in-czechia",
+    "download_link": "../images/news_and_media/published_news/35.png"
+  },
+  {
+    "id": 34,
+    "image": "../images/news_and_media/16-August-2024-LankaTalks.jpg",
+    "news_site": "LankaTalks",
+    "date": "16-August-2024",
+    "title": "Elzian Agro Explores Future in Space Agriculture at COPUOS Session",
+    "description": "The United Nations Committee on the Peaceful Uses of Outer Space (COPUOS) is dedicated to promoting international cooperation in the peaceful use of outer space and addressing legal issues related to space exploration. The UN's interest in space began in 1957 with the launch of the first Sputnik, highlighting the need for space to be used for peaceful purposes and its benefits to be shared globally. Established in 1958, the United Nations Office for Outer Space Affairs (UNOOSA) serves as the secretariat for COPUOS and its subcommittees.",
+    "link": "https://lankatalks.com/post/elzian-agro-explores-future-in-space-agriculture-at-copuos-session",
+    "download_link": "../images/news_and_media/published_news/34.png"
+  },
+  {
+    "id": 33,
+    "image": "../images/news_and_media/16-August-2024-Ada-Derana.jpg",
+    "news_site": "ADA derana ",
+    "date": "16-August-2024",
+    "title": "ELZIAN AGRO Triumphs at SLASSCOM National Ingenuity Awards 2024",
+    "description": "ELZIAN AGRO, a leading force in the agricultural technology sector, has achieved remarkable success at the prestigious SLASSCOM National Ingenuity Awards 2024. The company's unwavering dedication to innovation and sustainability has earned them high praise and multiple accolades, cementing their status as industry leaders. In a landmark achievement, ELZIAN AGRO was named the National Winner in the fiercely contested Best Innovative Project in Agritech category.",
+    "link": "http://bizenglish.adaderana.lk/elzian-agro-triumphs-at-slasscom-national-ingenuity-awards-2024/",
+    "download_link": "../images/news_and_media/published_news/33.png"
+  },
+  {
     "id": 32,
     "image": "../images/news_and_media/12-August-2024-Elzian-Agro.jpg",
     "news_site": "Lanka Business News",
