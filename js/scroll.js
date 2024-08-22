@@ -11,3 +11,4 @@ document.getElementById("button1").addEventListener("click", scrollToTop);
 document.getElementById("button2").addEventListener("click", scrollToTop);
 document.getElementById("button3").addEventListener("click", scrollToTop);
 document.getElementById("button4").addEventListener("click", scrollToTop);
+document.getElementById("button5").addEventListener("click", scrollToTop);
