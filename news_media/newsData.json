@@ -71,34 +71,84 @@
     ]
   },
   {
-    "id": 37,
+    "id": 42,
+    "image": "../images/news_and_media/23-August-2024-News Asia.jpg",
+    "news_site": "News Asia",
+    "date": "23-August-2024",
+    "title": "Elzian Agro Explores Future in Space Agriculture at COPUOS Session",
+    "description": "Lilan Dayananda, Managing Director and Chief Executive Officer of Elzian Agro, outlined the company’s ambitious vision to enter the Space Agriculture Sector during the 67th Session of the Committee on the Peaceful Uses of Outer Space (COPUOS) in Vienna, Austria. The session, held in 2024, continues to address space-related legal issues, promote sustainable space exploration, and enhance global collaboration in space science and technology. COPUOS plays a crucial role in developing international space law and fostering dialogue among nations on space governance.",
+    "link": "https://newsasia.lk/elzian-agro-explores-future-in-space-agriculture-at-copuos-session/",
+    "download_link": "../images/news_and_media/published_news/23-August-2024-News Asia.png"
+  },
+  {
+    "id": 41,
+    "image": "../images/news_and_media/21-August-2024-Biz Report.jpg",
+    "news_site": "Biz Report",
+    "date": "21-August-2024",
+    "title": "Elzian Agro to Expand Operations to EU Through Malta",
+    "description": "Lilan Dayananda, Managing Director and Chief Executive Officer of Elzian Agro, has unveiled the company’s ambitious plan to expand its operations into the European Union via Malta. In a productive meeting with Startup in EU partners and Koperattivi Malta, discussions centered on the economic potential of cooperatives in facilitating a sustainable transition to regenerative and precision agriculture for enhanced food security.",
+    "link": "https://english.bizreport.lk/elzian-agro-to-expand-operations-to-eu-through-malta/",
+    "download_link": "../images/news_and_media/published_news/21-August-2024-Biz Report.png"
+  },
+  {
+    "id": 40,
+    "image": "../images/news_and_media/21-August-2024-Ye! Community, ITC.jpg",
+    "news_site": "Ye! Community, ITC",
+    "date": "21-August-2024",
+    "title": "Elzian Agro is among the Top Visionary Green Startups",
+    "description": "We’re thrilled to introduce the 25 innovative businesses selected for the YECO Accelerator! From an inspiring group of 125 Bootcamp participants, these startups have stood out for their commitment to green entrepreneurship and sustainable innovation. These forward-thinking entrepreneurs are not just reshaping industries they’re leading the charge toward a more sustainable future.",
+    "link": "https://www.linkedin.com/posts/ye-community_youthecopreneurs-generationrestoration-landislife-activity-7231964722659500032-_Kb2?utm_source=share&utm_medium=member_desktop",
+    "download_link": "../images/news_and_media/published_news/21-August-2024-Ye! Community, ITC.png"
+  },
+  {
+    "id": 39,
     "image": "../images/news_and_media/17-August-2024-Eye-View.jpg",
     "news_site": "Eye View",
     "date": "17-August-2024",
     "title": "Elzian Agro’s CEO Lilan Dayananda Joins for Climate Reality Leadership Training in Rome",
     "description": "Lilan Dayananda, Managing Director and Chief Executive Officer of Elzian Agro, recently participated in the Climate Reality Leadership Training held at the Rome Convention Center La Nuvola in Italy. The event, which included former U.S. Vice President Al Gore, brought together climate leaders for three days of intensive learning, sharing, and strategizing.",
     "link": "https://eyeviewsl.com/elzian-agros-ceo-lilan-dayananda-joins-for-climate-reality-leadership-training-in-rome/",
-    "download_link": "../images/news_and_media/published_news/37.png"
+    "download_link": "../images/news_and_media/published_news/17-August-2024-Eye-View.png"
   },
   {
-    "id": 36,
+    "id": 38,
     "image": "../images/news_and_media/17-August-2024-Profit-Magazine.jpg",
     "news_site": "Profit Magazine",
     "date": "17-August-2024",
     "title": "Elzian Agro Explores Agricultural Innovation at National Museum of Agriculture in Ostrava",
     "description": "ELZIAN AGRO’s software solutions have streamlined agricultural processes and made significant contributions to fostering sustainable practices within communities. By continually challenging the limits of innovation, the company has set new benchmarks in the industry, paving the way for a future where technology and agriculture are seamlessly integrated. During the visit, Lilan elaborated on the innovations of Elzian Agro and how it supports farmers to increase crop yield; and be cost and energy efficient.",
     "link": "https://profitmagazine.lk/lilan-dayananda-explores-agricultural-innovation-at-national-museum-of-agriculture-in-ostrava/",
-    "download_link": "../images/news_and_media/published_news/36.png"
+    "download_link": "../images/news_and_media/published_news/17-August-2024-Profit-Magazine.png"
   },
   {
-    "id": 35,
+    "id": 37,
     "image": "../images/news_and_media/16-August-2024-Business Cafe.jpg",
     "news_site": "Business Cafe",
     "date": "17-August-2024",
     "title": "CEO of Elzian Agro has been selected to participate in the prestigious Moonshot Young Leaders Camp",
     "description": "During the program, Lilan also met the President Petr Pavel of the Czech Republic, the royal family of the House of Lobkowicz at Prague Castle, Senator Ondřej Šimetka and Martin Kupka, Minister of Transport of Czechia. The Moonshot Young Leaders Camp, held in the historic cities of Prague and Ostrava, offered participants direct mentorship from global leaders and hands-on leadership workshops.",
     "link": "https://www.businesscafe.lk/business-news/food-beverage/item/16085-lilan-dayananda-selected-for-moonshot-young-leaders-camp-in-czechia",
-    "download_link": "../images/news_and_media/published_news/35.png"
+    "download_link": "../images/news_and_media/published_news/16-August-2024-Business Cafe.png"
+  },
+  {
+    "id": 36,
+    "image": "../images/news_and_media/16-August-2024-Lanka News Network.jpg",
+    "news_site": "Lanka News Network",
+    "date": "16-August-2024",
+    "title": "Managing Director and CEO of Elzian Agro Named Social Entrepreneur of the Year at New Generation Asia Awards",
+    "description": "Lilan Dayananda, the dynamic Managing Director and CEO of Elzian Agro, was honored as the Social Entrepreneur of the Year at the Fifth New Generation Asia Awards held at the Shangri-La Hotel in Colombo. This event celebrated over 40 young leaders for their exceptional achievements across various sectors, including leadership, entrepreneurship, technology, media, and more.",
+    "link": "https://english.lankanewsnetwork.com/?p=1230",
+    "download_link": "../images/news_and_media/published_news/16-August-2024-Lanka News Network.png"
+  },
+  {
+    "id": 35,
+    "image": "../images/news_and_media/16-August-2024-Ceylon Tribune.jpg",
+    "news_site": "Ceylon Tribune",
+    "date": "16-August-2024",
+    "title": "Elzian Agro Named Finalist in Falling Walls Science Startups Category",
+    "description": "Elzian Agro has been recognized as a finalist in the Science Startups category by the prestigious Falling Walls Foundation. The Falling Walls Science Summit, an esteemed international forum for scientific breakthroughs, celebrates the fall of the Berlin Wall and fosters dialogue between science and society.",
+    "link": "https://ceylontribune.com/?p=1134",
+    "download_link": "../images/news_and_media/published_news/16-August-2024-Ceylon Tribune.png"
   },
   {
     "id": 34,
