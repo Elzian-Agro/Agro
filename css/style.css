@@ -433,6 +433,11 @@ strong {
   color: #ffffff;
 }
 
+.fa-fish {
+  color: #ffffff;
+}
+
+
 #about .about-thumb p {
   margin-left: 50px;
   text-align: justify;
@@ -3486,6 +3491,11 @@ footer a:hover {
 
 .agro-mate-bg-image {
   padding: 40px;
+}
+
+.agro-aqua-bg-image {
+  padding: 40px;
+  width: 100%;
 }
 
 .social-footer {
