@@ -522,6 +522,7 @@ strong {
   justify-content: end;
   align-items: center;
   flex-flow: column wrap;
+  padding-bottom: 20px;
 }
 
 #video-container .video-content .inner h1 {
