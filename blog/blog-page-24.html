@@ -88,7 +88,9 @@
 
     <!-- Load the script for managing translation mapping -->
     <script defer src="../js/translation-map.js"></script>
-    
+
+    <!-- Load the script for read aloud functionality -->
+    <script src="../js/read-aloud.js"></script>
     
 
   </head>
@@ -181,40 +183,46 @@
 
                 <br />
                 <br />
-                <div class="blog-contents">
-                  <p>The agriculture industry, which is a foundational component of world economies, is going through a considerable shift because of technological breakthroughs and changing human resource (HR) management techniques. Agriculture is being revolutionized by the symbiotic relationship between technology and HR, which is boosting productivity, sustainability, and overall efficiency.</p>
 
-                  <p>This article explores the potential of revolutionizing agricultural practices through the synergistic application of technology and HRM principles.</p>
+                <div class="listenButtons">
+                  <button id="toggleButton" onclick="toggleReadAloud()">🔊 Listen</button>
+                  <button id="stopButton" onclick="stopAloud()">⏹ Stop</button>
+                </div>
+
+                <div class="blog-contents">
+                  <p class="readable-text">The agriculture industry, which is a foundational component of world economies, is going through a considerable shift because of technological breakthroughs and changing human resource (HR) management techniques. Agriculture is being revolutionized by the symbiotic relationship between technology and HR, which is boosting productivity, sustainability, and overall efficiency.</p>
+
+                  <p class="readable-text">This article explores the potential of revolutionizing agricultural practices through the synergistic application of technology and HRM principles.</p>
 
                   <ol>
                     <li>
-                      <strong>Digital Farming and Precision Agriculture:</strong>
-                      <p>Precision agriculture merges cutting-edge technologies such as GPS, sensors, and data analytics to optimize farming methods. For example, GPS-guided tractors enable precise planting, minimizing overlaps and gaps, while soil sensors provide real-time data on moisture levels, aiding in targeted irrigation. These technologies collectively enhance resource efficiency and crop yields. Human Resource Management (HRM) plays a pivotal role in equipping farmers with the skills to utilize these technologies effectively. Through tailored training programs, farmers can learn to operate GPS systems and interpret sensor data. This integration empowers them to make informed decisions, ultimately contributing to sustainable agricultural practices and increased profitability.</p>
+                      <strong class="readable-text">Digital Farming and Precision Agriculture:</strong>
+                      <p class="readable-text">Precision agriculture merges cutting-edge technologies such as GPS, sensors, and data analytics to optimize farming methods. For example, GPS-guided tractors enable precise planting, minimizing overlaps and gaps, while soil sensors provide real-time data on moisture levels, aiding in targeted irrigation. These technologies collectively enhance resource efficiency and crop yields. Human Resource Management (HRM) plays a pivotal role in equipping farmers with the skills to utilize these technologies effectively. Through tailored training programs, farmers can learn to operate GPS systems and interpret sensor data. This integration empowers them to make informed decisions, ultimately contributing to sustainable agricultural practices and increased profitability.</p>
                     </li>
 
                     <li>
-                      <strong>Remote Monitoring and Farm Management:</strong>
-                      <p>Technology revolutionizes agriculture by enabling remote monitoring of crop health, soil conditions, and weather patterns. For instance, temperature and humidity sensors in a greenhouse can be remotely accessed to ensure optimal growing conditions. HRM ensures that individuals proficient in data analysis are available to interpret the collected information. This expertise allows for timely adjustments in irrigation, pest control, or other critical factors, safeguarding crop health and overall yield.</p>
+                      <strong class="readable-text">Remote Monitoring and Farm Management:</strong>
+                      <p class="readable-text">Technology revolutionizes agriculture by enabling remote monitoring of crop health, soil conditions, and weather patterns. For instance, temperature and humidity sensors in a greenhouse can be remotely accessed to ensure optimal growing conditions. HRM ensures that individuals proficient in data analysis are available to interpret the collected information. This expertise allows for timely adjustments in irrigation, pest control, or other critical factors, safeguarding crop health and overall yield.</p>
                     </li>
 
                     <li>
-                      <strong>Labor Management and Training:</strong>
-                      <p>HRM practices are pivotal in addressing labor challenges within agriculture. The integration of technology, such as robotic harvesters, can significantly optimize labor allocation. HRM can provide training to workers on the operation and maintenance of these devices. By streamlining tasks, technology-enhanced labor management increases efficiency and reduces physical strain on agricultural workers, leading to improved job satisfaction and performance.</p>
+                      <strong class="readable-text">Labor Management and Training:</strong>
+                      <p class="readable-text">HRM practices are pivotal in addressing labor challenges within agriculture. The integration of technology, such as robotic harvesters, can significantly optimize labor allocation. HRM can provide training to workers on the operation and maintenance of these devices. By streamlining tasks, technology-enhanced labor management increases efficiency and reduces physical strain on agricultural workers, leading to improved job satisfaction and performance.</p>
                     </li>
 
                     <li>
-                      <strong>Skill Development and Upskilling:</strong>
-                      <p>The integration of technology in agriculture demands continuous skill development. HRM can organize training programs and workshops to upskill the agricultural workforce. For example, workshops on utilizing automated data collection tools can empower farmers to gather and interpret critical information efficiently. This skill development enhances their ability to make informed decisions, adopt best practices, and adapt to evolving agricultural technologies.</p>
+                      <strong class="readable-text">Skill Development and Upskilling:</strong>
+                      <p class="readable-text">The integration of technology in agriculture demands continuous skill development. HRM can organize training programs and workshops to upskill the agricultural workforce. For example, workshops on utilizing automated data collection tools can empower farmers to gather and interpret critical information efficiently. This skill development enhances their ability to make informed decisions, adopt best practices, and adapt to evolving agricultural technologies.</p>
                     </li>
 
                     <li>
-                      <strong>Data-Driven Decision Making:</strong>
-                      <p>Both technology and HRM contribute to informed decision-making in agriculture. Data collected through various agricultural technologies, like yield monitors and soil quality assessments, can be analyzed by skilled HR professionals. This data analysis enables farmers to make strategic choices, such as adjusting planting techniques or choosing optimal crop varieties based on performance data. The collaboration between technology and HRM enhances the accuracy of decision-making, resulting in improved resource utilization, increased productivity, and overall farm profitability.</p>
+                      <strong class="readable-text">Data-Driven Decision Making:</strong>
+                      <p class="readable-text">Both technology and HRM contribute to informed decision-making in agriculture. Data collected through various agricultural technologies, like yield monitors and soil quality assessments, can be analyzed by skilled HR professionals. This data analysis enables farmers to make strategic choices, such as adjusting planting techniques or choosing optimal crop varieties based on performance data. The collaboration between technology and HRM enhances the accuracy of decision-making, resulting in improved resource utilization, increased productivity, and overall farm profitability.</p>
                     </li>
                   </ol>  
 
-                  <p><strong>Conclusion:</strong></p>
-                  <p>Technology and human resource management (HRM) are converging in the agricultural sector to create a new era of progress. Precision farming, remote monitoring, and upskilling initiatives are empowering farmers to navigate challenges with data-driven insights, enhancing both productivity and sustainability. As technology evolves, HRM will serve as the guiding force, nurturing expertise and ensuring seamless adaptation. This marriage of innovation and human capability is not only revolutionizing agricultural practices, but also shaping a future where efficiency, informed decisions, and thriving farms harmonize for global prosperity.</p>
+                  <p><strong class="readable-text">Conclusion:</strong></p>
+                  <p class="readable-text">Technology and human resource management (HRM) are converging in the agricultural sector to create a new era of progress. Precision farming, remote monitoring, and upskilling initiatives are empowering farmers to navigate challenges with data-driven insights, enhancing both productivity and sustainability. As technology evolves, HRM will serve as the guiding force, nurturing expertise and ensuring seamless adaptation. This marriage of innovation and human capability is not only revolutionizing agricultural practices, but also shaping a future where efficiency, informed decisions, and thriving farms harmonize for global prosperity.</p>
 
                 <br />
               </div>

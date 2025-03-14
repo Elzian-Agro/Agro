@@ -437,7 +437,6 @@ strong {
   color: #ffffff;
 }
 
-
 #about .about-thumb p {
   margin-left: 50px;
   text-align: justify;
@@ -1484,6 +1483,23 @@ canvas {
 
 #blog .share i {
   color: #333;
+}
+
+#blog .listenButtons {
+  margin-bottom: 5px;
+}
+
+#blog .listenButtons #toggleButton,
+.listenButtons #stopButton {
+  background-color: #009207;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 3px 10px 3px 10px;
+}
+
+#blog #stopButton {
+  display: none;
 }
 
 #blog .twitter-btn:hover {
