@@ -89,6 +89,8 @@
     <!-- Load the script for managing translation mapping -->
     <script defer src="../js/translation-map.js"></script>
     
+    <!-- Load the script for read aloud functionality -->
+    <script src="../js/read-aloud.js"></script>
 
   </head>
   <body>
@@ -177,8 +179,14 @@
 
                 <br />
                 <br />
+
+                <div class="listenButtons">
+                  <button id="toggleButton" onclick="toggleReadAloud()">🔊 Listen</button>
+                  <button id="stopButton" onclick="stopAloud()">⏹ Stop</button>
+                </div>
+
                 <div class="blog-contents">
-                  <p>
+                  <p class="readable-text">
                     In today's competitive job market, retaining top talent has
                     become a pressing challenge for companies across various
                     industries. Talented employees are the backbone of any
@@ -195,7 +203,7 @@
                   </p>
 
                   <ul>
-                    <li>
+                    <li class="readable-text">
                       Fierce Competition - In a job market with numerous
                       opportunities, skilled professionals are constantly being
                       approached by rival companies offering enticing packages
@@ -203,14 +211,14 @@
                       retain their key talent.
                     </li>
                     <br />
-                    <li>
+                    <li class="readable-text">
                       Changing Employee Expectations - Modern employees seek
                       more than just a paycheck. They value a supportive and
                       inclusive work environment, opportunities for growth and
                       development, and a healthy work-life balance.
                     </li>
                     <br />
-                    <li>
+                    <li class="readable-text">
                       Skills Shortage - Certain industries face a shortage of
                       skilled workers, leading to a fierce battle among
                       companies to attract and retain the limited pool of
@@ -218,10 +226,10 @@
                     </li>
                   </ul>
 
-                  <p>So what are these effective Retention Strategies</p>
+                  <p class="readable-text">So what are these effective Retention Strategies</p>
 
                   <ul>
-                    <li>
+                    <li class="readable-text">
                       Creating a Positive Work Culture - A positive work culture
                       is the foundation for employee engagement and
                       satisfaction. Companies must prioritize open
@@ -234,7 +242,7 @@
                       company.
                     </li>
                     <br />
-                    <li>
+                    <li class="readable-text">
                       Promoting Work-Life Balance - Work-life balance is a
                       crucial aspect of employee retention. Companies should
                       offer flexible work arrangements, remote work options, and
@@ -245,7 +253,7 @@
                       mental well-being of their workforce.
                     </li>
                     <br />
-                    <li>
+                    <li class="readable-text">
                       Providing Opportunities for Advancement - Employees are
                       more likely to stay with a company that invests in their
                       professional growth. Employers should offer training
@@ -256,7 +264,7 @@
                       the company.
                     </li>
                     <br />
-                    <li>
+                    <li class="readable-text">
                       Recognizing Employee Achievements - Recognizing and
                       appreciating employee achievements is vital for boosting
                       morale and reinforcing a culture of excellence. Companies
@@ -271,7 +279,7 @@
                   </ul>
                   <br />
 
-                  <p>
+                  <p class="readable-text">
                     In conclusion companies must understand that its most
                     valuable asset is its talented workforce. To thrive in a
                     competitive job market, the company adopts effective

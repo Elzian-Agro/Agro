@@ -119,6 +119,9 @@
 
     <!-- Load the script for managing translation mapping -->
     <script defer src="../js/translation-map.js"></script>
+
+    <!-- Load the script for read aloud functionality -->
+    <script src="../js/read-aloud.js"></script>
 </head>
 <body>
     <!-- Blur  Area start-->
@@ -174,48 +177,54 @@
                    
 
                     <br>
+
+                    <div class="listenButtons">
+                        <button id="toggleButton" onclick="toggleReadAloud()">🔊 Listen</button>
+                        <button id="stopButton" onclick="stopAloud()">⏹ Stop</button>
+                    </div>
+
                     <div class="blog-contents">
-                        <p>
+                        <p class="readable-text">
                             Agriculture is the Number one user of total anthropogenic use of renewable water resources on the planet, which means that 70 - 85% of all freshwater consumption is used for food production globally. The farmers are mostly dependent on the monsoon rain-fed and it is
                             highly sensitive to climate change.
                         </p>
-                        <p>
+                        <p class="readable-text">
                             Being the water a critical factor for photosynthesis, translocation, utilization of mineral nutrients, respiration, absorption and cell division of plants, the soil should be kept under the field capacity as much as possible. Therefore, irrigation is playing a vital role in crop
                             production, which can be proven by comparing the yield of irrigated and non-irrigated lands. The researchers say that an Irrigated land can have up to five times higher crop yields than that of the rain-fed fields. It is most likely that climate change will make the situation worse.
                             Therefore, adapting to an effective and sustainable irrigation systems are necessary to alleviate the problems arising due to the variability of climate and weather risks because the water sector is more vulnerable to climate change than other sectors.
                         </p>
-                        <p>
+                        <p class="readable-text">
                             Devastating droughts and floods are hitting smallholders more frequently, as it is significantly impact on the reduction of crop productivity, the accelerated water or severe water scarcity should be controlled via innovative methods of irrigation systems and
                             sustainable practice of water resources with appropriate reviews of weather patterns for each region of the world. 
                         </p>
                     </div>    
 
                     <br><br>
-                    <h3 class="sub-heading fw-bolder">
+                    <h3 class="readable-text" class="sub-heading fw-bolder">
                         Selection of the suitable irrigation system will guarantee better returns 
                     </h3>
                     <br>
                     <div class="blog-contents">
-                        <p>
+                        <p class="readable-text">
                             The selection and designing of appropriate irrigation methods which suit the type of soil, crop, water availability, water quality, topography and the climatic factors will ensure a fixed
                             set of resources get maximum returns. If the system is well designed and properly managed with the predictions and use of available data that will safeguard the highest efficiency and
                             water distribution levels with maximum yield plus highest quality.
                         </p>
-                        <p>
+                        <p class="readable-text">
                             At the evaluation process of deciding on an irrigation system, the surface irrigation and pressurized irrigation systems available for the comparison. The Surface irrigation systems (such as furrow irrigation, border irrigation and basin irrigation etc.) use the gravity of the
                             field to make the flow on soil surface and to conduct and infiltrate the applied water. These systems rely on enormous variabilities such as soil water holding capacity, soil infiltration, soil surface roughness and field slope. The suitability will be higher for low infiltrated and
                             slightly sloppy lands where the water quality is high without salinity. At the same time, the water volume, the depth to be applied, frequency and timing of irrigations are determined according to the data availability and predictions that come with analysis of data.
                         </p>
-                        <p>
+                        <p class="readable-text">
                             Alternatively, the Pressurized irrigation systems (such as Drip Irrigation, Sprinkler Irrigation, Centre   Pivot   Irrigation   etc.)   are   highly   productive   and   greater   in   automation   at   their
                             operation, greater in fertigation, incorporation of pesticides and disease controlling and in precision in the application. 
                         </p>
-                        <p>
+                        <p class="readable-text">
                             Although the initial cost of pressurized irrigation systems is generally high, they will be the solution for many issues such as minimizing the evapotranspiration, Solution for the high infiltrating and low water retaining soil types and a solution for the water scarcities and
                             droughts, minimizing the labour costs. In addition, the pressurized irrigation systems can go with the automated systems of irrigations that use the precision data to implement the irrigation intervals, minimize the usage of excess water usage and accurate application of
                             water to the actual soil moisture condition rather than predict the amount to be applied and time and depth to be applied. This ensures the reduction of the wastage of water resources as well as adapting to the rapid changes of climatic changes.
                         </p>
-                        <p>
+                        <p class="readable-text">
                             As most of the world depends on rainfall for irrigation, any variations to rainfall patterns and further climatic parameters will distress both supply and demand for irrigation water and will have a direct influence on its irrigation system. 
                             When acclimating for temperature changes and other climatic changes which have adverse effect on agriculture and, for securing the augmented food demand for the increased population growth, optimal design and selection of proper irrigation systems which permit
                             high efficiencies with new technologies will ensure a sustainable agricultural process with optimal crop production.

@@ -119,6 +119,9 @@
     <!-- Load the script for managing translation mapping -->
     <script defer src="../js/translation-map.js"></script>
 
+    <!-- Load the script for read aloud functionality -->
+    <script src="../js/read-aloud.js"></script>
+
 </head>
 <body>
     <!-- Blur  Area start-->
@@ -174,15 +177,20 @@
 
                     <br>
                     <br>
+
+                    <div class="listenButtons">
+                        <button id="toggleButton" onclick="toggleReadAloud()">🔊 Listen</button>
+                        <button id="stopButton" onclick="stopAloud()">⏹ Stop</button>
+                    </div>
                     <div class="blog-contents">
-                        <p>
+                        <p class="readable-text">
                             As you all know, agriculture is the existence of all the people of the world. It 
                             has become a crucial part of human life because the survival of every human
                             being depends on one of its basic needs; food. Agriculture must grow to 
                             meet the growing population and their demands.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             The new technology can be used to facilitate the agricultural industry to 
                             meet the needs of growing population. Utilizing IoT (Internet of Things) smart
                             farming can increase the efficiency of the agricultural industry, reduce cost, 
@@ -191,12 +199,12 @@
                         </p>
 
                         <br>
-                        <h3 class="sub-heading fw-bolder">
+                        <h3 class="readable-text" class="sub-heading fw-bolder">
                             How Drones help farmers 
                         </h3>
                         <br>
                         
-                        <p>
+                        <p class="readable-text">
                             There are many benefits of using drones for agriculture and it is useful in 
                             finding adequate solutions for many of the farmer’s problems. That is from 
                             an increase in yield to a reduction in labour. Although the use of drones for 
@@ -205,7 +213,7 @@
                             spraying crops with the relaxation of drone laws. 
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             Chemical spraying by hand is a difficult task which is time-consuming and 
                             more harmful to the human body.  Therefore, the use of drone technology 
                             eliminates harmful effects of chemicals on humans and provides a highly 
@@ -213,21 +221,21 @@
                             drones can easily reach areas that are inaccessible to farmers.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             The drone technology data helps farmers make better decisions while using 
                             resources more efficiently to maintain and improve yields. Drones also allow 
                             farmers to quickly and frequently access crop data, including plant 
                             identification, soil quality testing, and irrigation problems.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             Using remote sensing technology, farmers can easily identify areas where 
                             non-crop production of quality crops is possible and work out solutions in 
                             targeted areas. This will improve the quality of crops, increase the yield, and 
                             save money.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             The use of drone technology reduces pollution and climate change. 
                             Therefore, drone technology is helping farmers in the fight against climate 
                             change. The use of drones to monitor water requirements and irrigate is of 
@@ -238,7 +246,7 @@
                             cost.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             Drone technology is already utilized by many farmers in our country so it is 
                             not difficult to spread it and many farmers are turning to it. <a href="https://agro.elzian.com/">Elzian Agro</a> is 
                             easily lined up to provide farmers with efficient and profit-oriented solutions 

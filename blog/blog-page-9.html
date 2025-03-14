@@ -118,6 +118,9 @@
 
     <!-- Load the script for managing translation mapping -->
     <script defer src="../js/translation-map.js"></script>
+
+    <!-- Load the script for read aloud functionality -->
+    <script src="../js/read-aloud.js"></script>
 </head>
 <body>
     <!-- Blur  Area start-->
@@ -172,8 +175,13 @@
 
                     <br>
                     <br>
+
+                    <div class="listenButtons">
+                        <button id="toggleButton" onclick="toggleReadAloud()">🔊 Listen</button>
+                        <button id="stopButton" onclick="stopAloud()">⏹ Stop</button>
+                    </div>
                     <div class="blog-contents">
-                        <p>
+                        <p class="readable-text">
                             Some fundamental challenges within agricultural practices comprise the enhancement of water 
                             retention and microbiota in soils, besides boosting the efficiency of fertilizers. The application 
                             of fertilizers and soil amendments and precise agronomic practices are required to mitigate these 
@@ -185,18 +193,18 @@
                         </p>
 
                         <br>
-                        <h3 class="sub-heading fw-bolder">
+                        <h3 class="readable-text" class="sub-heading fw-bolder">
                             What is Bio-Char 
                         </h3>
                         <br>
 
-                        <p>
+                        <p class="readable-text">
                             Biochar is a charcoal-like byproduct of the pyrolysis, or the anaerobic thermal decomposition of 
                             organic components such as plant residues. Biochar differs from ash because the pyrolysis of biomass 
                             leaves the carbon without emitting much CO2 and CO, whereas the ash is a result of the aerobic 
                             oxidation of biomass, which typically results in a salty amendment that has high potassium and other salts.
                         </p>
-                        <p>
+                        <p class="readable-text">
                             The origin and the use of biochar as a source to improve soil fertility is reported in the dark Amazonian lands, 
                             locally known as <i>"Terra Preta do Índio"</i>. This soil has a horizon, which is rich in carbon and nutrients as a result 
                             of the accumulation of organic vegetable and animal residues which have been subjected to the intensive use of fire. 
@@ -209,7 +217,7 @@
                         <br><br>
                         <div class="row">
                             <img src="../images/Madhurya Blog - Sub Picture 1.png" alt="Madhurya Blog - Sub Picture 1.png" class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
-                            <p class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
+                            <p class="readable-text" class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
                                 The production process of biochar can be done in two major ways such as low temperature, long time 
                                 pyrolysis and high temperature, short time pyrolysis. When it comes to low temperature, long time 
                                 oxidation, the yield of biochar is higher, while syngas and bio oil production are lower. The yield 
@@ -221,7 +229,7 @@
                             </p>
                         </div>
                         <br><br>
-                        <p>
+                        <p class="readable-text">
                             When it comes to the sources of biomass that is used to produce biochar, the most effective sources 
                             are the hardest materials, such as coconut shells and high-density hardwoods. The properties of 
                             adsorption, maximizing the surface areas by creating pores, and the retention ability for thousands 
@@ -229,12 +237,12 @@
                         </p>
 
                         <br>
-                        <h3 class="sub-heading fw-bolder">
+                        <h3 class="readable-text" class="sub-heading fw-bolder">
                             The potential and benefits are
                         </h3>
                         <br>
 
-                        <p>
+                        <p class="readable-text">
                             Biochar has been found to have a positive impact on plant yields and the health of soil. In order 
                             to achieve the sustainability of agriculture, the retention of nutrients and water in soil are 
                             fundamental aspects to be addressed. The ability to increase yields without synthetic fertilizers 
@@ -243,13 +251,13 @@
                             atmospheric carbon can help slow the rising greenhouse gas emissions. Biochar is doing a great job in 
                             diminishing these issues. 
                         </p>
-                        <p>
+                        <p class="readable-text">
                             Biochar does not break down and cycle plant nutrients back to the soil, does not readily feed soil biota 
                             or form organic glues. It is mostly to be seen as an additional nutrient and water storage enhancement 
                             (by 96%) in soils by reducing the bulk density of the soil with the high porosity of the material which 
                             may be stable for more than a thousand years.
                         </p>
-                        <p>
+                        <p class="readable-text">
                             Biochar increases soil temperature as it confers a dark colour which is associated with the capture of 
                             solar energy. This helps in growth of beneficial microbial communities and in the germination of seeds. 
                             Biochar even suppresses soil-borne plant pathogens. Researchers say that if the source of biomass is 
@@ -259,7 +267,7 @@
                         <br><br>
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
-                                <P>
+                                <P class="readable-text">
                                     Usually, biochar is used without any treatment, but recent research shows that physically or 
                                     chemically modified biochar can be applied to improve performance. Anyway, biochar increases the 
                                     Cation Exchange Capacity (CEC) of the soil, enhances the availability of nutrients, and increases 
@@ -272,7 +280,7 @@
                             <img src="../images/Madhurya Blog - Sub Picture 2.png" alt="Madhurya Blog - Sub Picture 2.png" class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
                         </div>
                         <br><br>
-                        <p>
+                        <p class="readable-text">
                             Furthermore, biochar application could provide benefits such as enhanced soil carbon sequestration, 
                             enhanced phosphorus availability in highly weathered tropical soils, stabilization of soil organic matter, 
                             and improvement of microbial activities of large number of bacteria families such as Thermomonosporaceae, 

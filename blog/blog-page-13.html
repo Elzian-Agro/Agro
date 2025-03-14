@@ -118,6 +118,9 @@
 
     <!-- Load the script for managing translation mapping -->
     <script defer src="../js/translation-map.js"></script>
+
+    <!-- Load the script for read aloud functionality -->
+    <script src="../js/read-aloud.js"></script>
 </head>
 <body>
     <!-- Blur  Area start-->
@@ -173,21 +176,26 @@
 
                     <br>
                     <br>
+
+                    <div class="listenButtons">
+                        <button id="toggleButton" onclick="toggleReadAloud()">🔊 Listen</button>
+                        <button id="stopButton" onclick="stopAloud()">⏹ Stop</button>
+                    </div>
                     <div class="blog-contents">
-                        <p>
+                        <p class="readable-text">
                             Man's life cycle will not be possible if agriculture is not aligned with modern technology as a food 
                             chain always starts from a plant. Therefore, the support of other sectors for the survival of 
                             agriculture is a vital discipline. In that case, the role of information technology has proved to be 
                             a game-changer in modern agriculture. 
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             When it comes to the leading technologies used in agriculture to improve the efficiency in different 
                             fields to secure the increased food demand, Artificial Intelligence (AI) and the Internet of Things 
                             (IoT) are giving excellent benefits in the farming sector. 
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             Productivity can be increased via the incorporation of IT in most agriculture areas. For example, 
                             IT ensures whether farmers access the correct information regarding the latest varieties, new 
                             crop production techniques, improved agronomic practices to produce high yields from the 
@@ -201,7 +209,7 @@
                         <br>
                         <div class="row">
                             <img src="../images/Madhurya-blog-13-ItAgriculture-Sub-Picture.jpg" alt="Madhurya blog-13-ItAgriculture Sub Picture.jpg" class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
-                            <p class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
+                            <p class="readable-text" class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
                             On the other hand, subsequently, good crop farming practices are assisted with technology, and 
                             most farmers get many crop yields after harvesting. However, a few months later, they incurred 
                             losses due to poor storage. This does not happen in developed countries as they have suitable 
@@ -212,19 +220,19 @@
                         </div>
                         <br>
 
-                        <p>
+                        <p class="readable-text">
                             Data regarding crops, animals, or any other farm activity can be engendered and stored in a 
                             much more accessible manner. These activities, such as irrigation or spraying, can be carried out 
                             even in the farmer’s absence. Thus, it makes service delivery very effective.
                         </p>
                         
-                        <p>
+                        <p class="readable-text">
                             The way monitoring and evaluation is carried out has been changed with mobile technology. The 
                             apps compatible with smartphones and tablets can collect real-time data and update the field 
                             teams. 
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             Livestock can be tracked using ‘livestock tracking tags’ equipped with RFID. This can help track 
                             cattle on a daily basis and can also be used for health monitoring and keeping a database of the 
                             health history of each animal. Additionally, during crop shipments, especially certified organic 
@@ -232,7 +240,7 @@
                             security tagging.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             When it comes to big data analytics and smart farming, even small farmers can gather data from 
                             various sources, which helps them with decision-making that will lead to lower costs and increase 
                             yields. As an important application, water sensors can be used to plan   future crops and water 

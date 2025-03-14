@@ -437,7 +437,6 @@ strong {
   color: #ffffff;
 }
 
-
 #about .about-thumb p {
   margin-left: 50px;
   text-align: justify;
@@ -523,6 +522,7 @@ strong {
   justify-content: end;
   align-items: center;
   flex-flow: column wrap;
+  padding-bottom: 20px;
 }
 
 #video-container .video-content .inner h1 {
@@ -1484,6 +1484,23 @@ canvas {
 
 #blog .share i {
   color: #333;
+}
+
+#blog .listenButtons {
+  margin-bottom: 10px;
+}
+
+#blog .listenButtons #toggleButton,
+.listenButtons #stopButton {
+  background-color: #009207;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 3px 10px 3px 10px;
+}
+
+#blog #stopButton {
+  display: none;
 }
 
 #blog .twitter-btn:hover {

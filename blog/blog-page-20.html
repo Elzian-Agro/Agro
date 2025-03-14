@@ -118,6 +118,9 @@
 
     <!-- Load the script for managing translation mapping -->
     <script defer src="../js/translation-map.js"></script>
+
+    <!-- Load the script for read aloud functionality -->
+    <script src="../js/read-aloud.js"></script>
 </head>
 <body>
     <!-- Blur  Area start-->
@@ -169,8 +172,13 @@
                         
                         <br>
                         <br>
+
+                        <div class="listenButtons">
+                            <button id="toggleButton" onclick="toggleReadAloud()">🔊 Listen</button>
+                            <button id="stopButton" onclick="stopAloud()">⏹ Stop</button>
+                        </div>
                         <div class="blog-contents">
-                            <p>
+                            <p class="readable-text">
                                 Does ' Being Eco-friendly 'work as a help for creating a green world? 
                                 According to the UK government, a workplace which works under the 'Green 
                                 concept' will have a great benefit for not just the business but for the 
@@ -190,7 +198,7 @@
 
                             </p>
 
-                            <p>
+                            <p class="readable-text">
                                 As organizations become increasingly aware of the impact of their operations 
                                 on the environment, the role of HRM in promoting sustainability and environmental 
                                 responsibility; has become more important. As a vision for creating 'green 
@@ -198,9 +206,9 @@
                                 be organized
                             </p>
 
-                            <h4 class="header" style="font-weight: bold;"> 1. Set Sustainable Goals</h4>
+                            <h4 class="header" style="font-weight: bold;" class="readable-text"> 1. Set Sustainable Goals</h4>
                             
-                            <p>
+                            <p class="readable-text">
                                 Creating a sustainable and green agriculture system in the workplace can be 
                                 a challenging task, but it is essential for preserving the environment and 
                                 ensuring long-term success. A workplace which can promote organic farming 
@@ -213,9 +221,9 @@
 
                             </p>
 
-                            <h4 class="header" style="font-weight: bold;"> 2. Educated Employees </h4>
+                            <h4 class="header" style="font-weight: bold;" class="readable-text"> 2. Educated Employees </h4>
                             
-                            <p>
+                            <p class="readable-text">
                                 Educating employees who are well aware about the importance of sustainability 
                                 and the actions ; they can take to support a green agriculture system can help 
                                 to create a culture of sustainability in the workplace. This can be achieved 
@@ -225,9 +233,9 @@
                                 agriculture practices. Do you know?The world has started to run with <a href="https://masschallenge.org/articles/agriculture-innovation/">Agriculture</a> .
                             </p>
 
-                            <h4 class="header" style="font-weight: bold;"> 3. Promote 'One Family'</h4>
+                            <h4 class="header" style="font-weight: bold;" class="readable-text"> 3. Promote 'One Family'</h4>
 
-                            <p>
+                            <p class="readable-text">
                                 Employees who are innovative and creative, can come up with new ideas for 
                                 sustainable agriculture practices. They can find new ways to reduce the use 
                                 of pesticides and fertilizers, conserve water, and reduce waste. Good 
@@ -240,11 +248,11 @@
                                 green world. Good communication & collaboration  with  employees is the main need for it. 
                             </p>
 
-                            <p><a href="https://www.ilo.org/wcmsp5/groups/public/@ed_dialogue/@actrav/documents/publication/wcms_113732.pdf">Reference</a></p>
+                            <p ><a href="https://www.ilo.org/wcmsp5/groups/public/@ed_dialogue/@actrav/documents/publication/wcms_113732.pdf">Reference</a></p>
                             
-                            <h4 class="header" style="font-weight: bold;"> 4. Admiration & Rewarding</h4>
+                            <h4 class="header" style="font-weight: bold;" class="readable-text"> 4. Admiration & Rewarding</h4>
 
-                            <p>
+                            <p class="readable-text">
                                 When employees feel appreciated and recognized for their hard work, they are 
                                 more likely to feel motivated and committed to their job. This can result in 
                                 increased productivity, better performance, and a positive attitude towards 
@@ -257,9 +265,9 @@
                                 <a href="https://www.nifa.usda.gov/grants/funding-opportunities/agriculture-food-research-initiative-education-workforce-development">The Department of Agriculture in the US</a> is the best example for it.
                             </p>
 
-                            <h4 class="header" style="font-weight: bold;"> 5. Interactive Sessions</h4>
+                            <h4 class="header" style="font-weight: bold;" class="readable-text"> 5. Interactive Sessions</h4>
 
-                            <p>
+                            <p class="readable-text">
                                 Interactive sessions in a workplace allow individuals to share their knowledge 
                                 and ideas on green agriculture. These also provide opportunities for collaboration 
                                 and networking among individuals with similar interests in green agriculture. 

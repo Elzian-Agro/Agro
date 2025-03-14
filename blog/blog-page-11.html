@@ -119,6 +119,9 @@
     <!-- Load the script for managing translation mapping -->
     <script defer src="../js/translation-map.js"></script>
 
+    <!-- Load the script for read aloud functionality -->
+    <script src="../js/read-aloud.js"></script>
+
 </head>
 <body>
     <!-- Blur  Area start-->
@@ -173,8 +176,12 @@
 
                     <br>
                     <br>
+                    <div class="listenButtons">
+                        <button id="toggleButton" onclick="toggleReadAloud()">🔊 Listen</button>
+                        <button id="stopButton" onclick="stopAloud()">⏹ Stop</button>
+                    </div>
                     <div class="blog-contents">
-                        <p>
+                        <p class="readable-text">
                             Soil is the major component in a farm ecosystem. It acts as the main supportive structure for 
                             plants in agriculture and provides the main sources of nutrients and water to the plants. Soil 
                             is the combination of mineral fragments, water, air and organic matter. It’s mostly containing 
@@ -185,52 +192,52 @@
 
                         <br>
 
-                        <p>
+                        <p class="readable-text">
                             Soil Organic Matter consists with, 
                         </p>
                         <ol>
-                            <li><strong>Fresh plant residues and Living organisms,</strong> including Micro and macro-organisms living inside the soil.</li>
-                            <li><strong>Decomposing/act organic matter,</strong> includes physical breakdown and biochemical transformations of the 
+                            <li class="readable-text"><strong>Fresh plant residues and Living organisms,</strong> including Micro and macro-organisms living inside the soil.</li>
+                            <li class="readable-text"><strong>Decomposing/act organic matter,</strong> includes physical breakdown and biochemical transformations of the 
                                 organic compounds. The active fraction of organic matter readily changes the mass and form of the soil. 
                                 This portion is unstable in the soil and mostly affected by management practices such as tillage, 
                                 cover crops, crop rotations, irrigation methods and due to climatic factors such as temperature and rainfall etc. 
                                 The rapid turnover of the active fraction can contribute to nutrient release for crops as for their requirement. </li>
-                            <li><strong>Stable organic matter/ humus,</strong> the most valuable constituent of the soil. It consists of decomposed organic matter 
+                            <li class="readable-text"><strong>Stable organic matter/ humus,</strong> the most valuable constituent of the soil. It consists of decomposed organic matter 
                                 that has been converted by microorganisms to a resistant state of decomposition. Humus enhances the fertility 
                                 of the soil by acting as a pool of nutrients, increasing the water holding capacity of the soil, improving soil 
                                 structure, and providing a source of energy for living soil organisms. </li>
                             <br>
-                            <p>
+                            <p class="readable-text">
                                 Increasing levels of Organic Matter improve the physical, chemical, and biological functions of the soil.
-                            </p>
+                            </p >
                                 <ul>
-                                    <li>Biological Functions such as increasing the biological diversity and the microbial activity of the soil. 
+                                    <li class="readable-text">Biological Functions such as increasing the biological diversity and the microbial activity of the soil. 
                                         Microorganisms excrete compounds that also act as a binding agent for soil particles, which can increase 
                                         aggregate stability, water infiltration, and water holding capacity. </li>
-                                    <li>Organic matter is a valuable nutrient source for plants and living organisms. For every % of Organic Matter 
+                                    <li class="readable-text">Organic matter is a valuable nutrient source for plants and living organisms. For every % of Organic Matter 
                                         in the top 6 inches of a medium-textured soil (silt and loam soils), approximately 10-20 lbs. of nitrogen, 
                                         1-2 lbs. of phosphorus, and 0.4-0.8 lbs. of sulfur are released per acre annually (USDA-NRCS, 2014). 
                                         Other than that Organic particles contain sites of negative charges that attract and hold positively charged 
                                         ions such as calcium, potassium, magnesium, and ammonium (nitrogen).</li>
-                                    <li>Organic matter causes soil particles to bind and form stable soil aggregates, which improves soil structure.</li>
-                                    <li>Improve the Water Holding Capacity of the soil. Organic matter behaves similar to a sponge, with the ability 
+                                    <li class="readable-text">Organic matter causes soil particles to bind and form stable soil aggregates, which improves soil structure.</li>
+                                    <li class="readable-text">Improve the Water Holding Capacity of the soil. Organic matter behaves similar to a sponge, with the ability 
                                         to absorb and hold up to 90% of its weight in water. </li>
-                                    <li>Control the soil erosion by increasing the aggregating ability. It helps to stabilize the soil.</li>
+                                    <li class="readable-text">Control the soil erosion by increasing the aggregating ability. It helps to stabilize the soil.</li>
 
                                 </ul>
                                 <br>
-                                <p>Therefore maintaining soil organic matter content helps to maintain healthy soil and increase the soil productivity. </p>
+                                <p class="readable-text">Therefore maintaining soil organic matter content helps to maintain healthy soil and increase the soil productivity. </p>
                           </ol>
 
                         <br>
-                        <h3 class="sub-heading fw-bolder">
+                        <h3 class="readable-text" class="sub-heading fw-bolder">
                             HOW TO INCREASE SOIL ORGANIC MATTER?
                         </h3>
 
                         <br>
                         <div class="row">
                             <img src="../images/Kulakshi blog-11-OrganicSoil Sub Picture.jpg" alt="Kulakshi blog-11-OrganicSoil Sub Picture.jpg" class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
-                            <p class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
+                            <p class="readable-text" class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
                                 Several factors such as climate, soil type, a crop grown, and specific management
                                 practices can each influence the amount of soil Organic Matter regionally or in
                                 specific fields.  Minimize tillage or adopt a no-till cause to slower the soil organic
@@ -243,16 +250,16 @@
                             </p>
                         </div>
                         <br>
-                        <p>
+                        <p class="readable-text">
                             To manage the organic matter composition of the soil, new innovative technology must be born.
                         </p>
-                        <p>
+                        <p class="readable-text">
                             In such cases, low cost and high-quality sensing options are a top priority of <a href="https://agro.elzian.com/">Elzian Agro</a>. An example 
                             wireless sensor network (WSN). This application is helpful for environmental monitoring.  WSN provide a 
                             virtual  connection  with real field phenomenon for a low  cost.it facilitates determining the stock 
                             of organic C in soil, soil organic C concentration, bulk density, gravel content etc.
                         </p>
-                        <p>
+                        <p class="readable-text">
                             Soil organic matter plays a major role in sustaining ecosystems by regulating nutrient cycles and improving 
                             physical  properties  as  described  earlier.  It  is  an  important  source  of  nitrogen,  phosphorus  potassium, 
                             other macronutrients and other micronutrients.  The quantity of soil organic matter is dependent on the 
