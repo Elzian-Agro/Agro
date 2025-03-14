@@ -118,6 +118,9 @@
     <!-- Load the script for managing translation mapping -->
     <script defer src="../js/translation-map.js"></script>
 
+    <!-- Load the script for read aloud functionality -->
+    <script src="../js/read-aloud.js"></script>
+
 </head>
 <body>
     <!-- Blur  Area start-->
@@ -173,8 +176,14 @@
 
                     <br>
                     <br>
+
+                    <div class="listenButtons">
+                        <button id="toggleButton" onclick="toggleReadAloud()">🔊 Listen</button>
+                        <button id="stopButton" onclick="stopAloud()">⏹ Stop</button>
+                    </div>
+
                     <div class="blog-contents">
-                        <p>
+                        <p class="readable-text">
                             The international day of soil came and went hardly anyone took notice. Soil, is one of the most 
                             important components of any land, yet its value has been overlooked by most modern 
                             approaches to land development, agriculture and forestry. To most of us, soil is the stuff that 
@@ -190,7 +199,7 @@
 
                         <br>
 
-                        <p>
+                        <p class="readable-text">
                             The promotion of high input chemical agriculture is still being conducted, even though it has been 
                             demonstrated to be harmful to human health, local biodiversity, and sustainability of production, 
                             environmental functions, social functions and local economies. The question that then arises is, 
@@ -203,7 +212,7 @@
                         
                         <br>
 
-                        <p>
+                        <p class="readable-text">
                             The soil is comprised of two distinct fractions called the 'organic (biological) fraction' and 
                             'inorganic  (chemical/physical)  fraction'. There is a slow flow between them in the form  of 
                             mineralisation and decomposition. These fractions act as reservoirs to various organic 
@@ -214,7 +223,7 @@
                             amount of organic matter in most soils is typically low ranging from under 1% to 10%.
                         </p>
                         
-                        <p>
+                        <p class="readable-text">
                             It is this organic fraction that drives both the soil ecosystem and the ecosystem above it. 
                             Sustainable agriculture and forestry in any area, will be an impossibility without the levels of 
                             organic matter optimum for that soil. The organic matter of soil when extracted is seen as a dark, 
@@ -225,7 +234,7 @@
                             it is in a very real sense the 'living skin' of our planet.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             The world of soil is bizarre to us who live on the surface. It is opaque to light and mostly solid. 
                             Communication is by chemicals, e.g.. pheromones or physical, e.g. vibrations. Movement is slow; 
                             the faster organisms like worms are the giants of this world, tunneling through at a fairly rapid 
@@ -234,7 +243,7 @@
                             measured in centimeters per year. 
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             It is a busy world, one gram of ordinary farmyard soil can contain over 1 billion individual bacteria, 
                             over 100 million individual actinomycetes and over 1 kilometer of fungal hyphae, 
                             notwithstanding plants like algae and animals like collembolans, nematodes or worms. This 
@@ -244,7 +253,7 @@
                         <br>
                         <div class="row">
                             <img src="../images/Ranil-blog-15-appreciatingSoil-SubPicture1.jpg" alt="Ranil-blog-15 Appreciating Soil Sub Picture1.jpg" class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
-                            <p class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
+                            <p class="readable-text" class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
                                 Understanding soil ecosystems and how they work is important for both production and 
                                 conservation goals. In production systems this information will enable the optimization of inputs 
                                 and help develop more sustainable agriculture. For instance, while phosphorus is needed as an 
@@ -258,7 +267,7 @@
                         </div>
                         <br>
                         
-                        <p>
+                        <p class="readable-text">
                             “Soil organic matter is one of our most important national resources; its unwise exploitation has 
                             been devastating; and it must be given its proper rank in any conservation policy as one of the 
                             major factors affecting the levels of crop production in the future... The Nation should be made 
@@ -268,7 +277,7 @@
                             organic matter might well be considered a national responsibility.” 
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             But In 2017 in Sri Lanka, we still have to appreciate this fact. The colonial experience robbed us 
                             of that precious organic matter, the felling of forests and clearing of land began with the colonial 
                             adventure, in 1820 all land without title ie. The forests and Forest Gardens were deemed 'crown 
@@ -278,13 +287,13 @@
                             over a period of twenty million years, was destroyed in a matter of decades.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             The impact of this loss is conveyed by Fredrick Lewis in his book ‘Sixty-Four Years in Ceylon’, he 
                             makes this observation on the process of destruction of the mountain forests in the Agra Patna 
                             area.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             “I know of no more awe-inspiring sight, than that of a thousand acres on fire. Sheets of flame 
                             appear to leap into the air, and yell with a sort of devilish delight at their victory over the 
                             magnificent trees they are reducing into charred masses of cinder and charcoal. It is more than 
@@ -293,14 +302,14 @@
                             heat hat has swept over them. A deep black covers the landscape; impressive, but depressing. 
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             It was in a burned wilderness like this, that I found my new home. It lay at the extreme end of one 
                             of the many blocks of land that had been simultaneously burned off. My path, for road it could 
                             not be then called led over hundreds of fallen and charred logs, and followed the valley of the 
                             Agra stream.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             When morning broke upon the day following the events recorded at the conclusion of the last 
                             chapter, I found myself gazing upon a scene not altogether unfamiliar to me. All around me lay 
                             hundreds of charred black logs, stumps in fantastic shapes and outlines: fallen branches, broken 
@@ -309,21 +318,21 @@
                             forest land. 
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             It was now a blackened wilderness, to be changed into fields of coffee, by the labour and patience 
                             of man. A strange picture; fascinating in one respect: fearful in another and yet so full of a strange 
                             mixture of possibilities was this wild heap of ruins, this uncouth mass of slaughtered giants of an 
                             inarticulate, yet eloquent world, to be transformed by, industry in the pursuit of fleeting wealth.”
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             The  process, eroded and destroyed most of the topsoil leaving plantations that cling to the 
                             subsoil and yield only with artificial fertilizer that we have to import. As the organic matter 
                             receded so did soil cohesion, such that at a slightest downpour, bit of the fields come loose and 
                             just fall away. 
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             It is not only agriculture and forestry that benefit from the soil. The economic and industrial 
                             potential of soil biota is also largely forgotten. Soil microbes have demonstrated an enormous 
                             versatility in industry. Today, many countries use microorganisms for mining and the recovery of 
@@ -336,7 +345,7 @@
                             systematic understanding of the soil is colossal.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             This promise is made more valuable with the knowledge that the soil of this country was truly 
                             unique. It has remained un-submerged by the ocean for over twenty million years and in that 
                             time built a soil biodiversity without parallel anywhere. The largest soil dwelling snakes, limbless 
@@ -348,13 +357,13 @@
                         <br>
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
-                                <p>
+                                <p class="readable-text">
                                     Thus, history demonstrates that the great soil capital of this nation was lost with the advent of 
                                     colonial plantation agriculture. It was hoped that this loss could be dealt with. However, the
                                     current ill-advised and thoughtless programs in agriculture and forestry will destroy the 
                                     remaining bits of living soil with artificial fertilizers and monoculture ‘forest’ plantations. 
                                 </p>
-                                <p>
+                                <p class="readable-text">
                                     The effect of clearing the forests and allowing erosion of the soil, especially on the mountain 
                                     areas became obvious to scientists who visited this country. Dr. Strange, an agricultural expert to 
                                     Ceylon made this observation in 1909 with respect to the clearing of the mountain forests;
@@ -367,7 +376,7 @@
                         <br>
 
                         
-                        <p>
+                        <p class="readable-text">
                             “It would not have been necessary to notice here the matter of soil denudation, did it not affect 
                             irrigation and water supply. The result of stripping the soil is to make the springs on tea states dry 
                             up quickly; to diminish the fair-weather flow of streams and to increase their storm flow (whereby 
@@ -385,14 +394,14 @@
                             two-thirds of the Island; the effect of denudation it thus widespread.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             The importance of retaining and building the soil in the watershed areas feeding the hydroelectric 
                             system has been pointed out over and over since these comments. Yet, reservoirs are 
                             constructed without any consideration of the silt loads of the eroding watershed or any plan to 
                             revegetate them.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             Development and 'modern' agriculture has begun to impact our soils far more today than times 
                             past. Soil compaction brought  about by the use of heavy machinery and vegetation removal is 
                             common throughout the land. Compacted soils cannot absorb rainwater as before and run off 
@@ -402,7 +411,7 @@
                             sizable area of soil under impervious surfaces. 
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             Vegetation  is  critical  because,  good  soils  generated  are  by  plants  roots  and  microorganisms, 
                             which in turn create a ecosystem that can clean, process and hold, considerable amounts of 
                             water. They create pores which take in water, and will keep doing so until they are full, after 
@@ -412,7 +421,7 @@
                             other organisms to contribute to land productivity and soil health.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             When soil loses its tree cover and the input of organic matter to feed the living soil goes down, it 
                             loses its cohesive strength. The loss of cohesive strength accelerates erosive processes and is 
                             brought about through the loss of soil binding agents both macroscopically and microscopically 
@@ -423,7 +432,7 @@
                             during dry weather. 
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             Soils also store vast amounts of carbon, more than twice as much as in vegetation or the 
                             atmosphere. They do this by respiration processes, which use the energy fixed by photosynthetic 
                             activity, to create very long-lived soil carbon compounds synthesis such as humates. The more 
@@ -431,32 +440,32 @@
                             sequestering is dependent on the nature of the soil that it is being produced in.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             Thus forested areas or areas with dynamic vegetation create the best soils in nature. Agriculture, 
                             that is sensitive to the needs of soil, such as biodynamic, organic and many traditional methods 
                             create very good soils in human environments. It was an inter-digitization of these two elements 
                             that sustained long-lived agricultural societies the world over.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             However the current trend in ‘land development’ is to reduce tree and forest cover and degrade 
                             the soil ecosystem. The current trend in agricultural development is to add chemicals that destroy 
                             the soil’s natural productivity and create energy addicted production systems.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             This trend if allowed to continue will impact not only the present population but will also 
                             compromise the health and security of future generations.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             Not only do we need to become acutely aware of the value of clean water, we need to work 
                             nationally at maintaining soils and soil quality. Our ancestors, conserved the mountain forests 
                             and soils and gained dry weather water flow for the lowlands, the productivity of that agriculture 
                             is history. 
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             The wisdom of our ancestors. Should be recognized and utilized in developing responses to the 
                             dangerous future before us with the extreme climate changes expected. Climate patterns have 
                             been known to be regular will change  dramatically. Rare climate events that brought droughts 
@@ -464,28 +473,28 @@
                             accelerated this process. We need to develop coping mechanisms rapidly. 
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             We need to develop high biomass, diverse, low external input dependent, production systems as 
                             a critical development goal. We need to place a value on the environmental services that they 
                             provide. Environmental services are being recognized. by many nations today. Some nations are 
                             already including them in their national budgeting. 
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             Some examples are:
                         </p>
 
                         <ul>
-                            <li>Carbon sequestration</li>
-                            <li>Water protection</li>
-                            <li>Water cleansing </li>
-                            <li>Rainfall incrimentation</li>
-                            <li>Biodiversity protection</li>
-                            <li>Food security </li>
-                            <li>Erosion control </li>
+                            <li class="readable-text">Carbon sequestration</li>
+                            <li class="readable-text">Water protection</li>
+                            <li class="readable-text">Water cleansing </li>
+                            <li class="readable-text">Rainfall incrimentation</li>
+                            <li class="readable-text">Biodiversity protection</li>
+                            <li class="readable-text">Food security </li>
+                            <li class="readable-text">Erosion control </li>
                         </ul>
                         
-                        <p>
+                        <p class="readable-text">
                             The basis of most these services is the soil. For without a good living soil, the ecosystem above 
                             cannot develop. Tragically, it is true that the current push in agriculture to be reliant on chemicals 
                             and fossil energy or production will not only destroy the little life we have in our soils, it will also 
@@ -493,7 +502,7 @@
                             be ignorant of what the land represents.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             With a better knowledge of the land, with a deeper commitment to the future, we might be able 
                             to engage in a national conversation on the state of our land and its soil and its health. 
                         </p>

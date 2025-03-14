@@ -120,6 +120,8 @@
     <!-- Load the script for managing translation mapping -->
     <script defer src="../js/translation-map.js"></script>
 
+    <!-- Load the script for read aloud functionality -->
+    <script src="../js/read-aloud.js"></script>
 
 </head>
 <body>
@@ -175,8 +177,13 @@
 
                     <br>
                     <br>
+
+                    <div class="listenButtons">
+                        <button id="toggleButton" onclick="toggleReadAloud()">🔊 Listen</button>
+                        <button id="stopButton" onclick="stopAloud()">⏹ Stop</button>
+                    </div>
                     <div class="blog-contents">
-                        <p>
+                        <p class="readable-text">
                             In recent times, the significance of diversity and inclusiveness 
                             in agriculture has gained more attention in the Asia Pacific region. 
                             Companies, including <a href="https://agro.elzian.com/">Elzian Agro</a> , 
@@ -187,7 +194,7 @@
                             retain diverse talent. 
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             When it comes to addressing biases and stereotypes can be achieved 
                             through awareness and education around diversity and inclusion issues. 
                             Companies can establish committees or task forces to identify and 
@@ -198,7 +205,7 @@
                             skills and knowledge related to diversity and inclusion. 
                         </p>
                         
-                        <p>
+                        <p class="readable-text">
                             It takes a lot of time for a farmer to complete one task on his farm. 
                             For example, it takes a long time for a farmer to provide water for his 
                             plants. Then he has very little time to spend on the rest of the work on 
@@ -212,7 +219,7 @@
                             farm is very low.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             To truly embrace diversity and inclusion, companies must make a conscious 
                             effort to recruit and retain diverse talent. This can be achieved by targeting 
                             recruitment efforts towards underrepresented groups, offering mentorship and 
@@ -225,7 +232,7 @@
                             as offer leadership development programs for employees from diverse backgrounds. 
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             In order to benefit from a diverse workforce's improved innovation and creativity 
                             as well as greater market insights, our organization, which is a part of the Asia 
                             Pacific region, is adopting these ideas. Even though there has been recent progress, 

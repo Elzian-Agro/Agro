@@ -119,6 +119,9 @@
     <!-- Load the script for managing translation mapping -->
     <script defer src="../js/translation-map.js"></script>
 
+    <!-- Load the script for read aloud functionality -->
+    <script src="../js/read-aloud.js"></script>
+
 </head>
 <body>
     <!-- Blur  Area start-->
@@ -173,8 +176,14 @@
 
                     <br>
                     <br>
+
+                    <div class="listenButtons">
+                        <button id="toggleButton" onclick="toggleReadAloud()">🔊 Listen</button>
+                        <button id="stopButton" onclick="stopAloud()">⏹ Stop</button>
+                    </div>
+
                     <div class="blog-contents">
-                        <p>
+                        <p class="readable-text">
                             In Sri Lanka, the agricultural sector is a vital part of the 
                             economy, providing employment for a large portion of the population. 
                             As in many industries, there is a need to increase diversity and 
@@ -190,7 +199,7 @@
                             development.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             Additionally, organizations can provide training and development opportunities 
                             for employees from diverse backgrounds to ensure that they have the skills and 
                             knowledge needed to succeed in mobility assignments. This could include language 
@@ -200,7 +209,7 @@
                             a more skilled and capable workforce.
                         </p>
                         
-                        <p>
+                        <p class="readable-text">
                             In conclusion, Elzian Agro is committed to promoting inclusion and diversity through 
                             mobility in the agricultural sector in Sri Lanka. By aligning inclusion and diversity 
                             with mobility, we are creating a workplace that is more inclusive and diverse while also 
@@ -212,7 +221,7 @@
 
                         <p><a href="https://kpmg.com/lk/en/home/insights/2019/05/aligning-inclusion-and-diversity-with-mobility.html">Reference</a></p>
                         
-                        <p style=" text-align: center; font-size: small;"><span style="font-weight: bold;">
+                        <p class="readable-text" style=" text-align: center; font-size: small;"><span style="font-weight: bold;">
                             A description about the topic mobility</span>  -- In the context of work, mobility refers 
                             to the ability of employees to move or transition within an organization or across 
                             different job roles, departments, projects, or geographic locations. It involves the 

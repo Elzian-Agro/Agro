@@ -118,6 +118,9 @@
 
     <!-- Load the script for managing translation mapping -->
     <script defer src="../js/translation-map.js"></script>
+
+    <!-- Load the script for read aloud functionality -->
+    <script src="../js/read-aloud.js"></script>
 </head>
 <body>
     <!-- Blur  Area start-->
@@ -173,8 +176,13 @@
 
                     <br>
                     <br>
+                    <div class="listenButtons">
+                        <button id="toggleButton" onclick="toggleReadAloud()">🔊 Listen</button>
+                        <button id="stopButton" onclick="stopAloud()">⏹ Stop</button>
+                    </div>
+
                     <div class="blog-contents">
-                        <p>
+                        <p class="readable-text">
                             Our ancestors committed themselves daily to work in the fields throughout the day. Even 
                             today it has become a crucial part of the life of most of the farmers, which is considered as an 
                             outdated culture according to some experts. The reason being that cultivation and animal 
@@ -183,7 +191,7 @@
                             requirement of 9.7 billion people by 2050. 
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             Farm automation, commonly associated with ‘smart farming’ is the process of utilizing 
                             various technological innovations to upgrade and automate agriculture to do it at the field or 
                             post-harvest level. Currently different companies propose and introduce different software and 
@@ -197,14 +205,14 @@
                             farmers to expand their production smoothly and efficiently.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             Other automated machinery include autonomous tractors and robotics which could be 
                             pre-programmed to perform various tasks, from land preparation, to seeding, weeding, and 
                             harvesting. Such operations which otherwise require a substantial amount of labor force and 
                             time, can now be operated remotely by a single person with the press of a button.  
                         </p>
                         
-                        <p>
+                        <p class="readable-text">
                             Due to fragmentation of cultivated land area and the reluctance of farmers to automate 
                             farming due to financial constraints, lack of knowledge, and the mere reason to be 
                             apprehensive, imply that the agricultural sector has a long way ahead before becoming 
@@ -213,7 +221,7 @@
                             implement smart agricultural practices throughout their process.
                         </p>
                         
-                        <p>
+                        <p class="readable-text">
                             Agricultural automation can make agriculture more profitable without a doubt. At the 
                             same time, it has proven to become more environmentally friendly, reducing carbon footprint. 
                             It is perfectly possible to make maximum use of existing space without compromising existing 
@@ -224,7 +232,7 @@
                             to agriculture and encouraging the farmers to integrate smart farming practices. 
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             We are still at the infancy stage of farm automation. It may seem rocket science at first 
                             glance, but within a couple of years it will become a necessity without which farming may seem 
                             impossible to feed a hungry planet.

@@ -130,6 +130,8 @@
   <!-- Load the script for managing translation mapping -->
   <script defer src="../js/translation-map.js"></script>
 
+  <!-- Load the script for read aloud functionality -->
+  <script src="../js/read-aloud.js"></script>
 </head>
 
 <body>
@@ -189,8 +191,14 @@
 
             <br>
             <br>
+
+            <div class="listenButtons">
+              <button id="toggleButton" onclick="toggleReadAloud()">🔊 Listen</button>
+              <button id="stopButton" onclick="stopAloud()">⏹ Stop</button>
+            </div>
+
             <div class="blog-contents">
-              <p>
+              <p class="readable-text">
                 The rapid advancement of technology has revolutionized various industries, and the agricultural sector
                 is no exception. AgriTech companies are harnessing innovation to drive efficiency, sustainability, and
                 productivity in farming practices. With the rise of remote and hybrid work models, it is crucial for
@@ -200,7 +208,7 @@
                 practices to effectively manage its remote and hybrid workforce.
               </p>
 
-              <p>
+              <p class="readable-text">
                 Embrace Digital Collaboration. To facilitate effective communication and collaboration, AgriTech
                 companies
                 should leverage digital collaboration tools. Platforms like video conferencing, project management
@@ -211,7 +219,7 @@
                 goals.
               </p>
 
-              <p>
+              <p class="readable-text">
                 Also agritech companies continue to grow and hire talent, remote onboarding and training processes
                 become
                 paramount. Implementing a comprehensive virtual onboarding program ensures that new hires understand the
@@ -221,7 +229,7 @@
 
               </p>
 
-              <p>
+              <p class="readable-text">
                 Clear performance management and goal-setting processes are essential for remote and hybrid employees.
                 AgriTech
                 companies should establish transparent metrics to evaluate performance objectively. Emphasize outcomes
@@ -231,7 +239,7 @@
 
               </p>
 
-              <p>
+              <p class="readable-text">
                 AgriTech professionals often work in demanding roles, which makes maintaining work-life balance crucial
                 for
                 their well-being and productivity. HR departments should encourage employees to establish boundaries
@@ -242,7 +250,7 @@
               </p>
 
 
-              <p>
+              <p class="readable-text">
                 Sometimes remote and hybrid work models can lead to feelings of isolation or disconnection among
                 employees.
                 To foster engagement, AgriTech companies should organize virtual team-building activities, recognition
@@ -253,7 +261,7 @@
               </p>
 
 
-              <p>
+              <p class="readable-text">
                 Also employees require adequate technology and infrastructure to fulfill their roles effectively. Ensure
                 that
                 remote workers have access to reliable internet connections, necessary software, and hardware to perform
@@ -263,7 +271,7 @@
                 ensuring data privacy and protection.
               </p>
 
-              <p>
+              <p class="readable-text">
                 This sector is dynamic, and employees need to stay updated with the latest advancements and industry
                 trends. HR
                 should provide opportunities for continuous learning and development through online courses, webinars,
@@ -274,7 +282,7 @@
               </p>
 
 
-              <p>
+              <p class="readable-text">
                 As <a href="https://agro.elzian.com/">Elzian</a>, we believe adapting HR practices for remote and hybrid
                 workforces is essential to nurture a productive and engaged workforce. By embracing digital
                 collaboration
@@ -294,7 +302,7 @@
         <br />
         <br />
         <div class="blog-contents">
-          <p>
+          <p class="readable-text">
             The rapid advancement of technology has revolutionized various industries, and the agricultural sector is no
             exception. AgriTech companies are harnessing innovation to drive efficiency, sustainability, and
             productivity in farming practices. With the rise of remote and hybrid work models, it is crucial for HR
@@ -305,7 +313,7 @@
             effectively manage its remote and hybrid workforce.
           </p>
 
-          <p>
+          <p class="readable-text">
             Embrace Digital Collaboration. To facilitate effective
             communication and collaboration, AgriTech companies should
             leverage digital collaboration tools. Platforms like video
@@ -316,7 +324,7 @@
             to work cohesively towards common goals.
           </p>
 
-          <p>
+          <p class="readable-text">
             Also agritech companies continue to grow and hire talent,
             remote onboarding and training processes become paramount.
             Implementing a comprehensive virtual onboarding program
@@ -327,7 +335,7 @@
             development.
           </p>
 
-          <p>
+          <p class="readable-text">
             Clear performance management and goal-setting processes are
             essential for remote and hybrid employees. AgriTech
             companies should establish transparent metrics to evaluate
@@ -338,7 +346,7 @@
             organizational objectives.
           </p>
 
-          <p>
+          <p class="readable-text">
             AgriTech professionals often work in demanding roles, which
             makes maintaining work-life balance crucial for their
             well-being and productivity. HR departments should encourage
@@ -349,7 +357,7 @@
             and reduced burnout.
           </p>
 
-          <p>
+          <p class="readable-text">
             Sometimes remote and hybrid work models can lead to feelings
             of isolation or disconnection among employees. To foster
             engagement, AgriTech companies should organize virtual
@@ -359,7 +367,7 @@
             promoting a sense of community and belonging.
           </p>
 
-          <p>
+          <p class="readable-text">
             Also employees require adequate technology and
             infrastructure to fulfill their roles effectively. Ensure
             that remote workers have access to reliable internet
@@ -369,7 +377,7 @@
             ensuring data privacy and protection.
           </p>
 
-          <p>
+          <p class="readable-text">
             This sector is dynamic, and employees need to stay updated
             with the latest advancements and industry trends. HR should
             provide opportunities for continuous learning and
@@ -379,7 +387,7 @@
             company's growth and innovation.
           </p>
 
-          <p>
+          <p class="readable-text">
             As <a href="https://agro.elzian.com/">Elzian</a>, we believe
             adapting HR practices for remote and hybrid workforces is
             essential to nurture a productive and engaged workforce. By

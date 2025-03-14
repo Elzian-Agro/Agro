@@ -118,6 +118,9 @@
 
     <!-- Load the script for managing translation mapping -->
     <script defer src="../js/translation-map.js"></script>
+
+    <!-- Load the script for read aloud functionality -->
+    <script src="../js/read-aloud.js"></script>
 </head>
 <body>
     <!-- Blur  Area start-->
@@ -172,8 +175,14 @@
 
                     <br>
                     <br>
+
+                    <div class="listenButtons">
+                        <button id="toggleButton" onclick="toggleReadAloud()">🔊 Listen</button>
+                        <button id="stopButton" onclick="stopAloud()">⏹ Stop</button>
+                    </div>
+
                     <div class="blog-contents">
-                        <p>
+                        <p class="readable-text">
                             The discussion on ‘Economic Development’ as a national goal, must
                             demonstrate a perspective strongly rooted in modern science. However, the
                             goals of today suggest that our appreciation of the scientific method of
@@ -191,7 +200,7 @@
 
                         <br>
 
-                        <p>
+                        <p class="readable-text">
                             Life on Earth learnt how to maintain gas and material flows, optimum for the
                             evolution and sustainability of biodiversity. Carbon Dioxide, although
                             essential to the process of life, was often introduced into the atmosphere by
@@ -205,7 +214,7 @@
                         
                         <br>
 
-                        <p>
+                        <p class="readable-text">
                             In our rush to create the new petroleum and coal driven economy, this very
                             simple and fundamental fact has been ignored.Carbon that cycles through
                             living systems represents a fixed proportion of the planetary carbon, one
@@ -221,13 +230,13 @@
                             lifetimes of tens or hundreds of millions of years.
                         </p>
                         
-                        <p>
+                        <p class="readable-text">
                             There have been fluctuations of Carbon Dioxide in the atmosphere in the
                             past but equilibrium was gained and balance was restored. All this was long
                             before humans.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             The first human driven change that affected the local and regional climates
                             was the massive loss of the global forest stock with the advent of
                             colonization. This loss represents a debt to every nation that lost its forests
@@ -238,7 +247,7 @@
                             being released so irresponsibly.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             Fossil carbon is the principal driver of climate change. As a substance that is
                             over at least twenty million or more years older than the timber of the
                             forests that were lost, it represents a material with a far higher carbon cost
@@ -259,7 +268,7 @@
                         <br>
                         <div class="row">
                             <img src="../images/Ranil-blog-12-SlGrowth-Sub-Picture.jpg" alt="Ranil blog-12-SlGrowth Sub Picture.jpg" class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
-                            <p class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
+                            <p class="readable-text" class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
                                 Another area of concern is that the system of agriculture that our farmers
                                 have been lured into. Through this type of agriculture they have been made
                                 addicts to fossil fuel energy for motive power and fertilizers. Not only do we
@@ -272,7 +281,7 @@
                         </div>
                         <br>
                         
-                        <p>
+                        <p class="readable-text">
                             On the wider picture, it is common knowledge, that there is a value
                             difference between fossil derived Carbon Dioxide and biologically cycling
                             Carbon Dioxide, but this fact has been ignored by the so-called ‘scientists’
@@ -292,7 +301,7 @@
                             in the atmosphere for fossil derived Carbon Dioxide.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             Carbon Dioxide is extracted from the atmosphere by plants and converted
                             into a solid form. This process has been hailed as a tool by which the
                             problem of increasing gaseous Carbon can be addressed. ‘Plant trees which
@@ -307,7 +316,7 @@
                             photosynthetic biomass and respiring biomass.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             Photosynthetic biomass performs the act of primary production, the initial
                             step in the manifestation of life. The biomass so termed has the ability to
                             increase in mass through the absorption of solar or other electromagnetic
@@ -322,7 +331,7 @@
                             essential for the sustainability of the life support system of the planet.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             Yet currently, it is only one product of this photosynthetic biomass, as
                             sequestered carbon, usually represented by wood/timber, that is recognized
                             as having commercial value in the carbon market for mitigating climate
@@ -332,7 +341,7 @@
                             services’.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             It is not difficult to place value on photosynthetic biomass today. Initial
                             computations are based on the current values of the carbon market are
                             currently in excess of 125 billion dollars, assuming that the global market
@@ -341,7 +350,7 @@
                             roughly worth about 1.35 dollars per kilogram.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             It is this biomass that has to grow in order to sequester the lost biotic
                             Carbon. With such growth we will see more Oxygen, Carbon sequestering
                             and water cleansing, throughout the planet. Much of the biomass to be
@@ -354,7 +363,7 @@
                             growth and make the planet more benign for our children.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             Instead of flogging the dead horse of fossil energy based growth as
                             ‘Economic Development’, will we have the commonsense to appreciate the
                             value of photosynthetic biomass and become the first country in the world to

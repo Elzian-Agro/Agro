@@ -115,7 +115,10 @@
     <script defer src="../js/translate.js"></script>
 
     <!-- Load the script for managing translation mapping -->
-    <script defer src="../js/translation-map.js"></script>  
+    <script defer src="../js/translation-map.js"></script> 
+    
+    <!-- Load the script for read aloud functionality -->
+    <script src="../js/read-aloud.js"></script>
 </head>
 <body>
     <!-- Blur  Area start-->
@@ -168,8 +171,13 @@
 
                     <br><br>
 
+                    <div class="listenButtons">
+                        <button id="toggleButton" onclick="toggleReadAloud()">🔊 Listen</button>
+                        <button id="stopButton" onclick="stopAloud()">⏹ Stop</button>
+                    </div>
+
                     <div class="blog-contents">
-                        <p>
+                        <p class="readable-text">
                             Soil is one of the crucial components which is needed for the survival of all living beings
                             on the earth. Soil, acts as a substrate to the growing plants and a habitat for organisms,
                             provides food fiber and fuel, regulates the nutrient cycling(C, N, P, K, and other macro
@@ -185,14 +193,14 @@
                             
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             For over 100 000 years soil has been managed for agriculture purposes directly and
                             indirectly by human beings. At present, nearly 40% of the soil surface from earth gives
                             its contribution to various agricultural practices. It is approximately 12% of agricultural
                             land used for crops and 25% for pasture lands. ref : <a href="https://www.nrs.fs.fed.us/fmg/nfmg/docs/mn/Soils.pdf">https://www.nrs.fs.fed.us/fmg/nfmg/docs/mn/Soils.pdf</a>
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             Productive soils have the ability to stimulate and support plant growth even in its normal
                             environment. Therefore, productivity in a particular soil is decided by how much extent
                             its plants are growing healthy and what their maximum yield is. The productivity of soil is
@@ -202,7 +210,7 @@
                             organisms, devoid of harmful chemicals and toxins. 
                         </p>
                     
-                        <p>
+                        <p class="readable-text">
                             All of the above productive characteristics can be dependent on physical, chemical, and
                             biological properties in the particular soil. Physical characteristics such as soil texture,
                             soil structure, bulk density, soil porosity, soil color, aeration, and drainage capacity give
@@ -216,7 +224,7 @@
                             yield and it has to be productive too.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             With the emerging technology, there are some applicable technologies (Such as ioT/ioA
                             and Smart Agriculture) to measure soil quality and productivity such as IoT and <a href="https://agro.elzian.com/">smart
                             agriculture</a>. They ensure to supply more accurate and reliable

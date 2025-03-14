@@ -117,6 +117,9 @@
 
     <!-- Load the script for managing translation mapping -->
     <script defer src="../js/translation-map.js"></script>
+
+    <!-- Load the script for read aloud functionality -->
+    <script src="../js/read-aloud.js"></script>
    
 </head>
 <body>
@@ -169,15 +172,21 @@
 
                     <br>
                     <br>
+
+                    <div class="listenButtons">
+                        <button id="toggleButton" onclick="toggleReadAloud()">🔊 Listen</button>
+                        <button id="stopButton" onclick="stopAloud()">⏹ Stop</button>
+                    </div>
+
                     <div class="blog-contents">
-                        <p>
+                        <p class="readable-text">
                             Organic Agriculture can be summarized simply as ‘Systems of agriculture that produces food and
                             fiber free from industrially produced chemicals.’ It encompasses minerals, salts from natural sources,
                             but the basic clear requirement is freedom from industrial chemicals such as fertilizer salts,
                             herbicides and pesticides. There are many variations of agricultural practice worldwide which operate
                             on this basis. Examples being, Biodynamic, Certified Organic, Natural Farming etc.
                         </p>
-                        <p>
+                        <p class="readable-text">
                             The distinction between organic and not organic, has its roots in the current dilemma facing food
                             production through agriculture. Should we demand maximum production from land or optimum
                             long-term management of resources? If maximum, levels of production is required, the system
@@ -187,7 +196,7 @@
                             constrained to the natural levels of productivity that can be optimized, without requiring a
                             constant input of external energy.
                         </p>
-                        <p>
+                        <p class="readable-text">
                             It is this component of external energy used to increase productivity of crops that needs careful
                             examination. The external energy component of agricultural systems that relies on industrial
                             chemicals is usually very consequent and based on fossil fuels. In addition, it is fossil energy that
@@ -198,7 +207,7 @@
                             processes has been seen to increase the fossil energy percentage of all industrially produced
                             food, adding to the climate change burden of each country
                         </p>
-                        <p>
+                        <p class="readable-text">
                             Thus, the idea that Organic Agriculture can be defined as ‘Systems of agriculture that produces
                             food and fiber free from industrial or fossil derived chemicals’, has true value higher than those
                             of quality and sustainability. It identifies an adherence and response to the global demand to
@@ -207,7 +216,7 @@
                         </p>
                         <br><br>
                         <div class="row">
-                            <p class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
+                            <p class="readable-text" class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
                                 In any debate on agriculture the complexity and value of a living agricultural soil needs to be
                                 understood. To many of us soil is the stuff that holds trees up. We see it as a solid surface for us
                                 to walk, ride or construct upon. Its usefulness in our daily lives, extends far beyond providing a
@@ -217,14 +226,14 @@
                             <img src="../images/Ranils Blog - 1.1.jpg" class="col-xs-12 col-sm-6 col-lg-6 col-md-6" alt="Ranils Blog - 1.1">
                         </div>
                         <br><br>
-                        <p>
+                        <p class="readable-text">
                             Soil is also the biological filter that detoxifies a large proportion of the poisons that we throw
                             into the environment we live in. It is an underground living world as complex as, and most
                             certainly older than, the world that lives on its surface. It covers most of the land surface of the
                             planet, it is in a very real sense the 'living skin' of our planet.
                         </p>
 
-                        <p>
+                        <p class="readable-text">
                             The world of soil is bizarre to those of us who live on the surface. It is opaque to light and mostly
                             solid and impenetrable. Communication is by chemicals, e.g.. Pheromones or physical, e.g..
                             Vibrations. Movement is slow, the faster organisms like the worms are the giants of this world,
@@ -232,7 +241,7 @@
                             the fungi who move by growing through the soil at rates measured in centimeters per month, or
                             the bacteria which have rates measured in centimeters per year.
                         </p>
-                        <p>
+                        <p class="readable-text">
                             It is a busy world, one gram of ordinary farmyard soil can contain over 1 billion individual bacteria,
                             over 100 million individual actinomyctes and over 1 kilometer of fungal hyphpae,
                             notwithstanding plants like algae and animals like collembolids, nematodes or worms. The
@@ -251,7 +260,7 @@
                         <br><br>
                         <div class="row">
                             <img src="../images/Ranils Blog - 1.2.jpg" class="col-xs-12 col-sm-6 col-lg-6 col-md-6" alt="Ranils Blog - 1.2">
-                            <p class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
+                            <p class="readable-text" class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
                                 The hidden costs of industrial chemicals being applied to the ecosystem, irrespective of its cost
                                 to climate stability, is its cost in soil biomass and biodiversity loss. There is an ecological axiom
                                 that states ‘energy flow through an ecosystem, tends to organize and simplify it’. When high
@@ -263,14 +272,14 @@
                             </p>
                         </div>
                         <br><br>
-                        <p>
+                        <p class="readable-text">
                             Industrial chemicals are produced with their huge carbon footprint being absorbed by the
                             subsidies extended to fossil energy products by global governments. The cost to the global
                             commons is internalized by each nation and untaxed. The impact of this subsidy is being felt today
                             at the farm level and has set up the challenge between organic (non-fossil dependent) and
                             industrial (fossil dependent) agriculture.
                         </p>
-                        <p>
+                        <p class="readable-text">
                             By clarifying the meaning of organic agriculture we will facilitate the distinction and appreciation
                             of differences that exist between the two systems. The easy part is to identify the practice of
                             Organic Agriculture as ‘Systems of agriculture that produces food and fiber, free of industrial
