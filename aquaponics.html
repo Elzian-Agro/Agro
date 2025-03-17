@@ -94,54 +94,6 @@
 
     <!-- Load the script for managing translation mapping -->
     <script defer src="js/translation-map.js"></script>
-
-    <style>
-      .aqua .agro-aqua-bg-image {
-        padding: 0px 20px 0px 20px;
-      }
-
-      .aqua .agro-aqua-description {
-        padding: 0px 20px 0px 20px;
-      }
-
-      @media (max-width: 768px) {
-        .aqua .hex img {
-          width: 100%;
-          height: auto;
-        }
-      }
-
-      .aqua .benefits .card {
-        background: white;
-        transition: transform 0.4s ease-in-out;
-        border-radius: 10px;
-        overflow: hidden;
-
-        border: 3px solid transparent;
-        border-image: linear-gradient(to right, deepskyblue, lightgreen);
-        border-image-slice: 1;
-      }
-
-      .aqua .benefits .card .card--header .card--heading {
-        text-align: center;
-        color: #000000;
-        font-weight: bolder;
-        text-shadow: 1px 2px 2px #959494;
-        padding: 0px 2px 0px 2px;
-      }
-
-      .aqua .benefits .card .card--body .card--description {
-        color: #000000;
-        padding: 0px 2px 0px 2px;
-      }
-
-      .aqua .feature-box-img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 5px;
-      }
-    </style>
   </head>
 
   <body>
@@ -187,7 +139,7 @@
             <h2>Smart Aquaponics System</h2>
           </div>
           <div class="row">
-            <div class="col-lg-7 co-12">
+            <div class="col-lg-7 col-12">
               <div class="about-thumb" style="margin-top: 0px">
                 <div class="wow fadeInUp agro-aqua-description" data-wow-delay="0.6s">
                   <p class="text-justify" style="padding: 0px">
@@ -226,7 +178,7 @@
     <div class="aqua">
       <section id="feature">
         <div class="container">
-          <div class="row">
+          <div class="row justify-content-md-center">
             <svg
               preserveAspectRatio="none"
               viewBox="0 0 100 102"
@@ -280,7 +232,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-8 feature-box-3">
+            <div class="col-lg-4 col-md-8 feature-box-3 d-flex justify-content-center">
               <div class="media wow fadeInUp" data-wow-delay="1.2s">
                 <div class="feature-box-img">
                   <img
@@ -321,123 +273,153 @@
 
         <div class="block">
           <div class="grid grid--cols-3 grid--cols-2">
-            <div class="card">
-              <header class="card--header">
-                <img src="images/Aquaponics/eco freindly.jpg" alt="sustainability icon" class="agro-image" />
-                <h3 class="card--heading">Sustainable & Eco-Friendly</h3>
-              </header>
-              <div class="card--body">
-                <ul class="list">
-                  <li class="card--description">
-                    Elzian-Agro-Aqua promotes a sustainable aquaponics system that conserves water and reduces
-                    waste.
-                  </li>
-                  <br />
-                  <li class="card--description">
-                    It minimizes the need for chemical fertilizers, ensuring a healthier aquatic environment.
-                  </li>
-                  <br />
-                </ul>
+            <div class="card-box">
+              <div class="border-left"></div>
+              <div class="border-right"></div>
+              <div>
+                <header class="card--header">
+                  <img
+                    src="images/Aquaponics/eco freindly.jpg"
+                    alt="sustainability icon"
+                    class="agro-image" />
+                  <h3 class="card--heading">Sustainable & Eco-Friendly</h3>
+                </header>
+                <div class="card--body">
+                  <ul class="list">
+                    <li class="card--description">
+                      Elzian-Agro-Aqua promotes a sustainable aquaponics system that conserves water and
+                      reduces waste.
+                    </li>
+                    <br />
+                    <li class="card--description">
+                      It minimizes the need for chemical fertilizers, ensuring a healthier aquatic
+                      environment.
+                    </li>
+                    <br />
+                  </ul>
+                </div>
               </div>
             </div>
 
-            <div class="card">
-              <header class="card--header">
-                <img src="images/Aquaponics/fish monitor.jpg" alt="fish tracking icon" class="agro-image" />
-                <h3 class="card--heading">Real-Time Fish Health Monitoring</h3>
-              </header>
-              <div class="card--body">
-                <ul class="list">
-                  <li class="card--description">
-                    Monitor fish health parameters such as water temperature, oxygen levels, and pH balance in
-                    real-time.
-                  </li>
-                  <br />
-                  <li class="card--description">
-                    Receive alerts and recommendations to prevent fish diseases and improve overall
-                    productivity.
-                  </li>
-                  <br />
-                </ul>
+            <div class="card-box">
+              <div class="border-left"></div>
+              <div class="border-right"></div>
+              <div>
+                <header class="card--header">
+                  <img src="images/Aquaponics/fish monitor.jpg" alt="fish tracking icon" class="agro-image" />
+                  <h3 class="card--heading">Real-Time Fish Health Monitoring</h3>
+                </header>
+                <div class="card--body">
+                  <ul class="list">
+                    <li class="card--description">
+                      Monitor fish health parameters such as water temperature, oxygen levels, and pH balance
+                      in real-time.
+                    </li>
+                    <br />
+                    <li class="card--description">
+                      Receive alerts and recommendations to prevent fish diseases and improve overall
+                      productivity.
+                    </li>
+                    <br />
+                  </ul>
+                </div>
               </div>
             </div>
 
-            <div class="card">
-              <header class="card--header">
-                <img src="images/Aquaponics/fish sort.jpg" alt="fish sorting icon" class="agro-image" />
-                <h3 class="card--heading">Automated Fish Sorting & Counting</h3>
-              </header>
-              <div class="card--body">
-                <ul class="list">
-                  <li class="card--description">
-                    AI-powered fish sorting system categorizes fish based on species and gender, reducing
-                    manual labor.
-                  </li>
-                  <br />
-                  <li class="card--description">
-                    Accurately counts fish population, ensuring efficient farm management.
-                  </li>
-                  <br />
-                </ul>
+            <div class="card-box">
+              <div class="border-left"></div>
+              <div class="border-right"></div>
+              <div>
+                <header class="card--header">
+                  <img src="images/Aquaponics//fish sort.jpg" alt="fish sorting icon" class="agro-image" />
+                  <h3 class="card--heading">Automated Fish Sorting & Counting</h3>
+                </header>
+                <div class="card--body">
+                  <ul class="list">
+                    <li class="card--description">
+                      AI-powered fish sorting system categorizes fish based on species and gender, reducing
+                      manual labor.
+                    </li>
+                    <br />
+                    <li class="card--description">
+                      Accurately counts fish population, ensuring efficient farm management.
+                    </li>
+                    <br />
+                  </ul>
+                </div>
               </div>
             </div>
 
-            <div class="card">
-              <header class="card--header">
-                <img src="images/Aquaponics/water qulity.png" alt="water quality icon" class="agro-image" />
-                <h3 class="card--heading">Optimized Water Quality Management</h3>
-              </header>
-              <div class="card--body">
-                <ul class="list">
-                  <li class="card--description">
-                    Elzian-Agro-Aqua automates water filtration and recirculation to maintain a clean and
-                    balanced ecosystem.
-                  </li>
-                  <br />
-                  <li class="card--description">
-                    Reduces water usage and prevents harmful algae growth, ensuring better fish survival
-                    rates.
-                  </li>
-                  <br />
-                </ul>
+            <div class="card-box">
+              <div class="border-left"></div>
+              <div class="border-right"></div>
+              <div>
+                <header class="card--header">
+                  <img src="images/Aquaponics/water qulity.png" alt="water quality icon" class="agro-image" />
+                  <h3 class="card--heading">Optimized Water Quality Management</h3>
+                </header>
+                <div class="card--body">
+                  <ul class="list">
+                    <li class="card--description">
+                      Elzian-Agro-Aqua automates water filtration and recirculation to maintain a clean and
+                      balanced ecosystem.
+                    </li>
+                    <br />
+                    <li class="card--description">
+                      Reduces water usage and prevents harmful algae growth, ensuring better fish survival
+                      rates.
+                    </li>
+                    <br />
+                  </ul>
+                </div>
               </div>
             </div>
 
-            <div class="card">
-              <header class="card--header">
-                <img src="images/Aquaponics/feed.jpg" alt="automated feeding icon" class="agro-image" />
-                <h3 class="card--heading">Automated Feeding System</h3>
-              </header>
-              <div class="card--body">
-                <ul class="list">
-                  <li class="card--description">
-                    Smart feeding system dispenses the right amount of feed at scheduled intervals.
-                  </li>
-                  <br />
-                  <li class="card--description">Reduces feed wastage and improves fish growth efficiency.</li>
-                  <br />
-                </ul>
+            <div class="card-box">
+              <div class="border-left"></div>
+              <div class="border-right"></div>
+              <div>
+                <header class="card--header">
+                  <img src="images/Aquaponics/feed.jpg" alt="automated feeding icon" class="agro-image" />
+                  <h3 class="card--heading">Automated Feeding System</h3>
+                </header>
+                <div class="card--body">
+                  <ul class="list">
+                    <li class="card--description">
+                      Smart feeding system dispenses the right amount of feed at scheduled intervals.
+                    </li>
+                    <br />
+                    <li class="card--description">
+                      Reduces feed wastage and improves fish growth efficiency.
+                    </li>
+                    <br />
+                  </ul>
+                </div>
               </div>
             </div>
 
-            <div class="card">
-              <header class="card--header">
-                <img src="images/Aquaponics/profits.jpg" alt="high yield icon" class="agro-image" />
-                <h3 class="card--heading">Higher Yield & Profits</h3>
-              </header>
-              <div class="card--body">
-                <ul class="list">
-                  <li class="card--description">
-                    Optimized fish farming and Aquaponics lead to higher survival rates and increased
-                    production.
-                  </li>
-                  <br />
-                  <li class="card--description">
-                    Maximizes efficiency while reducing operational costs, increasing overall farm
-                    profitability.
-                  </li>
-                  <br />
-                </ul>
+            <div class="card-box">
+              <div class="border-left"></div>
+              <div class="border-right"></div>
+              <div>
+                <header class="card--header">
+                  <img src="images/Aquaponics/profits.jpg" alt="high yield icon" class="agro-image" />
+                  <h3 class="card--heading">Higher Yield & Profits</h3>
+                </header>
+                <div class="card--body">
+                  <ul class="list">
+                    <li class="card--description">
+                      Optimized fish farming and Aquaponics lead to higher survival rates and increased
+                      production.
+                    </li>
+                    <br />
+                    <li class="card--description">
+                      Maximizes efficiency while reducing operational costs, increasing overall farm
+                      profitability.
+                    </li>
+                    <br />
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
