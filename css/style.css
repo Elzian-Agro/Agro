@@ -5252,11 +5252,17 @@ figure.snip1390 blockquote:before {
 
 /* Aquponics services page */
 .aqua .agro-aqua-bg-image {
-  padding: 0px 20px 0px 20px;
+  padding: 0px 60px 0px 20px;
 }
 
 .aqua .agro-aqua-description {
   padding: 0px 20px 0px 20px;
+}
+
+@media (max-width: 991px) {
+  .aqua .agro-aqua-bg-image {
+    padding: 0px 20px 0px 20px;
+  }
 }
 
 @media (max-width: 768px) {
