@@ -5347,3 +5347,41 @@ figure.snip1390 blockquote:before {
   align-items: center;
   padding-bottom: 5px;
 }
+
+/* About us feature section */
+.awards-slider-wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  padding: 20px 0;
+}
+
+.awards-slider {
+  display: flex;
+  animation: scroll-left 60s linear infinite;
+  animation-play-state: paused; /* Pause by default */
+}
+
+.award-item {
+  min-width: 25%; 
+  text-align: center;
+  color: white;
+}
+
+.award-item img {
+  width: auto;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Animation for scrolling */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
