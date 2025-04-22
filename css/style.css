@@ -5363,9 +5363,33 @@ figure.snip1390 blockquote:before {
 }
 
 .award-item {
-  min-width: 25%; 
+  min-width: 25%;
   text-align: center;
   color: white;
+}
+
+@media (max-width: 1200px) {
+  .award-item {
+    min-width: 30%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .award-item {
+    min-width: 40%;
+  }
+}
+
+@media (max-width: 790px) {
+  .award-item {
+    min-width: 50%;
+  }
+}
+
+@media (max-width: 640px) {
+  .award-item {
+    min-width: 70%;
+  }
 }
 
 .award-item img {
