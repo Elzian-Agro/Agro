@@ -72,6 +72,16 @@
   },
   {
     "id": 42,
+    "image": "../images/news_and_media/Elzian Agro.jpg",
+    "news_site": "Elzian Agro",
+    "date": "22-April-2025",
+    "title": "Elzian Agro at ChangeNOW 2025: Pioneering Sustainable Agriculture Solutions on the Global Stage",
+    "description": "Lilan Dayananda, the Managing Director and CEO of Elzian Agro, is set to represent his innovative agritech startup at ChangeNOW 2025, the world expo of solutions for the planet, held at the iconic Grand Palais in Paris, France, from April 24 to 26, 2025. This event marks a significant milestone as it coincides with the 10th anniversary of the Paris Agreement, emphasizing the urgent need for decisive climate action and sustainable development.",
+    "link": "https://agro.elzian.com/blog/blog-news.html",
+    "download_link": "../images/news_and_media/published_news/Elzian Agro.pdf"
+  },
+  {
+    "id": 42,
     "image": "../images/news_and_media/23-August-2024-News Asia.jpg",
     "news_site": "News Asia",
     "date": "23-August-2024",
