@@ -1,5 +1,6 @@
 const podcastTitle = document.getElementById("podcastTitle");
 const podcastContent = document.getElementById("podcastContent");
+const podcastHost = document.getElementById("podcastHost");
 const podcastAuthor = document.getElementById("podcastAuthor");
 const podcastDate = document.getElementById("podcastDate");
 const podcastAudio = document.getElementById("podcastAudio");
@@ -33,6 +34,12 @@ function displayPodcastContent(podcast) {
   podcastContent.appendChild(brief);
 
   /*podcast breif */
+
+    /*podcast author */
+  const host = document.createElement("p");
+  host.textContent = podcast.host;
+  podcastHost.appendChild(host);
+  /*podcast author */
 
   /*podcast author */
   const author = document.createElement("p");

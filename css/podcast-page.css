@@ -48,7 +48,7 @@ p{
     padding-left: 80px;
 }
 
-#podcastAuthor #podcastDate{
+#podcastAuthor #podcastDate #podcastHost{
     opacity: 10;
     font-size: 8px;
 }

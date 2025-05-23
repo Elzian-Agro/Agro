@@ -126,78 +126,85 @@
             <!-- Podcast title -->
             <div class="w-100"></div>
             <div class="row auther-date-section">
-              <div class="col-md-5" style="font-size: 14px">
+              <div class="col-xl-5" style="font-size: 14px">
+                <p>Host: <span id="podcastHost"></span></p>
+                <!-- Podcast host -->
+              </div>
+              <div class="col-xl-4" style="font-size: 14px">
                 <p>Guest Speaker: <span id="podcastAuthor"></span></p>
                 <!-- Podcast author -->
               </div>
-              <div class="col-md-5" style="font-size: 14px">
+              <div class="col-xl-3" style="font-size: 14px">
                 <p>Date: <span id="podcastDate"></span></p>
                 <!-- Podcast date -->
               </div>
-              <!-- Share -->
-              <div
-                class="col-md-2 d-flex justify-content-center align-items-center"
-                style="font-size: 14px"
-              >
-                <div id="shareButton" class="shareButton">
-                  <!-- Trigger share icon -->
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="bi bi-share"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"
-                    />
-                  </svg>
-                </div>
-                <div id="modalOverlay">
-                  <div id="modalContent">
-                    <div class="row">
-                      <i
-                        class="fa fa-times fa-1x"
-                        aria-hidden="true"
-                        id="closeButton"
-                      ></i>
-                      <hr />
-                      <div class="col-sm">
-                        <i class="fa fa-clone" aria-hidden="true" id="share"
-                          ><p>Copy</p></i
-                        >
-                        <!-- Copy link -->
-                        <div id="popup">Link copied</div>
-                      </div>
-                      <div class="col-sm">
+            </div>
+            <div class="w-100"></div>
+            <!-- Show podcast tags -->
+            <div class="row" style="padding-bottom: 5px; display: flex; justify-content: space-between;">
+              <div class="col-md-10"><span>Tags: <span id="podcastTags"></span></span></div>
+              
+              <div class="col-md-2">
+                <!-- Share -->
+                <div
+                  class="col-md-2 d-flex"
+                  style="font-size: 14px; padding-top: 30px;"
+                >
+                  <div id="shareButton" class="shareButton">
+                    <!-- Trigger share icon -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-share"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"
+                      />
+                    </svg>
+                  </div>
+                  <div id="modalOverlay">
+                    <div id="modalContent">
+                      <div class="row">
                         <i
-                          class="fa fa-facebook-official"
+                          class="fa fa-times fa-1x"
                           aria-hidden="true"
-                          id="facebook"
-                          ><p>Facebook</p></i
-                        >
-                        <!-- Facebook share -->
-                      </div>
-                      <div class="col-sm">
-                        <i
-                          class="fa fa-linkedin"
-                          aria-hidden="true"
-                          id="linkedin"
-                          ><p>LinkedIn</p></i
-                        >
-                        <!-- LinkedIn share -->
+                          id="closeButton"
+                        ></i>
+                        <hr />
+                        <div class="col-sm">
+                          <i class="fa fa-clone" aria-hidden="true" id="share"
+                            ><p>Copy</p></i
+                          >
+                          <!-- Copy link -->
+                          <div id="popup">Link copied</div>
+                        </div>
+                        <div class="col-sm">
+                          <i
+                            class="fa fa-facebook-official"
+                            aria-hidden="true"
+                            id="facebook"
+                            ><p>Facebook</p></i
+                          >
+                          <!-- Facebook share -->
+                        </div>
+                        <div class="col-sm">
+                          <i
+                            class="fa fa-linkedin"
+                            aria-hidden="true"
+                            id="linkedin"
+                            ><p>LinkedIn</p></i
+                          >
+                          <!-- LinkedIn share -->
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
+                <!-- Share -->
               </div>
-              <!-- Share -->
-            </div>
-            <div class="w-100"></div>
-            <!-- Show podcast tags -->
-            <div class="col-sm" style="padding-bottom: 5px">
-              <span>Tags: <span id="podcastTags"></span></span>
             </div>
             <!-- Show podcast tags -->
           </div>
