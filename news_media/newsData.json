@@ -71,7 +71,27 @@
     ]
   },
   {
-    "id": 42,
+    "id": 46,
+    "image": "../images/news_and_media/1-February-2026-Designing-Futures-2050.png",
+    "news_site": "Designing Futures 2050",
+    "date": "1-February-2026",
+    "title": "Elzian Agro Precision Agriculture Solutions",
+    "description": "The root cause of the overall problem (base/main problem) is the lack of knowledge and awareness regarding regenerative agricultural practices based on Vermicompost and Azolla utilization (instead of synthetic N-fertilizers) and the inclusion of data-driven precision agriculture solutions among small-scale (less than 5 acres), marginalized farmers.",
+    "link": "https://my.designingfutures2050.com/projects/elzian-agro-precision-agriculture-solutions/",
+    "download_link": "../images/news_and_media/published_news/1-February-2026-Designing-Futures-2050.png"
+  },
+  {
+    "id": 45,
+    "image": "../images/news_and_media/13-January-2026-Engineering-for-Change.png",
+    "news_site": "Engineering for Change",
+    "date": "13-January-2026",
+    "title": "Elzian Agro Expands with a Boost from the UN STI Forum",
+    "description": "Elzian Agro, an agritech startup gained significant momentum from its participation in the United Nations Science, Technology and Innovation (STI) Forum. The company develops IoT, automation, and geospatial tools that have supported farmers in boosting crop yields, cutting water use, and building climate resilience.",
+    "link": "https://www.engineeringforchange.org/news/elzian-agro-expanded-globally-through-the-un-sti-forum/",
+    "download_link": "../images/news_and_media/published_news/13-January-2026-Engineering-for-Change.png"
+  },
+  {
+    "id": 44,
     "image": "../images/news_and_media/Elzian Agro.jpg",
     "news_site": "Elzian Agro",
     "date": "22-April-2025",
@@ -79,6 +99,16 @@
     "description": "Lilan Dayananda, the Managing Director and CEO of Elzian Agro, is set to represent his innovative agritech startup at ChangeNOW 2025, the world expo of solutions for the planet, held at the iconic Grand Palais in Paris, France, from April 24 to 26, 2025. This event marks a significant milestone as it coincides with the 10th anniversary of the Paris Agreement, emphasizing the urgent need for decisive climate action and sustainable development.",
     "link": "https://agro.elzian.com/blog/blog-news.html",
     "download_link": "../images/news_and_media/published_news/Elzian Agro.pdf"
+  },
+  {
+    "id": 43,
+    "image": "../images/news_and_media/11-December-2024-G20-Global-Land-Initiative.png",
+    "news_site": "G20 Global Land Initiative",
+    "date": "11-December-2024",
+    "title": "Providing climate-smart, data- driven precision agriculture solutions to farmers",
+    "description": "ELZIAN AGRO provides climate-smart, data-driven precision agriculture solutions with integrated monitoring and automation systems tailored to the requirements of farmers. Our patent-pending IoT-enabled devices allow farmers to monitor soil and atmospheric elements in real-time, predict issues before they happen & make informed decisions to optimize crop yields and restore the quality of their land/soil.",
+    "link": "https://g20land.org/cop-16events/providing-climate-smart-data-driven-precision-agriculture-solutions-to-farmers/?mc_id=76",
+    "download_link": "../images/news_and_media/published_news/11-December-2024-G20-Global-Land-Initiative.png"
   },
   {
     "id": 42,
