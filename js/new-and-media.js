@@ -142,16 +142,16 @@ function fetchAndRenderNews(sectionId, itemsToFetch) {
 }
 
 // Fetch and render news for section 2
-fetchAndRenderNews("blog-item-1", [-1, 47, 46, 45, 44, 43, 42, 41, 40, 39]);
+fetchAndRenderNews("blog-item-1", [-1, 48, 47, 46, 45, 44, 43, 42, 41, 40]);
 
 // Fetch and render news for section 2
-fetchAndRenderNews("blog-item-2", [38, 37, 36, 35, 34, 33, 32, 31, 30, 29]);
+fetchAndRenderNews("blog-item-2", [39, 38, 37, 36, 35, 34, 33, 32, 31, 30]);
 
 // Fetch and render news for section 3
-fetchAndRenderNews("blog-item-3", [28, 27, 26, 25, 24, 23, 22, 21, 20, 19]);
+fetchAndRenderNews("blog-item-3", [29, 28, 27, 26, 25, 24, 23, 22, 21, 20, ]);
 
 // Fetch and render news for section 4
-fetchAndRenderNews("blog-item-4", [18, 17, 16, 15, 14, 13, 12, 11, 10, 9]);
+fetchAndRenderNews("blog-item-4", [19, 18, 17, 16, 15, 14, 13, 12, 11, 10, ]);
 
 // Fetch and render news for section 5
-fetchAndRenderNews("blog-item-5", [8, 7, 6, 5, 4, 3, 2, 1, 0]);
+fetchAndRenderNews("blog-item-5", [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]);
