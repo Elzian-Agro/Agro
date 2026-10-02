@@ -76,7 +76,7 @@ function fetchAndRenderNews(sectionId, itemsToFetch) {
                       </div>
                     </div>
                     <div class="news-box-body">
-                      <div class="news-top-container d-flex justify-content-between">
+                      <div class="news-top-container d-flex justify-content-between pb-3">
                         <div class="news-site">
                           <p>${item.news_site}</p>
                         </div>
