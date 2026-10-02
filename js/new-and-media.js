@@ -76,7 +76,7 @@ function fetchAndRenderNews(sectionId, itemsToFetch) {
                       </div>
                     </div>
                     <div class="news-box-body">
-                      <div class="news-top-container d-flex justify-content-between">
+                      <div class="news-top-container d-flex justify-content-between pb-3">
                         <div class="news-site">
                           <p>${item.news_site}</p>
                         </div>
@@ -142,7 +142,7 @@ function fetchAndRenderNews(sectionId, itemsToFetch) {
 }
 
 // Fetch and render news for section 2
-fetchAndRenderNews("blog-item-1", [-1, 49, 48, 47, 46, 45, 44, 43, 42, 41]);
+fetchAndRenderNews("blog-item-1", [-1, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41]);
 
 // Fetch and render news for section 2
 fetchAndRenderNews("blog-item-2", [40, 39, 38, 37, 36, 35, 34, 33, 32, 31]);
