@@ -71,6 +71,16 @@
     ]
   },
   {
+    "id": 50,
+    "image": "../images/news_and_media/01-October-2026.png",
+    "news_site": "Forward Fooding",
+    "date": "01-October-2026",
+    "title": "Elzian Agro has been recognized among the top innovators in the 7th edition of the FoodTech 500",
+    "description": "Inspired by the Fortune 500, Forward Fooding presents the FoodTech 500, the world’s first definitive list of the global entrepreneurial talent at the intersection between food, technology and sustainability. Elzian Agro has been recognized among the top innovators in the 7th edition of the FoodTech 500. The FoodTech 500 showcases selected international AgriFoodTech startup and scaleup companies using a unique methodology to rank them based on their business size, digital footprint, and sustainability practices. ",
+    "link": "https://forwardfooding.com/foodtech500/company/elzian-agro/",
+    "download_link": "../images/news_and_media/published_news/01-October-2026.png"
+  },
+  {
     "id": 49,
     "image": "../images/news_and_media/27–March–2026-ITC.png",
     "news_site": "International Trade Centre (ITC)",
